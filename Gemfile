@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9"
 
+# uswds-jekyll gem ties us to their code; it is how we can use the uswds-jekyll theme and so forth
+# gem 'federalist-uswds-jekyll', :git => 'https://github.com/GSA/federalist-uswds-jekyll.git', branch: 'main'
+
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
 gem "kramdown-parser-gfm", "~> 1.1.0"
@@ -11,7 +14,7 @@ gem "kramdown-parser-gfm", "~> 1.1.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
   gem 'jekyll-redirect-from'
-  gem 'jekyll-paginate-v2', "3.0.0"  
+  gem 'jekyll-paginate-v2', "3.0.0"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem "jekyll-assets", "~> 3.0", group: :jekyll_plugins
