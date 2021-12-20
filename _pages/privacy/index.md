@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: privacy
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /privacy/
+permalink: /privacy
 redirect_from:
   - /privacyPolicy.html
   - /privacy-policy.html
@@ -23,7 +23,5 @@ Our privacy policy is clear: We do not use "cookies" and there is no personal in
 
 
 You browse this Web site anonymously.
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

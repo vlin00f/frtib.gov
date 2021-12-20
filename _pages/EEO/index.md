@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: EEO
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /EEO/
+permalink: /eeo
 redirect_from:
   - /EEO.html
 #document-ready:
@@ -49,7 +49,5 @@ Reasonable Accommodation FAQ
 508 Procedures
 FRTIB Diversity & Inclusion Policy Statement
 Affirmative Action Plan for Recruitment, Hiring, Advancement, and Retention of Persons with Disabilities
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

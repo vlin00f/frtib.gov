@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: page2
 title: Board Members
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /BoardMembers/
+permalink: /board-members
 redirect_from:
+  - /BoardMembers
   - /BoardMembers.html
 #document-ready:
 #  - getRate();
@@ -14,8 +15,6 @@ redirect_from:
 
 ## Board, Executive Director, and ETAC
 
-[ board member component]
-
-<Last Updated component?>
+{% include board.html format='page' -%}
 
 <!-- CONTENT END -->

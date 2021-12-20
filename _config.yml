@@ -80,23 +80,23 @@ primary_navigation:
   - name: Home
     url: /
   - name: Board, Executive Director, and ETAC
-    url: /BoardMembers/
+    url: /board-members
   - name: Reading Room
     children:
       - name: Reading Room
-        url: /ReadingRoom/
+        url: /reading-room
       - name: Reading Room
-        url: /ReadingRoom/
+        url: /reading-room
       - name: Reading Room
-        url: /ReadingRoom/
+        url: /reading-room
   - name: Meeting Minutes
-    url: /MeetingMinutes/
+    url: /meeting-minutes
   - name: Careers
-    url: /Careers/
+    url: /careers
   - name: Contacts
-    url: /Contacts/
+    url: /contacts
   - name: Procurement
-    url: /Procurement/
+    url: /procurement
 
 secondary_navigation:
   - name: Secondary link
@@ -159,9 +159,14 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-last-modified-at
   - jekyll-redirect-from
   - jekyll-sitemap # See additional instructions for url parameter above.
   - jekyll-seo-tag
+
+
+last-modified-at:
+  date-format: '%d-%b-%y'
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

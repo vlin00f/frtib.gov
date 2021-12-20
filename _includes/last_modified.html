@@ -1,0 +1,10 @@
+{% comment %}Last update: {% last_modified_at %}<br/>{% endcomment -%}
+{% assign show_last_modified = true -%}
+{% if page.show_last_modified != true %}{% assign show_last_modified = page.show_last_modified -%}{% endif -%}
+{% assign last_date = page.last_modified_at -%}
+{% if page.last_modified_override %}{% assign last_date = page.last_modified_override %}{% endif -%}
+{% comment %}
+{% if show_last_modified != false %}Last update: {{ last_date | date: "%Y:%B:%A:%d:%s:%R" }}{% endif -%}
+show_last_modified: {{ show_last_modified }} {{ page.show_last_modified }}
+{% endcomment -%}
+{% if show_last_modified != false %}Last update: {{ last_date | date: "%Y:%B:%d %R" }}{% endif -%}

@@ -1,0 +1,48 @@
+{% comment -%}
+Component to display the board member list.
+
+format = short:  List names and first 50 chars of description with a link to board member page
+
+format = page:  Show sections for group, image?, description, add anchors
+
+{% endcomment -%}
+{% assign format = include.format | default: 'short' -%}
+{% if format == 'short' -%}
+  {% for member in site.data.board -%}
+    {% if member.group == 'board' -%}
+    <strong>{{member.name}}</strong>. {{member.description | truncate: 50}}<br>
+    >> <a href="/board-members/#board{{forloop.index}}">Read Bio</a><br><br>
+    {% endif -%}
+    {% if member.group == 'executive-director' -%}
+    <strong>{{member.name}}</strong>. {{member.description | truncate: 50}}<br>
+    >> <a href="/board-members/#boardX">Read Bio</a><br><br>
+    {% endif -%}
+  {% endfor %}
+{% else -%}
+## Board
+___
+  {% for member in site.data.board -%}
+    {% if member.group == 'board' -%}
+<a name="board{{forloop.index}}"></a><br>
+    {% if member.image != '' -%}{% asset "board/{{member.image}}" width="50" alt="TSP" %}<br>{% endif -%}
+<strong>{{member.name}}</strong>. {{member.description }}<br><br>
+    {% endif -%}
+  {% endfor %}
+## Executive Director
+___
+  {% for member in site.data.board -%}
+    {% if member.group == 'executive-director' -%}
+<a name="boardX"></a><br>
+{% if member.image != '' -%}{% asset "board/{{member.image}}" width="50" alt="TSP" %}<br>{% endif -%}
+<strong>{{member.name}}</strong>. {{member.description }}<br><br>
+    {% endif -%}
+    {% endfor %}
+## Employee Thrift Advisory Council
+___
+  {% for member in site.data.board -%}
+    {% if member.group == 'etac' -%}
+<a name="etac"></a><br>
+<strong>{{member.name}}</strong>. {{member.description }}<br><br>
+    {% endif -%}
+  {% endfor %}
+{% endif -%}

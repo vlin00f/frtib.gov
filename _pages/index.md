@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2
 title: The Official FRTIB Homepage
 styles:
 sidenav: frtib
@@ -44,11 +44,9 @@ We make the FRTIB a great place to work; and a place where great work gets done.
 [satisfaction image]
 </div>
 <div class="usa-width-one-half div-block-class">
-[board member clipped descriptions go here]
+{% include board.html format='short' -%}
 </div>
 </div>
 </section>
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

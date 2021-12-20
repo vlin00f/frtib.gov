@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: page2
 title: MeetingMinutes
 styles:
-sidenav: frtib
+# sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /MeetingMinutes/
+permalink: /meeting-minutes
 redirect_from:
   - /MeetingMinutes.html
+  - /MeetingMinutes/
 #document-ready:
 #  - getRate();
 ---
@@ -17,7 +18,5 @@ Subscribe to update notifications from GovDelivery. Subscribe to the Meeting Min
 Board Meeting Calendar 2021
 
 [ Meeting Minutes component]
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

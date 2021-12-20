@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: IPv6 Policy
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /IPv6/
+permalink: /IPv6
 redirect_from:
   - /IPv6.html
 #document-ready:

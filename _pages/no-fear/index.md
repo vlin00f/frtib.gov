@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: page2
 title: NoFear
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /NoFear/
+permalink: /no-fear
 redirect_from:
   - /NoFear.html
+  - /NoFear/
 #document-ready:
 #  - getRate();
 ---
@@ -26,7 +27,5 @@ No FEAR Act Notice PDF
 2020 No FEAR Data 2nd Quarter 2020
 2020 No FEAR Data 1st Quarter 2020
 2019 No FEAR Data Annual Information 2019
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

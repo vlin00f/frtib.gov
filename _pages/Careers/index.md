@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: Careers
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /Careers/
+permalink: /careers
 redirect_from:
   - /Careers.html
 #document-ready:
@@ -27,7 +27,5 @@ From development programs to leadership training and retirement plans, the Feder
 
 Learn more about working for the FRTIB.
 At the FRTIB, you'll work with a wide range of other professionals, from financial experts to tax attorneys. We're charged with operating the Plan prudently and solely in the interest of the participants and their beneficiaries.
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: Procurement
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /Procurement/
+permalink: /procurement
 redirect_from:
   - /Procurement.html
 #document-ready:
@@ -66,7 +66,5 @@ FRTIB Procurement Opportunities
 FedBizOpps
 Point of Contact
 Please direct any questions to FRTIB Contracting at Contracting@tsp.gov
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

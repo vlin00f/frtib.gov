@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: onboarding
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /onboarding/
+permalink: /onboarding
 redirect_from:
   - /onboarding.html
 #document-ready:
@@ -30,7 +30,5 @@ arrow right
 Training
 arrow right
 Federal Orientation Materials
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

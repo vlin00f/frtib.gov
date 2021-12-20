@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: Contacts
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /Contacts/
+permalink: /contacts
 redirect_from:
   - /Contacts.html
 #document-ready:

@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page2
 title: data
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /data/
+permalink: /data
 redirect_from:
   - /data.html
 #document-ready:
@@ -23,7 +23,5 @@ Geof Nieboer is the FRTIB’s Chief Data Officer. He can be reached at geof.nieb
 
 Data_Governance_Policy.pdf
 Open_Data_Plan_v3.0.pdf
-
-<Last Updated component?>
 
 <!-- CONTENT END -->

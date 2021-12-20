@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: page2
 title: FairAct
 styles:
 sidenav: frtib
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /FairAct/
+permalink: /fair-act
 redirect_from:
   - /FairAct.html
+  - /FairAct/
 #document-ready:
 #  - getRate();
 ---
@@ -19,7 +20,5 @@ The “Federal Activities Inventory Reform Act of 1998” (FAIR Act) directs Fed
 
 The required information is below.
 FAIR Act Report for Fiscal Year (FY) 2017 XLS
-
-<Last Updated component?>
 
 <!-- CONTENT END -->
