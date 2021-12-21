@@ -2,7 +2,7 @@
 layout: page2
 title: NoFear
 styles:
-sidenav: frtib
+sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /no-fear
