@@ -110,13 +110,7 @@ frtib:
   - name: Board, Executive Director, and ETAC
     url: /board-members
   - name: Reading Room
-    children:
-      - name: Reading Room
-        url: /reading-room
-      - name: Reading Room
-        url: /reading-room
-      - name: Reading Room
-        url: /reading-room
+    url: /reading-room
   - name: Meeting Minutes
     url: /meeting-minutes
   - name: Careers
