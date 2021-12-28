@@ -108,17 +108,23 @@ frtib:
   - name: Home
     url: /
   - name: Board, Executive Director, and ETAC
-    url: /BoardMembers/
+    url: /board-members
   - name: Reading Room
-    url: /ReadingRoom/
+    children:
+      - name: Reading Room
+        url: /reading-room
+      - name: Reading Room
+        url: /reading-room
+      - name: Reading Room
+        url: /reading-room
   - name: Meeting Minutes
-    url: /MeetingMinutes/
+    url: /meeting-minutes
   - name: Careers
-    url: /Careers/
+    url: /careers
   - name: Contacts
-    url: /Contacts/
+    url: /contacts
   - name: Procurement
-    url: /Procurement/
+    url: /procurement
 
 # Search.gov configuration
 #
