@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /fair-act
+permalink: /fair-act/
 redirect_from:
   - /FairAct.html
   - /FairAct/

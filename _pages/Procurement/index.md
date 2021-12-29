@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /procurement
+permalink: /procurement/
 redirect_from:
   - /Procurement.html
 #document-ready:

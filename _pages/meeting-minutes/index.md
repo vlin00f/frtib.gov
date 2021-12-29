@@ -5,7 +5,7 @@ styles:
 # sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /meeting-minutes
+permalink: /meeting-minutes/
 redirect_from:
   - /MeetingMinutes.html
   - /MeetingMinutes/

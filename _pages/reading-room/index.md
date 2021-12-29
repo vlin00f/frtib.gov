@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room
+permalink: /reading-room/
 redirect_from:
   - /ReadingRoom.html
   - /ReadingRoom/

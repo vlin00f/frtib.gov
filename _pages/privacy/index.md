@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /privacy
+permalink: /privacy/
 redirect_from:
   - /privacyPolicy.html
   - /privacy-policy.html

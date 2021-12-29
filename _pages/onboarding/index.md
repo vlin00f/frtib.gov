@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /onboarding
+permalink: /onboarding/
 redirect_from:
   - /onboarding.html
 #document-ready:

@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /no-fear
+permalink: /no-fear/
 redirect_from:
   - /NoFear.html
   - /NoFear/

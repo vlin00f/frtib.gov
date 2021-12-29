@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /eeo
+permalink: /eeo/
 redirect_from:
   - /EEO.html
 #document-ready:

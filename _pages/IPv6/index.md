@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /IPv6
+permalink: /IPv6/
 redirect_from:
   - /IPv6.html
 #document-ready:
