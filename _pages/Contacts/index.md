@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /contacts
+permalink: /contacts/
 redirect_from:
   - /Contacts.html
 #document-ready:

@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /data
+permalink: /data/
 redirect_from:
   - /data.html
 #document-ready:

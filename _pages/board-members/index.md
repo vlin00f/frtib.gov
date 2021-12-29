@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /board-members
+permalink: /board-members/
 redirect_from:
   - /BoardMembers
   - /BoardMembers.html

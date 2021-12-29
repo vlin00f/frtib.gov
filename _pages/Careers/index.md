@@ -5,7 +5,7 @@ styles:
 sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /careers
+permalink: /careers/
 redirect_from:
   - /Careers.html
 #document-ready:
