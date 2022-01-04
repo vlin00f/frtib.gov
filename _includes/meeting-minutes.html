@@ -1,0 +1,10 @@
+{% comment -%}
+Component to display the main meeting minutes files.
+{% endcomment -%}
+{% assign format = include.format | default: 'short' -%}
+
+## Meeting Minutes
+
+{% for mmfile in site.meeting_minutes -%}
+file: {{ mmfile }}
+{% endfor -%}

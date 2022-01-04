@@ -18,5 +18,6 @@ Subscribe to update notifications from GovDelivery. Subscribe to the Meeting Min
 Board Meeting Calendar 2021
 
 [ Meeting Minutes component]
+{% include meeting-minutes.html  -%}
 
 <!-- CONTENT END -->

@@ -152,6 +152,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  meeting_minutes:
+    output: true
+    permalink: /meeting-minutes/:path/
 
 permalink: pretty
 
