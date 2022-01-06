@@ -153,8 +153,14 @@ collections:
     output: true
     permalink: /:path/
   meeting_minutes:
+    label: meeting_minutes
     output: true
-    permalink: /meeting-minutes/:path/
+
+defaults:
+  - scope:
+      path: "_meeting_minutes"
+    values:
+      sortKey: 2222-10-
 
 permalink: pretty
 
@@ -176,7 +182,7 @@ last-modified-at:
 # The values here represent the defaults if nothing is set
 pagination:
   # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
+  enabled: false
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
   # The default document collection to paginate if nothing is specified ('posts' is default)

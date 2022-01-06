@@ -3,8 +3,22 @@ Component to display the main meeting minutes files.
 {% endcomment -%}
 {% assign format = include.format | default: 'short' -%}
 
-## Meeting Minutes
+{% include meeting-minutes-files.html theCollection='meeting_minutes' -%}
 
-{% for mmfile in site.meeting_minutes -%}
-file: {{ mmfile }}
+{% assign year = '0000' -%}
+{% assign closeDiv = '' -%}
+{% for mmfile in filelist -%}
+{% assign fname = mmfile.name -%}
+{% assign curYear = fname | slice: 0, 4 -%}
+{% if curYear != year -%}
+{% assign year = curYear -%}
+{{closeDiv}}
+<hr>
+<div>{{ curYear }}
+{% assign closeDiv = "</div>" -%}
+{% endif -%}
+{% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
+<!-- <div>name: {{mmfile.name}} path: {{mmfile.path | replace_first: "_", "/" | prepend: site.baseurl }}</div> -->
+<a href="{{fpath}}" target="_blank">{{fname}}</a>
 {% endfor -%}
+{{closeDiv}}

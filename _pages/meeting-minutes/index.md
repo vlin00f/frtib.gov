@@ -14,10 +14,12 @@ redirect_from:
 ---
 
 ## Meeting Minutes
-Subscribe to update notifications from GovDelivery. Subscribe to the Meeting Minutes update notifications
-Board Meeting Calendar 2021
+Subscribe to update notifications from GovDelivery.
 
-[ Meeting Minutes component]
+Subscribe to the Meeting Minutes update notifications
+
+**Board Meeting Calendar**:   [2022]({{site.baseurl}}/pdf/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf){:target="_blank"}
+
 {% include meeting-minutes.html  -%}
 
 <!-- CONTENT END -->

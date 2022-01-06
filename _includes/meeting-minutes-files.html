@@ -1,0 +1,11 @@
+{% comment -%}
+Sets 'filelist' to a list of the files in a collection.
+Solves issue of static files in a collection not showing up in static files or site.COLLECTION.file.
+{% endcomment -%}
+{% assign theCollection = include.theCollection | default: 'no collection match' -%}
+{% assign filelist = nil -%}
+{% for siteCollection in site.collections -%}
+{% if siteCollection.label == theCollection -%}
+{% assign filelist =  siteCollection.files | sort: 'sortKey' | reverse -%}
+{% break -%}
+{% endif -%}{% endfor -%}
