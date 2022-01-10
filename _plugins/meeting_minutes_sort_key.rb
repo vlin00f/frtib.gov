@@ -13,6 +13,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
                 @sortKey = @sortKey.gsub 'Dec', '-12-'
                 @sortKey = @sortKey.gsub 'Nov', '-11-'
                 @sortKey = @sortKey.gsub 'Oct', '-10-'
+                @sortKey = @sortKey.gsub 'Sep', '-09-'
                 @sortKey = @sortKey.gsub 'Sept', '-09-'
                 @sortKey = @sortKey.gsub 'Aug', '-08-'
                 @sortKey = @sortKey.gsub 'Jul', '-07-'

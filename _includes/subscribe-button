@@ -1,0 +1,5 @@
+{% assign title = include.title | default: 'TITLE' -%}
+{% assign topic_id = include.topic_id | default: 'USTSP_1' -%}
+{% assign def_url = 'https://public.govdelivery.com/accounts/USTSP/subscriber/new?topic_id=' -%}
+{% assign url = include.url | default: def_url | append: topic_id -%}
+<a href="{{url}}" target="_blank"><button class="usa-button">{{title}}</button></a>

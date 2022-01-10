@@ -3,8 +3,12 @@ Component to display the main meeting minutes files.
 {% endcomment -%}
 {% assign format = include.format | default: 'short' -%}
 
-{% include meeting-minutes-files.html theCollection='meeting_minutes' -%}
+{% include meeting-minutes/get-file-list theCollection='meeting_minutes' -%}
 
+Most recent board meeting minutes:  <a href="{{filelist.first.path}}" target="_blank">{{filelist.first.name}}</a>
+Updated: 29-Dec
+
+<div class="usa-accordion">
 {% assign year = '0000' -%}
 {% assign closeDiv = '' -%}
 {% for mmfile in filelist -%}
@@ -13,12 +17,10 @@ Component to display the main meeting minutes files.
 {% if curYear != year -%}
 {% assign year = curYear -%}
 {{closeDiv}}
-<hr>
-<div>{{ curYear }}
+{% include accordion/start expanded=false divID=curYear title=curYear inList=true %}
 {% assign closeDiv = "</div>" -%}
 {% endif -%}
 {% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
-<!-- <div>name: {{mmfile.name}} path: {{mmfile.path | replace_first: "_", "/" | prepend: site.baseurl }}</div> -->
-<a href="{{fpath}}" target="_blank">{{fname}}</a>
+<p><a href="{{fpath}}" target="_blank">{{fname}}</a></p>
 {% endfor -%}
 {{closeDiv}}
