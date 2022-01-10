@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-participant-surveys
+permalink: /reading-room-participant-surveys/
 redirect_from:
   - /SurveysPart
   - /PartSurveys

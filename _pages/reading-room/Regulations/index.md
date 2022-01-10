@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-regulations
+permalink: /reading-room-regulations/
 redirect_from:
 #  - /FinStmts
 #document-ready:

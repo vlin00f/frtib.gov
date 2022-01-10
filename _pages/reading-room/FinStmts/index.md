@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-financial-statements
+permalink: /reading-room-financial-statements/
 redirect_from:
   - /FinStmts
 #document-ready:

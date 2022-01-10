@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-press-releases
+permalink: /reading-room-press-releases/
 redirect_from:
   - /PressRel
   - /Press

@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-reports-to-congress
+permalink: /reading-room-reports-to-congress/
 redirect_from:
   - /congress
 #document-ready:

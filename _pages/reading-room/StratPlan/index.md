@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-strategic-plan
+permalink: /reading-room-strategic-plan/
 redirect_from:
   - /StratPlan
 #document-ready:

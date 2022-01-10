@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-employee-surveys
+permalink: /reading-room-employee-surveys/
 redirect_from:
   - /SurveysEmp
   - /EmpSurveys

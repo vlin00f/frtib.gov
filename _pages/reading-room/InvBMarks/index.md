@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-investment-benchmarks
+permalink: /reading-room-investment-benchmarks/
 redirect_from:
   - /InvBMarks
 #document-ready:

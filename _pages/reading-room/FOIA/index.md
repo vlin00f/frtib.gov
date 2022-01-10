@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-foia
+permalink: /reading-room-foia/
 redirect_from:
   - /foia
 #document-ready:

@@ -5,7 +5,7 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-FERSA
+permalink: /reading-room-FERSA/
 redirect_from:
   - /FERSA
 #document-ready:
