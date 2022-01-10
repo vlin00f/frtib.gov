@@ -1,20 +1,18 @@
 ---
 layout: page2
-title: Reading Room
+title: Reading Room FOIA
 styles:
-sidenav:
+sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room/
+permalink: /reading-room-foia
 redirect_from:
-  - /ReadingRoom.html
-  - /ReadingRoom/
+  - /foia
 #document-ready:
 #  - getRate();
 ---
 
-## Reading Room
+## Freedom of Information Act (FOIA)
 
-[ Reading Room component]
-
+[filelist here]
 <!-- CONTENT END -->

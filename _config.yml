@@ -85,10 +85,26 @@ primary_navigation:
     children:
       - name: Reading Room
         url: /reading-room
-      - name: Reading Room
-        url: /reading-room
-      - name: Reading Room
-        url: /reading-room
+      - name: Reading Room FERSA
+        url: /reading-room-fersa
+      - name: Reading Room Regulations
+        url: /reading-room-regulations
+      - name: Reading Room Financial Statements
+        url: /reading-room-financial-statements
+      - name: Reading Room FRTIB Strategic Plan
+        url: /reading-room-frtib-strategic-plan
+      - name: Reading Room Reports to Congress
+        url: /reading-room-reports-to-congress
+      - name: Reading Room Press Releases
+        url: /reading-room-press-releases
+      - name: Reading Room Participant Surveys
+        url: /reading-room-participant-surveys
+      - name: Reading Room Employee Surveys
+        url: /reading-room-employee-surveys
+      - name: Reading Room Investment Benchmarks
+        url: /reading-room-investment-benchmarks
+      - name: Reading Room FOIA
+        url: /reading-room-FOIA
   - name: Meeting Minutes
     url: /meeting-minutes
   - name: Careers

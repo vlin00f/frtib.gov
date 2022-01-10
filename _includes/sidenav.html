@@ -1,4 +1,4 @@
-{% comment %} 
+{% comment %}
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
 _layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
@@ -7,44 +7,42 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
   <nav>
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
+        <a href="{{site.baseurl}}/reading-room">Reading Room</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="" class="usa-current">Current page</a>
+        <a class="usa-current" href="{{site.baseurl}}/reading-room">Reading Room</a>
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+            <a href="{{site.baseurl}}/reading-room-fersa">FERSA</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="" class="usa-current">Child link</a>
-            <ul class="usa-sidenav__sublist">
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="" class="usa-current">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-            </ul>
+            <a href="{{site.baseurl}}/reading-room-regulations">Regulations</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+            <a href="{{site.baseurl}}/reading-room-financial-statements">Financial Statements</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+            <a href="{{site.baseurl}}/reading-room-strategic-plan">FRTIB Strategic Plan</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+            <a href="{{site.baseurl}}/reading-room-reports-to-congress">Reports to Congress</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/reading-room-press-releases">Press Releases</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/reading-room-participant-surveys">Participant Surveys</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/reading-room-employee-surveys">Employee Surveys</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/reading-room-investment-benchmarks">Investment Benchmarks</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/reading-room-foia">FOIA</a>
           </li>
         </ul>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
       </li>
     </ul>
   </nav>
