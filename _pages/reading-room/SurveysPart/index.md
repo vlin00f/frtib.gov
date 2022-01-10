@@ -13,7 +13,7 @@ redirect_from:
 #  - getRate();
 ---
 
-## Employee Surveys
+## Participant Surveys
 
 [filelist here]
 <!-- CONTENT END -->

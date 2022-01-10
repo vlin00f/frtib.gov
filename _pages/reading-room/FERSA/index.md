@@ -5,9 +5,9 @@ styles:
 sidenav: true
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-FERSA/
+permalink: /reading-room-fersa/
 redirect_from:
-  - /FERSA
+  - /fersa
 #document-ready:
 #  - getRate();
 ---
