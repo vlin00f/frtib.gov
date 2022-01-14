@@ -1,35 +1,54 @@
-<footer class="usa-footer site-footer" role="contentinfo">
-  <div class="footer-section-bottom bg-base-lighter">
-    {% comment %}include last_modified.html{% endcomment %}
+<footer class="usa-footer">
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+  <div class="usa-footer__primary-section">
+    <nav class="usa-footer__nav" aria-label="Footer navigation">
+      <ul class="grid-row grid-gap">
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/privacy/">Privacy Policy</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/no-fear/">No Fear Act</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/fair-act/">Fair Act</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/eeo/">EEO</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/data/">Data</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/onboarding/">Onboarding</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/vulnerability-disclosure-policy/">Vulnerability Disclosure</a></li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}/IPv6/">FRTIB IPv6 Policy</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="usa-footer__secondary-section">
     <div class="grid-container">
-      <div class="grid-row padding-3">
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <a class="footer-logo media_link" href="https://www.tsp.gov">
-              {% asset "Standard_LOGO_White.png" width="50" alt="TSP" %}
-            </a>
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          <div class="mobile-lg:grid-col-auto">
+            {% asset "Standard_LOGO_White.png" width="50" alt="TSP" %}
+            <span class="usa-footer__logo-heading">Federal Retirement Thrift Investment Board</span>
           </div>
         </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li><a href="{{site.baseurl}}/privacy/">Privacy Policy</a></li>
-            <li><a href="{{site.baseurl}}/no-fear/">No Fear Act</a></li>
-            <li><a href="{{site.baseurl}}/fair-act/">Fair Act</a></li>
-          </ul>
-        </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li><a href="{{site.baseurl}}/eeo/">EEO</a></li>
-            <li><a href="{{site.baseurl}}/data/">Data</a></li>
-            <li><a href="{{site.baseurl}}/onboarding/">Onboarding</a></li>
-          </ul>
-        </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-          <li><a href="{{site.baseurl}}/vulnerability-disclosure-policy/">Vulnerability Disclosure</a></li>
-          <li><a href="{{site.baseurl}}/IPv6/">FRTIB IPv6 Policy</a></li>
-          <li> </li>
-        </ul>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+        <h3 class="usa-footer__contact-heading">ThriftLine — 1-TSP-YOU-FRST</h3>
+        <address class="usa-footer__address">
+          <div class="usa-footer__contact-info grid-row grid-gap">
+            <div class="grid-col-auto">
+              <a href="tel:1-877-968-3778">Phone: 1-877-968-3778</a>
+            </div>
+            <div class="grid-col-auto">
+              <a href="tel:1-877-847-4385">TDD: 1-877-847-4385 </a>
+            </div>
+            <div class="grid-col-auto">
+              <a href="{{site.baseurl}}/contacts/">Contact Us</a>
+            </div>
+          </div>
+        </address>
         </div>
       </div>
     </div>
