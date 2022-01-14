@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: MeetingMinutes
+title: Meeting Minutes
 styles:
 # sidenav:
 scripts:
