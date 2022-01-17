@@ -20,6 +20,9 @@ $theme-show-notifications: false;
 /*
   Add your SASS/CSS here
 */
+.usa-prose>p {
+    max-width: none;
+}
 
 // default mode hide banner
 .usa-banner__content {
