@@ -8,6 +8,9 @@
 
 $theme-show-notifications: false;
 
+// $theme-body-background-color: "blue-70";
+// $theme-color-base-dark: "white";
+
 @import "uswds";
 
 // Example - Override the background image in the hero component using CSS:
@@ -20,9 +23,6 @@ $theme-show-notifications: false;
 /*
   Add your SASS/CSS here
 */
-.usa-prose>p {
-    max-width: none;
-}
 
 // default mode hide banner
 .usa-banner__content {
@@ -55,3 +55,5 @@ $theme-show-notifications: false;
     display: block;
   }
 }
+
+@import "frtib";
