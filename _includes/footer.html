@@ -19,30 +19,19 @@
         <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
           <a class="usa-footer__primary-link" href="{{site.baseurl}}/IPv6/">FRTIB IPv6 Policy</a></li>
       </ul>
-      <div style="font-size:70%">
-                       ©
-        <script type="text/javascript">
-                              <!--
-                                var d = new Date();
-                                var curr_year = d.getFullYear();
-
-                                document.write(curr_year );
-                              //-->
-          </script> Federal Retirement Thrift Investment Board
-        </div>
-    </div>
     </nav>
+  </div>
 
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-4 mobile-lg:grid-gap-2">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
           <div class="mobile-lg:grid-col-auto">
-            {% asset "frtibbadge.jpg" width="50" alt="TSP" style="float:left;margin:5px;" %}
-            <span class="xusa-footer__logo-heading">Federal Retirement Thrift Investment Board</span>
+            {% asset "frtibbadge.jpg" width="100" alt="TSP" xstyle="float:left;margin:5px;" %}
           </div>
-        </div>
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-2 ">
+          <div class="mobile-lg:grid-col-auto">
+            <p class="usa-footer__logo-heading">FRTIB</p>
+          </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
           <h3 class="usa-footer__contact-heading">ThriftLine — 1-TSP-YOU-FRST</h3>
@@ -63,4 +52,17 @@
       </div>
     </div>
   </div>
+
+  <div style="font-size:70%;float:right;">
+    &copy;
+    <script type="text/javascript">
+                          <!--
+                            var d = new Date();
+                            var curr_year = d.getFullYear();
+
+                            document.write(curr_year );
+                          //-->
+      </script> Federal Retirement Thrift Investment Board
+    </div>
+
 </footer>

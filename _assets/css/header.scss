@@ -1,0 +1,19 @@
+/*
+  FRTIB CSS
+
+*/
+
+
+//   alterations to USWDS styles
+.usa-prose>p {
+    max-width: none;
+}
+
+.usa-header {
+  background-color: #1A4480;
+}
+
+.usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
+  color: #ddd;
+  // font-size: 1.06rem;
+}
