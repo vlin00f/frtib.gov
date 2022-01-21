@@ -4,7 +4,7 @@
 {% assign pageurl = page.url %}
 {% endif %}
 {% assign modalID = include.modalID | default: '' %}
-{% assign fullURL = site.url | append: '/' | append: pageurl %}
+{% assign fullURL = site.baseurl | append: '/' | append: pageurl %}
 {% assign fc = pageurl | slice: 0 %}
 {% if fc == '/' %}
 {% assign fullURL = site.url | append: pageurl %}
