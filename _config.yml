@@ -117,7 +117,7 @@ primary_navigation:
 
 secondary_navigation:
   - name: Contacts
-    url: "/contacts"
+    url: "/site/frtib/frtib.gov/contacts"
   - name: TSP.gov
     url: "https://www.tsp.gov"
 
