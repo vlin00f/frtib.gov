@@ -1,0 +1,16 @@
+{% comment -%}
+Just the right side of the header, extracted from original menu.html from template.
+{% endcomment -%}
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          {% for nav_item in site.secondary_navigation %}
+          <li class="usa-nav__secondary-item">
+            <a {% if nav_item.url %}href="{{ nav_item.url }}"{% endif %}
+              {% if nav_item.onClick %}onClick="{{ nav_item.onClick }}"{% endif %}>{{ nav_item.name | escape }}
+            </a>
+          </li>
+          {% endfor %}
+          <li class="usa-nav__secondary-item">{% include header/share-modal.html -%}</li>
+        </ul>
+        {% include searchgov/form.html searchgov=site.searchgov %}
+      </div>

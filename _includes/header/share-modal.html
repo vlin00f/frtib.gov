@@ -1,0 +1,92 @@
+{% if include.pageurl != nil and include.pageurl != '' %}
+{% assign pageurl = include.pageurl %}
+{% else %}
+{% assign pageurl = page.url %}
+{% endif %}
+{% assign modalID = include.modalID | default: '' %}
+{% assign fullURL = site.url | append: '/' | append: pageurl %}
+{% assign fc = pageurl | slice: 0 %}
+{% if fc == '/' %}
+{% assign fullURL = site.url | append: pageurl %}
+{% endif %}
+<a href="#header-share-modal" xclass="usa-button" aria-controls="header-share-modal" data-open-modal>Share</a>
+<div class="usa-modal" id="header-share-modal" aria-labelledby="share-modal-heading" aria-describedby="share-modal-description">
+  <div class="usa-modal__content">
+    <div class="usa-modal__main">
+      <ul class="usa-button-group">
+        <li class="usa-button-group__item">
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ fullURL }}&title={{ page.title }}" class="btn btn-social btn-facebook" target="_blank">
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#facebook"></use></svg>
+            Facebook</a>
+        </li>
+        <li class="usa-button-group__item">
+          <a href="https://twitter.com/intent/tweet?status={{ page.title }}+at+{{ fullURL }}" class="btn btn-social btn-twitter" target="_blank">
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#twitter"></use></svg>
+            Twitter</a>
+        </li>
+        <li class="usa-button-group__item">
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ fullURL }}&title=&summary=&source=" class="btn btn-social btn-linkedin" target="_blank">
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#facebook"></use></svg>
+            LinkedIn</a>
+        </li>
+        <li class="usa-button-group__item">
+          <a href="mailto:?&subject=Blog%20Post:%20{{ page.title }}&body=Important%20page%20for%20your%20consideration%20.%20{{ fullURL }}" class="btn btn-social btn-email" target="_blank">
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#alternate_email"></use></svg>
+            Email</a>
+        </li>
+      </ul>
+      <hr>
+      <h2 class="usa-modal__heading" id="share-modal-heading">Copy URL</h2>
+      <div class="usa-prose">
+        <p id="share-modal-description">
+          A direct link to this page!
+        </p>
+      </div>
+      <div class="usa-modal__footer">
+        <input type="text" id="fullURL{{modalID}}" size="50" value="{{fullURL}}"/>
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button" onClick="copyToClipboard('fullURL');">Copy</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        {% comment -%}<use xlink:href="/assets/img/sprite.svg#close"></use>{% endcomment -%}
+      </svg>
+    </button>
+  </div>
+</div>
+
+
+{% comment -%}
+<div id="shareModal{{modalID}}" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="post-share-modal modal-body">
+        <div>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ fullURL }}&title={{ page.title }}" class="btn btn-social btn-facebook" target="_blank">
+            <span class="fa fa-facebook"></span>Facebook</a>
+          <a href="https://twitter.com/intent/tweet?status={{ page.title }}+at+{{ fullURL }}" class="btn btn-social btn-twitter" target="_blank">
+            <span class="fa fa-twitter"></span>Twitter</a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ fullURL }}&title=&summary=&source=" class="btn btn-social btn-linkedin" target="_blank">
+            <span class="fa fa-linkedin"></span>LinkedIn</a>
+          <a href="mailto:?&subject=Blog%20Post:%20{{ page.title }}&body=Check%20out%20this%20amazing%20blog%20post!%20{{ fullURL }}" class="btn btn-social btn-email" target="_blank">
+            <span class="fas fa-envelope"></span>Email</a>
+          <hr>
+        </div>
+        <div>
+          <h3>Post Address</h3>
+          <p>
+            A direct link to this post!
+          </p>
+          <input type="text" id="fullURL{{modalID}}" value="{{fullURL}}"/>
+          <a href="#" onClick="inputToClipboard('fullURL{{modalID}}');" class="usa-button">Copy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endcomment -%}

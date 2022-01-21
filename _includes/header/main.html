@@ -1,0 +1,15 @@
+{% comment %}
+Extracted from original menu.html in the template.
+
+It looks like the upper right code is defined below the navigation so that it becomes part of menu when the screen is small.
+{% endcomment %}
+
+{% include header/official-website.html %}
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    {% include logo.html %}
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  {% include header/topnav.html %}
+</header>
+{% include header/alert %}
