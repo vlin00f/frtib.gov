@@ -13,14 +13,6 @@
   background-color: #1A4480;
 }
 
-.alert-button {
-  // margin-top: 1px;
-  // margin-right: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
   color: #ddd;
   font-size: 1.10rem;
@@ -39,4 +31,22 @@
 
 .float-left {
   float: left;
+}
+
+
+
+@media screen and (min-width: 451px) {
+  .alert-button {
+    // margin-top: 1px;
+    // margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .alert-button {
+    width: 100%;
+  }
 }
