@@ -32,6 +32,11 @@ url: "https://www.frtib.gov" # the base hostname & protocol for your site, e.g. 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
 
+# contact numbers
+thriftline: 1-TSP-YOU-FRST
+phone: 1-877-968-3778
+tdd: 1-877-847-4385
+
 #################################################################
 #
 # Digital Analytics Program (DAP) configuration
@@ -110,8 +115,6 @@ primary_navigation:
     url: /meeting-minutes
   - name: Careers
     url: /careers
-  - name: Contacts
-    url: /contacts
   - name: Procurement
     url: /procurement
 

@@ -1,51 +1,75 @@
 {% comment %}
 Alert box for things like announcing next board meeting.
-Based of the official website accordion.
 {% endcomment %}
-{% assign meetingURL = "https://tspmeet.webex.com/tspmeet/onstage/g.php?MTID=e2c537a102b28d363f50c65b23d17849e" -%}
+{% assign MTID = "e2c537a102b28d363f50c65b23d17849e" -%}
+{% assign meetingURL = "https://tspmeet.webex.com/tspmeet/onstage/g.php?MTID=" | append: MTID -%}
 {% capture meetingLink -%}
 [{{meetingURL}}]({{meetingURL}}){:target="_blank"}
 {% endcapture -%}
+{% assign alertHeader = include.alertHeader | default: "SPECIAL NOTICE" -%}
+{% assign alertIcon = include.alertIcon | default: "icon_redImportant.gif" -%}
+{% capture alertTitle -%}
+{% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
+{% endcapture -%}
 
-<div class="page-landing-page layout-demo "  markdown="1">
-  <div class="usa-banner">
-    <div class="usa-accordion">
-      <section id="gov-banner-header-section" aria-label="USA Gov banner section header" class="usa-banner__header">
-        <div class="usa-banner__inner">
-          <div class="grid-col-auto">
-            {% asset icon_redImportant.gif class="usa-banner__header-flag" alt="Special Notice" %}
-          </div>
-          <div class="grid-col-fill tablet:grid-col-auto">
-            <!-- <p class="usa-banner__header-text">An official website of the United States government</p> -->
-            <p class="usa-banner__header-action" aria-hidden="true">SPECIAL NOTICE</p>
-          </div>
-          <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="site-alert">
-            <span class="usa-banner__button-text">SPECIAL NOTICE</span>
-          </button>
+
+<a href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
+<div class="usa-modal" id="header-alert-modal" aria-labelledby="alert-modal-heading" aria-describedby="alert-modal-description">
+    <div class="usa-modal__content">
+      <div class="usa-modal__main">
+        <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
+        <div class="usa-prose">
+          <p id="alert-modal-description">
+            The Board will be meeting at 10:00 a.m. on Monday, January 24, 2022. Members of the public who are
+            interested have 2 options to listen to the Board meeting: 1) call 1-415-527-5035 and use event number
+            (access code): 2761 848 5183; OR 2) click on this link:
+
+            <br><div style="overflow-wrap: break-word;">{{meetingLink | markdownify}}</div>
+          </p>
+          <p>
+            Attendees using the WebEx link will be able to listen to the meeting and view the materials being discussed.
+            Their lines will be muted.
+          </p>
         </div>
-      </section>
-      <div class="usa-banner__content usa-accordion__content" id="site-alert">
-        <div class="grid-row grid-gap-lg">
-          <div class="usa-banner__guidance tablet:grid-col-6">
-            {% asset icon_redImportant.gif class="usa-banner__header-flag" alt="Special Notice" %}
-            <div class="usa-media-block__body">
-              <p>
-                The Board will be meeting at 10:00 a.m. on Monday, January 24, 2022. Members of the public who are
-                interested have 2 options to listen to the Board meeting: 1) call 1-415-527-5035 and use event number
-                (access code): 2761 848 5183; OR 2) click on this link:
-              </p>
-
-              <br><div style="overflow-wrap: break-word;">{{meetingLink | markdownify}}</div>
-
-              <p>
-                Attendees using the WebEx link will be able to listen to the meeting and view the materials being discussed
-                Their lines will be muted.
-              </p>
-            </div>
-          </div>
+{% comment -%}
+        <div class="usa-modal__footer">
+          <ul class="usa-button-group">
+            <li class="usa-button-group__item">
+              <button type="button" class="usa-button" data-close-modal>
+                Continue without saving
+              </button>
+            </li>
+            <li class="usa-button-group__item">
+              <button type="button" class="usa-button usa-button--unstyled padding-105 text-center" data-close-modal>Go back</button>
+            </li>
+          </ul>
         </div>
+{% endcomment -%}
       </div>
+      <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>X
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="/assets/img/sprite.svg#close"></use>
+        </svg>
+      </button>
     </div>
   </div>
-  <div class="usa-overlay"></div>
+
+{% comment %}
+<h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
+<div class="usa-prose">
+  <p id="alert-modal-description">
+    The Board will be meeting at 10:00 a.m. on Monday, January 24, 2022. Members of the public who are
+    interested have 2 options to listen to the Board meeting: 1) call 1-415-527-5035 and use event number
+    (access code): 2761 848 5183; OR 2) click on this link:
+
+    <br><div style="overflow-wrap: break-word;">{{meetingLink | markdownify}}</div>
+  </p>
 </div>
+<div class="usa-modal__footer">
+  <p>
+    Attendees using the WebEx link will be able to listen to the meeting and view the materials being discussed.
+    Their lines will be muted.
+  </p>
+</div>
+</div>
+{% endcomment %}

@@ -13,7 +13,30 @@
   background-color: #1A4480;
 }
 
+.alert-button {
+  // margin-top: 1px;
+  // margin-right: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
   color: #ddd;
-  // font-size: 1.06rem;
+  font-size: 1.10rem;
+  font-weight: normal;
+}
+
+// .usa-header--extended .usa-logo {
+//  margin: auto;
+// }
+
+.usa-logo__text {
+  color: #eee;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.float-left {
+  float: left;
 }

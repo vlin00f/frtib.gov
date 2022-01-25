@@ -26,23 +26,15 @@
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-          <div class="mobile-lg:grid-col-auto">
-            {% asset "frtibbadge.jpg" width="100" alt="TSP" xstyle="float:left;margin:5px;" %}
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">FRTIB</p>
-          </div>
-        </div>
-        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-          <h3 class="usa-footer__contact-heading">ThriftLine — 1-TSP-YOU-FRST</h3>
+        <div class="usa-footer__contact-links grid-col-auto">
+          <h3 class="usa-footer__contact-heading">ThriftLine — {{site.thriftline}}</h3>
           <address class="usa-footer__address">
             <div class="usa-footer__contact-info grid-row grid-gap">
               <div class="grid-col-auto">
-                <a href="tel:1-877-968-3778">Phone: 1-877-968-3778</a>
+                <a href="tel:1-877-968-3778">Phone: {{site.phone}}</a>
               </div>
               <div class="grid-col-auto">
-                <a href="tel:1-877-847-4385">TDD: 1-877-847-4385 </a>
+                <a href="tel:1-877-847-4385">TDD: {{site.tdd}}</a>
               </div>
               <div class="grid-col-auto">
                 <a href="{{site.baseurl}}/contacts/">Contact Us</a>
