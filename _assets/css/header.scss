@@ -5,12 +5,69 @@
 
 
 //   alterations to USWDS styles
-.usa-prose>p {
-    max-width: none;
+.usa-header {
+  background-color: #205493;
+}
+.usa-nav {
+  background-color: #046b99;
 }
 
-.usa-header {
-  background-color: #1A4480;
+/*
+.usa-navbar {
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+.usa-header--extended .usa-logo {
+  // height: 7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+*/
+.usa-logo a {
+  color: #eee;
+  font-weight: 600;
+  font-size: 1.50rem;
+}
+.float-left {
+  float: left;
+  vertical-align: top;
+}
+
+@media screen and (min-width: 451px) {
+  .usa-prose>p {
+      max-width: none;
+  }
+  .alert-button {
+    // margin-top: 1px;
+    // margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #extended-logo {
+    height: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .alert-button {
+    width: 100%;
+  }
+  #extended-logo {
+    height: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .usa-navbar {
+    height: 8rem;
+  }
 }
 
 .usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
@@ -19,34 +76,8 @@
   font-weight: normal;
 }
 
-// .usa-header--extended .usa-logo {
-//  margin: auto;
-// }
-
-.usa-logo__text {
-  color: #eee;
-  font-weight: 600;
-  font-size: 1.75rem;
-}
-
-.float-left {
-  float: left;
-}
-
-
-
-@media screen and (min-width: 451px) {
-  .alert-button {
-    // margin-top: 1px;
-    // margin-right: 10px;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .alert-button {
-    width: 100%;
-  }
+.break-word {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 85%;
 }

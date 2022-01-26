@@ -18,13 +18,13 @@ Alert box for things like announcing next board meeting.
     <div class="usa-modal__content">
       <div class="usa-modal__main">
         <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
-        <div class="usa-prose">
+        <div class="usa-prose break-word">
           <p id="alert-modal-description">
             The Board will be meeting at 10:00 a.m. on Monday, January 24, 2022. Members of the public who are
             interested have 2 options to listen to the Board meeting: 1) call 1-415-527-5035 and use event number
             (access code): 2761 848 5183; OR 2) click on this link:
 
-            <br><div style="overflow-wrap: break-word;">{{meetingLink | markdownify}}</div>
+            <br><div>{{meetingLink | markdownify}}</div>
           </p>
           <p>
             Attendees using the WebEx link will be able to listen to the meeting and view the materials being discussed.
