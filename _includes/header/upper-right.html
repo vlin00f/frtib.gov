@@ -4,10 +4,11 @@ Just the right side of the header, extracted from original menu.html from templa
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
           {% for nav_item in site.data.navigation.secondary_navigation -%}
-          {% assign firstChar = nav_item.url | slice: 0 -%}
-          {% if firstChar == "/" -%}{% assign nav_item.url = nav_item.url | prepend: site.baseurl -%}{% endif -%}
+          {% assign curURL = nav_item.url -%}
+          {% assign firstChar = curURL | slice: 0 -%}
+          {% if firstChar == "/" -%}{% assign curURL = curURL | prepend: site.baseurl -%}{% endif -%}
           <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
+            <a href="{{ curURL }}">{{ nav_item.name | escape }}</a>
           </li>
           {% endfor %}
           <li class="usa-nav__secondary-item">{% include header/share-modal.html -%}</li>
