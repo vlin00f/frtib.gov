@@ -4,7 +4,11 @@
 {% assign img_alt_text = include.img_alt_text | default: "" -%}
 {% assign text = include.text | default: "text" -%}
 {% assign button_text = include.button_text | default: "button_text" -%}
-{% assign button_link = include.button_link | default: "button_link" -%}
+{% assign button_link = include.button_link | default: "" -%}
+{% assign fc = button_link | slice: 0 %}
+{% if fc == '/' %}
+{% assign button_link = site.baseurl | append: button_link %}
+{% endif %}
 
 <li class="tablet:grid-col-{{card_size}} usa-card usa-card--header-first">
   <div class="usa-card__container">
