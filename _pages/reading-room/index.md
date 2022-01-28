@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room
 styles:
-# sidenav: reading_room_nav
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room/
