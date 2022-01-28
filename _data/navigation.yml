@@ -72,7 +72,7 @@ reading_room_nav:
     button_text: "See the reports"
     image: rothVideo.png
   - name: FOIA
-    url: /reading-room-FOIA/
+    url: /reading-room-foia/
     text: "Frquently access records and FOIA requirements"
     button_text: "Freedom of Information Act"
     image: tsp_ad.gif
