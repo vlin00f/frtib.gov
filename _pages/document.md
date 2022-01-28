@@ -1,6 +1,6 @@
 ---
 title: Document
-layout: page2
+layout: page
 sidenav: false
 ---
 

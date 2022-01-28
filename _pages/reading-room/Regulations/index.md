@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room Regulations
 styles:
-sidenav: true
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-regulations/

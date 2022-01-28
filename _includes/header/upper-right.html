@@ -3,7 +3,7 @@ Just the right side of the header, extracted from original menu.html from templa
 {% endcomment -%}
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
-          {% for nav_item in site.data.navigation.secondary_navigation -%}
+          {% for nav_item in site.data.navigation.search_links -%}
           {% assign curURL = nav_item.url -%}
           {% assign firstChar = curURL | slice: 0 -%}
           {% if firstChar == "/" -%}{% assign curURL = curURL | prepend: site.baseurl -%}{% endif -%}

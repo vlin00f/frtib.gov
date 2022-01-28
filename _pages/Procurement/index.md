@@ -67,4 +67,11 @@ FedBizOpps
 Point of Contact
 Please direct any questions to FRTIB Contracting at Contracting@tsp.gov
 
+
+### File List:
+
+<!-- list files -->
+{% include file_list coll="pdf" folder="/procurement" -%}
+<!-- done list files -->
+
 <!-- CONTENT END -->

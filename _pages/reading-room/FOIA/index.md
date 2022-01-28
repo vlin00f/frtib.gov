@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room FOIA
 styles:
-sidenav: true
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-foia/
@@ -14,5 +14,6 @@ redirect_from:
 
 ## Freedom of Information Act (FOIA)
 
-[filelist here]
+{% include file_list coll="pdf" folder="/reading-room/FOIA" -%}
+
 <!-- CONTENT END -->

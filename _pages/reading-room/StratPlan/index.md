@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room Strategic Plan
 styles:
-sidenav: true
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-strategic-plan/
@@ -14,5 +14,6 @@ redirect_from:
 
 ## Strategic Plan
 
-[filelist here]
+{% include file_list coll="pdf" folder="/reading-room/StratPlan" -%}
+
 <!-- CONTENT END -->

@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room Employee Surveys
 styles:
-sidenav: true
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-employee-surveys/
@@ -15,5 +15,6 @@ redirect_from:
 
 ## Employee Surveys
 
-[filelist here]
+{% include file_list coll="pdf" folder="/reading-room/SurveysEmp" -%}
+
 <!-- CONTENT END -->

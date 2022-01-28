@@ -1,0 +1,24 @@
+{% comment -%}
+List all the static files in a collection with a specific prefix (i.e. subfolder in collection).
+{% endcomment -%}
+
+{% assign coll = include.coll | default: "pdf" -%}
+{% assign folder = include.folder | default: "/procurement" -%}
+{% assign prefix = '_' | append: coll | append: folder -%}
+{% assign prefixLen = prefix | size -%}
+{% assign fileList = "" | split: "," -%}
+{% for collection in site.collections -%}
+{% if collection.label == coll -%}
+{% for file in collection.files -%}
+{% assign currPrefix = file.path | slice: 0, prefixLen -%}
+{% if currPrefix == prefix -%}
+{% assign fileList = fileList | push: file -%}
+{% endif -%}
+{% endfor -%}
+{% break -%}
+{% endif -%}
+{% endfor -%}
+{% assign sorted = fileList | sort: 'name' -%}
+{% for file in sorted -%}
+<a href="{{file.path | replace_first: '_', '/'}}" target="blank">{{file.name}}</a><br>
+{% endfor -%}

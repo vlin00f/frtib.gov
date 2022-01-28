@@ -1,33 +1,11 @@
 # Site Navigation
-primary_navigation:
+top_navigation:
   - name: Home
     url: /
   - name: Board, Executive Director, and ETAC
     url: /board-members
   - name: Reading Room
-    children:
-      - name: Reading Room
-        url: /reading-room
-      - name: FERSA
-        url: /reading-room-fersa
-      - name: Regulations
-        url: /reading-room-regulations
-      - name: Financial Statements
-        url: /reading-room-financial-statements
-      - name: FRTIB Strategic Plan
-        url: /reading-room-strategic-plan
-      - name: Reports to Congress
-        url: /reading-room-reports-to-congress
-      - name: Press Releases
-        url: /reading-room-press-releases
-      - name: Participant Surveys
-        url: /reading-room-participant-surveys
-      - name: Employee Surveys
-        url: /reading-room-employee-surveys
-      - name: Investment Benchmarks
-        url: /reading-room-investment-benchmarks
-      - name: FOIA
-        url: /reading-room-FOIA
+    children: reading_room_nav
   - name: Meeting Minutes
     url: /meeting-minutes
   - name: Careers
@@ -36,8 +14,65 @@ primary_navigation:
     url: /procurement
 
 # links above header search bar
-secondary_navigation:
+search_links:
   - name: Contacts
     url: "/contacts"
   - name: TSP.gov
     url: "https://www.tsp.gov"
+
+reading_room_nav:
+  - name: Reading Room
+    url: /reading-room/
+    text: "Landing page for reading room"
+    button_text: "Go to the Reading Room"
+    image: arrow_ball.png
+  - name: FERSA
+    url: /reading-room-fersa/
+    text: "Federal Employees' Retirement System Act"
+    button_text: "Read about the agency's legal authority"
+    image: logo.jpg
+  - name: Regulations
+    url: /reading-room-regulations/
+    text: "Rules governing the FRTIB"
+    button_text: "See the regulations"
+    image: hire-us.jpg
+  - name: Financial Statements
+    url: /reading-room-financial-statements/
+    text: "Financial statements since 2009"
+    button_text: "See the statements"
+    image: Lfunds.gif
+  - name: FRTIB Strategic Plan
+    url: /reading-room-strategic-plan/
+    text: "Four year plan and near term goals for the FRTIB"
+    button_text: "Review the latest plan"
+    image: Competitiveness.jpg
+  - name: Reports to Congress
+    url: /reading-room-reports-to-congress/
+    text: "Annual FRTIB report to congress including educational efforts"
+    button_text: "Yearly reports"
+    image: frtiblogo.jpg
+  - name: Press Releases
+    url: /reading-room-press-releases/
+    text: "All the news that fit to print"
+    button_text: "See press releases"
+    image: servicerep2.jpg
+  - name: Participant Surveys
+    url: /reading-room-participant-surveys/
+    text: "Who are our customers and how happy are they?"
+    button_text: "Participant demographics"
+    image: recommend.gif
+  - name: Employee Surveys
+    url: /reading-room-employee-surveys/
+    text: "Who are our employees and how happy are they?"
+    button_text: "FEVS results"
+    image: banner_benefits.jpg
+  - name: Investment Benchmarks
+    url: /reading-room-investment-benchmarks/
+    text: "Benchmark evaluations and investment option reviews"
+    button_text: "See the reports"
+    image: rothVideo.png
+  - name: FOIA
+    url: /reading-room-FOIA/
+    text: "Frquently access records and FOIA requirements"
+    button_text: "Freedom of Information Act"
+    image: tsp_ad.gif

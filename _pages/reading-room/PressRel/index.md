@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room Press Releases
 styles:
-sidenav: true
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-press-releases/
@@ -15,5 +15,6 @@ redirect_from:
 
 ## Press Releases
 
-[filelist here]
+{% include file_list coll="pdf" folder="/reading-room/PressRel" -%}
+
 <!-- CONTENT END -->

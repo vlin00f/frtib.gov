@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room Reports to Congress
 styles:
-sidenav: true
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-reports-to-congress/
@@ -14,5 +14,7 @@ redirect_from:
 
 ## Reports to Congress
 
-[filelist here]
+
+{% include file_list coll="pdf" folder="/reading-room/congress" -%}
+
 <!-- CONTENT END -->

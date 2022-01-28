@@ -6,7 +6,7 @@ Note that the top right of the header is built in here.  (Because of phone layou
     <div class="usa-nav__inner">
       <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in site.data.navigation.primary_navigation %}
+        {% for nav_item in site.data.navigation.top_navigation %}
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
@@ -20,7 +20,7 @@ Note that the top right of the header is built in here.  (Because of phone layou
           <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
             aria-controls="{{ nav_id }}"><span>{{ nav_item.name | escape }}</span></button>
           <ul id="{{ nav_id }}" class="usa-nav__submenu">
-            {% for subnav_item in nav_item.children %}
+            {% for subnav_item in site.data.navigation.[nav_item.children] %}
             <li class="usa-nav__submenu-item">
               <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
             </li>

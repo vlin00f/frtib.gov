@@ -3,7 +3,6 @@
 
 */
 
-
 //   alterations to USWDS styles
 .usa-header {
   background-color: #112e51;
@@ -12,20 +11,6 @@
   background-color: #205493;
 }
 
-/*
-.usa-navbar {
-  height: 8rem;
-  padding-top: 0;
-  padding-bottom: 1rem;
-  align-items: center;
-}
-.usa-header--extended .usa-logo {
-  // height: 7rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  align-items: center;
-}
-*/
 .usa-logo a {
   color: #eee;
   font-weight: 600;
@@ -36,13 +21,25 @@
   vertical-align: top;
 }
 
-@media screen and (min-width: 451px) {
+.no-max-width {
+  .usa-prose>p {
+      max-width: none;
+  }
+}
+
+.usa-nav__primary button[aria-expanded="false"], .usa-nav__primary button[aria-expanded="false"]:hover {
+  background-image: url("../img/usa-icons-bg/expand_more--white.svg"), linear-gradient(transparent, transparent);
+}
+
+.usa-nav__primary button:hover, .usa-nav__primary>.usa-nav__primary-item>a:hover,
+  .usa-nav__submenu .usa-nav__submenu-item a:hover {
+  color: yellow;
+}
+@media screen and (min-width: 64em) {
   .usa-prose>p {
       max-width: none;
   }
   .alert-button {
-    // margin-top: 1px;
-    // margin-right: 10px;
     position: absolute;
     top: 0;
     right: 0;
@@ -55,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 64em) {
   .alert-button {
     width: 100%;
   }
@@ -71,7 +68,7 @@
 }
 
 .usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
-  color: #ddd;
+  color: #eee;
   font-size: 1.10rem;
   font-weight: normal;
 }

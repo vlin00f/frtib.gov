@@ -1,6 +1,6 @@
 ---
 title: Document with Sidenav
-layout: page2
+layout: page
 sidenav: true
 ---
 

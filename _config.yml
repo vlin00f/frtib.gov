@@ -122,6 +122,9 @@ collections:
   meeting_minutes:
     label: meeting_minutes
     output: true
+  pdf:
+    label: pdf
+    output: true
 
 defaults:
   - scope:

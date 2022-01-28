@@ -2,48 +2,24 @@
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
 _layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
-
+{% assign navList = site.data.navigation -%}
+{% assign isCurrent = 'class="usa-current"' -%}
+{% assign firstURL = navList.[include.sidenav].first.url -%}
+{% assign firstName = navList.[include.sidenav].first.name -%}
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="{{site.baseurl}}/reading-room">Reading Room</a>
+        <a href="{{site.baseurl}}{{ firstURL }}" {% if page.url == firstURL -%}{{isCurrent}}{% endif -%}>{{ firstName }}</a>
       </li>
-      <li class="usa-sidenav__item">
-        <a class="usa-current" href="{{site.baseurl}}/reading-room">Reading Room</a>
-        <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-fersa">FERSA</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-regulations">Regulations</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-financial-statements">Financial Statements</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-strategic-plan">FRTIB Strategic Plan</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-reports-to-congress">Reports to Congress</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-press-releases">Press Releases</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-participant-surveys">Participant Surveys</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-employee-surveys">Employee Surveys</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-investment-benchmarks">Investment Benchmarks</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{site.baseurl}}/reading-room-foia">FOIA</a>
-          </li>
-        </ul>
-      </li>
+      <ul class="usa-sidenav__sublist">
+        {% for sideItem in navList.[include.sidenav] -%}
+        {% if forloop.first -%}{% continue -%}{% endif -%}
+        <li class="usa-sidenav__item">
+          <a href="{{site.baseurl}}{{ sideItem.url }}" {% if page.url == sideItem.url -%}{{isCurrent}}{% endif -%}>{{ sideItem.name }}</a>
+        </li>
+        {% endfor -%}
+      </ul>
     </ul>
   </nav>
 </aside>
