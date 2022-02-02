@@ -5,6 +5,7 @@ top_navigation:
   - name: Board, Executive Director, and ETAC
     url: /board-members
   - name: Reading Room
+    url: /reading-room/
     children: reading_room_nav
   - name: Meeting Minutes
     url: /meeting-minutes
@@ -23,9 +24,6 @@ search_links:
 reading_room_nav:
   - name: Reading Room
     url: /reading-room/
-    text: "Landing page for reading room"
-    button_text: "Go to the Reading Room"
-    image: arrow_ball.png
   - name: FERSA
     url: /reading-room-fersa/
     text: "Federal Employees' Retirement System Act"
@@ -53,6 +51,7 @@ reading_room_nav:
     image: frtiblogo.jpg
   - name: Press Releases
     url: /reading-room-press-releases/
+    children: rr_pr_nav
     text: "All the news that fit to print"
     button_text: "See press releases"
     image: servicerep2.jpg
@@ -72,7 +71,55 @@ reading_room_nav:
     button_text: "See the reports"
     image: rothVideo.png
   - name: FOIA
-    url: /reading-room-foia/
-    text: "Frquently access records and FOIA requirements"
+    url: /foia/
+    children: rr_foia_nav
+    text: "Frequently accessed records and FOIA requirements"
     button_text: "Freedom of Information Act"
     image: tsp_ad.gif
+
+
+rr_pr_nav:
+  - name: Press Releases 2019
+    url: /reading-room-press-releases/2019/
+  - name: Press Releases 2018
+    url: /reading-room-press-releases/2018/
+  - name: Press Releases 2017
+    url: /reading-room-press-releases/2017/
+  - name: Press Releases 2016
+    url: /reading-room-press-releases/2016/
+  - name: Press Releases 2015
+    url: /reading-room-press-releases/2015/
+  - name: Press Releases 2014
+    url: /reading-room-press-releases/2014/
+  - name: Press Releases 2013
+    url: /reading-room-press-releases/2013/
+  - name: Press Releases 2012
+    url: /reading-room-press-releases/2012/
+
+
+rr_foia_nav:
+  - name: Frequently Requested Records
+    url: /foia/frequent/
+    text: "Frequently Requested Records"
+    button_text: "See records"
+    image: FRTIB_Seal_White.png
+  - name: Chief FOIA Reports
+    url: /foia/chief/
+    text: "Chief FOIA Reports"
+    button_text: "See reports"
+    image: FRTIB_Seal_White.png
+  - name: E-FOIA Requirements
+    url: /foia/requirements/
+    text: "E-FOIA Requirements"
+    button_text: "See requirements"
+    image: FRTIB_Seal_White.png
+  - name: FOIA Fiscal Quarterly Reports
+    url: /foia/quarter/
+    text: "Fiscal Quarterly Reports"
+    button_text: "See reports"
+    image: FRTIB_Seal_White.png
+  - name: FOIA Fiscal Year Reports
+    url: /foia/year/
+    text: "Fiscal Year Reports"
+    button_text: "See reports"
+    image: FRTIB_Seal_White.png

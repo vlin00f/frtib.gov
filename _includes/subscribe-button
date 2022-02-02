@@ -2,4 +2,9 @@
 {% assign topic_id = include.topic_id | default: 'USTSP_1' -%}
 {% assign def_url = 'https://public.govdelivery.com/accounts/USTSP/subscriber/new?topic_id=' -%}
 {% assign url = include.url | default: def_url | append: topic_id -%}
-<a href="{{url}}" target="_blank"><button class="usa-button">{{title}}</button></a>
+{% capture here -%}
+&nbsp;<a href="{{url}}" target="_blank">here</a>
+{% endcapture -%}
+{% assign msg_body = title | append: here -%}
+{% include alert-block msg_type="info" msg_slim=true msg_body=msg_body -%}
+{% comment -%}<a href="{{url}}" target="_blank"><button class="usa-button">{{title}}</button></a>{% endcomment -%}

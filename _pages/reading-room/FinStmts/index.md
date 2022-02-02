@@ -14,6 +14,6 @@ redirect_from:
 
 ## Financial Statements
 
-{% include file_list coll="pdf" folder="/reading-room/FinStmts" -%}
+{% include file_list coll="pdf" folder="/reading-room/FinStmts" reverse=true -%}
 
 <!-- CONTENT END -->
