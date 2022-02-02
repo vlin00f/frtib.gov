@@ -2,7 +2,7 @@
 layout: page2
 title: Reading Room
 styles:
-# sidenav: reading_room_nav
+sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room/
@@ -23,7 +23,7 @@ redirect_from:
 <ul class="usa-card-group">
 {% for room in site.data.navigation.reading_room_nav -%}
 {% if forloop.first -%}{% continue -%}{% endif -%}
-{% include card-header-first heading=room.name button_link=room.url
+{% include card-media-right heading=room.name button_link=room.url
       text=room.text button_text=room.button_text image=room.image -%}
 {% endfor -%}
 </ul>
