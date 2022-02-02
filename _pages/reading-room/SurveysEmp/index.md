@@ -60,7 +60,8 @@ There were a total of 36 items that increased since 2019.
 The results received from the Federal Employee Viewpoint Surveys remain an important component of the Agency's ongoing commitment to ensuring FRTIB is a great place to work where great work gets done, and the Agency will continue to analyze these results to build off of our strengths and improve challenge areas.
 
 To view the 2020 FRTIB FEVS results click
-[here]({{site.baseurl}}(/pdf/reading-room/SurveysEmp/2020_FRTIB_FEVS_Results.pdf){: target="_blank"}.
+[here]({{site.baseurl}}/pdf/reading-room/SurveysEmp/2020_FRTIB_FEVS_Results.pdf){: target="_blank"}.
+
 
 
 #### Previous surveys
