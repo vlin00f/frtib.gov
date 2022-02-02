@@ -1,4 +1,4 @@
-{% assign card_size = include.card_size | default: 6 -%}
+{% assign card_size = include.card_size | default: 4 -%}
 {% assign heading = include.heading | default: 'heading' -%}
 {% assign image = include.image | default: "board/person.png" -%}
 {% assign img_alt_text = include.img_alt_text | default: "" -%}
