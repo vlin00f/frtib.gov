@@ -4,20 +4,27 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 {% endcomment %}
 {% assign navList = site.data.navigation -%}
 {% assign isCurrent = 'class="usa-current"' -%}
+{% assign curSidenav = navList.[include.sidenav] -%}
 {% assign firstURL = navList.[include.sidenav].first.url -%}
 {% assign firstName = navList.[include.sidenav].first.name -%}
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="{{site.baseurl}}{{ firstURL }}" {% if page.url == firstURL -%}{{isCurrent}}{% endif -%}>{{ firstName }}</a>
-      </li>
+      {% include sidenav/line-item.html myItem=curSidenav.first -%}
       <ul class="usa-sidenav__sublist">
         {% for sideItem in navList.[include.sidenav] -%}
         {% if forloop.first -%}{% continue -%}{% endif -%}
-        <li class="usa-sidenav__item">
-          <a href="{{site.baseurl}}{{ sideItem.url }}" {% if page.url == sideItem.url -%}{{isCurrent}}{% endif -%}>{{ sideItem.name }}</a>
-        </li>
+        {% include sidenav/line-item.html myItem=sideItem -%}
+        {% if sideItem.children -%}
+          {% assign testArray = page.url | split: sideItem.url -%}
+          {% if testArray[0] == '' or testArray[0] == nil -%}
+          <ul class="usa-sidenav__sublist">
+          {% for gcItem in navList.[sideItem.children] -%}
+          {% include sidenav/line-item.html myItem=gcItem -%}
+          {% endfor -%}
+          </ul>
+          {% endif -%}
+        {% endif -%}
         {% endfor -%}
       </ul>
     </ul>

@@ -11,7 +11,7 @@ This template is for a single page that does not have a date associated with it.
   <div class="grid-container">
     <div class="grid-row grid-gap">
         {% if sidenav != "" -%}
-          {% include sidenav.html sidenav=sidenav -%}
+          {% include sidenav/main.html sidenav=sidenav -%}
           {% assign gridStyle = "desktop:grid-col-6" -%}
         {% endif -%}
         <div class="usa-layout-docs__main {{gridStyle}} usa-prose">

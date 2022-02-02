@@ -18,7 +18,11 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% break -%}
 {% endif -%}
 {% endfor -%}
+{% if include.reverse -%}
+{% assign sorted = fileList | sort: 'name' | reverse -%}
+{% else -%}
 {% assign sorted = fileList | sort: 'name' -%}
+{% endif -%}
 {% for file in sorted -%}
 <a href="{{file.path | replace_first: '_', '/'}}" target="blank">{{file.name}}</a><br>
 {% endfor -%}
