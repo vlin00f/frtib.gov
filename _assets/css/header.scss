@@ -67,6 +67,10 @@
   }
 }
 
+.usa-nav__primary a:not(.usa-button):not(.usa-current) {
+  color: #eee;
+}
+
 .usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
   color: #eee;
   font-size: 1.10rem;
