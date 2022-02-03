@@ -23,7 +23,7 @@ redirect_from:
 <ul class="usa-card-group">
 {% for room in site.data.navigation.reading_room_nav -%}
 {% if forloop.first -%}{% continue -%}{% endif -%}
-{% include card-no-media heading=room.name button_link=room.url
+{% include card-no-media-striped heading=room.name button_link=room.url
       text=room.text button_text=room.button_text image=room.image -%}
 {% endfor -%}
 </ul>
