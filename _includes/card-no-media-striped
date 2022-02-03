@@ -16,9 +16,7 @@
       <h2 class="usa-card__heading">{{heading}}</h2>
     </header>
     <div class="usa-card__media">
-      <div class="usa-card__img card_striped">
-        &nbsp;
-      </div>
+      <div class="usa-card__img card_striped"></div>
     </div>
     <div class="usa-card__body">
       <p>
