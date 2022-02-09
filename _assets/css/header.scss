@@ -31,6 +31,10 @@
   background-image: url("../img/usa-icons-bg/expand_more--white.svg"), linear-gradient(transparent, transparent);
 }
 
+.alert-button {
+  background-color: #ffbe2e;
+}
+
 .usa-nav__primary button:hover, .usa-nav__primary>.usa-nav__primary-item>a:hover,
   .usa-nav__submenu .usa-nav__submenu-item a:hover {
   color: yellow;
@@ -41,8 +45,8 @@
   }
   .alert-button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2em;
+    right: 40%;
   }
   #extended-logo {
     height: 6rem;
