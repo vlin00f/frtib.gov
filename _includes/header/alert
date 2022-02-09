@@ -1,7 +1,7 @@
 {% comment %}
 Alert box for things like announcing next board meeting.
 {% endcomment %}
-{% assign MTID = "e2c537a102b28d363f50c65b23d17849e" -%}
+{% assign MTID = "e668eeb9f8e4ab246455527de529d7a2b" -%}
 {% assign meetingURL = "https://tspmeet.webex.com/tspmeet/onstage/g.php?MTID=" | append: MTID -%}
 {% capture meetingLink -%}
 [{{meetingURL}}]({{meetingURL}}){:target="_blank"}
@@ -11,7 +11,9 @@ Alert box for things like announcing next board meeting.
 {% capture alertTitle -%}
 {% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
 {% endcapture -%}
-
+{% assign access_code = "2763 825 4435" -%}
+{% assign mtg_time = "10:00 a.m." -%}
+{% assign mtg_day = "Wednesday, February 23, 2022" -%}
 
 <a href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
 <div class="usa-modal" id="header-alert-modal" aria-labelledby="alert-modal-heading" aria-describedby="alert-modal-description">
@@ -20,9 +22,9 @@ Alert box for things like announcing next board meeting.
         <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
         <div class="usa-prose break-word">
           <p id="alert-modal-description">
-            The Board will be meeting at 10:00 a.m. on Monday, January 24, 2022. Members of the public who are
+            The Board will be meeting at {{mtg_time}} on {{mtg_day}}. Members of the public who are
             interested have 2 options to listen to the Board meeting: 1) call 1-415-527-5035 and use event number
-            (access code): 2761 848 5183; OR 2) click on this link:
+            (access code): {{access_code}}; OR 2) click on this link:
 
             <br><div>{{meetingLink | markdownify}}</div>
           </p>
