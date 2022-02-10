@@ -14,6 +14,6 @@ redirect_from:
 
 ## Strategic Plan
 
-{% include file_list coll="pdf" folder="/reading-room/StratPlan" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true -%}
 
 <!-- CONTENT END -->

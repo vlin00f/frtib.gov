@@ -14,6 +14,6 @@ permalink: /foia/chief/
 
 ## Frequently Requested Records
 
-{% include file_list coll="pdf" folder="/reading-room/FOIA/chief/" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" reverse=true -%}
 
 <!-- CONTENT END -->

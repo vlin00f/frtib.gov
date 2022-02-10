@@ -14,6 +14,6 @@ permalink: /foia/requirements/
 
 ## E-FOIA Requirements
 
-{% include file_list coll="pdf" folder="/reading-room/FOIA/requirements/" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/requirements/" reverse=true -%}
 
 <!-- CONTENT END -->

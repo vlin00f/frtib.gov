@@ -14,6 +14,6 @@ redirect_from:
 
 ## Investment Benchmarks
 
-{% include file_list coll="pdf" folder="/reading-room/InvBMarks" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true -%}
 
 <!-- CONTENT END -->

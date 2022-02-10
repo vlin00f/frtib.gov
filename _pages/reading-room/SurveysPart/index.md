@@ -15,6 +15,6 @@ redirect_from:
 
 ## Participant Surveys
 
-{% include file_list coll="pdf" folder="/reading-room/SurveysPart" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart" reverse=true -%}
 
 <!-- CONTENT END -->

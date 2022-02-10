@@ -66,6 +66,6 @@ To view the 2020 FRTIB FEVS results click
 
 #### Previous surveys
 
-{% include file_list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true -%}
 
 <!-- CONTENT END -->

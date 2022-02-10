@@ -32,12 +32,18 @@
 }
 
 .alert-button {
-  background-color: #ffbe2e;
+  background-color: #f9c642;
+}
+.alert-button:hover {
+  background-color: #fdb81e;
 }
 
+.usa-nav__primary a:not(.usa-button):not(.usa-current):hover {
+    color: #fad980;
+}
 .usa-nav__primary button:hover, .usa-nav__primary>.usa-nav__primary-item>a:hover,
   .usa-nav__submenu .usa-nav__submenu-item a:hover {
-  color: yellow;
+  color: #fad980;
 }
 @media screen and (min-width: 64em) {
   .usa-prose>p {
