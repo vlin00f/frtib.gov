@@ -27,7 +27,6 @@
 {% asset uswds.js %}
 {% asset app.js %}
 {% asset copy-to-clipboard.js %}
-
 {% if site.searchgov %}
   {% if site.searchgov.suggestions == true %}
     <script>
@@ -36,3 +35,25 @@
     <script async src="https://search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
   {% endif %}
 {% endif %}
+
+{% comment -%}
+Dav was here.
+This loads js files you list in page.scripts and runs call you have in page.document-ready.
+For pages, like careers, that need to run some javascript on load.
+Note, we are not using jquery on this site so document-ready is just a script at the bottom of the page.
+{% endcomment -%}
+{% for script in page.scripts -%}
+{% asset {{script}} %}
+{% endfor -%}
+{% if page.document-ready or layout.document-ready -%}
+<script type="text/javascript">
+<!--
+{% for jsCall in page.document-ready -%}
+  {{ jsCall }}
+{% endfor -%}
+{% for jsCall in layout.document-ready -%}
+  {{ jsCall }}
+{% endfor -%}
+-->
+</script>
+{% endif -%}
