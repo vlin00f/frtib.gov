@@ -17,7 +17,7 @@ redirect_from:
 
 ## Reading Room
 
-{% asset recommend2.jpg -%}
+{% comment -%}{% asset recommend2.jpg -%}{% endcomment -%}
 
 <!-- cards starts here -->
 <ul class="usa-card-group">
