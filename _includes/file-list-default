@@ -1,0 +1,4 @@
+{% comment -%}
+Default output for file-list component
+{% endcomment -%}
+<a href="{{site.baseurl}}{{include.curfile.path | replace_first: '_', '/'}}" target="blank">{{include.curfile.name}}</a><br>

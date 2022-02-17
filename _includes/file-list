@@ -7,6 +7,8 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% assign prefix = '_' | append: coll | append: folder -%}
 {% assign prefixLen = prefix | size -%}
 {% assign fileList = "" | split: "," -%}
+{% assign format = include.format | default: 'name' -%}
+{% assign datafile = include.datafile | default: 'reading-room-files' -%}
 {% for collection in site.collections -%}
 {% if collection.label == coll -%}
 {% for file in collection.files -%}
@@ -24,5 +26,20 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% assign sorted = fileList | sort: 'name' -%}
 {% endif -%}
 {% for file in sorted -%}
-<a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{file.name}}</a><br>
+  {% assign cur = site.data.[datafile] | where: "name", file.name | first %}
+  {% unless cur -%}{% assign format = 'name' -%}{% endunless -%}
+  {% if format == 'name' -%}
+  <a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{file.name}}</a><br>
+  {% continue -%}
+  {% endif -%}
+
+  {% assign name = file.name -%}
+  {% if format == 'desc' -%}{% assign name = cur.desc -%}{% endif -%}
+  {% if format == 'title' -%}{% assign name = cur.title -%}{% endif -%}
+  {% if format == 'press-release' -%}
+  {{cur.desc}} &nbsp;&nbsp; <a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{cur.title}}</a><br>
+  {% else -%}
+  <a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{name}}</a><br>
+  {% endif -%}
+
 {% endfor -%}
