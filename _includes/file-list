@@ -26,20 +26,18 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% assign sorted = fileList | sort: 'name' -%}
 {% endif -%}
 {% for file in sorted -%}
+  {% capture url -%}{{site.baseurl}}{{file.path | replace_first: '_', '/'}}{% endcapture -%}
   {% assign cur = site.data.[datafile] | where: "name", file.name | first %}
   {% unless cur -%}{% assign format = 'name' -%}{% endunless -%}
-  {% if format == 'name' -%}
-  <a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{file.name}}</a><br>
-  {% continue -%}
-  {% endif -%}
-
   {% assign name = file.name -%}
   {% if format == 'desc' -%}{% assign name = cur.desc -%}{% endif -%}
   {% if format == 'title' -%}{% assign name = cur.title -%}{% endif -%}
-  {% if format == 'press-release' -%}
-  {{cur.desc}} &nbsp;&nbsp; <a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{cur.title}}</a><br>
+  {% if format == 'press-release' -%}{{cur.desc}} &nbsp;&nbsp; {% assign name = cur.title -%}{% endif -%}
+  {% if include.dobutton -%}
+  <a href="{{url}}" target="_blank"><button class="usa-button">{{name}}</button></a><br>{{include.sep}}
   {% else -%}
-  <a href="{{site.baseurl}}{{file.path | replace_first: '_', '/'}}" target="blank">{{name}}</a><br>
+  <a href="{{url}}" target="blank">{{name}}</a><br>{{include.sep}}
   {% endif -%}
+  {% if include.mostRecent -%}{% break %}{% endif -%}{% comment -%}only do first one {% endcomment -%}
 
 {% endfor -%}

@@ -15,6 +15,6 @@ redirect_from:
 ## Reports to Congress
 
 
-{% include file-list coll="pdf" folder="/reading-room/congress" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/congress" reverse=true dobutton=true -%}
 
 <!-- CONTENT END -->
