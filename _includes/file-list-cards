@@ -32,7 +32,6 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% assign sorted = fileList | sort: 'name' -%}
 {% endif -%}
 {% if include.doList -%}<ul class="usa-list">{% endif -%}
-{% if include.doCards -%}<ul class="usa-card-group">{% endif -%}
 {% for file in sorted -%}
   {% capture url -%}{{site.baseurl}}{{file.path | replace_first: '_', '/'}}{% endcapture -%}
   {% assign cur = site.data.[datafile] | where: "name", file.name | first %}
@@ -41,7 +40,7 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
   {% if format == 'desc' -%}{% assign name = cur.desc -%}{% endif -%}
   {% if format == 'title' -%}{% assign name = cur.title -%}{% endif -%}
   {% if format == 'press-release' -%}{{cur.desc}} &nbsp;&nbsp; {% assign name = cur.title -%}{% endif -%}
-  {% if include.doCards -%}
+  {% if format == 'card' -%}
     {% include card-no-media heading=name button_link=url text=name button_text="Open file" image=room.image -%}
     {% continue -%}
   {% endif -%}
@@ -49,9 +48,8 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
   <a href="{{url}}" target="_blank"><button class="usa-button">{{name}}</button></a><br>{{include.sep}}
   {% else -%}
   <a href="{{url}}" target="blank">{{name}}</a><br>{{include.sep}}
-  {% endif -%}{{endList}}
+  {% endif -%}{{endlist}}
   {% if include.mostRecent -%}{% break %}{% endif -%}{% comment -%}only do first one {% endcomment -%}
 
 {% endfor -%}
-{% if include.doCards -%}</ul>{% endif -%}
-{% if include.doList -%}</ul>{% endif -%}
+{% if include.doList -%}<ul>{% endif -%}

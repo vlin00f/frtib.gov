@@ -19,9 +19,11 @@
       <div class="usa-card__img card_striped"></div>
     </div>
     <div class="usa-card__body">
+{% comment -%}
       <p>
         {{text}}
       </p>
+{% endcomment -%}
     </div>
     <div class="usa-card__footer">
       {% if button_link -%}<a href="{{button_link}}">{% endif -%}

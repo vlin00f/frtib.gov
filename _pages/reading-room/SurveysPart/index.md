@@ -5,8 +5,9 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-participant-surveys/
+permalink: /participant-surveys/
 redirect_from:
+  - /reading-room-participant-surveys/
   - /SurveysPart
   - /PartSurveys
 #document-ready:
@@ -19,18 +20,15 @@ We are continually seeking ways to improve the services offered by the Thrift Sa
 
 Survey respondents are randomly selected, and all individual responses are confidential.
 
-#### Participant Behavior and Demographics
+<br><br>
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='desc' -%}
-
-#### TSP Participant Survey Results
-
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='desc' -%}
-
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/2020" reverse=true format='desc' -%}
-
-#### Outreach Evaluation Summaries
-
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/CY" reverse=true format='desc' -%}
+<!-- cards starts here -->
+<ul class="usa-card-group">
+{% for room in site.data.navigation.rr_partsurvey_nav -%}
+{% include card-no-media heading=room.name button_link=room.url
+      text=room.text button_text=room.button_text image=room.image -%}
+{% endfor -%}
+</ul>
+<!-- end of cards -->
 
 <!-- CONTENT END -->

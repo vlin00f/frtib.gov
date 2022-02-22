@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: Frequently Requested Records
+title: Chief FOIA reports
 styles:
 sidenav: reading_room_nav
 scripts:
@@ -12,8 +12,8 @@ permalink: /foia/chief/
 #  - getRate();
 ---
 
-## Frequently Requested Records
+## Chief FOIA reports
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" reverse=true doCards=true -%}
 
 <!-- CONTENT END -->

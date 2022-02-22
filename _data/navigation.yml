@@ -56,7 +56,8 @@ reading_room_nav:
     button_text: "See press releases"
     image: servicerep2.jpg
   - name: Participant Surveys
-    url: /reading-room-participant-surveys/
+    url: /participant-surveys/
+    children: rr_partsurvey_nav
     text: "Who are our customers and how happy are they?"
     button_text: "Participant demographics"
     image: recommend.gif
@@ -96,6 +97,23 @@ rr_pr_nav:
   - name: Press Releases 2012
     url: /reading-room-press-releases/2012/
 
+
+rr_partsurvey_nav:
+  - name: Behavior and Demographics
+    url: /participant-surveys/behavior/
+    text: "Participant Behavior and Demographics"
+    button_text: "See surveys"
+    image: FRTIB_Seal_White.png
+  - name: Survey results
+    url: /participant-surveys/results/
+    text: "Participant Behavior and Demographics"
+    button_text: "See results"
+    image: FRTIB_Seal_White.png
+  - name: Outreach Evaluation Summaries
+    url: /participant-surveys/outreach/
+    text: "Outreach Evaluation Summaries"
+    button_text: "See summaries"
+    image: FRTIB_Seal_White.png
 
 rr_foia_nav:
   - name: Frequently Requested Records

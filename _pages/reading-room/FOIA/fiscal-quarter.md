@@ -14,6 +14,6 @@ permalink: /foia/quarter/
 
 ## FOIA Fiscal Quarter Reports
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/quarter/" reverse=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/quarter/" reverse=true doList=true format='title' -%}
 
 <!-- CONTENT END -->
