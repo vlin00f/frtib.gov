@@ -14,6 +14,6 @@ permalink: /foia/chief/
 
 ## Chief FOIA reports
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" reverse=true doCards=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" reverse=true dobutton=true format='title' -%}
 
 <!-- CONTENT END -->
