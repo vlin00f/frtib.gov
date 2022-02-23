@@ -15,6 +15,6 @@ redirect_from:
 
 ## Press Releases
 
-{% include file-list coll="pdf" folder="/reading-room/PressRel/PR_2020" reverse=true format='press-release' -%}
+{% include file-list coll="pdf" folder="/reading-room/PressRel/PR_2020" reverse=true format='press-release' dobutton=true -%}
 
 <!-- CONTENT END -->

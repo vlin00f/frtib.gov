@@ -14,6 +14,6 @@ permalink: /foia/year/
 
 ## FOIA Fiscal Year Reports
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/year/" reverse=true dobutton=true format='desc'-%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/year/" reverse=true  dobutton=true  format='title' -%}
 
 <!-- CONTENT END -->
