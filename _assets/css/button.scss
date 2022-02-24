@@ -1,0 +1,54 @@
+/*
+  FRTIB CSS
+
+*/
+
+//   alterations to USWDS styles
+@media screen and (min-width: 64em) {
+  .alert-button {
+    position: absolute;
+    top: 2em;
+    right: 40%;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .alert-button {
+    width: 100%;
+  }
+}
+
+.usa-nav__primary a:not(.usa-button):not(.usa-current) {
+  color: #eee;
+}
+
+.usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
+  color: #eee;
+  font-size: 1.10rem;
+  font-weight: normal;
+}
+
+.usa-nav__primary button[aria-expanded="false"], .usa-nav__primary button[aria-expanded="false"]:hover {
+  background-image: url("../img/usa-icons-bg/expand_more--white.svg"), linear-gradient(transparent, transparent);
+}
+
+.usa-nav__primary a:not(.usa-button):not(.usa-current):hover {
+    color: #fad980;
+}
+.usa-nav__primary button:hover, .usa-nav__primary>.usa-nav__primary-item>a:hover,
+  .usa-nav__submenu .usa-nav__submenu-item a:hover {
+  color: #fad980;
+}
+
+.usa-button {
+  background-color: #0071bc;
+  color: #fff;
+  max-width: 25em;
+}
+
+.alert-button {
+  background-color: #f9c642;
+}
+.alert-button:hover {
+  background-color: #fdb81e;
+}

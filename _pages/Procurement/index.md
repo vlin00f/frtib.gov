@@ -69,6 +69,6 @@ Please direct any questions to FRTIB Contracting at Contracting@tsp.gov
 
 
 ### File List:
-{% include file-list coll="pdf" folder="/procurement" reverse=true -%}
+{% include file-list coll="pdf" folder="/procurement" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

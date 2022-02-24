@@ -18,6 +18,6 @@ The Electronic Freedom of Information Act Amendments of 1996 (E-FOIA) require th
 
 <br>
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/requirements/" reverse=true format='title'  dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/requirements/" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

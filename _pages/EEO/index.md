@@ -26,28 +26,8 @@ Contact Don Sapp, FRTIB’s EEO Manager at
 
 Donald.Sapp@tsp.gov or 202-864-8536 (Office) 202-748-2422 (Cell)
 
+<br><br>
 
-
-EEOC’s 2020 COVID-19 EEO Complaint Processing Information
-FRTIB EEO Policy Statement
-Federal EEO Complaint Processing Procedures
-Federal Complaint Processing Flowchart
-Alternative Dispute Resolution Brochure
-Diversity and Inclusion Brochure
-EEO Complaint Process Brochure
-Mediation Brochure
-EEO Policy
-EEO Procedures
-Anti-Harassment Policy Statement
-Harassment Procedures
-Harassment FAQ
-Harassment Complaint Intake Form
-Reasonable Accommodation Policy
-Reasonable Accommodation Procedures
-Reasonable Accommodation FAQ
-508 Policy Statement
-508 Procedures
-FRTIB Diversity & Inclusion Policy Statement
-Affirmative Action Plan for Recruitment, Hiring, Advancement, and Retention of Persons with Disabilities
+{% include file-list coll="pdf" folder="/eeo" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

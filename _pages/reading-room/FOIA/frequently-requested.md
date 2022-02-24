@@ -14,6 +14,6 @@ permalink: /foia/frequent/
 
 ## Frequently Requested Records
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/" reverse=true dobutton=true format='title' -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

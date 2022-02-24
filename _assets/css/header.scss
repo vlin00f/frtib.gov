@@ -27,24 +27,6 @@
   }
 }
 
-.usa-nav__primary button[aria-expanded="false"], .usa-nav__primary button[aria-expanded="false"]:hover {
-  background-image: url("../img/usa-icons-bg/expand_more--white.svg"), linear-gradient(transparent, transparent);
-}
-
-.alert-button {
-  background-color: #f9c642;
-}
-.alert-button:hover {
-  background-color: #fdb81e;
-}
-
-.usa-nav__primary a:not(.usa-button):not(.usa-current):hover {
-    color: #fad980;
-}
-.usa-nav__primary button:hover, .usa-nav__primary>.usa-nav__primary-item>a:hover,
-  .usa-nav__submenu .usa-nav__submenu-item a:hover {
-  color: #fad980;
-}
 @media screen and (min-width: 64em) {
   .usa-prose>p {
       max-width: none;
