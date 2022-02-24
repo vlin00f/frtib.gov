@@ -31,11 +31,6 @@
   .usa-prose>p {
       max-width: none;
   }
-  .alert-button {
-    position: absolute;
-    top: 2em;
-    right: 40%;
-  }
   #extended-logo {
     height: 6rem;
     margin-top: 1rem;
@@ -45,9 +40,6 @@
 }
 
 @media screen and (max-width: 64em) {
-  .alert-button {
-    width: 100%;
-  }
   #extended-logo {
     height: 8rem;
     margin-top: 1rem;
