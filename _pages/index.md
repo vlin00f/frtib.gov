@@ -26,7 +26,7 @@ permalink: /
         <p>
         Download the  FY22-26 Strategic Plan to see our plans for the next five years.
         </p>
-      <a class="usa-button" href="{{site.baseurl}}reading-room-strategic-plan/">View the Strategic Plan</a>
+      <a class="usa-button on-card" href="{{site.baseurl}}reading-room-strategic-plan/">View the Strategic Plan</a>
     </div>
   </div>
 </section>
