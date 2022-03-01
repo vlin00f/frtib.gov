@@ -90,7 +90,7 @@ return_to_top: false
   <div class="grid-container">
     <div class="usa-graphic-list__row grid-row grid-gap">
       <div class="usa-media-block tablet:grid-col">
-        <a href="https://www.tsp.gov">{% asset TSP_home_logo_150w.png alt="TSP Logo" style="padding: 0 1em" %}</a>
+        <a href="https://www.tsp.gov">{% asset TSPLogo_whitecircle.png alt="TSP Logo" style="padding: 0 1em" %}</a>
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Learn about TSP
