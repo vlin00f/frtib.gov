@@ -6,6 +6,7 @@ styles:
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /meeting-minutes/
+return_to_top: true
 redirect_from:
   - /MeetingMinutes.html
   - /MeetingMinutes/

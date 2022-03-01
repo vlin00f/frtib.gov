@@ -6,6 +6,7 @@ sidenav:
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /
+return_to_top: false
 #redirect_from:
 #  - /loans/
 #document-ready:
