@@ -6,7 +6,7 @@ Alert box for things like announcing next board meeting.
 {% capture meetingLink -%}
 [{{meetingURL}}]({{meetingURL}}){:target="_blank"}
 {% endcapture -%}
-{% assign alertHeader = include.alertHeader | default: "SPECIAL NOTICE" -%}
+{% assign alertHeader = include.alertHeader | default: "SPECIAL NOTICE: Testing to see how this will stretch- align right?" -%}
 {% assign alertIcon = include.alertIcon | default: "icon_redImportant.gif" -%}
 {% capture alertTitle -%}
 {% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
