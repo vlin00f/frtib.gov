@@ -1,0 +1,16 @@
+<ul class="usa-card-group">
+  <li class="usa-card">
+    <div class="usa-card__container">
+{% if include.head_text -%}
+      <div class="usa-card__body">
+        {{include.head_text}}
+      </div>
+{% endif -%}
+{% if include.foot_text -%}
+      <div class="usa-card__footer">
+        {{include.foot_text}}
+      </div>
+{% endif -%}
+    </div>
+  </li>
+</ul>

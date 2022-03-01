@@ -19,6 +19,22 @@ redirect_from:
 
 {% comment -%}{% asset recommend2.jpg -%}{% endcomment -%}
 
+{% capture head_text -%}
+Below you will find links to a variety of information about the FRTIB, starting with the law that created the FRTIB and the TSP, as well as financial statements, press releases, and surveys of employees and participants.
+
+<br><br>
+<strong>Latest Updates</strong>
+
+<ul>
+<li>{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='title' dobutton=true mostRecent=true -%}</li>
+<li>{% include file-list coll="pdf" folder="/reading-room/FinStmts" reverse=true format='title' dobutton=true mostRecent=true-%}</li>
+<li>{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true mostRecent=true-%}</li>
+<li>{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true mostRecent=true-%}</li>
+</ul>
+{% endcapture -%}
+{% include desc-box head_text=head_text foot_text=false -%}
+
+
 <!-- cards starts here -->
 <ul class="usa-card-group">
 {% for room in site.data.navigation.reading_room_nav -%}

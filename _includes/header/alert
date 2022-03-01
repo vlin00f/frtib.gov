@@ -48,7 +48,7 @@ Alert box for things like announcing next board meeting.
         </div>
 {% endcomment -%}
       </div>
-      <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+      <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
         <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
           <use xlink:href="/assets/img/sprite.svg#close"></use>
         </svg>
