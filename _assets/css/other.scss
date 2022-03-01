@@ -6,17 +6,19 @@
 //   alterations to USWDS styles
 .usa-card__heading {
     font-size: 1.15rem;
+    color: #112e51;
 }
 .usa-card__container {
     border-color: #323a45;
 }
 .card_striped {
-  background-color: #9bdaf1;
-  min-height: 0.6rem;
+  background-color: #fad980;
+  min-height: 0.4rem;
 }
 .usa-card__header {
   background-color: #f1f1f1;
   min-height: 5.5rem;
+  padding: 3 1 3 1;
 }
 
 .hide {
