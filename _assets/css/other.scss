@@ -25,6 +25,10 @@
   display: none;
 }
 
+.usa-list li, .usa-prose>ul li, .usa-prose>ol li, .usa-collection__item, .usa-prose .usa-collection__item {
+  margin-bottom: 0.25em;
+  max-width: 68em;
+}
 
 // DAV: I added this to override home usa-hero
 
