@@ -6,7 +6,7 @@ Alert box for things like announcing next board meeting.
 {% capture meetingLink -%}
 [{{meetingURL}}]({{meetingURL}}){:target="_blank"}
 {% endcapture -%}
-{% assign alertHeader = include.alertHeader | default: "SPECIAL NOTICE: Testing for max char length with spaces !!!!!!!!!!!!!!!!" -%}
+{% assign alertHeader = include.alertHeader | default: "Special Notice: Max number of characters (incl spaces) is 72!!!!!!!!!!!!" -%}
 {% assign alertIcon = include.alertIcon | default: "icon_redImportant.gif" -%}
 {% capture alertTitle -%}
 {% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
