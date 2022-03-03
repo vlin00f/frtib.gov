@@ -14,7 +14,7 @@ document-ready:
 ---
 
 
-{% include subscribe-button title="Subscribe to receive Careers updates" topic_id="USTSP_7" -%}
+{% include subscribe-button title="to receive Careers updates" topic_id="USTSP_7" -%}
 
 <br>
 <ul class="usa-card-group">

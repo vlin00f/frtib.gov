@@ -67,7 +67,7 @@ permalink: /meeting-minutes2/
 {% include alert-block msg_type="success" msg_head="success head" msg_body="this is the success message" -%}
 {% endcomment -%}
 
-{% include subscribe-button title="Subscribe to the Meeting Minutes update notifications" topic_id="USTSP_6" -%}
+{% include subscribe-button title="to the Meeting Minutes update notifications" topic_id="USTSP_6" -%}
 
 ## Meeting Minutes
 

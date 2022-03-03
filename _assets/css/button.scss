@@ -34,13 +34,18 @@
   text-align: left;
   line-height: 1.1rem;
 }
+
 .usa-button:not(.on-card):not(.alert-button) {
   // max-width: 25em;
   // min-width: 25em;
   width: 20em;
 }
+
 .usa-button.thin {
   padding: 0.15rem 1.25rem;
+}
+.usa-button.subscribe {
+  background-color: #00a6d2;
 }
 .meeting-minutes-button {
   min-width: 8em;
