@@ -2,7 +2,7 @@
 layout: page2
 title: Procurement
 styles:
-sidenav:
+sidenav: procurement_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /procurement/

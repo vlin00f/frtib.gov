@@ -13,6 +13,7 @@ top_navigation:
     url: /careers
   - name: Procurement
     url: /procurement
+    children: procurement_nav
 
 # links above header search bar
 search_links:
@@ -141,3 +142,11 @@ rr_foia_nav:
     text: "Fiscal Year Reports"
     button_text: "See reports"
     image: FRTIB_Seal_White.png
+
+procurement_nav:
+  - name: Procurement
+    url: /procurement/
+  - name: Acquisition process and methods
+    url: /procurement-acquisitions/
+#  - name: Contract 1
+#    url: /contract1/
