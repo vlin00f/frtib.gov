@@ -26,13 +26,14 @@ Below you will find links to a variety of information about the FRTIB, starting 
 <strong>Latest Updates</strong>
 
 <ul>
-<li>{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='title' dobutton=true mostRecent=true -%}</li>
-<li>{% include file-list coll="pdf" folder="/reading-room/FinStmts" reverse=true format='title' dobutton=true mostRecent=true-%}</li>
-<li>{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true mostRecent=true-%}</li>
-<li>{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true mostRecent=true-%}</li>
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FinStmts" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true count=1 addLI=true -%}
 </ul>
 {% endcapture -%}
 {% include desc-box head_text=head_text foot_text=false -%}
+
 
 
 <!-- cards starts here -->

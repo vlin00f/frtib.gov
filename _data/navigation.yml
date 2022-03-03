@@ -27,55 +27,55 @@ reading_room_nav:
   - name: FERSA
     url: /reading-room-fersa/
     text: "Federal Employees' Retirement System Act"
-    button_text: "Read about the agency's legal authority"
+    button_text: "Learn more about FERSA"
     image: logo.jpg
   - name: Regulations
     url: /reading-room-regulations/
     text: "Rules governing the FRTIB"
-    button_text: "See the regulations"
+    button_text: "Visit the regulations page"
     image: hire-us.jpg
   - name: Financial Statements
     url: /reading-room-financial-statements/
     text: "Financial statements since 2009"
-    button_text: "See the statements"
+    button_text: "Visit the financial statements page"
     image: Lfunds.gif
   - name: FRTIB Strategic Plan
     url: /reading-room-strategic-plan/
     text: "Four year plan and near term goals for the FRTIB"
-    button_text: "Review the latest plan"
+    button_text: "Visit the strategic plan page"
     image: Competitiveness.jpg
   - name: Reports to Congress
     url: /reading-room-reports-to-congress/
     text: "Annual FRTIB report to congress including educational efforts"
-    button_text: "Yearly reports"
+    button_text: "Visit the reports to Congress page"
     image: frtiblogo.jpg
   - name: Press Releases
     url: /reading-room-press-releases/
     children: rr_pr_nav
     text: "All the news that fit to print"
-    button_text: "See press releases"
+    button_text: "Visit the press releases page"
     image: servicerep2.jpg
   - name: Participant Surveys
     url: /participant-surveys/
     children: rr_partsurvey_nav
     text: "Who are our customers and how happy are they?"
-    button_text: "Participant demographics"
+    button_text: "Visit the participant surveys page"
     image: recommend.gif
   - name: Employee Surveys
     url: /reading-room-employee-surveys/
     text: "Who are our employees and how happy are they?"
-    button_text: "FEVS results"
+    button_text: "Visit the employee surveys page"
     image: banner_benefits.jpg
   - name: Investment Benchmarks
     url: /reading-room-investment-benchmarks/
     text: "Benchmark evaluations and investment option reviews"
-    button_text: "See the reports"
+    button_text: "Visit the investment benchmarks page"
     image: rothVideo.png
   - name: FOIA
     url: /foia/
     children: rr_foia_nav
     text: "Frequently accessed records and FOIA requirements"
-    button_text: "Freedom of Information Act"
+    button_text: "Visit the FOIA page"
     image: tsp_ad.gif
 
 
