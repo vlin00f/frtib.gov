@@ -13,11 +13,28 @@ redirect_from:
 #  - getRate();
 ---
 
-{% include subscribe-button title="Subscribe to the Reading Room update notifications" topic_id="USTSP_8" -%}
+{% include subscribe-button title="to the Reading Room update notifications" topic_id="USTSP_8" -%}
 
 ## Reading Room
 
 {% comment -%}{% asset recommend2.jpg -%}{% endcomment -%}
+
+{% capture head_text -%}
+Below you will find links to a variety of information about the FRTIB, starting with the law that created the FRTIB and the TSP, as well as financial statements, press releases, and surveys of employees and participants.
+
+<br><br>
+<strong>Latest Updates</strong>
+
+<ul>
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FinStmts" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true count=1 addLI=true -%}
+</ul>
+{% endcapture -%}
+{% include desc-box head_text=head_text foot_text=false -%}
+
+
 
 <!-- cards starts here -->
 <ul class="usa-card-group">

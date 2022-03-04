@@ -11,6 +11,7 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% assign datafile = include.datafile | default: 'reading-room-files' -%}
 {% assign startList = "" -%}
 {% assign endList = "" -%}
+{% assign maxFiles = include.count | defaut: 1000000 -%}
 {% if include.doList -%}
   {% assign startList = '<li>' -%}
   {% assign endList = '</li>' -%}
@@ -32,6 +33,7 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% assign sorted = fileList | sort: 'name' -%}
 {% endif -%}
 {% if include.doList -%}<ul class="usa-list">{% endif -%}
+{% assign fileCount = 0 -%}
 {% for file in sorted -%}
   {% capture url -%}{{site.baseurl}}{{file.path | replace_first: '_', '/'}}{% endcapture -%}
   {% assign cur = site.data.[datafile] | where: "name", file.name | first %}
@@ -50,6 +52,8 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
   <a href="{{url}}" target="blank">{{name}}</a><br>{{include.sep}}
   {% endif -%}{{endlist}}
   {% if include.mostRecent -%}{% break %}{% endif -%}{% comment -%}only do first one {% endcomment -%}
+  {% assign fileCount = fileCount | plus: 1 -%}
+  {% if fileCount >= maxFiles -%}{% break -%}{% endif -%}
 
 {% endfor -%}
 {% if include.doList -%}<ul>{% endif -%}

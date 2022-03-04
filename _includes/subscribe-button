@@ -3,8 +3,8 @@
 {% assign def_url = 'https://public.govdelivery.com/accounts/USTSP/subscriber/new?topic_id=' -%}
 {% assign url = include.url | default: def_url | append: topic_id -%}
 {% capture here -%}
-&nbsp;<a href="{{url}}" target="_blank">here</a>
+<a href="{{url}}" target="_blank"><button class="usa-button thin on-card subscribe">Subscribe</button></a>
 {% endcapture -%}
-{% assign msg_body = title | append: here -%}
+{% assign msg_body = title | prepend: here -%}
 {% include alert-block msg_type="info" msg_slim=true msg_body=msg_body -%}
 {% comment -%}<a href="{{url}}" target="_blank"><button class="usa-button">{{title}}</button></a>{% endcomment -%}

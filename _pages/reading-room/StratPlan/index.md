@@ -14,6 +14,13 @@ redirect_from:
 
 ## Strategic Plan
 
-{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true -%}
+This strategic plan is a blueprint for the work that the FRTIB will undertake during the next five years in its administration of the TSP. The strategic plan defines our vision for our future state and our fundamental beliefs on how we operate and foster our organizational culture. The plan outlines the strategic goals and enterprise objectives through which we will address specific challenges.
+
+**Most Recent** {% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true count=1 -%}
+
+
+**Previous versions:**
+
+{% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true dropFirst=true -%}
 
 <!-- CONTENT END -->

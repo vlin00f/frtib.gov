@@ -14,6 +14,12 @@ redirect_from:
 
 ## Investment Benchmarks
 
-{% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true format='title' dobutton=true -%}
+The FRTIB regularly engages in reviews of both the investment funds offered by the TSP and the benchmarks those funds track.  Those reports are below.
+
+**Most recent updates:** {% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true format='title' dobutton=true count=1 -%}
+
+**Previous reports"**
+
+{% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true format='title' dobutton=true dropFirst=true -%}
 
 <!-- CONTENT END -->

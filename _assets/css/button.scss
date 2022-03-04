@@ -29,13 +29,27 @@
 .usa-button {
   background-color: #0071bc;
   color: #fff;
+  font-size: .95rem;
   font-weight: normal;
   text-align: left;
+  line-height: 1.1rem;
 }
+
 .usa-button:not(.on-card):not(.alert-button) {
   // max-width: 25em;
   // min-width: 25em;
   width: 20em;
+}
+
+.usa-button.thin {
+  padding: 0.15rem 1.25rem;
+}
+.usa-button.subscribe {
+  background-color: #00a6d2;
+}
+.meeting-minutes-button {
+  min-width: 8em;
+  max-width: 8em;
 }
 
 @media screen and (min-width: 64em) {
@@ -56,6 +70,8 @@
   max-width: 35em;
   min-width: 10em;
   background-color: #f9c642;
+  color: #112e51;
+  font-weight: bold;
 }
 .alert-button:hover {
   background-color: #fdb81e;

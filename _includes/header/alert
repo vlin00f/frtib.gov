@@ -6,7 +6,7 @@ Alert box for things like announcing next board meeting.
 {% capture meetingLink -%}
 [{{meetingURL}}]({{meetingURL}}){:target="_blank"}
 {% endcapture -%}
-{% assign alertHeader = include.alertHeader | default: "SPECIAL NOTICE" -%}
+{% assign alertHeader = include.alertHeader | default: "Special Notice: Max number of characters (incl spaces) is 72!!!!!!!!!!!!" -%}
 {% assign alertIcon = include.alertIcon | default: "icon_redImportant.gif" -%}
 {% capture alertTitle -%}
 {% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
@@ -48,7 +48,7 @@ Alert box for things like announcing next board meeting.
         </div>
 {% endcomment -%}
       </div>
-      <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+      <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
         <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
           <use xlink:href="/assets/img/sprite.svg#close"></use>
         </svg>
