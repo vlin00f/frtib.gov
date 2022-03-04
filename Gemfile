@@ -8,7 +8,7 @@ gem "jekyll", "~> 3.9"
 # gem 'federalist-uswds-jekyll', :git => 'https://github.com/GSA/federalist-uswds-jekyll.git', branch: 'main'
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
-gem "sprockets", "~> 3.7"
+gem "sprockets", "~> 4.0"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 
 group :jekyll_plugins do
