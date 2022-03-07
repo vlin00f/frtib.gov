@@ -19,7 +19,7 @@ redirect_from:
   <div class="usa-card__container">
      <div class="usa-card__media">
        <div class="usa-card__img" >
-       {% asset "contracts_final.jpg" alt="Illustration of two pairs of hands shaking hands while two people sign contract" -%}
+       {% asset "hero/contracts_final.jpg" alt="Illustration of two pairs of hands shaking hands while two people sign contract" -%}
        </div>
      </div>
      <div class="usa-card__body">
