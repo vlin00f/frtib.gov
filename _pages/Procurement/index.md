@@ -11,12 +11,12 @@ redirect_from:
 #document-ready:
 #  - getRate();
 ---
+
+<h2>Doing Business with FRTIB</h2>
+<br>
 <ul class="usa-card-group">
   <li class="tablet:grid-col-12 usa-card usa-card--header-first">
   <div class="usa-card__container">
-     <header class="usa-card__header">
-       <h2 class="usa-card__heading">Doing Business with FRTIB</h2>
-     </header>
      <div class="usa-card__media">
        <div class="usa-card__img" >
          <img src="../assets/img/contracts_final.jpg" alt="Illustration of two pairs of hands shaking hands while two people sign contract">

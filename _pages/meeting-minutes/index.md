@@ -21,9 +21,10 @@ redirect_from:
 {% include alert-block msg_type="success" msg_head="success head" msg_body="this is the success message" -%}
 {% endcomment -%}
 
-{% include subscribe-button title="to the Meeting Minutes update notifications" topic_id="USTSP_6" -%}
 
 ## Meeting Minutes
+
+{% include subscribe-button title="to receive Meeting Minutes updates" topic_id="USTSP_6" -%}
 
 <br>
 

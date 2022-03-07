@@ -81,23 +81,23 @@ redirect_from:
       </div>
       <div class="usa-card__body">
       <!-- start process list -->
-        <ol class="usa-process-list">
-          <li class="usa-process-list__item padding-bottom-4">
+        <ol class="usa-process-nolist">
+          <li class="usa-process-nolist__item padding-bottom-4">
             <p class="usa-process-list__heading line-height-sans-1">
             Changes
             </p>
           </li>
-          <li class="usa-process-list__item padding-bottom-4">
+          <li class="usa-process-nolist__item padding-bottom-4">
             <p class="usa-process-list__heading line-height-sans-1">
             Disputes
             </p>
           </li>
-          <li class="usa-process-list__item padding-bottom-4">
+          <li class="usa-process-noI’m list__item padding-bottom-4">
             <p class="usa-process-list__heading line-height-sans-1">
             Inspection and Acceptance
             </p>
           </li>
-          <li class="usa-process-list__item padding-bottom-4">
+          <li class="usa-process-nolist__item padding-bottom-4">
             <p class="usa-process-list__heading line-height-sans-1">
             Close-out or Termination
             </p>

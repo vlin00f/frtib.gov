@@ -13,9 +13,10 @@ redirect_from:
 #  - getRate();
 ---
 
-{% include subscribe-button title="to the Reading Room update notifications" topic_id="USTSP_8" -%}
-
 ## Reading Room
+
+{% include subscribe-button title="to receive Reading Room updates" topic_id="USTSP_8" -%}
+<br>
 
 {% comment -%}{% asset recommend2.jpg -%}{% endcomment -%}
 
