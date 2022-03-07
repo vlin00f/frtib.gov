@@ -8,15 +8,13 @@ Component to display the main meeting minutes files.
 {% assign mmfile = filelist.first -%}
 {% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
 {% comment -%}Most recent board meeting minutes:  <a href="{{fpath}}" target="_blank">{{filelist.first.name}}</a>{% endcomment -%}
-Most recent board meeting minutes:  <a href="{{fpath}}" target="_blank"><button class="usa-button thin meeting-minutes-button">{{filelist.first.name}}</button></a>
+Most recent board meeting minutes:  <a href="{{fpath}}" target="_blank"><button class="usa-button meeting-minutes-button">{{filelist.first.name}}</button></a>
 Updated: 29-Dec
 
 <div class="usa-accordion">
 {% assign year = '0000' -%}
 {% assign closeDiv = '' -%}
-{% assign thin = 'thin' -%}
 {% for mmfile in filelist -%}
-{% if forloop.index > 26 -%}{% assign thin = '' -%}{% endif -%}
 {% assign fname = mmfile.name -%}
 {% assign curYear = fname | slice: 0, 4 -%}
 {% if curYear != year -%}
@@ -29,7 +27,7 @@ Updated: 29-Dec
 {% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
 <li class="usa-button-group__item">
 {% comment -%}<p><a href="{{fpath}}" target="_blank">{{fname}}</a></p>{% endcomment -%}
-<a href="{{fpath}}" target="_blank"><button class="usa-button {{thin}} meeting-minutes-button">{{fname}}</button></a>
+<a href="{{fpath}}" target="_blank"><button class="usa-button meeting-minutes-button">{{fname}}</button></a>
 </li>
 {% endfor -%}
 {{closeDiv}}

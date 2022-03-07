@@ -25,6 +25,23 @@
   display: none;
 }
 
+.usa-list li, .usa-prose>ul li, .usa-prose>ol li, .usa-collection__item, .usa-prose .usa-collection__item {
+  margin-bottom: 0.25em;
+  max-width: 68em;
+}
+
+.usa-section  {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.usa-logo {
+  line-height: 1.2rem;
+}
+
+.img-seal {
+  padding-right: 1rem;
+}
 
 // DAV: I added this to override home usa-hero
 
@@ -32,7 +49,7 @@
   background-image: asset_url("hero/homepageHero_cd2026.jpg");
   background-position: 50%;
   background-size: cover;
-  background-color: #cd2026;
+  background-color: #981b1e;
 }
 
 .usa-logo {
