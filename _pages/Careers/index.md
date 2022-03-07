@@ -25,7 +25,7 @@ document-ready:
 
      <div class="usa-card__media">
        <div class="usa-card__img" >
-         <img src="../assets/img/careers_final.jpg" alt="Illustration of diverse group of people">
+         {% asset hero/careers_final.jpg alt="Illustration of diverse group of people" -%}
        </div>
      </div>
      <div class="usa-card__body">

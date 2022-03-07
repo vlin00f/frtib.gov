@@ -21,8 +21,6 @@ redirect_from:
 {% comment -%}{% asset recommend2.jpg -%}{% endcomment -%}
 
 {% capture head_text -%}
-<h2 class="usa-card__heading">Reading Room</h2>
-<br>
 Below you will find links to a variety of information about the FRTIB, starting with the law that created the FRTIB and the TSP, as well as financial statements, press releases, and surveys of employees and participants.
 
 <br><br>
