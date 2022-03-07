@@ -146,7 +146,7 @@ rr_foia_nav:
 procurement_nav:
   - name: Procurement
     url: /procurement/
-  - name: Acquisition process and methods
+  - name: Acquisition Process and Methods
     url: /procurement-acquisitions/
 #  - name: Contract 1
 #    url: /contract1/
