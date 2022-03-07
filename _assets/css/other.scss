@@ -46,8 +46,57 @@
 // DAV: I added this to override home usa-hero
 
 .usa-hero {
-  background-image: asset_url("HomeHero_darkred.jpg");
+  background-image: asset_url("hero/homepageHero_cd2026.jpg");
   background-position: 50%;
   background-size: cover;
   background-color: #981b1e;
+}
+
+.usa-logo {
+  line-height: 1.2rem;
+}
+
+.img-seal {
+  padding-right: 1rem;
+}
+
+//DAV: this is color edit to process list
+.usa-process-list__item::before {
+  border: 0.25rem solid #205493;
+  color: #205493;
+}
+
+.usa-prose .usa-process-nolist {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style-type: none;
+    padding-left: 0;
+    padding: 20px 0 0 calc( ( (2.5rem / 2) - (0.5rem / 2) ) );
+    position: relative;
+  }
+
+.usa-process-nolist__item::before {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    border-radius: 99rem;
+    width: 2.5rem;
+    background-color: white;
+    border: 0.25rem solid #1b1b1b;
+    box-shadow: 0 0 0 0.25rem white;
+    color: #1b1b1b;
+    display: flex;
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.46rem;
+    font-weight: 700;
+    height: 2.5rem;
+    left: 0;
+    line-height: 0.9;
+    margin-top: -0.4rem;
+    position: absolute;
+    width: 2.5rem;
 }

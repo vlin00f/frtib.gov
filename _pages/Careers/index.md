@@ -14,15 +14,15 @@ document-ready:
 ---
 
 
+<h2>FRTIB: One of the Best Places to Work</h2>
+
 {% include subscribe-button title="to receive Careers updates" topic_id="USTSP_7" -%}
 
 <br>
 <ul class="usa-card-group">
   <li class="tablet:grid-col-12 usa-card usa-card--header-first">
   <div class="usa-card__container">
-     <header class="usa-card__header">
-       <h2 class="usa-card__heading">FRTIB: One of the Best Places to Work</h2>
-     </header>
+
      <div class="usa-card__media">
        <div class="usa-card__img" >
          <img src="../assets/img/careers_final.jpg" alt="Illustration of diverse group of people">
