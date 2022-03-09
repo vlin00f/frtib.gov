@@ -101,7 +101,7 @@ return_to_top: false
         </div>
       </div>
       <div class="usa-media-block tablet:grid-col">
-      <a href="https://www.tsp.gov">{% asset pie-chart.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}</a>
+      <a href="https://www.tsp.gov">{% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}</a>
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Lifecycle funds for TSP Participants

@@ -56,8 +56,10 @@
 @media screen and (min-width: 64em) {
   .alert-button {
     position: absolute;
+    width: auto;
     top: .6em;
     left: 48%;
+    right: 1rem;
   }
 }
 
