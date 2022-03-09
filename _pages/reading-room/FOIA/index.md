@@ -18,7 +18,7 @@ permalink: /foia/
 <ul class="usa-card-group">
 {% for room in site.data.navigation.rr_foia_nav -%}
 {% include card-no-media heading=room.name button_link=room.url
-      text=room.text button_text=room.button_text image=room.image -%}
+      xtext=room.text button_text=room.button_text image=room.image -%}
 {% endfor -%}
 </ul>
 <!-- end of cards -->

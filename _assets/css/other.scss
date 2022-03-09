@@ -100,3 +100,7 @@
     position: absolute;
     width: 2.5rem;
 }
+
+.xusa-card-group .ol {
+  @extend .usa-process-list;
+}

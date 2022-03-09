@@ -1,14 +1,27 @@
+{% assign noStripe = include.noStripe | default: false -%}
 <ul class="usa-card-group">
-  <li class="usa-card">
+  <li class="tablet:grid-col-12 usa-card usa-card--header-first">
     <div class="usa-card__container">
-{% if include.head_text -%}
+{% if include.card_img -%}
+    <div class="usa-card__media">
+       <div class="usa-card__img" >
+       {% asset {{include.card_img}} alt="{{include.altText}}" -%}
+       </div>
+    </div>
+{% endif -%}
+{% if noStripe == false -%}
+    <div class="usa-card__media">
+      <div class="usa-card__img card_striped"></div>
+    </div>
+{% endif -%}
+{% if include.card_body -%}
       <div class="usa-card__body">
-        {{include.head_text}}
+        {{include.card_body | markdownify}}
       </div>
 {% endif -%}
-{% if include.foot_text -%}
+{% if include.card_foot -%}
       <div class="usa-card__footer">
-        {{include.foot_text}}
+        {{include.card_foot | markdownify}}
       </div>
 {% endif -%}
     </div>

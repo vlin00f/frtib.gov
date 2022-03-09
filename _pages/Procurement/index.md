@@ -12,67 +12,34 @@ redirect_from:
 #  - getRate();
 ---
 
-<h2>Doing Business with FRTIB</h2>
-<br>
-<ul class="usa-card-group">
-  <li class="tablet:grid-col-12 usa-card usa-card--header-first">
-  <div class="usa-card__container">
-     <div class="usa-card__media">
-       <div class="usa-card__img" >
-       {% asset "hero/contracts_final.jpg" alt="Illustration of two pairs of hands shaking hands while two people sign contract" -%}
-       </div>
-     </div>
-     <div class="usa-card__body">
-       <p>
-       Welcome to FRTIB. Thanks for your interest in doing business with us. FRTIB purchases products and services through Contracts and Agreements with private-sector entities and other Federal Agencies.
-       </p>
-       <h3>FRTIB Acquisitions</h3>
-       <p>
-       FRTIB Acquisitions FRTIB is a self-funded federal agency with independent budgetary authority that receives no annual appropriations from Congress. Due to our unique status, FRTIB is not strictly bound to adhere to the Federal Acquisition Regulation (FAR). While subject to many of the same procurement laws as other government agencies, FRTIB also works under the mandate of its enabling statute, the Federal Employees’ Retirement System Act (FERSA), which requires that FRTIB fiduciaries manage Thrift Savings Fund (TSF) assets in the sole interest of the TSF participants and beneficiaries, and expend funds for the exclusive purpose of providing benefits to participants and beneficiaries and defraying reasonable expenses of administering the TSP. To that end, FRTIB procurements will largely adhere to the FAR, unless doing so might infringe upon the Agency’s fiduciary obligations under FERSA. FRTIB has adopted the FAR as its primary contracting policy and procedures for procuring its goods and services.
-       </p>
-       <p>
-       FRTIB designed the Thrift Federal Acquisition Supplement (T-FAS) as a supplement to the FAR, which specifies when the Agency’s policies and practices deviate from the FAR. See link to T-FAS below. The T-FAS provides an efficient blend of the FAR and federal procurement law while allowing the Agency to be more flexible to accomplish its mission under FERSA.
-       </p>
-       <p>
-       <a href="{{site.baseurl}}/pdf/procurement/Thrift_Federal_Acquisition_Supplement_T-FAS.pdf"><button class="usa-button on-card thin">Thrift Federal Acquisition Supplement (T-FAS)</button></a>
-       </p>
+## Doing Business with FRTIB
 
-       <h3>How to be Considered for Contracts with FRTIB</h3>
-       <p>To be included for consideration on solicitation for contracts in your business area, you should register in the following places:
-       </p>
-       <ul usa-list.usa-list--unstyled>
-       <li>
-       <b>System for Award Management</b><br>
-       This is the primary database for vendors who wish to do business (or are currently doing business) with the federal government. FRTIB awards contracts to entities registered in SAM in accordance with the FAR. The SAM website (<a href="https://www.sam.gov">www.sam.gov</a>) gives detailed instructions and helps answer your questions. </li>
+{% capture body -%}
+Welcome to FRTIB. Thanks for your interest in doing business with us. FRTIB purchases products and services through Contracts and Agreements with private-sector entities and other Federal Agencies.
 
-       <li>
-       <b>Government wide Point of Entry (GPE)</b><br>
-       Most federal government solicitations that must be publicized are posted on Federal Business Opportunities (also called FedBizOpps) <a href="https://www.fbo.gov">www.fbo.gov</a>. Federal government solicitations may also be posted on <a href="https://www.ebuy.gsa.gov">www.ebuy.gsa.gov</a> or <a href="https://www.sewp.nasa.gov">www.sewp.nasa.gov</a>.</li>
-       </ul>
+### FRTIB Acquisitions
 
-<!-- DAV: can the following links be turned into an include so i can reuse on Acquisitions subpage? -->
+FRTIB Acquisitions FRTIB is a self-funded federal agency with independent budgetary authority that receives no annual appropriations from Congress. Due to our unique status, FRTIB is not strictly bound to adhere to the Federal Acquisition Regulation (FAR). While subject to many of the same procurement laws as other government agencies, FRTIB also works under the mandate of its enabling statute, the Federal Employees’ Retirement System Act (FERSA), which requires that FRTIB fiduciaries manage Thrift Savings Fund (TSF) assets in the sole interest of the TSF participants and beneficiaries, and expend funds for the exclusive purpose of providing benefits to participants and beneficiaries and defraying reasonable expenses of administering the TSP. To that end, FRTIB procurements will largely adhere to the FAR, unless doing so might infringe upon the Agency’s fiduciary obligations under FERSA. FRTIB has adopted the FAR as its primary contracting policy and procedures for procuring its goods and services.
 
-      <h3>FRTIB Related Guides and Polices</h3>
-        <ul>
-            <li><a href="{{site.baseurl}}../../../pdf/procurement/FRTIB_Protest_Procedures_Final_signed.pdf"><button class="usa-button on-card thin">FRTIB Protest Procedures</button></a></li>
-            <li><a href="{{site.baseurl}}../../../pdf/procurement/FRTIB_Suspension_and_Debarment_Program_updated_12.pdf"><button class="usa-button on-card thin">FRTIB Suspension and Debarment Program</button></a></li>
-        </ul>
+FRTIB designed the Thrift Federal Acquisition Supplement (T-FAS) as a supplement to the FAR, which specifies when the Agency’s policies and practices deviate from the FAR. See link to T-FAS below. The T-FAS provides an efficient blend of the FAR and federal procurement law while allowing the Agency to be more flexible to accomplish its mission under FERSA.
 
-<!-- DAV: can the following links be turned into an include so i can reuse on Acquisitions subpage? -->
+{% include button-link url="/pdf/procurement/Thrift_Federal_Acquisition_Supplement_T-FAS.pdf" text="Thrift Federal Acquisition Supplement (T-FAS)" -%}
 
-      <h3>FRTIB Procurement Opportunities</h3>
-        <ul>
-            <li>Visit <a href="https://sam.gov/content/opportunities">https://sam.gov/content/opportunities</a> for a list of contracting opportunities. </li>
-            <li>Please direct any questions to FRTIB Contracting at <a href="mailto:Contracting@tsp.gov">Contracting@tsp.gov</a>.</li>
-        </ul>
+### How to be Considered for Contracts with FRTIB
 
+To be included for consideration on solicitation for contracts in your business area, you should register in the following places:
 
-     </div>
-   </div>
-   </li>
-   </ul>
+* __System for Award Management__<br>
+This is the primary database for vendors who wish to do business (or are currently doing business) with the federal government. FRTIB awards contracts to entities registered in SAM in accordance with the FAR. The SAM website (<https://www.sam.gov>{: target="_blank"}) gives detailed instructions and helps answer your questions.
+* __Government wide Point of Entry (GPE)__<br>
+Most federal government solicitations that must be publicized are posted on Federal Business Opportunities (also called FedBizOpps) <https://www.fbo.gov>{: target="_blank"}. Federal government solicitations may also be posted on <https://www.ebuy.gsa.gov>{: target="_blank"} or <https://www.sewp.nasa.gov>{: target="_blank"}.
 
-
-
+{% include_relative policy-links.html -%}
+{% include_relative opportunity-links.html -%}
+{% endcapture -%}
+{% include desc-box
+      card_img="hero/contracts_final.jpg"
+      altText="Illustration of two pairs of hands shaking hands while two people sign contract"
+      card_body=body card_foot=false -%}
 
 <!-- CONTENT END -->
