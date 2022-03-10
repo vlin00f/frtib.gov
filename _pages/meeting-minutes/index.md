@@ -31,13 +31,21 @@ redirect_from:
 {% comment -%}
 **Board Meeting Calendar**:   [2022]({{site.baseurl}}/pdf/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf){:target="_blank"}
 {% endcomment -%}
-{% capture head_text -%}
+{% capture body -%}
 Board meetings, which can be observed by the public, are generally held the 4<sup>th</sup> Tuesday of each month (except where noted on the current meeting calendar).
 {% endcapture -%}
 {% capture foot_text -%}
 <a href="{{site.baseurl}}/pdf/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf" target="_blank"><button class="usa-button on-card thin">2022 Board Meeting Calendar</button></a>
 {% endcapture -%}
-{% include desc-box head_text=head_text foot_text=foot_text -%}
+{% include desc-box
+      card_img="hero/placeholder_image.jpg"
+      altText="Put your alt text in these quotes"
+      card_body=body card_foot=foot_text -%}
+
+
+
+
+
 {% include meeting-minutes/full-list  -%}
 
 <!-- CONTENT END -->

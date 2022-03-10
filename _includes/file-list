@@ -51,7 +51,7 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
     {% continue -%}
   {% endif -%}
   {{startList}}{% if include.dobutton -%}
-  <a href="{{url}}" target="_blank"><button class="usa-button">{{name}}</button></a><br>{{include.sep}}
+  <a href="{{url}}" target="_blank"><button class="usa-button {{include.button_style}}">{{name}}</button></a><br>{{include.sep}}
   {% else -%}
   <a href="{{url}}" target="blank">{{name}}</a><br>{{include.sep}}
   {% endif -%}{{endList}}

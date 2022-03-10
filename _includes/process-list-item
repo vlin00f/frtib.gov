@@ -1,0 +1,4 @@
+{% assign listType = include.listType | default: 'nolist' -%}
+<li class="usa-process-{{listType}}__item padding-bottom-4">
+  <p class="usa-process-list__heading line-height-sans-1">{{include.text}}</p>
+</li>

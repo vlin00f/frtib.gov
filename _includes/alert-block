@@ -10,6 +10,6 @@ info    warning   error   success
 <div class="usa-alert usa-alert--{{msg_type}}">
   <div class="usa-alert__body">
     {% if msg_slim == false -%}<h4 class="usa-alert__heading">{{msg_head}}</h4>{% endif -%}
-    {{msg_body}}
+    {% if include.markdownify -%}{{msg_body|markdownify}}{% else -%}{{msg_body}}{% endif -%}
   </div>
 </div>

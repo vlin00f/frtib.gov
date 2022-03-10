@@ -14,4 +14,4 @@
   <button class="usa-accordion__button {{ xtraClass1 }}" aria-expanded="{{expanded}}" aria-controls="{{divID}}">{{ title }} {{icon}}</button>
 </h4>
 {% if betweenStuff != '' -%}<div id="x{{divID}}" class="usa-accordion-content" aria-hidden="false">{{betweenStuff}}</div>{% endif -%}
-<div id="{{divID}}" class="usa-accordion__content usa-prose">
+<div id="{{divID}}" class="usa-accordion__content usa-prose" markdown="1">

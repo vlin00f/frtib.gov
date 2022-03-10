@@ -20,7 +20,7 @@ Updated: 29-Dec
 {% if curYear != year -%}
 {% assign year = curYear -%}
 {{closeDiv}}
-{% include accordion/start expanded=false divID=curYear title=curYear inList=true %}
+{% include accordion/start expanded=false divID=curYear title=curYear inList=true -%}
 <ul class="usa-button-group">
 {% assign closeDiv = "</ul></div><br>" -%}
 {% endif -%}

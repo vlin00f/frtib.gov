@@ -2,7 +2,7 @@
 {% assign heading = include.heading | default: 'heading' -%}
 {% assign image = include.image | default: "board/person.png" -%}
 {% assign img_alt_text = include.img_alt_text | default: "" -%}
-{% assign noButton = include.noButton | default: false -%}
+{% assign text = include.text | default: "text" -%}
 {% assign button_text = include.button_text | default: "button_text" -%}
 {% assign button_link = include.button_link | default: "" -%}
 {% assign fc = button_link | slice: 0 %}
@@ -15,20 +15,17 @@
     <header class="usa-card__header">
       <h2 class="usa-card__heading">{{heading}}</h2>
     </header>
-{% if include.striped -%}
-    <div class="usa-card__media">
-      <div class="usa-card__img card_striped"></div>
-    </div>
-{% endif -%}
     <div class="usa-card__body">
-      {{ include.text | markdownify }}
+{% comment -%}
+      <p>
+        {{text}}
+      </p>
+{% endcomment -%}
     </div>
-{% if noButton != true -%}
     <div class="usa-card__footer">
       {% if button_link -%}<a href="{{button_link}}">{% endif -%}
         <button class="usa-button on-card">{{button_text}}</button>
       {% if button_link -%}</a>{% endif -%}
     </div>
-{% endif -%}
   </div>
 </li>

@@ -25,7 +25,7 @@ Alert box for things like announcing next board meeting.
           <p>
           The Board will be meeting at 10:00 a.m. on Tuesday, March 22, 2022.  Members of the public who
           are interested have 2 options to listen to the Board meeting: 1) call 1-202-599-1426 and use
-          conference ID: 614 746 295#; OR 2) click on this link: 
+          conference ID: 614 746 295#; OR 2) click on this link:
           </p>
 
           <div>{{meetingLink | markdownify}}</div>
