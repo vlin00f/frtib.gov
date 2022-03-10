@@ -63,21 +63,25 @@ return_to_top: false
       </div>
       <div class="tablet:grid-col-8 usa-prose">
         <section class="bar-graph bar-graph-horizontal bar-graph-one">
+         <div class="left-border-thick-line">
           <div class="bar-one">
-          <span class="descr">Extremely Satisfied/Satisfied (89%)</span>
-          <br clear="all">
-          <div class="bar" data-percentage="89%"></div>
+            <span class="descr">Extremely Satisfied/Satisfied (89%)</span>
+            <br clear="all">
+            <div class="bar" data-percentage="89%"></div>
           </div>
+          <br clear="all">
           <div class="bar-two">
-          <span class="descr">Neither Satisfied nor Unsatisfied (9%)</span>
-          <br clear="all">
-          <div class="bar" data-percentage="9%"></div>
+            <span class="descr">Neither Satisfied nor Unsatisfied (9%)</span>
+            <br clear="all">
+            <div class="bar" data-percentage="9%"></div>
           </div>
+          <br clear="all">
           <div class="bar-three">
-          <span class="descr">Dissatisfied/Extremely Dissatisfied (2%)</span>
-          <br clear="all">
-          <div class="bar" data-percentage="0%"></div>
+            <span class="descr">Dissatisfied/Extremely Dissatisfied (2%)</span>
+            <br clear="all">
+            <div class="bar" data-percentage="0%"></div>
           </div>
+         </div>
         </section>
       </div>
     </div>

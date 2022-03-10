@@ -3,8 +3,7 @@ Alert box for things like announcing next board meeting.
 {% endcomment %}
 {% assign MTID = "e668eeb9f8e4ab246455527de529d7a2b" -%}
 {% assign meetingURL = "https://tspmeet.webex.com/tspmeet/onstage/g.php?MTID=" | append: MTID -%}
-{% assign MTID = "19%3ameeting_ZWZmZDI2MGEtYjEwNi00MzczLWI5YTctODJmYTdjN2ZlYzZm%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%227c8d802c-5559-41ed-9868-8bfad5d44af9%22%7d" -%}
-{% assign meetingURL = "https://teams.microsoft.com/l/meetup-join/" | append: MTID -%}
+{% assign meetingURL = "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWZmZDI2MGEtYjEwNi00MzczLWI5YTctODJmYTdjN2ZlYzZm%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%227c8d802c-5559-41ed-9868-8bfad5d44af9%22%7d" -%}
 {% assign meetingDate = include.meetingDate | default: "Board Meeting Tuesday, March 22<sup>nd</sup>" -%}
 {% capture meetingLink -%}
 [{{meetingDate}}]({{meetingURL}}){:target="_blank"}

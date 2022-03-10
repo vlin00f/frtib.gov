@@ -2,7 +2,6 @@
 Component to display the job openings on the careers page.
 {% endcomment -%}
 
-#### Positions Available at the FRTIB
 <div id="careers_none">None at this time.</div>
 <noscript>
 {% include alert-block msg_type="warning" msg_slim=true msg_body="The job openings will not display when javascript is disabled." -%}

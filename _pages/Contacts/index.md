@@ -13,6 +13,8 @@ redirect_from:
 show_last_modified: false
 ---
 
+{% comment -%}## Contact Us{% endcomment -%}
+
 {% capture message_body -%}
 From the 50 States, including the District of Columbia, the Virgin Islands, Puerto Rico, Guam, American Samoa, and Canada, call the following numbers toll free:
 
@@ -30,7 +32,6 @@ You can also contact the FRTIB through the options listed on
 {% endcapture -%}
 {% include alert-block msg_type="info" msg_body=message_body markdownify=true
   msg_head="Need to discuss an issue regarding your TSP account?  Call the TSP Thriftline!" -%}
-
 
 <br clear="all">
 

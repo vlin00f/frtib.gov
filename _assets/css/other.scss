@@ -89,3 +89,10 @@
 .xusa-card-group .ol {
   @extend .usa-process-list;
 }
+
+.left-border-thick-line {
+  padding-left: 0.4rem;
+  border-left-style: solid;
+  border-left-color: #000000;
+  border-left-width: thick;
+}

@@ -28,9 +28,6 @@ redirect_from:
 
 <br>
 
-{% comment -%}
-**Board Meeting Calendar**:   [2022]({{site.baseurl}}/pdf/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf){:target="_blank"}
-{% endcomment -%}
 {% capture body -%}
 Board meetings, which can be observed by the public, are generally held the 4<sup>th</sup> Tuesday of each month (except where noted on the current meeting calendar).
 {% endcapture -%}
