@@ -55,9 +55,16 @@
 
 @media screen and (min-width: 64em) {
   .alert-button {
+//    position: absolute;
+//    width: auto;
+//    top: .6em;
+//    left: 48%;
+//    right: 1rem;
     position: absolute;
-    top: 2em;
-    left: 47%;
+    left: 58%;
+    border-radius: 0 0 0.2em 0.2em;
+    box-shadow: 0px 6px 12px rgba(19, 19, 25, 0.9);
+    transform: translateY(-7px);
   }
 }
 
@@ -68,12 +75,25 @@
 }
 
 .alert-button {
-  max-width: 35em;
+  max-width: 30rem;
   min-width: 10em;
+  border-radius: 2px;
+  padding: .65em .65em .65em .65em;
   background-color: #f9c642;
   color: #112e51;
+  text-align: center;
+  cursor: pointer;
   font-weight: bold;
+
 }
+
 .alert-button:hover {
   background-color: #fdb81e;
+  color: #fff;
+  box-shadow: none;
+
+}
+
+.alert-button:active {
+  box-shadow: inset 0 4px 8px rgba(19, 19, 25, 0.25);
 }
