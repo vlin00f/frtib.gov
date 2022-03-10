@@ -38,11 +38,8 @@ Below you will find links to a variety of information about the FRTIB, starting 
 {% endfor -%}
 </ul>
 {% endcapture -%}
-{% include desc-box
-      card_img="hero/placeholder_image.jpg"
-      altText="Put your alt text in these quotes"
-      card_body=body foot_text=false -%}
-
+{% include desc-box card_body=body foot_text=false
+      card_img="hero/readingroom_header.jpg" altText="PDFs and other files from FRTIB" -%}
 
 
 <!-- cards starts here -->
