@@ -28,7 +28,7 @@ __International callers__ who cannot use the toll-free number should call <a hre
 You can also contact the FRTIB through the options listed on
 <a href="https://www.tsp.gov/contact" target="_blank">TSP.gov</a>.
 {% endcapture -%}
-{% include alert-block msg_type="info" msg_body=message_body
+{% include alert-block msg_type="info" msg_body=message_body markdownify=true
   msg_head="Need to discuss an issue regarding your TSP account?  Call the TSP Thriftline!" -%}
 
 
