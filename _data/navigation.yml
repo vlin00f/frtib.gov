@@ -150,3 +150,17 @@ procurement_nav:
     url: /procurement-acquisitions/
 #  - name: Contract 1
 #    url: /contract1/
+
+
+onboarding_nav:
+  - name: Onboarding
+    url: /onboarding/
+  - name: Federal Employees Forms
+    url: /onboarding/forms/
+    button_text: "See forms"
+  - name: Training
+    url: /onboarding/training/
+    button_text: "See training"
+  - name: Orientation
+    url: /onboarding/orientation/
+    button_text: "See orientation"
