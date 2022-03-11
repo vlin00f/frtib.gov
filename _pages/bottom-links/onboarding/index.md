@@ -16,7 +16,7 @@ redirect_from:
 
 {% include subscribe-button title="to the Federal Employees update notifications" topic_id="USTSP_8" -%}
 
-Welcome to the FRTIB Federal Employees! We are excited to begin working with you.
+{% asset hero/onboarding_header.gif -%}
 
 Your first days (and weeks) will be full of activities to in-process and onboard you into the agency. You will be required to complete several actions and forms designed to ensure your successful transition.
 
