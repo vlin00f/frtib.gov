@@ -94,24 +94,24 @@ return_to_top: false
   <div class="grid-container">
     <div class="usa-graphic-list__row grid-row grid-gap">
       <div class="usa-media-block tablet:grid-col">
-        <a href="https://www.tsp.gov">{% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}</a>
+        <a href="https://www.tsp.gov" target="_blank">{% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}</a>
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Learn about TSP
           </h2>
           <p>
-            Whether you're new to the TSP, or you need a refresher, we're here to <a href="https://www.tsp.gov">help with the basics</a>.
+            Whether you're new to the TSP, or you need a refresher, we're here to <a href="https://www.tsp.gov" target="_blank">help with the basics</a>.
           </p>
         </div>
       </div>
       <div class="usa-media-block tablet:grid-col">
-      <a href="https://www.tsp.gov">{% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}</a>
+      <a href="https://www.tsp.gov/how-to-invest/" target="_blank">{% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}</a>
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
-            Lifecycle funds for TSP Participants
+            Learn about Fund options
           </h2>
           <p>
-            Compare up to three funds on <a href="https://www.tsp.gov">TSP.gov</a>
+            Visit TSP.gov to learn about the <a href="https://www.tsp.gov/how-to-invest/" target="_blank">variety of investment options</a> for your retirement.
           </p>
         </div>
       </div>

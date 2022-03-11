@@ -35,10 +35,9 @@ In addition to the five items above, 39 additional items were identified as stre
 
 FRTIB employees are less satisfied with steps taken to support Child and Elder Care Programs as well as steps taken to deal with poor performers. These were the highest overall negative responses:
 
-Only 39% of employees said that they were satisfied with FRTIB’s Child Care Programs (Q63).
-Only 40% of employees said that they were satisfied with the Elder Care Programs (Q64).
-While improvement was seen in comparison with 2019 results, only 53% of employees said that steps were not taken in their work unit to deal with poor performers who could not or would not improve (Q10).
-
+- Only 39% of employees said that they were satisfied with FRTIB’s Child Care Programs (Q63).
+- Only 40% of employees said that they were satisfied with the Elder Care Programs (Q64).
+- While improvement was seen in comparison with 2019 results, only 53% of employees said that steps were not taken in their work unit to deal with poor performers who could not or would not improve (Q10).
 
 No additional items were identified as challenges.
 
@@ -53,19 +52,21 @@ There were several areas where the results improved from the previous year. FRTI
 - 54% of employees felt that senior leaders generate high levels of motivation and commitment in the workforce (Q26). This was a 14-point increase from the previous year.
 - 88% of employees said that FRTIB is successful at accomplishing its mission (Q16). This was an 10-point increase from the previous year.
 
-
-
 There were a total of 36 items that increased since 2019.
 
 The results received from the Federal Employee Viewpoint Surveys remain an important component of the Agency's ongoing commitment to ensuring FRTIB is a great place to work where great work gets done, and the Agency will continue to analyze these results to build off of our strengths and improve challenge areas.
 
-The 2020 FRTIB FEVS results {% include file-list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true format='title' dobutton=true count=1 -%}
+**Most Recent FRTIB FEVS Results:** {% include file-list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true format='title' dobutton=true count=1 -%}
 
 
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Previous Surveys" inList=false -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysEmp" format='desc' reverse=true dobutton=true dropFirst=true -%}
+{% include accordion/end  inList=false -%}
+</div>
 
-
-**Previous surveys:**
-
+<!--
 {% include file-list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true format='title' dobutton=true dropFirst=true -%}
+-->
 
 <!-- CONTENT END -->

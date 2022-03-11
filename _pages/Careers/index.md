@@ -26,20 +26,19 @@ document-ready:
 {% endcapture -%}
 
 {% capture body -%}
-Voted three years in a row as one of the "Best Places to Work in the Federal Government" as ranked by the Partnership for Public Service Best Places to Work Rankings, the Federal Retirement Thrift Investment Board (FRTIB) is an independent Federal Agency with a single mission: To administer the Thrift Savings Plan solely in the interest of its participants and beneficiaries.  We help Federal employees and members of the Uniformed Services retire with dignity by providing benefits similar to private sector 401(k) plans. The TSP manages over $390 billion for more than 4.6 million participants located in every time zone around the world.
+The Federal Retirement Thrift Investment Board (FRTIB) is a great place to work; and a place where great work gets done.  We are an independent Federal agency responsible for administering the Thrift Savings Plan (TSP) which is considered to be one of the best retirement plans in the world and a model for defined contribution plans. We are a diverse group of individuals with a shared focus on helping our participants achieve their desired retirement outcomes.  Do you want to make a lasting impact on the lives of our participants?  Join the FRTIB and help millions of civilian employees and members of the uniformed services prepare for one of the most significant financial decisions they will make in their lifetime, help them (and you) retire with dignity!
 
 {% include alert-block msg_type="success" msg_body=job_openings xmarkdownify=true msg_head="Current Job Openings" -%}
 
-### Why work for the Federal Government?
+### The benefits of working for the FRTIB
 
-From development programs to leadership training and retirement plans, the Federal government provides excellent benefits. NOTE: is there a brochure or a list of benefits that can be linked?
+From development programs to a wide-variety of work/life-balance option, the FRTIB provides access to a range of benefits that are designed to make your FRTIB career rewarding.  Additionally, as a federal employee, you and your family will have access to a comprehensive federal benefits package.  Learn more about <a href="https://www.usajobs.gov/Help/working-in-government/benefits/" target="_blank">federal benefits</a>.
 
-### Why should you choose to work at the FRTIB?
+Please contact <a href="mailto:hroperations@tsp.gov?subject=Questions regarding FRTIB benefits and employment">hroperations@tsp.gov</a> for any questions.
 
-At the FRTIB, you'll work with a wide range of other professionals, from financial experts to tax attorneys.  We're charged with operating the Plan prudently and solely in the interest of the participants and their beneficiaries. NOTE: Is there a point of contact that can be listed for any questions?
 {% endcapture -%}
 {% include desc-box
-      card_img="hero/careers_final.jpg" altText="Illustration of diverse group of people"
+      card_img="hero/careers_final.jpg" altText="FRTIB's diversity in employment"
       card_body=body card_foot=foot_text -%}
 
 

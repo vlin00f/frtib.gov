@@ -96,3 +96,32 @@
   border-left-color: #000000;
   border-left-width: thick;
 }
+
+// This is for svg icon for link leading to external site
+
+.usa-link--alt[href^=http]:not([href*="frtib.gov"])::after, [href^=http]:not([href*="govdelivery.com"])::after {
+    background: url(../img/usa-icons/launch.svg) no-repeat center/contain;
+    width: 1.75ex;
+    background-position: center;
+    content: "";
+    display: inline-block;
+    height: 1.5ex;
+    margin-left: .5px;
+    margin-top: .5ex;
+    position: relative;
+    padding-right: 2ex;
+  }
+
+//  icons for the Notification callouts
+.usa-alert--info:before {
+    background: url(../img/usa-icons/info.svg) no-repeat center / 2rem 2rem;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    content: "";
+    display: block;
+    height: 3.5rem;
+    left: 0.9166666667rem;
+    position: absolute;
+    top: 0;
+}

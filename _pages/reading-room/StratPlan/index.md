@@ -19,8 +19,14 @@ This strategic plan is a blueprint for the work that the FRTIB will undertake du
 **Most Recent** {% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true count=1 -%}
 
 
-**Previous versions:**
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Previous Versions" inList=false -%}
+{% include file-list coll="pdf" folder="/reading-room/StratPlan" format='desc' reverse=true dobutton=true dropFirst=true -%}
+{% include accordion/end  inList=false -%}
+</div>
 
+<!--
 {% include file-list coll="pdf" folder="/reading-room/StratPlan" reverse=true format='title' dobutton=true dropFirst=true -%}
+-->
 
 <!-- CONTENT END -->
