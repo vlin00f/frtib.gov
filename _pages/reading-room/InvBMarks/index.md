@@ -18,8 +18,14 @@ The FRTIB regularly engages in reviews of both the investment funds offered by t
 
 **Most recent updates:** {% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true format='title' dobutton=true count=1 -%}
 
-**Previous reports"**
 
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Previous Reports" inList=false -%}
+{% include file-list coll="pdf" folder="/reading-room/InvBMarks" format='desc' reverse=true dobutton=true dropFirst=true -%}
+{% include accordion/end  inList=false -%}
+</div>
+
+<!--
 {% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true format='title' dobutton=true dropFirst=true -%}
-
+-->
 <!-- CONTENT END -->

@@ -23,11 +23,9 @@ redirect_from:
 
 
 ## Meeting Minutes
-
 {% include subscribe-button title="to receive Meeting Minutes updates" topic_id="USTSP_6" -%}
 
 <br>
-
 {% capture body -%}
 Board meetings, which can be observed by the public, are generally held the 4<sup>th</sup> Tuesday of each month (except where noted on the current meeting calendar).
 {% endcapture -%}
