@@ -100,7 +100,7 @@
 
 // This is the expand svg for official website row at top of page
 
-.usa-banner__button::after {
+.usa-banner__button[aria-expanded=false]::after {
       background: 0 0;
       background-color: #0071bc;
       -webkit-mask: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
