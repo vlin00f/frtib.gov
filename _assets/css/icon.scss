@@ -5,8 +5,7 @@
 
 // This is for svg icon for link leading to external site
 
-//.usa-link--alt[href^=http]:not([href*="frtib.gov"])::after,[href^=http]:not([href*="govdelivery.com"])::after {
-.usa-link--alt[href^=http]:not([href*="tsp.gov"])::after,[href^=http]:not([href*="public.govdelivery.com"])::after,[href^=http]:not([href*="app.cloud.gov"])::after {
+.usa-link--alt[href^=http]:not([href*="www.frtib.gov"])::after, [href^=http]:not([href*="www.frtib.gov"])::after {
     background: 0 0;
     background-color: currentColor;
     -webkit-mask: url(../img/usa-icons/launch.svg) no-repeat center/contain;
