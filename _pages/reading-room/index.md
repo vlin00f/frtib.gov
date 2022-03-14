@@ -29,7 +29,7 @@ most_recent:
 {% capture body -%}
 Below you will find links to a variety of information about the FRTIB, starting with the law that created the FRTIB and the TSP, as well as financial statements, press releases, and surveys of employees and participants.
 
-**Latest Updates**
+__Latest Updates__
 
 <ul>
 {% for mr in page.most_recent -%}

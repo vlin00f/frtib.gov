@@ -24,13 +24,13 @@ FRTIB also provides to Congress summaries of education outreach efforts to TSP p
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="annual-files" title="Previous Annual Reports" inList=false %}
-{% include file-list coll="pdf" folder="/reading-room/congress/TSP" reverse=true format='title' dobutton=true sep="<br>" dropFirst=true -%}
+{% include file-list coll="pdf" folder="/reading-room/congress/TSP" reverse=true format='title' dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false %}
 </div>
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="educational-files" title="Previous Reports on Education Efforts" inList=false %}
-{% include file-list coll="pdf" folder="/reading-room/congress/Fin" reverse=true format='title' dobutton=true sep="<br>" dropFirst=true -%}
+{% include file-list coll="pdf" folder="/reading-room/congress/Fin" reverse=true format='title' dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false %}
 </div>
 

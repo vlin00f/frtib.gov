@@ -21,9 +21,10 @@ Section 301 of the Notification and Federal Employee Antidiscrimination and Reta
 
 The required summary statistical data for EEO complaints filed against the FRTIB is available below.
 
+__Most recent:__ {% include file-list coll="pdf" folder="/no-fear/No_FEAR_2" format='desc' reverse=true dobutton=true count=1 -%}
 
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="No Fear Act Reports" inList=false -%}
+{% include accordion/start expanded=false divID="all-files" title="Previous No Fear Act Reports" inList=false -%}
 {% include file-list coll="pdf" folder="/no-fear/No_FEAR_2" format='desc' reverse=true dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false -%}
 </div>

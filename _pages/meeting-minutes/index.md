@@ -14,11 +14,11 @@ redirect_from:
 #  - getRate();
 ---
 
-{% comment -%}
 {% include alert-block msg_type="info" msg_head="info head" msg_body="this is the info message" -%}
 {% include alert-block msg_type="warning" msg_head="warning head" msg_body="this is the warning message" -%}
 {% include alert-block msg_type="error" msg_head="error head" msg_body="this is the error message" -%}
 {% include alert-block msg_type="success" msg_head="success head" msg_body="this is the success message" -%}
+{% comment -%}
 {% endcomment -%}
 
 
