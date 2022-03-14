@@ -19,7 +19,7 @@ format = page:  Show sections for group, image?, description, add anchors
     {% endif -%}
   {% endfor %}
 {% else -%}
-## Board
+### Board
 ___
   {% for member in site.data.board -%}
     {% if member.group == 'board' -%}
@@ -28,7 +28,7 @@ ___
 <strong>{{member.name}}</strong>. {{member.description }}<br><br>
     {% endif -%}
   {% endfor %}
-## Executive Director
+### Executive Director
 ___
   {% for member in site.data.board -%}
     {% if member.group == 'executive-director' -%}
@@ -37,7 +37,7 @@ ___
 <strong>{{member.name}}</strong>. {{member.description }}<br><br>
     {% endif -%}
     {% endfor %}
-## Employee Thrift Advisory Council
+### Employee Thrift Advisory Council
 ___
   {% for member in site.data.board -%}
     {% if member.group == 'etac' -%}
