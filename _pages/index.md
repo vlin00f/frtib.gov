@@ -94,7 +94,7 @@ return_to_top: false
   <div class="grid-container">
     <div class="usa-graphic-list__row grid-row grid-gap">
       <div class="usa-media-block tablet:grid-col">
-        <a href="https://www.tsp.gov" target="_blank">{% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}</a>
+        {% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Learn about TSP
@@ -105,7 +105,7 @@ return_to_top: false
         </div>
       </div>
       <div class="usa-media-block tablet:grid-col">
-      <a href="https://www.tsp.gov/how-to-invest/" target="_blank">{% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}</a>
+      {% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}
         <div class="usa-media-block__body">
           <h2 class="usa-graphic-list__heading">
             Learn about Fund options

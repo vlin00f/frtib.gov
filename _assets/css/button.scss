@@ -97,3 +97,17 @@
 .alert-button:active {
   box-shadow: inset 0 4px 8px rgba(19, 19, 25, 0.25);
 }
+
+// This is the expand svg for official website row at top of page
+
+.usa-banner__button::after {
+      background: 0 0;
+      background-color: #0071bc;
+      -webkit-mask: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
+}
+
+.usa-banner__button[aria-expanded=true]::after {
+    background: 0 0;
+    background-color: #981b1e;
+    -webkit-mask: url(../img/usa-icons/expand_less.svg) no-repeat center/contain;
+}
