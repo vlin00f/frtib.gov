@@ -77,14 +77,13 @@ These inquiries may also be __faxed__ to the TSP Service Office at <a href="tel:
 
 </ul>
 
-
 ### Federal Retirement Thrift Investment Board
 
 To contact an employee of the FRTIB, you may call <a href="tel:202-942-1600">202-942-1600</a>.
 
 For inquiries from other Executive Branch Agencies, the Legislative Branch, or the Uniformed Services, you may write directly to the FRTIB at the following address:
 
-Federal Retirement Thrift Investment Board<br>
+__Federal Retirement Thrift Investment Board__<br>
 77 K Street, N.E. <br>
 Suite 1000<br>
 Washington, D.C. 20002

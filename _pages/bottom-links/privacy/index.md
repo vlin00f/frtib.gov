@@ -15,7 +15,7 @@ redirect_from:
 
 ## Privacy Policy
 
-This Web site (www.frtib.gov) is provided as a public service by the Federal Retirement Thrift Investment Board.
+This Web site (<a href="https://www.frtib.gov">www.frtib.gov</a>) is provided as a public service by the Federal Retirement Thrift Investment Board.
 
 Thank you for visiting the FRTIB Web site and reviewing our privacy policy.
 

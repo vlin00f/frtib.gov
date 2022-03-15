@@ -18,7 +18,7 @@ redirect_from:
 The Federal Employee Viewpoint Survey (FEVS) was administered from September 24, 2020 to November 5, 2020, and a total of 183 (74%) Federal Retirement Thrift Investment Board (FRTIB) employees responded to the survey. Below is a summary of what has been identified as our Agency's strengths, challenges, and areas of progress.
 
 
-##### Strengths
+### Strengths
 FRTIB has clear strengths in the areas of work experience, health and safety, work-life balance, work quality, and establishing alignment between employees' work and the goals of the agency. These items were the highest overall positive responses:
 
 - 92% of employees said that they are protected from health and safety hazards on the job (Q15).
@@ -31,7 +31,7 @@ FRTIB has clear strengths in the areas of work experience, health and safety, wo
 In addition to the five items above, 39 additional items were identified as strengths.
 
 
-##### Challenges
+### Challenges
 
 FRTIB employees are less satisfied with steps taken to support Child and Elder Care Programs as well as steps taken to deal with poor performers. These were the highest overall negative responses:
 
@@ -42,7 +42,7 @@ FRTIB employees are less satisfied with steps taken to support Child and Elder C
 No additional items were identified as challenges.
 
 
-##### Areas of Progress
+### Areas of Progress
 
 There were several areas where the results improved from the previous year. FRTIB employees are satisfied with the information they receive from management and feel managers communicate and evaluate the goals of the organization. They also feel that physical conditions allow them to perform their job well and understood what they had to do to be rated at the different performance levels. These were the largest increases in positive responses:
 

@@ -18,6 +18,11 @@ The morning of your report date will be filled with activities to in-process you
 
 Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include information about forms you need to complete prior to your report date and pre-onboarding training requirements.
 
-{% include file-list coll="pdf" folder="/onboarding/orientation/" reverse=true format='title' dobutton=true -%}
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Download Orientation Documents" inList=false -%}
+{% include file-list coll="pdf" folder="/onboarding/orientation/" format='desc' reverse=false dobutton=true dropFirst=true -%}
+{% include accordion/end  inList=false -%}
+</div>
+
 
 <!-- CONTENT END -->

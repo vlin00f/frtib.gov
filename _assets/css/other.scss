@@ -4,6 +4,33 @@
 */
 
 //   alterations to USWDS styles
+h3 {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  line-height: 1.2;
+  font-size: 1.15em;
+  font-weight: bold;
+  color: #112e51;
+}
+
+a:active, a:focus, li:focus, li:active {
+    outline: none !important;
+    border: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    user-select: none;
+}
+
+.usa-alert__heading {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  line-height: 1.2;
+  color: #112e51;
+  font-size: 1.15rem;
+}
+
 .usa-card__heading {
     font-size: 1.15rem;
     color: #112e51;

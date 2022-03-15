@@ -5,8 +5,10 @@
 
 // This is for svg icon for link leading to external site
 
-.usa-link--alt[href^=http]:not([href*="frtib.gov"])::after, [href^=http]:not([href*="govdelivery.com"])::after {
-    background: url(../img/usa-icons/launch.svg) no-repeat center/contain;
+.usa-link--alt[href^=http]:not([href*="www.frtib.gov"])::after, [href^=http]:not([href*="www.frtib.gov"])::after {
+    background: 0 0;
+    background-color: currentColor;
+    -webkit-mask: url(../img/usa-icons/launch.svg) no-repeat center/contain;
     width: 1.75ex;
     background-position: center;
     content: "";

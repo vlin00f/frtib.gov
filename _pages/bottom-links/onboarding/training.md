@@ -18,13 +18,11 @@ permalink: /onboarding/training/
 
 Prior to your report date you will need to complete required training in order to be granted access to the FRTIB's network and systems, and to be issued IT equipment. Please visit the following websites to complete the required training at least 14 days prior to your report date. If you do not return the proofs of completion before you report your IT access will be delayed. Follow the instructions in your welcome email from Human Resources for where to return each proof of completion.
 
-[Cyber Security Awareness Training](https://dl.dod.cyber.mil/wp-content/uploads/trn/online/disa_cac_2022_final_web/launch.html){: target="_blank}
+* [Cyber Security Awareness Training](https://dl.dod.cyber.mil/wp-content/uploads/trn/online/disa_cac_2022_final_web/launch.html){: target="_blank}
+* [Privacy Awareness Training](https://www.dhs.gov/xlibrary/privacy_training/index.htm){: target="_blank}
+* {% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true -%}
 
-[Privacy Awareness Training](https://www.dhs.gov/xlibrary/privacy_training/index.htm){: target="_blank}
-
-{% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true -%}
-
-### NOTE TO NEW HIRES ABOUT ACCEPTABLE SIGNATURES:
+### Note to New Hires About Acceptable Signatures:
 
 Only the following types of signatures will be accepted:
 
