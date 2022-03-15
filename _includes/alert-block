@@ -7,7 +7,7 @@ info    warning   error   success
 {% assign msg_slim = include.msg_slim | default: false -%}
 {% assign msg_head = include.msg_head | default: "Add msg_head" -%}
 {% assign msg_body = include.msg_body | default: "Add msg_body" -%}
-<div class="usa-alert usa-alert--{{msg_type}}">
+<div class="usa-alert usa-alert--{{msg_type}} {% if include.no-icon -%}usa-alert--no-icon{% endif -%}">
   <div class="usa-alert__body">
     {% if msg_slim == false -%}<h4 class="usa-alert__heading">{{msg_head}}</h4>{% endif -%}
     {% if include.markdownify == true -%}{{msg_body|markdownify}}{% else -%}{{msg_body}}{% endif -%}

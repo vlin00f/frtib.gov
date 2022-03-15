@@ -90,6 +90,12 @@
   @extend .usa-process-list;
 }
 
+.bordered {
+  border-style: solid;
+  border-color: #000000;
+  border-width: thin;
+}
+
 .left-border-thick-line {
   padding-left: 0.4rem;
   border-left-style: solid;

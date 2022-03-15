@@ -9,7 +9,7 @@ Component to display the job openings on the careers page.
 
 {% for job in site.careers -%}
 <div class="usa-accordion career-accordion hide" id="{{job.codes.first.usa}}" start="{{job.start|date: "%Y%m%d"}}" end="{{job.end|date: "%Y%m%d"}}">
-{% include accordion/start expanded=false divID=forloop.index title=job.position inList=false -%}
+{% include accordion/start expanded=false divID=forloop.index title=job.position inList=false xtraClass1='bordered' -%}
 {{job.content | replace: '#position#', job.position }}
 <ul>
 {% for code in job.codes -%}
