@@ -20,7 +20,7 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Federal Employees Forms" inList=false -%}
-{% include file-list coll="pdf" folder="/onboarding/forms/" format='desc' reverse=false dobutton=true dropFirst=true -%}
+{% include file-list coll="pdf" folder="/onboarding/forms/" format='title' reverse=false dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 
