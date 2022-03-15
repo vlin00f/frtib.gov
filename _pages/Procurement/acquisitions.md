@@ -78,7 +78,7 @@ FRTIB’s Micro Purchase Threshold (MPT) is $15,000; our Simplified Acquisition 
 * FRTIB generally solicits a minimum of three firms.
 {% include accordion/end inList=false -%}
 
-{% include accordion/start expanded=false divID='accNotCompetative' title='Non-competative Acquisition' inList=false -%}
+{% include accordion/start expanded=false divID='accNotCompetative' title='Non-Competitive Acquisition' inList=false -%}
 * If FRTIB determines only one firm can provide the goods or services required, FRTIB uses noncompetitive contracting procedures following the Competition in Contracting Act of 1984.
 * Unique situations arise in which competitive acquisitions are not possible. These generally involve urgent or specialized requirements.
 {% include accordion/end inList=false -%}
