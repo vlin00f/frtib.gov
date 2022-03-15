@@ -27,11 +27,11 @@ You must file a complaint within 45 calendar days of the date of the matter alle
 ### How to File a Complaint
 
 Contact Don Sapp, FRTIB’s EEO Manager at<br>
-- <Donald.Sapp@tsp.gov> or
-- <a href="tel:202-864-8536">202-864-8536</a> (Office) <a href="tel:202-748-2422"> 202-748-2422</a> (Cell)
+* <Donald.Sapp@tsp.gov> or
+* <a href="tel:202-864-8536">202-864-8536</a> (Office) <a href="tel:202-748-2422"> 202-748-2422</a> (Cell)
 
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download relevant forms" inList=false -%}
+{% include accordion/start expanded=false divID="all-files" title="Download EEO Forms" inList=false -%}
 {% include file-list coll="pdf" folder="/eeo" format='desc' reverse=false dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false -%}
 </div>

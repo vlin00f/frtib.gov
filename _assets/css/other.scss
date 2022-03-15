@@ -4,6 +4,20 @@
 */
 
 //   alterations to USWDS styles
+h3 {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  line-height: 1.2;
+  font-size: 1.15em;
+  font-weight: bold;
+  color: #112e51;
+}
+.usa-alert__heading {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  line-height: 1.2;
+  color: #112e51;
+  font-size: 1.15rem;
+}
+
 .usa-card__heading {
     font-size: 1.15rem;
     color: #112e51;
