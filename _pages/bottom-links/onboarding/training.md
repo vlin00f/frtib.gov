@@ -22,6 +22,7 @@ Prior to your report date you will need to complete required training in order t
 * [Privacy Awareness Training](https://www.dhs.gov/xlibrary/privacy_training/index.htm){: target="_blank}
 * {% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true -%}
 
+<!-- -->
 ### Note to New Hires About Acceptable Signatures:
 
 Only the following types of signatures will be accepted:

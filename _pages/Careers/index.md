@@ -34,7 +34,7 @@ The Federal Retirement Thrift Investment Board (FRTIB) is a great place to work;
 
 From development programs to a wide-variety of work/life-balance option, the FRTIB provides access to a range of benefits that are designed to make your FRTIB career rewarding.  Additionally, as a federal employee, you and your family will have access to a comprehensive federal benefits package.  Learn more about <a href="https://www.usajobs.gov/Help/working-in-government/benefits/" target="_blank">federal benefits</a>.
 
-Please contact <a href="mailto:hroperations@tsp.gov?subject=Questions regarding FRTIB benefits and employment">hroperations@tsp.gov</a> for any questions.
+Please contact <a href="mailto:hroperations@frtib.gov?subject=Questions regarding FRTIB benefits and employment">hroperations@frtib.gov</a> for any questions.
 
 {% endcapture -%}
 {% include desc-box

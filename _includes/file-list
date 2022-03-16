@@ -38,6 +38,7 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% for file in sorted -%}
   {% assign format = informat -%}
   {% if include.dropFirst -%}{% if forloop.first -%}{% continue -%}{% endif -%}{% endif -%}
+  {% if include.dropTwo -%}{% if forloop.index <= 2 -%}{% continue -%}{% endif -%}{% endif -%}
   {% if include.addLI -%}<li>{% endif -%}
   {% capture url -%}{{site.baseurl}}{{file.path | replace_first: '_', '/'}}{% endcapture -%}
   {% assign cur = site.data.[datafile] | where: "name", file.name | first %}
