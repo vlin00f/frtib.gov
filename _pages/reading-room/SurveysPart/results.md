@@ -14,8 +14,8 @@ permalink: /participant-surveys/results/
 
 #### TSP Participant Survey Results
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='desc' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='title' dobutton=true -%}
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/2020" reverse=true format='desc' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/2020" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

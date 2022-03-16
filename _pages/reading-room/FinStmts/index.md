@@ -17,11 +17,11 @@ redirect_from:
 An independent auditor provides a year-end audit of Thrift Savings Fund which describes the assets and liabilities of the Fund and provides the related notes accompanying the financial statements.
 
 
-__Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/FinStmts" format='desc' reverse=true dobutton=true count=1 -%}
+__Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/FinStmts" format='title' reverse=true dobutton=true count=1 -%}
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Financial Statements" inList=false -%}
-{% include file-list coll="pdf" folder="/reading-room/FinStmts" format='desc' reverse=true dobutton=true dropFirst=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FinStmts" format='title' reverse=true dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 <!-- CONTENT END -->

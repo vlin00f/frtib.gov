@@ -14,6 +14,6 @@ permalink: /participant-surveys/outreach/
 
 #### Outreach Evaluation Summaries
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/CY" reverse=true format='desc' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/CY" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

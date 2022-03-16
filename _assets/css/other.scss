@@ -12,17 +12,17 @@ h3 {
   color: #112e51;
 }
 
-a:active, a:focus, li:focus, li:active {
-    outline: none !important;
-    border: none !important;
-    text-decoration: none !important;
-    box-shadow: none !important;
-    -webkit-tap-highlight-color: transparent !important;
-    -webkit-user-select: none; /* Chrome/Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+ */
-    user-select: none;
-}
+//a:active, a:focus, li:focus, li:active {
+//    outline: 1px !important;
+//    border: 1px !important;
+//    text-decoration: none !important;
+//    box-shadow: none !important;
+//    -webkit-tap-highlight-color: transparent !important;
+//    -webkit-user-select: none; /* Chrome/Safari */
+//    -moz-user-select: none; /* Firefox */
+//    -ms-user-select: none; /* IE10+ */
+//    user-select: none;
+//}
 
 .usa-alert__heading {
   font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
