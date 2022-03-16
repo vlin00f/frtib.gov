@@ -295,10 +295,6 @@
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
-- name: foia-annual-report-2020.docx
-  updated:
-  desc: 2020 Annual Report [PDF]
-  title: 2020 Annual Report [PDF]
 - name: Financial_Literacy_Rpt_2020.pdf
   updated: 2021-03-12
   desc: 2020 Education effort report to congress [PDF]
@@ -551,3 +547,17 @@
   updated:
   title: 2019 FOIA Annual Report [PDF]
   desc: 2019 FOIA Annual Report [PDF]
+
+## FOIA
+- name: foia-annual-report-2021.xml
+  updated: 2022-03-16
+  title: 2021 Annual Report [XML]
+  desc: 2021 Annual Report [XML]
+- name: foia-annual-report-2021.docx
+  updated: 2022-03-16
+  title: 2021 Annual Report [DOCX]
+  desc: 2021 Annual Report [DOCX]
+- name: foia-annual-report-2020.docx
+  updated:
+  desc: 2020 Annual Report [DOCX]
+  title: 2020 Annual Report [DOCX]
