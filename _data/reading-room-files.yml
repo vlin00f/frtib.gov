@@ -1,380 +1,404 @@
 # info about files in the reading room area
 - name: TSP-Survey-Results-2021.pdf
-  title: 2021 TSP Survey Results
+  title: 2021 TSP Survey Results [PDF]
   updated: 2021-11-16
   desc: 2021
 - name: TSP-Survey-Results-2017.pdf
-  title: 2017 TSP Survey Results
+  title: 2017 TSP Survey Results [PDF]
   updated: 2017-11-29
   desc: 2017
 - name: TSP-Survey-Results-2013.pdf
-  title: 2013 TSP Survey Results
+  title: 2013 TSP Survey Results [PDF]
   updated:
   desc: 2013
 - name: TSP-Survey-Results-2011.pdf
-  title: 2011 TSP Survey Results
+  title: 2011 TSP Survey Results [PDF]
   updated:
   desc: 2011
 - name: TSP-Survey-Results-2008.pdf
-  title: 2008 TSP Survey Results
+  title: 2008 TSP Survey Results [PDF]
   updated:
   desc: 2008
 - name: TSP-Survey-Results-2006.pdf
-  title: 2006 TSP Survey Results
+  title: 2008 TSP Survey Results [PDF]
   updated:
   desc: 2006
 - name: CY20-CY21.pdf
-  title: CY 2020-2021 Outreach Evaluation Summaries
+  title: CY 2020-2021 Outreach Evaluation Summaries [PDF]
   updated: 2021-04-22
   desc: CY 2020-2021
 - name: CY18-CY20.pdf
-  title: CY 2018-2020 Outreach Evaluation Summaries
+  title: CY 2018-2020 Outreach Evaluation Summaries [PDF]
   updated: 2020-11-23
   desc: CY 2020-2021
 - name: 2020_Participant_Satisfaction_Survey.pdf
-  title: 2020 Participant Satisfaction Survey
+  title: 2020 Participant Satisfaction Survey [PDF]
   updated: 2020-12-11
   desc: 2020 Participant Satisfaction Survey
 - name: 2020_Financial_Wellness_Survey.pdf
-  title: 2020 Financial Wellness Survey
+  title: 2020 Financial Wellness Survey [PDF]
   updated: 2021-06-24
   desc: 2020 Financial Wellness Survey
 - name: Participant-Behavior-and-Demographics-2016-2020.pdf
-  title: 2016-2020 Participant Behavior Demographics
+  title: 2016-2020 Participant Behavior Demographics [PDF]
   updated: 2021-06-30
   desc: 2016-2020
 - name: Participant-Behavior-and-Demographics-2015-2019.pdf
-  title: 2015-2019 Participant Behavior Demographics
+  title: 2015-2019 Participant Behavior Demographics [PDF]
   updated:
   desc: 2015-2019
 - name: Participant-Behavior-Demographics-2016.pdf
-  title: 2012-2016 Participant Behavior Demographics
+  title: 2012-2016 Participant Behavior Demographics [PDF]
   updated:
   desc: 2012-2016
 - name: Participant-Behavior-Demographics-2014.pdf
-  title: 2010-2014 Participant Behavior Demographics
+  title: 2010-2014 Participant Behavior Demographics [PDF]
   updated:
   desc: 2010-2014
 - name: Participant-Behavior-Demographics-2013.pdf
-  title: 2009-2013 Participant Behavior Demographics
+  title: 2009-2013 Participant Behavior Demographics [PDF]
   updated:
   desc: 2009-2013
 - name: Participant-Behavior-Demographics-2012.pdf
-  title: 2008-2012 Participant Behavior Demographics
+  title: 2008-2012 Participant Behavior Demographics [PDF]
   updated:
   desc: 2008-2012
 - name: Participant-Behavior-Demographics-2010.pdf
-  title: 2006-2010 Participant Behavior Demographics
+  title: 2006-2010 Participant Behavior Demographics [PDF]
   updated:
   desc: 2006-2010
 - name: Participant-Behavior-Demographics-2005.pdf
-  title: 2000-2005 Participant Behavior Demographics
+  title: 2000-2005 Participant Behavior Demographics [PDF]
   updated:
   desc: 2000-2005
 - name: PR_2020-11-17_RKSA_Award_Announcement_FINAL.pdf
   updated:
   desc: 11/17/2020
-  title: FRTIB Awards Recordkeeping Contract
+  title: FRTIB Awards Recordkeeping Contract [PDF]
 - name: PR_2020-10-27_Multi_Manager_Selection.pdf
   updated:
   desc: 10/27/2020
-  title: FRTIB Awards the Second of Two Fund Manager Contracts
+  title: FRTIB Awards the Second of Two Fund Manager Contracts [PDF]
 - name: PR_2020-06-05-MK_Resignation_Press_Release.pdf
   updated:
   desc: 06/05/2020
-  title: FRTIB Announces the Resignation of Chairman Michael Kennedy
+  title: FRTIB Announces the Resignation of Chairman Michael Kennedy [PDF]
 - name: PR_2020-02-26_Fund_Manager_Contract.pdf
   updated:
   desc: 02/24/2020
-  title: FRTIB Awards First of Two Fund Manager Contracts
+  title: FRTIB Awards First of Two Fund Manager Contracts [PDF]
 - name: PR_2020-01-31-FRTIBAwardsAnnuityContract.pdf
   updated:
   desc: 01/31/2020
-  title: FRTIB Awards Annuity Contract
+  title: FRTIB Awards Annuity Contract [PDF]
 - name: PR_2019-08-21_RKSA-Final-RFP-Announcement.pdf
   updated:
   desc: 08/21/2019
-  title: FRTIB Announces RKSA Final Announcement
+  title: FRTIB Announces RKSA Final Announcement [PDF]
 - name: PR_2019-06-03_Multi-Managers-RFP-May-2019.pdf
   updated:
   desc: 06/03/2019
-  title: FRTIB Announces RFP for Multi Managers
+  title: FRTIB Announces RFP for Multi Managers [PDF]
 - name: PR_2018-06-28_RKSA-Min-Qual-Announcement.pdf
   updated:
   desc: 07/06/2018
-  title: FRTIB Announces RKSA Minimum Qualification
+  title: FRTIB Announces RKSA Minimum Qualification [PDF]
 - name: PR_2018-05-21_Board-Selects-F-Fund-Manager.pdf
   updated:
   desc: 05/21/2018
-  title: FRTIB Announces Selection of F Fund Manager
+  title: FRTIB Announces Selection of F Fund Manager [PDF]
 - name: PR_2017-11-06_California-Wildfires-Hurricane-Maria.pdf.pdf
   updated:
   desc: 11/06/2017
-  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of CA Wildfires and Hurricane Maria
+  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of CA Wildfires and Hurricane Maria [PDF]
 - name: PR_2017-09-13-Hurricane-Irma.pdf
   updated:
   desc: 09/13/2017
-  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Hurricane Irma
+  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Hurricane Irma [PDF]
 - name: PR_2017-09-02_Hurricane Harvey Press Release.pdf
   updated:
   desc: 09/02/2017
-  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Hurricane Harvey
+  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Hurricane Harvey [PDF]
 - name: PR_2017-08-01-Announcement-of-Deo-as-ED.pdf
   updated:
   desc: 08/01/2017
-  title: FRTIB Announces Selection of Permanent Executive Director
+  title: FRTIB Announces Selection of Permanent Executive Director [PDF]
 - name: PR_2017-04-24-GregLongLeaving.pdf
   updated:
   desc: 04/24/2017
-  title: FRTIB Announces Executive Director Greg Long is Leaving
+  title: FRTIB Announces Executive Director Greg Long is Leaving [PDF]
 - name: PR_2016-10-25-HurrMattPR.pdf
   updated:
   desc: 10/25/2016
-  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Hurricane Matthew
+  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Hurricane Matthew [PDF]
 - name: PR_2016-09-02_LouisianaFloodingHardshipWithdrawals.pdf
   updated:
   desc: 09/02/2016
-  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Louisiana Flooding
+  title: FRTIB Announces a Relaxation of Hardship Withdrawal Rules to Help Victims of Louisiana Flooding [PDF]
 - name: PR_2016-06-28_InvestmentConsContAward.pdf
   updated:
   desc: 06/28/2016
-  title: FRTIB Awards Investment Consultant Contract
+  title: FRTIB Awards Investment Consultant Contract [PDF]
 - name: unknown
   updated:
   desc: 05/19/2015
-  title: FRTIB Selects a Manager for the C Fund
+  title: FRTIB Selects a Manager for the C Fund [PDF]
 - name: PR_2015-05-18-InfoSec.pdf
   updated:
   desc: 05/18/2015
-  title: FRTIB Provides Briefing on Information Security Program & Responds to Senators Johnson and Carper
+  title: FRTIB Provides Briefing on Information Security Program & Responds to Senators Johnson and Carper [PDF]
 - name: PR_2015-05-18-ResponsetoSen.pdf
   updated:
   desc: 05/18/2015
-  title: Response to Senators Johnson and Carper
+  title: Response to Senators Johnson and Carper [PDF]
 - name: PR_2015-04-20-ReconfirmBdMbrs.pdf
   updated:
   desc: 04/20/2015
-  title: FRTIB Announces Re-confirmation of Michael Kennedy and David A. Jones
+  title: FRTIB Announces Re-confirmation of Michael Kennedy and David A. Jones [PDF]
 - name: PR_2015-03-02_PrintMailContractAward1.pdf
   updated:
   desc: 03/02/2015
-  title: FRTIB Announces the Award of the Print Mail Contract
+  title: FRTIB Announces the Award of the Print Mail Contract [PDF]
 - name: PR_2015-03-02_PrintMailContractAward.pdf
   updated:
   desc: 03/02/2015
-  title: FRTIB Announces the Award of the Print Mail Contract
+  title: FRTIB Announces the Award of the Print Mail Contract [PDF]
 - name: PR_2015-02-25_New_CIO.pdf
   updated:
   desc: 02/25/2015
-  title: FRTIB Announces the Selection of Ravindra Deo as Chief Investment Officer
+  title: FRTIB Announces the Selection of Ravindra Deo as Chief Investment Officer [PDF]
 - name: PR_2015-02-12_C_Fund_RFP_Press_Release.pdf
   updated:
   desc: 02/12/2015
-  title: FRTIB Releases a Request For Proposal for a Manager for the C Fund
+  title: FRTIB Releases a Request For Proposal for a Manager for the C Fund [PDF]
 - name: PR_2014-08-21_FERS-Participation.pdf
   updated:
   desc: 08/21/2014
-  title: FRTIB Thrift Savings Plan Participation Hits a Record High
+  title: FRTIB Thrift Savings Plan Participation Hits a Record High [PDF]
 - name: PR_2014-07-16_S-Fund_ContractAward.pdf
   updated:
   desc: 07/16/2014
-  title: FRTIB Selects a Manager for its Small Cap Stock Index Investment Fund (S Fund)
+  title: FRTIB Selects a Manager for its Small Cap Stock Index Investment Fund (S Fund) [PDF]
 - name: PR_2014-05-12_AnnuityContractAward.pdf
   updated:
   desc: 05/12/2014
-  title: FRTIB Awards Annuity Contract to Metropolitan Life Insurance Company
+  title: FRTIB Awards Annuity Contract to Metropolitan Life Insurance Company [PDF]
 - name: PR_2014-01-13_S-Fund-RFProposal.pdf
   updated:
   desc: 01/13/2014
-  title: FRTIB Releases a RFP for a Fund Manager for its Small Cap Stock Index Investment Fund (S Fund) arrow right
+  title: FRTIB Releases a RFP for a Fund Manager for its Small Cap Stock Index Investment Fund (S Fund) [PDF]
 - name: PR_2013-12-16_TSP-TwitterAccount.pdf
   updated:
   desc: 12/16/2013
-  title: FRTIB Launches its Twitter Account - @tsp4gov
+  title: FRTIB Launches its Twitter Account - @tsp4gov [PDF]
 - name: PR_2013-11-06_Benchmarking-Contract-Award.pdf
   updated:
   desc: 11/06/2013
-  title: FRTIB Awards Benchmarking Contract to Deloitte Consulting Inc.
+  title: FRTIB Awards Benchmarking Contract to Deloitte Consulting Inc. [PDF]
 - name: PR_2013-10-21_TSP-MyAccount-Mobile-Access.pdf
   updated:
   desc: 10/21/2013
-  title: FRTIB Releases a Mobile Version of TSP.GOV MyAccount Website
+  title: FRTIB Releases a Mobile Version of TSP.GOV MyAccount Website [PDF]
 - name: PR_2013-09-20_Interim-Final-Rule-Windsor.pdf
   updated:
   desc: 09/20/2013
-  title: FRTIB Issues Interim Final Rule Defining Spouse
+  title: FRTIB Issues Interim Final Rule Defining Spouse [PDF]
 - name: PR_2013-09-16_I-Fund-Contract-Award.pdf
   updated:
   desc: 09/16/2013
-  title: FRTIB Selects a Manager for its International Stock Index Investment Fund (I Fund)
+  title: FRTIB Selects a Manager for its International Stock Index Investment Fund (I Fund) [PDF]
 - name: PR_2013-08-09_TESS-Contract-Award.pdf
   updated:
   desc: 08/09/2013
-  title: FRTIB Awards Technology and Enterprise Support Services Contract to SAIC
+  title: FRTIB Awards Technology and Enterprise Support Services Contract to SAIC [PDF]
 - name: PR_2013-07-22_Announce_New_BMember.pdf
   updated:
   desc: 07/22/2013
-  title: FRTIB Announces the Confirmation of William Jasien as a New Member of the Board
+  title: FRTIB Announces the Confirmation of William Jasien as a New Member of the Board [PDF]
 - name: PR_2013-06-11_I-Fund_RFP.pdf
   updated:
   desc: 06/11/2013
-  title: FRTIB Releases a RFP for a Fund Manager for its International Stock Index Investment Fund (I Fund)
+  title: FRTIB Releases a RFP for a Fund Manager for its International Stock Index Investment Fund (I Fund) [PDF]
 - name: PR_2012-12-04_F-Fund-Contract-Award.pdf
   updated:
   desc: 12/04/2012
-  title: FRTIB Selects a Manager for its Fixed Income Index Investment Fund (F Fund)
+  title: FRTIB Selects a Manager for its Fixed Income Index Investment Fund (F Fund) [PDF]
 - name: PR_2012-11-21_HurricaneSandy.pdf
   updated:
   desc: 11/21/2012
-  title: FRTIB Announces Temporary Changes to the TSP Hardship Withdrawal Rules for Victims of Hurricane Sandy
+  title: FRTIB Announces Temporary Changes to the TSP Hardship Withdrawal Rules for Victims of Hurricane Sandy [PDF]
 - name: PR_2012-05-31_RequestforProposalforManagerFFund.pdf
   updated:
   desc: 05/31/2012
-  title: FRTIB Releases a Request for Proposal for a Manager for the F Fund
+  title: FRTIB Releases a Request for Proposal for a Manager for the F Fund [PDF]
 - name: PR_2012-05-25_CyberAttackonContractor.pdf
   updated:
   desc: 05/25/2012
-  title: FRTIB Reports a Cyber Attack on a Contractor Potentially Affecting TSP Participants
+  title: FRTIB Reports a Cyber Attack on a Contractor Potentially Affecting TSP Participants [PDF]
 - name: PR_2012-05-03_PresidentailMeritoriousRankAwardRecipient.pdf
   updated:
   desc: 05/03/2012
-  title: FRTIB Recognizes Presidential Meritorious Rank Award Recipient
+  title: FRTIB Recognizes Presidential Meritorious Rank Award Recipient [PDF]
 - name: PR_2012-04-11_LaunchDateforNewRothTSPOption.pdf
   updated:
   desc: 04/11/2012
-  title: FRTIB Announces Launch Date for New Roth TSP Option
+  title: FRTIB Announces Launch Date for New Roth TSP Option [PDF]
 - name: TSP-FS-Dec2020.pdf
   updated:
   desc: 2020 December financial statement
-  title: Financial statement  2020 December
+  title: 2020 December Financial Statement [PDF]
 - name: TSP-FS-Dec2019.pdf
   updated:
   desc: 2019 December financial statement
-  title: Financial statement  2019 December
+  title: 2019 December Financial Statement [PDF]
 - name: TSP-FS-Dec2018.pdf
   updated:
   desc: 2018 December financial statement
-  title: Financial statement  2018 December
+  title: 2018 December Financial Statement [PDF]
 - name: TSP-FS-Dec2017.pdf
   updated:
   desc: 2017 December financial statement
-  title: Financial statement  2017 December
+  title: 2017 December Financial Statement [PDF]
 - name: TSP-FS-Dec2016.pdf
   updated:
   desc: 2016 December financial statement
-  title: Financial statement  2016 December
+  title: 2016 December Financial Statement [PDF]
 - name: TSP-FS-Dec2015.pdf
   updated:
   desc: 2015 December financial statement
-  title: Financial statement  2015 December
+  title: 2015 December Financial Statement [PDF]
 - name: TSP-FS-Dec2014.pdf
   updated:
   desc: 2014 December financial statement
-  title: Financial statement  2014 December
+  title: 2014 December Financial Statement [PDF]
 - name: TSP-FS-Dec2013.pdf
   updated:
   desc: 2013 December financial statement
-  title: Financial statement  2013 December
+  title: 2013 December Financial Statement [PDF]
 - name: TSP-FS-Dec2012.pdf
   updated:
   desc: 2012 December financial statement
-  title: Financial statement  2012 December
+  title: 2012 December Financial Statement [PDF]
 - name: TSP-FS-Dec2011.pdf
   updated:
   desc: 2011 December financial statement
-  title: Financial statement  2011 December
+  title: 2011 December Financial Statement [PDF]
 - name: TSP-FS-Dec2010.pdf
   updated:
   desc: 2010 December financial statement
-  title: Financial statement  2010 December
+  title: 2010 December Financial Statement [PDF]
 - name: e-read_guide.pdf
   updated:
   desc: Reading Room FOIA Certification
-  title: Reading Room FOIA Certification
+  title: Reading Room FOIA Certification [PDF]
 - name: FOIA-Certification.pdf
   updated:
-  desc: Freedom of Information Act Guide
-  title: Freedom of Information Act Guide
+  desc: Freedom of Information Act Guide [PDF]
+  title: Freedom of Information Act Guide [PDF]
 - name: Financial_Literacy_Rpt_2020.pdf
   updated: 2021-03-12
-  desc: 2020 Education effort report to congress
-  title: 2020 Annual Report on Education Efforts
+  desc: 2020 Education effort report to congress [PDF]
+  title: 2020 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2019.pdf
   updated: 2021-01-26
-  desc: 2019 Education effort report to congress
-  title: 2019 Annual Report on Education Efforts
+  desc: 2019 Education effort report to congress [PDF]
+  title: 2019 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2018.pdf
   updated: 2019-04-08
-  desc: 2018 Education effort report to congress
-  title: 2018 Annual Report on Education Efforts
+  desc: 2018 Education effort report to congress [PDF]
+  title: 2018 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2017.pdf
   updated: 2018-07-10
-  desc: 2017 Education effort report to congress
-  title: 2017 Annual Report on Education Efforts
+  desc: 2017 Education effort report to congress [PDF]
+  title: 2017 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2016.pdf
   updated: 2017-07-28
-  desc: 2016 Education effort report to congress
-  title: 2016 Annual Report on Education Efforts
+  desc: 2016 Education effort report to congress [PDF]
+  title: 2016 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2015.pdf
   updated: 2016-07-26
-  desc: 2015 Education effort report to congress
-  title: 2015 Annual Report on Education Efforts
+  desc: 2015 Education effort report to congress [PDF]
+  title: 2015 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2014.pdf
   updated: 2015-04-15
-  desc: 2014 Education effort report to congress
-  title: 2014 Annual Report on Education Efforts
+  desc: 2014 Education effort report to congress [PDF]
+  title: 2014 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2013.pdf
   updated: 2014-08-11
-  desc: 2013 Education effort report to congress
-  title: 2013 Annual Report on Education Efforts
+  desc: 2013 Education effort report to congress [PDF]
+  title: 2013 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2012.pdf
   updated: 2014-08-11
-  desc: 2012 Education effort report to congress
-  title: 2012 Annual Report on Education Efforts
+  desc: 2012 Education effort report to congress [PDF]
+  title: 2012 Annual Report on Education Efforts [PDF]
 - name: TSP-Annual-Report_2020.pdf
   updated: 2021-06-30
   desc: 2020 Report to Congress
-  title: 2020 Annual report to Congress
+  title: 2020 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2019.pdf
   updated: 2020-06-30
   desc: 2019 Report to Congress
-  title: 2019 Annual report to Congress
+  title: 2019 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2018.pdf
   updated: 2019-07-01
   desc: 2018 Report to Congress
-  title: 2018 Annual report to Congress
+  title: 2018 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2017.pdf
   updated: 2018-07-10
   desc: 2017 Report to Congress
-  title: 2017 Annual report to Congress
+  title: 2017 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2016.pdf
   updated: 2017-07-03
   desc: 2016 Report to Congress
-  title: 2016 Annual report to Congress
+  title: 2016 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2014.pdf
   updated: 2016-03-04
   desc: 2014 Report to Congress
-  title: 2014 Annual report to Congress
+  title: 2014 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2013.pdf
   updated: 2014-08-11
   desc: 2013 Report to Congress
-  title: 2013 Annual report to Congress
+  title: 2013 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2012.pdf
   updated: 2014-08-11
   desc: 2012 Report to Congress
-  title: 2012 Annual report to Congress
+  title: 2012 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2011.pdf
   updated: 2014-08-11
   desc: 2011 Report to Congress
-  title: 2011 Annual report to Congress
+  title: 2011 Annual report to Congress [PDF]
 - name: TSP-Annual-Report_2010.pdf
   updated: 2014-08-11
   desc: 2010 Report to Congress
-  title: 2010 Annual report to Congress
+  title: 2010 Annual report to Congress [PDF]
 - name: 2019_Oct_Benchmark_Evaluation_Report.pdf
   updated: 2020-01-01
-  desc: 2019 October Benchmark Evaluation
-  title: 2019 October Benchmark Evaluation
+  desc: 2019 October Benchmark Evaluation [PDF]
+  title: 2019 October Benchmark Evaluation [PDF]
+- name: 2017Oct_Benchmark-Evaluation-Report.pdf
+  updated:
+  desc: 2017 October Benchmark Evaluation [PDF]
+  title: 2017 October Benchmark Evaluation [PDF]
+- name: 2017May_Investment-Option-Review-Report.pdf
+  updated:
+  desc: 2017 May Investment Option Review [PDF]
+  title: 2017 May Investment Option Review [PDF
+- name: 2013Feb-InvestmentOptionReview.pdf
+  updated:
+  desc: 2013 February Investment Option Review [PDF]
+  title: 2013 February Investment Option Review [PDF]
+- name: 2012_BenchmarkEvaluationReport.pdf
+  updated:
+  desc: 2012 October Benchmark Evaluation [PDF]
+  title: 2012 October Benchmark Evaluation [PDF]
+- name: 2009-BenchmarkEvaluation-IFund.pdf
+  updated:
+  desc: 2009 IFund Benchmark Evaluation [PDF]
+  title: 2009 IFund Benchmark Evaluation [PDF]
+- name: 2006Oct_InvestmentOptionReview.pdf
+  updated:
+  desc: 2006 October Investment Option Review [PDF]
+  title: 2006 October Investment Option Review [PDF]
 - name: No_FEAR_Act_Notice.pdf
   updated:
   title: No FEAR Act Notice [PDF]
@@ -431,6 +455,98 @@
   updated:
   title: FRTIB IPv6 Policy [PDF]
   desc: FRTIB IPv6 Policy [PDF]
+- name: FRTIB_FY22-26_Strategic_Plan.pdf
+  updated:
+  title: FRTIB FY2022-2026 Strategic Plan [PDF]
+  desc: FRTIB FY2022-2026 Strategic Plan [PDF]
+- name: FRTIBStrategicPlan-2017-2021.pdf
+  updated:
+  title: FRTIB FY2017-2021 Strategic Plan [PDF]
+  desc: FRTIB FY2017-2021 Strategic Plan [PDF]
+- name: FRTIBStrategicPlanCloseoutReport-2017-2021.pdf
+  updated:
+  title: FRTIB FY2017–2021 Strategic Plan Closeout Report [PDF]
+  desc: FRTIB FY2017–2021 Strategic Plan Closeout Report [PDF]
+- name: FRTIB-Strategic-Plan_2013-2017.pdf
+  updated:
+  title: FRTIB (Update) FY2013-2017 Strategic Plan [PDF]
+  desc: FRTIB (Update) FY2013-2017 Strategic Plan [PDF]
+- name: FRTIB-Strategic-Plan_2012.pdf
+  updated:
+  title: FRTIB FY2013-2017 Strategic Plan [PDF]
+  desc: FRTIB FY2013-2017 Strategic Plan [PDF]
+- name: 2020_FRTIB_FEVS_Results.pdf
+  updated:
+  title: 2020 FRTIB FEVS Results [PDF]
+  desc: 2020 FRTIB FEVS Results [PDF]
+- name: 2019_FRTIB_FEVS_Results.pdf
+  updated:
+  title: 2019 FRTIB FEVS Results [PDF]
+  desc: 2019 FRTIB FEVS Results [PDF]
+- name: 2018_FRTIB_FEVS_Results.pdf
+  updated:
+  title: 2018 FRTIB FEVS Results [PDF]
+  desc: 2018 FRTIB FEVS Results [PDF]
+- name: 2017_FRTIB_FEVS_Results.pdf
+  updated:
+  title: 2017 FRTIB FEVS Results [PDF]
+  desc: 2017 FRTIB FEVS Results [PDF]
+- name: 2016_FRITB_FEVS_Trend_Report.pdf
+  updated:
+  title: 2016 FRTIB FEVS Trend Report [PDF]
+  desc: 2016 FRTIB FEVS Trend Report [PDF]
+- name: 2015_FRTIB_FEVS_Trend_Report.pdf
+  updated:
+  title: 2015 FRTIB FEVS Trend Report [PDF]
+  desc: 2015 FRTIB FEVS Trend Report [PDF]
+- name: 2014_FRTIB_FEVS_Trend_Report.pdf
+  updated:
+  title: 2014 FRTIB FEVS Trend Report [PDF]
+  desc: 2014 FRTIB FEVS Trend Report [PDF]
+- name: 2013_FRTIB_FEVS_Trend_Report.pdf
+  updated:
+  title: 2013 FRTIB FEVS Trend Report [PDF]
+  desc: 2013 FRTIB FEVS Trend Report [PDF]
+- name: 2013_FEVS_Government_Wide_Report.pdf
+  updated:
+  title: 2013 FEVS Government Wide Management Report [PDF]
+  desc: 2013 FEVS Government Wide Management Report [PDF]
+- name: 2012-OPM-FEVS-Results_FRTIB_Agency.pdf
+  updated:
+  title: 2012 FRTIB FEVS Results [PDF]
+  desc: 2012 FRTIB FEVS Results [PDF]
+- name: 2011-OPM-FEVS-Results_FRTIB_Agency.pdf
+  updated:
+  title: 2011 FRTIB FEVS Results [PDF]
+  desc: 2011 FRTIB FEVS Results [PDF]
+- name: 2007-Survey-Answers.pdf
+  updated:
+  title: 2007 FRTIB Survey Answers [PDF]
+  desc: 2007 FRTIB Survey Answers [PDF]
+- name: TIB-2008-C-001_Active-Network.pdf
+  updated:
+  title: 2008 FRTIB C-001 Active Network [PDF]
+  desc: 2008 C-001 Active Network [PDF]
+- name: TIB-2007-C-002_SERVICE-BUREAU.pdf
+  updated:
+  title: 2007 FRTIB C-002 Service Bureau [PDF]
+  desc: 2007 FRTIB C-002 Service Bureau [PDF]
+- name: foia-annual-report-2020.xml
+  updated:
+  title: 2020 FOIA Annual Report [XML]
+  desc: 2020 FOIA Annual Report [XML]
+- name: foia-annual-report-2020.docx
+  updated:
+  title: 2020 FOIA Annual Report [DOCX]
+  desc: 2020 FOIA Annual Report [DOCX]
+- name: foia-annual-report-2019.xml
+  updated: 2019 FOIA Annual Report [XML]
+  title: 2019 FOIA Annual Report [XML]
+  desc:
+- name: foia-annual-report-2019.pdf
+  updated:
+  title: 2019 FOIA Annual Report [PDF]
+  desc: 2019 FOIA Annual Report [PDF]
 
 ## FOIA
 - name: foia-annual-report-2021.xml

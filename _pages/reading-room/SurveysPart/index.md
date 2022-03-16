@@ -18,7 +18,7 @@ redirect_from:
 
 We are continually seeking ways to improve the services offered by the Thrift Savings Plan (TSP) and to increase participation in the Plan. We conduct annual TSP Participant Surveys to measure participant satisfaction with TSP features, services, and communications.
 
-<br><br>
+<br>
 
 <!-- cards starts here -->
 <ul class="usa-card-group">

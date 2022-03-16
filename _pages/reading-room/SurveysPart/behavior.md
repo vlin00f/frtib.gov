@@ -14,6 +14,6 @@ permalink: /participant-surveys/behavior/
 
 #### Participant Behavior and Demographics
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='desc' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->
