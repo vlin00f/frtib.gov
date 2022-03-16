@@ -14,6 +14,15 @@ permalink: /foia/year/
 
 ## FOIA Fiscal Year Reports
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/year/" reverse=true format='title' dobutton=true -%}
+__Most recent:__
+
+{% include file-list coll="pdf" folder="/reading-room/FOIA/year/" format='title' reverse=true dobutton=true count=2 -%}
+
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Previous Annual FOIA Reports" inList=false -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/year/" format='title' reverse=true dobutton=true dropTwo=true -%}
+{% include accordion/end  inList=false -%}
+</div>
+
 
 <!-- CONTENT END -->

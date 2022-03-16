@@ -29,8 +29,4 @@ __Most recent:__ {% include file-list coll="pdf" folder="/no-fear/No_FEAR_2" for
 {% include accordion/end  inList=false -%}
 </div>
 
-<!--
-{% include file-list coll="pdf" folder="/no-fear/No_FEAR_2" reverse=true format='title' dobutton=true -%}
--->
-
 <!-- CONTENT END -->
