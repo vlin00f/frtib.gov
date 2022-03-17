@@ -1,0 +1,12 @@
+{% comment -%}
+This is a reusable block for the feature box at the bottom.
+
+Pass in 'left', usually an image, 'right-header', and 'right-body', usually text.
+{% endcomment -%}
+<div class="usa-media-block tablet:grid-col">
+  {{ include.left }}
+  <div class="usa-media-block__body">
+    <h2 class="usa-graphic-list__heading">{{include.right-header}}</h2>
+    {{include.right-body}}
+  </div>
+</div>

@@ -20,6 +20,12 @@
     position: relative;
     padding-right: 2ex;
   }
+.navigate_next {
+  @extend .subscribe-img;
+  -webkit-mask: url(../img/usa-icons/navigate_next.svg) no-repeat center/contain;
+  height: 1.75ex;
+  width: 2.0ex;
+}
 
 //  icons for the Notification callouts
 .usa-icon-base {

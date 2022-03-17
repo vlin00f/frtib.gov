@@ -1,0 +1,14 @@
+{% comment -%}
+This is a reusable block for the hero callout blue box at the top of the page.
+
+Pass in 'label', 'header' and 'body'.
+{% endcomment -%}
+
+<section class="usa-hero" aria-label="{{include.label}}">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+      <h1 class="usa-hero__heading">{{include.header}}</h1>
+      {{include.body}}
+    </div>
+  </div>
+</section>
