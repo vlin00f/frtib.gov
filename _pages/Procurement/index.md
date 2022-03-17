@@ -41,7 +41,7 @@ Most federal government solicitations that must be publicized are posted on Fede
 {% include_relative opportunity-links.html -%}
 {% endcapture -%}
 {% include desc-box
-      card_img="hero/contracts_final.jpg"
+      card_img="hero/ContractsProcurement_header.jpg"
       altText="FRTIB's Contract Procurement and Acquisition Process"
       card_body=body card_foot=false -%}
 
