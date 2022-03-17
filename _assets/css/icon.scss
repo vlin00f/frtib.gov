@@ -5,7 +5,8 @@
 
 // This is for svg icon for link leading to external site
 
-.usa-link--alt[href^=http]:not([href*="www.frtib.gov"])::after, [href^=http]:not([href*="www.frtib.gov"])::after {
+// .usa-link--alt[href^=http]:not([href*="www.frtib.gov"])::after, [href^=http]:not([href*="www.frtib.gov"])::after, .subscribe-img {
+.usa-link--alt[href^=http]:not([href*="www.frtib.gov"])::after, [href^=http]:not([href*="govdelivery.com"])::after, .subscribe-img {
     background: 0 0;
     background-color: currentColor;
     -webkit-mask: url(../img/usa-icons/launch.svg) no-repeat center/contain;
@@ -14,8 +15,8 @@
     content: "";
     display: inline-block;
     height: 1.5ex;
-    margin-left: .5px;
-    margin-top: .5ex;
+    margin-left: 0.5px;
+    margin-top: 0.5ex;
     position: relative;
     padding-right: 2ex;
   }
