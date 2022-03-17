@@ -34,7 +34,8 @@
   font-weight: normal;
   text-align: left;
   line-height: 1.1rem;
-//  outline: none !important;
+  outline-width: .2em !important;
+  outline-color: #112e51;
 }
 
 .usa-button:not(.on-card):not(.alert-button):not(.usa-modal__close) {
@@ -98,6 +99,8 @@
 
 .alert-button:active {
   box-shadow: inset 0 4px 8px rgba(19, 19, 25, 0.25);
+  color: #112e51;
+
 }
 
 // This is the expand svg for official website row at top of page

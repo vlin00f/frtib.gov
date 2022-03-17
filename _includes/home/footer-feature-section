@@ -20,7 +20,7 @@ It is intended to allow highlighting of new features.
   {% include home/feature/box left=left right-header=right-header right-body=right-body -%}
 
   {% capture left -%}
-  {% asset piechart_person.png height="150px" alt="L Funds pie chart" style="padding: 0 1em" %}
+  {% asset Piechart_home.jpg height="150px" alt="TSP Funds pie chart" style="padding: 0 1em" %}
   {% endcapture -%}
   {% capture right-header -%}
   Learn about Fund options

@@ -90,6 +90,10 @@ Washington, D.C. 20002
 
 Please be aware that the FRTIB will forward any forms, written requests, inquiries, or correspondence it receives from TSP participants or beneficiaries to the TSP Service Office.
 
+### Press inquiries
+
+Media inquiries may be sent to <a href="mailto:PressInquiries@frtib.gov">PressInquiries@frtib.gov</a>.
+
 ### Having technical issues with the website?
 
 <a href="mailto:webmaster@tsp.gov?subject=FRTIB website technical issues">Email the FRTIB Webmaster</a> about any technical issues with the web pages on this Website.
