@@ -92,7 +92,7 @@ Please be aware that the FRTIB will forward any forms, written requests, inquiri
 
 ### Press inquiries
 
-Media inquiries may be sent to <a href="mailto:PressInquiries@frtib.gov">PressInquiries@frtib.gov</a>.
+Media inquiries may be sent to <PressInquiries@frtib.gov>.
 
 ### Having technical issues with the website?
 
@@ -100,6 +100,9 @@ Media inquiries may be sent to <a href="mailto:PressInquiries@frtib.gov">PressIn
 
 ### Keep up with FRTIB news, updates and announcements
 
-<a href="https://public.govdelivery.com/accounts/USTSP/subscriber/new?pop=t" target="_blank">Sign up for email updates</a> from the FRTIB and TSP Website via GovDelivery Email Alerts.
+{% capture subscribe_button -%}
+<a href="https://public.govdelivery.com/accounts/USTSP/subscriber/new?pop=t" target="_blank"><button class="usa-button thin on-card subscribe">Sign up for email updates<img src="../img/usa-icons/launch.svg" class="subscribe-img"></button></a>
+{% endcapture -%}
+{{ subscribe_button}}from the FRTIB and TSP Website via GovDelivery Email Alerts.  
 
 <!-- CONTENT END -->

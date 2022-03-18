@@ -15,7 +15,7 @@ Component to display the job openings on the careers page.
 {% for code in job.codes -%}
 <br>
 <li>
-{{ code.frtib}}, {{ job.position}}, {{job.grade}}, closing date: {{job.end | date: "%A, %B %d, %y"}}.
+{{ code.frtib}}, {{ job.position}}, {{job.grade}}, closing date: {{job.end | date: "%A, %B %d, %Y"}}.
 <a href="https://www.usajobs.gov/job/{{code.usa}}" target="_blank">
 Review the job details and apply for the position on USAJobs.gov.
 </a>

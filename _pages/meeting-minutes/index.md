@@ -14,14 +14,6 @@ redirect_from:
 #  - getRate();
 ---
 
-{% include alert-block msg_type="info" msg_head="info head" msg_body="this is the info message" -%}
-{% include alert-block msg_type="warning" msg_head="warning head" msg_body="this is the warning message" -%}
-{% include alert-block msg_type="error" msg_head="error head" msg_body="this is the error message" -%}
-{% include alert-block msg_type="success" msg_head="success head" msg_body="this is the success message" -%}
-{% comment -%}
-{% endcomment -%}
-
-
 ## Meeting Minutes
 {% include subscribe-button title="to receive Meeting Minutes updates" topic_id="USTSP_6" -%}
 
@@ -30,12 +22,20 @@ redirect_from:
 Board meetings, which can be observed by the public, are generally held the 4<sup>th</sup> Tuesday of each month (except where noted on the current meeting calendar).
 {% endcapture -%}
 {% capture foot_text -%}
-<a href="{{site.baseurl}}/pdf/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf" target="_blank"><button class="usa-button on-card thin">2022 Board Meeting Calendar</button></a>
+{% include file-list coll="pdf" folder="/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
 {% endcapture -%}
 {% include desc-box  card_body=body card_foot=foot_text
       card_img="hero/meetingminutes_header.jpg" altText="Record of FRTIB meeting minutes" -%}
 
 
 {% include meeting-minutes/full-list  -%}
+
+{% comment -%}
+<!-- uncomment this liqud block to see examples of the alert types -->
+{% include alert-block msg_type="info" msg_head="info head" msg_body="this is the info message" -%}
+{% include alert-block msg_type="warning" msg_head="warning head" msg_body="this is the warning message" -%}
+{% include alert-block msg_type="error" msg_head="error head" msg_body="this is the error message" -%}
+{% include alert-block msg_type="success" msg_head="success head" msg_body="this is the success message" -%}
+{% endcomment -%}
 
 <!-- CONTENT END -->
