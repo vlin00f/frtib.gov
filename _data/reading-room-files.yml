@@ -591,3 +591,319 @@
   updated:
   title: FRTIB COVID-19 Workplace Safety Plan
   desc: FRTIB COVID-19 Workplace Safety Plan
+
+## employee-forms
+- name: Benefits_BENEFEDS_Leaflet-v2020.08.pdf
+  updated:
+  title: (BENEFEDS) Federal Benefits FastFacts [PDF]
+  desc: (BENEFEDS) Federal Benefits FastFacts [PDF]
+- name: Benefits_EAP_Leaflet.pdf
+  updated:
+  title: (EAP) Employee Assistance Program Leaflet [PDF]
+  desc: (EAP) Employee Assistance Program Leaflet [PDF]
+- name: Benefits_FEDVIP_Dental_Leaflet-v2020.08.pdf
+  updated:
+  title: (FEDVIP) Federal Employees Dental Insurance Program Leaflet [PDF]
+  desc: (FEDVIP) Federal Employees Dental Insurance Program Leaflet [PDF]
+- name: Benefits_FEDVIP_Vision_Leaflet-v2020.08.pdf
+  updated:
+  title: (FEDVIP) Federal Employees Vision Insurance Program Leaflet [PDF]
+  desc: (FEDVIP) Federal Employees Vision Insurance Program Leaflet [PDF]
+- name: Benefits_FEGLI_Leaflet-v2020.08.pdf
+  updated:
+  title: (FEGLI) Federal Employees’ Group Life Insurance Program Leaflet [PDF]
+  desc: (FEGLI) Federal Employees’ Group Life Insurance Program Leaflet [PDF]
+- name: Benefits_FEHB_Leaflet-v2020.08.pdf
+  updated:
+  title: (FEHB) Federal Employees Health Benefits Program Leaflet [PDF]
+  desc: (FEHB) Federal Employees Health Benefits Program Leaflet [PDF]
+- name: Benefits_FSAFEDS_Leaflet-v2020.08.pdf
+  updated:
+  title: (FSAFEDS) Federal Flexible Spending Account Programs Leaflet [PDF]
+  desc: (FSAFEDS) Federal Flexible Spending Account Programs Leaflet [PDF]
+- name: Benefits_FSAFEDS_New_Hire_Brochure.pdf
+  updated:
+  title: (FSAFEDS) New Hire Brochure [PDF]
+  desc: (FSAFEDS) New Hire Brochure [PDF]
+- name: Benefits_TSP_Leaflet.pdf
+  updated:
+  title: TSP Leaflet [PDF]
+  desc: TSP Leaflet [PDF]
+- name: Benefits_TSP_Letter_to_FERS_New_Hires-v2020.09.pdf
+  updated:
+  title: TSP Letter to FERS New Hires [PDF]
+  desc: TSP Letter to FERS New Hires [PDF]
+- name: Emergency_Contact_Form.pdf
+  updated:
+  title: Emergency Contact Form [PDF]
+  desc: Emergency Contact Form [PDF]
+- name: FRTIB_Direct_Deposit_Agreement-v2020.08.pdf
+  updated:
+  title: Direct Deposit Agreement Form [PDF]
+  desc: Direct Deposit Agreement Form [PDF]
+- name: Fitness_Center_Rules_Waiver.pdf
+  updated:
+  title: Fitness Center Rules Waiver [PDF]
+  desc: Fitness Center Rules Waiver [PDF]
+- name: Forms_Checklist_For_New_Employees.pdf
+  updated:
+  title: In-Processing Forms Checklist [PDF]
+  desc: In-Processing Forms Checklist [PDF]
+- name: I-9-Employment-Eligibility-Verification-exp-2022.10.31-Fillable.pdf
+  updated:
+  title: I-9 Employment Eligibility Verification [PDF]
+  desc: I-9 Employment Eligibility Verification [PDF]
+- name: Mass-Transportation-Benefits-Program-Application.pdf
+  updated:
+  title: WMATA Smart Benefits [PDF]
+  desc: WMATA Smart Benefits [PDF]
+- name: Official_Mailing_Address_Form-2019.12.pdf
+  updated:
+  title: Official Mailing Address Form [PDF]
+  desc: Official Mailing Address Form [PDF]
+- name: Reasonable_Accommodation_FAQs.pdf
+  updated:
+  title: Reasonable Accomodation FAQs [PDF]
+  desc: Reasonable Accomodation FAQs [PDF]
+- name: SF_1152_Designation_of_Beneficiary_Unpaid_Compensation.pdf
+  updated:
+  title: SF-1152 Designation of Beneficiary [PDF]
+  desc: SF-1152 Designation of Beneficiary [PDF]
+- name: SF_1199A_Direct_Deposit_Sign_Up_Form.pdf
+  updated:
+  title: SF-1199A Direct Deposit Sign-Up Form [PDF]
+  desc: SF-1199A Direct Deposit Sign-Up Form [PDF]
+- name: SF_144_Statement_of_Prior_Federal_Service.pdf
+  updated:
+  title: SF-144 Statement of Prior Federal Service [PDF]
+  desc: SF-144 Statement of Prior Federal Service [PDF]
+- name: SF_181_Ethnicity_and_Race_Identification.pdf
+  updated:
+  title: SF-181 Ethnicity and Race Identification [PDF]
+  desc: SF-181 Ethnicity and Race Identification [PDF]
+- name: SF_256_Self_Identification_of_Disability.pdf
+  updated:
+  title: SF-256 Self Identification of Disability [PDF]
+  desc: SF-256 Self Identification of Disability [PDF]
+- name: SF_2809_FEHB_Election.pdf
+  updated:
+  title: SF-2809 Health Benefits Election [PDF]
+  desc: SF-2809 Health Benefits Election [PDF]
+- name: SF_2817_Life_Insurance_Election_FEGLI.pdf
+  updated:
+  title: SF-2817 Life Insurance Election (FEGLI) [PDF]
+  desc: SF-2817 Life Insurance Election (FEGLI) [PDF]
+- name: SF_2823_Designation_of_Beneficiary_FEGLI.pdf
+  updated:
+  title: SF-2823 Designation of Beneficiary (FEGLI) [PDF]
+  desc: SF-2823 Designation of Beneficiary (FEGLI) [PDF]
+- name: SF_3102_Designation_of_Beneficiary_FERS.pdf
+  updated:
+  title: SF-3102 Designation of Beneficiary (FERS) [PDF]
+  desc: SF-3102 Designation of Beneficiary (FERS) [PDF]
+- name: TSP_1_Thrift_Savings_Plan_Election_Form.pdf
+  updated:
+  title: TSP-1 Thrift Savings Plan Election Forn [PDF]
+  desc: TSP-1 Thrift Savings Plan Election Forn [PDF]
+- name: TSP_3_Thrift_Savings_Plan_Designation_of_Benficiary.pdf
+  updated:
+  title: TSP-3 Thrift Saving Plan Designation of Beneficiary [PDF]
+  desc: TSP-3 Thrift Saving Plan Designation of Beneficiary [PDF]
+- name: Tax-DC_State_DC-4_Employee_Withholding_Allowance_Certificate.pdf
+  updated:
+  title: D-4 Employee Withholding Allowance Certificate [PDF]
+  desc: D-4 Employee Withholding Allowance Certificate [PDF]
+- name: Tax-MD-State-MW507-Employees-Maryland-Withholding-Exemption-Certificate.pdf
+  updated:
+  title: MW507 Employee’s Maryland Withholding Exemption Certificate [PDF]
+  desc: MW507 Employee’s Maryland Withholding Exemption Certificate [PDF]
+- name: Tax-MD-State-MW507M-Exemption-from-MD-Withholding-Civilian-Spouse.pdf
+  updated:
+  title: MD507M Exemption from Maryland Withholding Tax [PDF]
+  desc: MD507M Exemption from Maryland Withholding Tax [PDF]
+- name: Tax_VA_State_VA-4_Personal_Exemption_Worksheet.pdf
+  updated:
+  title: VA-4 VA Department of Taxation Personal Exemption Worksheet [PDF]
+  desc: VA-4 VA Department of Taxation Personal Exemption Worksheet [PDF]
+- name: USAS-EDU-01_Education_Data_Sheet-v2015.06.pdf
+  updated:
+  title: New Employee Education Data Form [PDF]
+  desc: New Employee Education Data Form [PDF
+- name: W-4_Employees_Withholding_Certificate_2021.pdf
+  updated:
+  title: W-4 Employee’s Withholding Certificate [PDF]
+  desc: W-4 Employee’s Withholding Certificate [PDF]
+
+## orientation-materials
+- name: 77K_Building_Rules_and_Regulations.pdf
+  updated:
+  title: Building Rules and Regulations [PDF]
+  desc: Building Rules and Regulations [PDF]
+- name: Adding_a_Network_Printer_to_Your_Workstation.pdf
+  updated:
+  title: Adding a Network Printer to Your Workstation [PDF]
+  desc: Adding a Network Printer to Your Workstation [PDF]
+- name: Alternate_WorkSchedule_Request_Form.pdf
+  updated:
+  title: Alternate Work Schedule Request Form [PDF]
+  desc: Alternate Work Schedule Request Form [PDF]
+- name: Business_Card_Request_Form.pdf
+  updated:
+  title: Business Card Request Form [PDF]
+  desc: Business Card Request Form [PDF]
+- name: Casual_Dress_Q-and-A_with_Examples.pdf
+  updated:
+  title: Casual Dress Q&A with Examples [PDF]
+  desc: Casual Dress Q&A with Examples [PDF]
+- name: Desk_Phone_Operation_Guide.pdf
+  updated:
+  title: Desk Phone Operation Guide [PDF]
+  desc: Desk Phone Operation Guide [PDF]
+- name: Employee_Assistance_Program_EAP_Flyer.pdf
+  updated:
+  title: (EAP) Employee Assistance Program Leaflet [PDF]
+  desc: (EAP) Employee Assistance Program Leaflet [PDF]
+- name: FRTIB_Organization_Chart_with_HR_POCs_20200409.pdf
+  updated:
+  title: Organization Chart with HR POCs [PDF]
+  desc: Organization Chart with HR POCs [PDF]
+- name: Federal_Occupational_Health_Flyer.pdf
+  updated:
+  title: (BOHCS) Basic Occupational Health Center Services [PDF]
+  desc: (BOHCS) Basic Occupational Health Center Services [PDF]
+- name: HR_Quick_Reference_Sheet.pdf
+  updated:
+  title: HR Quick Reference Sheet [PDF]
+  desc: HR Quick Reference Sheet [PDF]
+- name: How_to_Reserve-a_Conference_Room.pdf
+  updated:
+  title: How to Reserve a Conference Room [PDF]
+  desc: How to Reserve a Conference Room [PDF]
+- name: IBC_PayrollCalendar_2021_Basic.pdf
+  updated:
+  title: Payroll Schedule [PDF]
+  desc: Payroll Schedule [PDF]
+- name: Know_Your_Rights_When_Reporting_Wrongs_Handout-v2019.03.pdf
+  updated:
+  title: Whistleblower Disclosures - Know Your Rights When Reporting Wrongs
+  desc: Whistleblower Disclosures - Know Your Rights When Reporting Wrongs
+- name: Mandatory_Training_By_Quarter_FY2022.pdf
+  updated:
+  title: Mandatory Training by Quarter for All Employees (FY 2022) [PDF]
+  desc: Mandatory Training by Quarter for All Employees (FY 2022) [PDF]
+- name: Mandatory_Training_Employees_FY2022.pdf
+  updated:
+  title: Mandatory Training for New FRTIB Employees (FY 2022) [PDF]
+  desc: Mandatory Training for New FRTIB Employees (FY 2022) [PDF]
+- name: Mandatory_Training_Supervisors_FY2022.pdf
+  updated:
+  title: Mandatory Training for Supervisory Employees (FY 2022) [PDF]
+  desc: Mandatory Training for Supervisory Employees (FY 2022) [PDF]
+- name: New_Employee_Handbook_20200817.pdf
+  updated:
+  title: New Employee Handbook [PDF]
+  desc: New Employee Handbook [PDF]
+- name: New_Hire_One-Pager_TSP.pdf
+  updated:
+  title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
+  desc: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
+- name: Telework_Agreement_Application.pdf
+  updated:
+  title: Telework Application/Agreement Form [PDF]
+  desc: Telework Application/Agreement Form [PDF]
+- name: Telework_FAQs_2018.pdf
+  updated:
+  title: Telework FAQs [PDF]
+  desc: Telework FAQs [PDF]
+
+## training
+- name: FRTIB_Rules_of_Behavior_August_2021.pdf
+  updated:
+  title: Rules of Behavior for Accessing IT Systems [PDF]
+  desc: Rules of Behavior for Accessing IT Systems [PDF]
+
+## eeo
+- name: Section 508 Compliance Procedures.pdf
+  updated:
+  title: ORM.531 - Section 508 Compliance Procedures [PDF]
+  desc: ORM.531 - Section 508 Compliance Procedures [PDF]
+- name: Reasonable Accommodation FAQ.pdf
+  updated:
+  title: Reasonable Accomodation FAQs [PDF]
+  desc: Reasonable Accomodation FAQs [PDF]
+- name: ORM.391 Reasonable Accommodation Procedures.pdf
+  updated:
+  title: ORM.391 - Reasonable Accomodation Procedures [PDF]
+  desc: ORM.391 - Reasonable Accomodation Procedures [PDF]
+- name: ORM.390 - Reasonable Accommodation Policy.pdf
+  updated:
+  title: ORM.390 - Reasonable Accomodation Policy [PDF]
+  desc: ORM.390 - Reasonable Accomodation Policy [PDF]
+- name: ORM.321 EEO Procedures.pdf
+  updated:
+  title: ORM.321 - EEO Procedures [PDF]
+  desc: ORM.321 - EEO Procedures [PDF]
+- name: ORM.320 Equal Employment Opportunity EEO Policy.pdf
+  updated:
+  title: ORM.320 - Equal Employment Opportunity Policy [PDF]
+  desc: ORM.320 Equal Employment Opportunity Policy [PDF]
+- name: Mediation Brochure.pdf
+  updated:
+  title: Mediation Brochure [PDF]
+  desc: Mediation Brochure [PDF]
+- name: MD715 AAP 2020 Report.pdf
+  updated:
+  title: MD715 AAP 2020 Report [PDF]
+  desc: MD715 AAP 2020 Report [PDF]
+- name: Harassment Investigation Procedures.pdf
+  updated:
+  title: ORM.322 - Harassment Investigation Procedures [PDF]
+  desc: ORM.322 - Harassment Investigation Procedures [PDF]
+- name: Harassment FAQs.pdf
+  updated:
+  title: Anti-Harrassment FAQs [PDF]
+  desc: Anti-Harrassment FAQs [PDF]
+- name: Federal Complaint Processing Procedures.pdf
+  updated:
+  title: Federal EEO Discrimination Complaint Process [PDF]
+  desc: Federal EEO Discrimination Complaint Process [PDF]
+- name: FRTIB Harassment Complaint Intake form.pdf
+  updated:
+  title: Harassment Complaint Form [PDF]
+  desc: Harassment Complaint Form [PDF]
+- name: EEO Complaint Process Brochure.pdf
+  updated:
+  title: EEO Complaint Process Brochure [PDF]
+  desc: EEO Complaint Process Brochure [PDF]
+- name: ED_FY_2021_EEO_Policy_Statement.pdf
+  updated:
+  title: FY2021 EEO Policy Statement [PDF]
+  desc: FY2021 EEO Policy Statement [PDF]
+- name: Diversity and Inclusion brochure.pdf
+  updated:
+  title: Diversity and Inclusion Brochure [PDF]
+  desc: Diversity and Inclusion Brochure [PDF]
+- name: Diversity and Inclusion Policy Stmt_2017-11-30.pdf
+  updated:
+  title: Diversity and Inclusion Policy Statement [PDF]
+  desc: Diversity and Inclusion Policy Statement [PDF]
+- name: Complaint processing procedures.pdf
+  updated:
+  title: EEO Complaint Processing Procedures [PDF]
+  desc: EEO Complaint Processing Procedures [PDF]
+- name: Alternative Dispute Resolution Brochure.pdf
+  updated:
+  title: (ADR) Alternative Dispute Resolution Brochure [PDF]
+  desc: (ADR) Alternative Dispute Resolution Brochure [PDF]
+- name: 2020_COVID-19_Processing_Information_for_EEO_Directors.pdf
+  updated:
+  title: COVID-19 Processing Information for EEO Directors [PDF]
+  desc: COVID-19 Processing Information for EEO Directors [PDF]
+- name: 2020 Anti-Harassment Statement.pdf
+  updated:
+  title: Director's Anti-Harrassment Statement [PDF]
+  desc: Director's Anti-Harrassment Statement [PDF]
+- name: Section 508 Policy_final.pdf
+  updated:
+  title: ORM.530 - Section 508 Policy (final) [PDF]
+  desc: ORM.530 - Section 508 Policy (final) [PDF]

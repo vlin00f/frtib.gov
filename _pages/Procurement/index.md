@@ -26,7 +26,7 @@ FRTIB Acquisitions FRTIB is a self-funded federal agency with independent budget
 
 FRTIB designed the Thrift Federal Acquisition Supplement (T-FAS) as a supplement to the FAR, which specifies when the Agency’s policies and practices deviate from the FAR. See link to T-FAS below. The T-FAS provides an efficient blend of the FAR and federal procurement law while allowing the Agency to be more flexible to accomplish its mission under FERSA.
 
-{% include button-link url="/pdf/procurement/Thrift_Federal_Acquisition_Supplement_T-FAS.pdf" text="Thrift Federal Acquisition Supplement (T-FAS)" -%}
+{% include button-link url="/pdf/procurement/Thrift_Federal_Acquisition_Supplement_T-FAS.pdf" text="Thrift Federal Acquisition Supplement (T-FAS) [PDF]" -%}
 
 ### How to be Considered for Contracts with FRTIB
 
