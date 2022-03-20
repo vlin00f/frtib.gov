@@ -15,7 +15,6 @@ h3 {
 a::before, *::after, a:focus {
   box-sizing: inherit;
   outline-width: 0.15rem !important;
-  outline-color: #112e51;
 }
 
 .usa-alert__heading {
@@ -60,7 +59,7 @@ a::before, *::after, a:focus {
 // DAV: I added this to override home usa-hero
 
 .usa-hero {
-  background-image: asset_url("hero/homeHero_darkred.jpg");
+  background-image: asset_url("hero/HomeHero_L.jpg");
   background-position: 50%;
   background-size: cover;
   background-color: #981b1e;

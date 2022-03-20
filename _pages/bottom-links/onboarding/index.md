@@ -23,7 +23,7 @@ Your first days (and weeks) will be full of activities to in-process and onboard
 We have created an onboarding checklist to assist you in the onboarding process. Using the checklist and accessing the helpful websites in this document will guide you through the entire onboarding process. Please reach out to your HR point of contact with any questions.
 
 {% include button-link url="/pdf/Onboarding/FRTIB-Onboarding-EmployeeOnly-Checklist-v4.pdf"
-  text="Download the Federal employee onboarding checklist." -%}
+  text="Download the Federal Employee Onboarding Checklist." -%}
 
 ### How to Use the Onboarding Checklist
 
