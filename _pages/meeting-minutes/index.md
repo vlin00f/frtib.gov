@@ -25,7 +25,7 @@ Board meetings, which can be observed by the public, are generally held the 4<su
 {% include file-list coll="pdf" folder="/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
 {% endcapture -%}
 {% include desc-box  card_body=body card_foot=foot_text
-      card_img="hero/meetingminutes_header.jpg" altText="Record of FRTIB meeting minutes" -%}
+      card_img="hero/meetingminutes_headerL.png" altText="Record of FRTIB meeting minutes" -%}
 
 
 {% include meeting-minutes/full-list  -%}

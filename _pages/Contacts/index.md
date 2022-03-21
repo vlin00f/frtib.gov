@@ -50,7 +50,7 @@ You will need your TSP account number and your 4-digit TSP Personal Identificati
 
 <!--start of talk to card -->
 {% capture card_body -%}
-Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.
+__Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.__
 
 Press 3 to speak to a Participant Service Representative (PSR) when calling the ThriftLine.
 
@@ -61,7 +61,7 @@ PSRs handle questions about loans, contribution allocations, interfund transfers
 
 <!--start of mail or fax card -->
 {% capture card_body -%}
-Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.
+__Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.__
 
 To ensure proper handling, forms, written requests, inquiries, and other correspondence from TSP participants and beneficiaries should continue to be mailed to:
 

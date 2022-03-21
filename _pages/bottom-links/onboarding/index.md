@@ -16,14 +16,14 @@ redirect_from:
 
 {% include subscribe-button title="to the Federal Employees update notifications" topic_id="USTSP_8" -%}
 
-{% asset hero/onboarding_header.gif -%}
+{% asset hero/onboarding_headerL.png alt="New hires, welcome to the FRTIB"-%}
 
 Your first days (and weeks) will be full of activities to in-process and onboard you into the agency. You will be required to complete several actions and forms designed to ensure your successful transition.
 
 We have created an onboarding checklist to assist you in the onboarding process. Using the checklist and accessing the helpful websites in this document will guide you through the entire onboarding process. Please reach out to your HR point of contact with any questions.
 
 {% include button-link url="/pdf/Onboarding/FRTIB-Onboarding-EmployeeOnly-Checklist-v4.pdf"
-  text="Download the Federal Employee Onboarding Checklist." -%}
+  text="Download the Federal Employee Onboarding Checklist" -%}
 
 ### How to Use the Onboarding Checklist
 
