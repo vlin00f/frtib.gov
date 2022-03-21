@@ -40,7 +40,7 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWZmZDI2MGEtYjEwNi00MzczL
           </p>
           <ol>
           <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}};</li>
-          <li>By browser&nbsp;{{confLink}}</li>
+          <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
 
           <p>
