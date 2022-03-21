@@ -1,0 +1,39 @@
+{% comment -%}
+Include one of the alerts in _includes/header/ folder from the _includes/header/main.html component.
+
+Include this version when you want an simple alert by specifying the title and the body.
+
+Change only the icon, title, and body in the following lines.
+icon - an image in _assets
+title - 72 characters or less
+body - markdown text
+{% endcomment -%}
+{% assign alertIcon = "icon_scheduledOutage.gif" -%}
+{% assign alertHeader = "Notice: My Account outage <nobr>March 4, 2022</nobr>" -%}
+{% capture alertBody -%}
+My account will be down on Friday, March 4 from 2 a.m. until 6 a.m. to install new security features.
+
+You will be able to access <https://www.tsp.gov> and <https://www.frtib.gov> during this time but access to individual accounts and balances will be disabled during this time.  Thank you for your patience.
+{% endcapture -%}
+{% comment -%}  DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
+
+{% capture alertTitle -%}
+{% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
+{% endcapture -%}
+
+<a href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
+<div class="usa-modal" id="header-alert-modal" aria-labelledby="alert-modal-heading" aria-describedby="alert-modal-description">
+    <div class="usa-modal__content">
+      <div class="usa-modal__main">
+        <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
+        <div class="usa-prose break-word"  id="alert-modal-description">
+          {{alertBody | markdownify}}
+        </div>
+      </div>
+      <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="../img/usa-icons/close.svg"></use>
+        </svg>
+      </button>
+    </div>
+  </div>

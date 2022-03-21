@@ -22,7 +22,7 @@ Religious and disability discrimination includes failure to reasonably accommoda
 
 ### When to File a Complaint
 
-You must file a complaint within 45 calendar days of the date of the matter alleged to be discriminatory or, in the case of a personnel action, within 45 days of the effective date of the action. 
+You must file a complaint within 45 calendar days of the date of the matter alleged to be discriminatory or, in the case of a personnel action, within 45 days of the effective date of the action.
 
 ### How to File a Complaint
 
@@ -32,7 +32,7 @@ Contact Don Sapp, FRTIB’s EEO Manager at<br>
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
-{% include file-list coll="pdf" folder="/eeo" format='title' reverse=true dobutton=true dropFirst=false -%}
+{% include file-list coll="pdf" folder="/eeo" format='title' reverse=true dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 

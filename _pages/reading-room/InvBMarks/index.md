@@ -21,7 +21,7 @@ __Most recent:__ {% include file-list coll="pdf" folder="/reading-room/InvBMarks
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Reports" inList=false -%}
-{% include file-list coll="pdf" folder="/reading-room/InvBMarks" format='desc' reverse=true dobutton=true dropFirst=true -%}
+{% include file-list coll="pdf" folder="/reading-room/InvBMarks" format='title' reverse=true dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 

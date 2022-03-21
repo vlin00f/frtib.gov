@@ -61,7 +61,7 @@ __Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/SurveysEm
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Surveys" inList=false -%}
-{% include file-list coll="pdf" folder="/reading-room/SurveysEmp" format='desc' reverse=true dobutton=true dropFirst=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysEmp" format='title' reverse=true dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 

@@ -1,0 +1,5 @@
+{% comment %}
+Include one of the alerts in _includes/header/ folder from the _includes/header/main.html component.
+
+Include this version when you dont want to have an alert in the header.
+{% endcomment %}

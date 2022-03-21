@@ -20,7 +20,7 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Orientation Documents" inList=false -%}
-{% include file-list coll="pdf" folder="/onboarding/orientation/" format='title' reverse=false dobutton=true dropFirst=false -%}
+{% include file-list coll="pdf" folder="/onboarding/orientation/" format='title' reverse=false dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 
