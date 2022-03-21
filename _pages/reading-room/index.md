@@ -38,7 +38,7 @@ __Latest Updates__
 </ul>
 {% endcapture -%}
 {% include desc-box card_body=body foot_text=false
-      card_img="hero/readingroom_header.jpg" altText="PDFs and other files from FRTIB" -%}
+      card_img="hero/readingroom_headerL.png" altText="PDFs and other files from FRTIB" -%}
 
 
 <!-- cards starts here -->
