@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: privacy
+title: Privacy Policy
 styles:
 sidenav:
 scripts:

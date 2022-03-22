@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: data
+title: Data Governance
 styles:
 sidenav:
 scripts:
