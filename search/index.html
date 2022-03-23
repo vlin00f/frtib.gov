@@ -1,71 +1,59 @@
 ---
 permalink: /search/
-layout: page
+layout: page2
 title: Search
 ---
 
+{% if site.searchgov == false -%}<script>window.location = "/";</script>{% endif -%}
 
-<script>
-//<![CDATA[
+<h1>Search Results</h1>
 
-  var urlParams = new URLSearchParams(window.location.search);
-  var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
-  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
+<nav class="search-filters">
+<ul>
+  <li><span id='search_everything' onClick="doSearch('everything');">Everything</span></li>
+  <li><span id='search_videos' onClick="doSearch('videos');">Videos</span></li>
+  <li><span id='search_forms' onClick="doSearch('forms');">Forms</span></li>
+  <li><span id='search_plan-news' onClick="doSearch('plan-news');">Plan News</span></li>
+</ul>
+</nav>
+{% comment -%}
+<nav class="search-filters">
+<ul>
+<li class="xsearch-filters"><a href="/page-templates/"><span>Reports</span></a></li>
+<li class="xsearch-filters"><a href="/documentation/"><span>Participant Surveys</span></a></li>
+<li class="xsearch-filters"><a href="/about/"><span>Employee Surveys</span></a></li>
+<li class="xsearch-filters"><a href="/about/"><span>FOIA Reports</span></a></li>
+<li class="xsearch-filters"><a href="/about/"><span>Board Meeting Minutes</span></a></li>
+</ul>
+</nav>
+{% endcomment -%}
+<form id="search_form_page" class="usa-search usa-search--small" action="/search/" accept-charset="UTF-8" method="get">
+  <input name="utf8" type="hidden" value="&#x2713;" />
+  <input name="affiliate" type="hidden" value="{{include.searchgov.affiliate}}" />
+  <input name="group" id="group" type="hidden" value="everything" />
 
+  <div role="search">
+    <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+    <input class="usa-input usagov-search-autocomplete" id="extended-search-field-big" type="search" name="query" autocomplete="off">
+    <button class="usa-button on-card" type="submit"><span class="usa-sr-only">Search</span></button>
+  </div>
+</form>
 
-  Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
-
-  fetch(searchEndpoint).then(function(res) {
-      return res.json()
-    }).then(function(posts) {
-      for (item in posts.web.results){
-        render_result(`
-          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
-            <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
-          </li>
-          `, true)
-
-      }
-    }).catch(function(ex) {
-      console.log('parsing failed', ex);
-    }).finally(function(e){
-
-      if(document.getElementById('search-results').childNodes.length == 0){
-        render_result(`<li class="title">No results found</li>`, false)
-      }
-
-    })
-
-    function render_result(content, append = true){
-      const previous = document.getElementById('search-results').innerHTML;
-      document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
-    }
-
-//]]>
-</script>
-
-
-{% if site.searchgov %}
-  <h1>Search Results</h1>
-  <ol id="search-results"></ol>
-
-  {% if site.searchgov.affiliate == "federalist-uswds-example" %}
-    <div class="usa-alert usa-alert--info">
-      <div class="usa-alert__body">
-        This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
-        <ol>
-          <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
-          <li>Go to the "Activate" section and get "API Access Key"</a></li>
-          <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
-          <li>Add your <code>affiliate</code> and <code>access_key</code></li>
-          <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li>
-        </ol>
-      </div>
+{% if site.searchgov.affiliate == "federalist-uswds-example" %}
+  <div class="usa-alert usa-alert--info">
+    <div class="usa-alert__body">
+      This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
+      <ol>
+        <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
+        <li>Go to the "Activate" section and get "API Access Key"</a></li>
+        <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
+        <li>Add your <code>affiliate</code> and <code>access_key</code></li>
+        <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li>
+      </ol>
     </div>
-  {% endif %}
-{% else %}
-  <script>
-    window.location = "/";
-  </script>
+  </div>
 {% endif %}
+
+<ol id="search-results"></ol>
+
+{% include_relative search_script -%}

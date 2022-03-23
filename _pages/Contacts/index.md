@@ -28,7 +28,7 @@ __International callers__ who cannot use the toll-free number should call <a hre
 (not toll free).
 
 You can also contact the FRTIB through the options listed on
-<a href="https://www.tsp.gov/contact" target="_blank">www.tsp.gov/contact</a>.
+<a href="https://www.tsp.gov/contact" target="_blank" rel="noopener">www.tsp.gov/contact</a>.
 {% endcapture -%}
 {% include alert-block msg_type="info" msg_body=message_body markdownify=true
   msg_head="Need to discuss an issue regarding your TSP account?  Call the TSP Thriftline!" -%}
@@ -96,12 +96,12 @@ Media inquiries may be sent to <PressInquiries@frtib.gov>.
 
 ### Having technical issues with the website?
 
-<a href="mailto:webmaster@tsp.gov?subject=FRTIB website technical issues">Email the FRTIB Webmaster</a> about any technical issues with the web pages on this Website.
+<a href="mailto:webmaster@tsp.gov?subject=FRTIB website technical issues" target="_blank" rel="noopener">Email the FRTIB Webmaster</a> about any technical issues with the web pages on this Website.
 
 ### Keep up with FRTIB news, updates and announcements
 
 {% capture subscribe_button -%}
-<a href="https://public.govdelivery.com/accounts/USTSP/subscriber/new?pop=t" target="_blank"><button class="usa-button thin on-card subscribe">Sign up for email updates<img src="../img/usa-icons/launch.svg" class="subscribe-img"></button></a>
+<a href="https://public.govdelivery.com/accounts/USTSP/subscriber/new?pop=t" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">Sign up for email updates<img src="../img/usa-icons/launch.svg" class="subscribe-img"></button></a>
 {% endcapture -%}
 {{ subscribe_button}}from the FRTIB and TSP Website via GovDelivery Email Alerts.  
 

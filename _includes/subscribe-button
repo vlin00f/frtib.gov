@@ -6,8 +6,8 @@
 Subscribe<img src="../img/usa-icons/launch.svg" class="subscribe-img">
 {% endcapture -%}
 {% capture here -%}
-<a href="{{url}}" target="_blank"><button class="usa-button thin on-card subscribe">{{button-content}}</button></a>
+<a href="{{url}}" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">{{button-content}}</button></a>
 {% endcapture -%}
 {% assign msg_body = title | prepend: here -%}
 {% include alert-block msg_type="info" msg_slim=true msg_body=msg_body -%}
-{% comment -%}<a href="{{url}}" target="_blank"><button class="usa-button">{{title}}</button></a>{% endcomment -%}
+{% comment -%}<a href="{{url}}" target="_blank" rel="noopener"><button class="usa-button">{{title}}</button></a>{% endcomment -%}

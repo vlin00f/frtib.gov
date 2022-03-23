@@ -33,9 +33,9 @@ FRTIB designed the Thrift Federal Acquisition Supplement (T-FAS) as a supplement
 To be included for consideration on solicitation for contracts in your business area, you should register in the following places:
 
 * __System for Award Management__<br>
-This is the primary database for vendors who wish to do business (or are currently doing business) with the federal government. FRTIB awards contracts to entities registered in SAM in accordance with the FAR. The SAM website (<https://www.sam.gov>{: target="_blank"}) gives detailed instructions and helps answer your questions.
+This is the primary database for vendors who wish to do business (or are currently doing business) with the federal government. FRTIB awards contracts to entities registered in SAM in accordance with the FAR. The SAM website (<https://www.sam.gov>{: target="_blank"}{: rel="noopener"}) gives detailed instructions and helps answer your questions.
 * __Government wide Point of Entry (GPE)__<br>
-Most federal government solicitations that must be publicized are posted on Federal Business Opportunities (also called FedBizOpps) <https://www.fbo.gov>{: target="_blank"}. Federal government solicitations may also be posted on <https://www.ebuy.gsa.gov>{: target="_blank"} or <https://www.sewp.nasa.gov>{: target="_blank"}.
+Most federal government solicitations that must be publicized are posted on Federal Business Opportunities (also called FedBizOpps) <https://www.fbo.gov>{: target="_blank"}{: rel="noopener"}. Federal government solicitations may also be posted on <https://www.ebuy.gsa.gov>{: target="_blank"}{:  rel="noopener"} or <https://www.sewp.nasa.gov>{: target="_blank"}{: rel="noopener"}.
 
 {% include_relative policy-links.html -%}
 {% include_relative opportunity-links.html -%}

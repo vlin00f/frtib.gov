@@ -28,6 +28,7 @@ url: "https://www.frtib.gov" # the base hostname & protocol for your site, e.g. 
   # Required to support the jekyll-sitemap plugin below.
   # Uncomment the url line when ready to push to production. If using different branches for multiple
   # custom domains, edit this url parameter in the relevant branch to match the relevant custom domain.
+# url: https://federalist-17910b06-3ede-48a7-b216-90b5116c6220.app.cloud.gov/site/frtib/frtib.gov/
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
@@ -97,11 +98,11 @@ searchgov:
   # Replace this with your access key.
   # access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
-  # affiliate: beta.tsp
-  # access_key: sVO7chy_W4g9AMmHj90csL3Oyn6z7JKRs1Pb8BxCJ9Y=
+  affiliate: beta.tsp
+  access_key: sVO7chy_W4g9AMmHj90csL3Oyn6z7JKRs1Pb8BxCJ9Y=
 
-  affiliate: frtib.gov
-  access_key: w-pMrfhChfsSEHdwEDq9xjDo7VA5a0ZxFcfEi9FKFuM=
+  #affiliate: frtib.gov
+  #access_key: w-pMrfhChfsSEHdwEDq9xjDo7VA5a0ZxFcfEi9FKFuM=
   # access_key: 9hTgu4agx1cXdZAZ1eEnD8cgCBWXNgofu3f4CEY2
 
   # This renders the results within the page instead of sending to user to search.gov.
@@ -144,7 +145,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-last-modified-at
   - jekyll-redirect-from
-  - jekyll-sitemap # See additional instructions for url parameter above.
+  # - jekyll-sitemap # See additional instructions for url parameter above.
   - jekyll-seo-tag
 
 
