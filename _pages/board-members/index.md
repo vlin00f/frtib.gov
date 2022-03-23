@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: Board Members
+title: Board Members, Executive Dire]and ETAC
 styles:
 sidenav:
 scripts:

@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: NoFear
+title: No Fear Act
 styles:
 sidenav:
 scripts:

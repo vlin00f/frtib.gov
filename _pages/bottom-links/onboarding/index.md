@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: onboarding
+title: Onboarding at FRTIB
 styles:
 sidenav: onboarding_nav
 scripts:
@@ -12,7 +12,7 @@ redirect_from:
 #  - getRate();
 ---
 
-## Federal Employees
+## Essentials for Onboarding at FRTIB
 
 {% include subscribe-button title="to the Federal Employees update notifications" topic_id="USTSP_8" -%}
 

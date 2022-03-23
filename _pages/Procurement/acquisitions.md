@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: Procurement acquisitions
+title: Acquisition Process and Methods
 styles:
 sidenav: procurement_nav
 scripts:

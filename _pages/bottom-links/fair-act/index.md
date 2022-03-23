@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: FairAct
+title: FAIR Act
 styles:
 sidenav:
 scripts:
