@@ -154,3 +154,24 @@ onboarding_nav:
   - name: Orientation
     url: /onboarding/orientation/
     button_text: "See orientation"
+
+
+search_nav:
+  - name: Everything
+    group: everything
+    dc:
+  - name: Reports
+    group: reports
+    dc: 9429
+  - name: Participant Surveys
+    group: surveyspart
+    dc: 9430
+  - name: Employee Surveys
+    group: surveysemp
+    dc: 9431
+  - name: FOIA Reports
+    group: foia
+    dc: 9432
+  - name: Board Meeting Minutes
+    group: minutes
+    dc: 9433

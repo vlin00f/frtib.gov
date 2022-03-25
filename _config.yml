@@ -98,15 +98,15 @@ searchgov:
   # Replace this with your access key.
   # access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
-  affiliate: beta.tsp
-  access_key: sVO7chy_W4g9AMmHj90csL3Oyn6z7JKRs1Pb8BxCJ9Y=
+  # affiliate: beta.tsp
+  # access_key: sVO7chy_W4g9AMmHj90csL3Oyn6z7JKRs1Pb8BxCJ9Y=
 
-  #affiliate: frtib.gov
-  #access_key: w-pMrfhChfsSEHdwEDq9xjDo7VA5a0ZxFcfEi9FKFuM=
+  affiliate: frtib.gov
+  access_key: w-pMrfhChfsSEHdwEDq9xjDo7VA5a0ZxFcfEi9FKFuM=
   # access_key: 9hTgu4agx1cXdZAZ1eEnD8cgCBWXNgofu3f4CEY2
 
   # This renders the results within the page instead of sending to user to search.gov.
-  inline: true
+  inline: false
 
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.

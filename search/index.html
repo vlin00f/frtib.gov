@@ -9,28 +9,22 @@ title: Search
 <h1>Search Results</h1>
 
 <nav class="search-filters">
-<ul>
-  <li><span id='search_everything' onClick="doSearch('everything');">Everything</span></li>
-  <li><span id='search_videos' onClick="doSearch('videos');">Videos</span></li>
-  <li><span id='search_forms' onClick="doSearch('forms');">Forms</span></li>
-  <li><span id='search_plan-news' onClick="doSearch('plan-news');">Plan News</span></li>
-</ul>
+  <ul>
+{% for nav_item in site.data.navigation.search_nav -%}
+    <li><span id='search_{{nav_item.group}}' onClick="doSearch('{{nav_item.group}}', '{{nav_item.dc}}');">{{nav_item.name}}</span></li>
+{% endfor -%}
+  </ul>
 </nav>
+
+
 {% comment -%}
-<nav class="search-filters">
-<ul>
-<li class="xsearch-filters"><a href="/page-templates/"><span>Reports</span></a></li>
-<li class="xsearch-filters"><a href="/documentation/"><span>Participant Surveys</span></a></li>
-<li class="xsearch-filters"><a href="/about/"><span>Employee Surveys</span></a></li>
-<li class="xsearch-filters"><a href="/about/"><span>FOIA Reports</span></a></li>
-<li class="xsearch-filters"><a href="/about/"><span>Board Meeting Minutes</span></a></li>
-</ul>
-</nav>
-{% endcomment -%}
 <form id="search_form_page" class="usa-search usa-search--small" action="/search/" accept-charset="UTF-8" method="get">
-  <input name="utf8" type="hidden" value="&#x2713;" />
+{% endcomment -%}
+<form id="search_form_page" class="usa-search usa-search--small" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+  <input name="utf8" type="hidden" value="✓" />
   <input name="affiliate" type="hidden" value="{{include.searchgov.affiliate}}" />
   <input name="group" id="group" type="hidden" value="everything" />
+  <input name="dc" id="dc" type="hidden" value="" />
 
   <div role="search">
     <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
