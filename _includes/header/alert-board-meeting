@@ -25,7 +25,7 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWZmZDI2MGEtYjEwNi00MzczL
 {% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
 {% endcapture -%}
 
-<a href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
+<a id="alert-message-button" href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
 <div class="usa-modal" id="header-alert-modal" aria-labelledby="alert-modal-heading" aria-describedby="alert-modal-description">
     <div class="usa-modal__content">
       <div class="usa-modal__main">

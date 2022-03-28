@@ -23,7 +23,7 @@ format = page:  Show sections for group, image?, description, add anchors
 ___
   {% for member in site.data.board -%}
     {% if member.group == 'board' -%}
-<a name="board{{forloop.index}}"></a><br>
+<a id="board{{forloop.index}}" name="board{{forloop.index}}"></a><br>
     {% if member.image -%}{% asset "board/{{member.image}}" width="200" alt="TSP" class="board" %}{% endif -%}
 <strong>{{member.name}}</strong>. {{member.description }}<br><br>
     {% endif -%}
@@ -32,7 +32,7 @@ ___
 ___
   {% for member in site.data.board -%}
     {% if member.group == 'executive-director' -%}
-<a name="boardX"></a><br>
+<a id="boardX" name="boardX"></a><br>
 {% if member.image -%}{% asset "board/{{member.image}}" width="200" alt="TSP" class="board" %}{% endif -%}
 <strong>{{member.name}}</strong>. {{member.description }}<br><br>
     {% endif -%}
@@ -41,7 +41,7 @@ ___
 ___
   {% for member in site.data.board -%}
     {% if member.group == 'etac' -%}
-<a name="etac"></a><br>
+<a id="etac" name="etac"></a><br>
 <strong>{{member.name}}</strong>. {{member.description }}<br><br>
     {% endif -%}
   {% endfor %}
