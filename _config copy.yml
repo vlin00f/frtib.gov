@@ -81,30 +81,7 @@ dap:
 ga:
   # ua: your-ua
 
-# Site Navigation
-primary_navigation:
-  - name: Home
-    url: /
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-
-secondary_navigation:
-  - name: Secondary link
-    url: "#main-content"
-  - name: Another secondary link
-    url: "#main-content"
+# Site Navigation in navigation.yml
 
 # Search.gov configuration
 #
@@ -117,8 +94,7 @@ searchgov:
   endpoint: https://search.usa.gov
 
   # Replace this with your search.gov account.
-  affiliate: federalist-uswds-example
-
+  # affiliate: federalist-uswds-example
   # Replace this with your access key.
   # access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
@@ -163,18 +139,18 @@ defaults:
 
 permalink: pretty
 
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-last-modified-at
+  - jekyll-redirect-from
+  # - jekyll-sitemap # See additional instructions for url parameter above.
+  - jekyll-seo-tag
+
+
 last-modified-at:
   date-format: '%d-%b-%y'
-
-# markdown: kramdown
-#plugins:
-#  - jekyll-feed
-#  - jekyll-paginate-v2
-#  - jekyll-last-modified-at
-#  - jekyll-redirect-from
-#  - jekyll-sitemap # See additional instructions for url parameter above.
-#  - jekyll-seo-tag
-
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -234,13 +210,8 @@ exclude:
   - Dockerfile
 
 assets:
-  autoprefixer:
-    browsers:
-      - "> 2%"
-      - "last 2 versions"
-      - "IE 11"
-      - "not dead"
-  compression: true
   sources:
-    - node_modules/uswds/dist
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist

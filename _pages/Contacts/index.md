@@ -101,7 +101,7 @@ Media inquiries may be sent to <PressInquiries@frtib.gov>.
 ### Keep up with FRTIB news, updates and announcements
 
 {% capture subscribe_button -%}
-<a href="https://public.govdelivery.com/accounts/USTSP/subscriber/new?pop=t" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">Sign up for email updates<img src="../img/usa-icons/launch.svg" class="subscribe-img"></button></a>
+<a href="https://public.govdelivery.com/accounts/USTSP/subscriber/new?pop=t" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">Sign up for email updates{% asset img/usa-icons/launch.svg class="subscribe-img" alt="go to subscribe page" %}</button></a>
 {% endcapture -%}
 {{ subscribe_button}}from the FRTIB and TSP Website via GovDelivery Email Alerts.  
 
