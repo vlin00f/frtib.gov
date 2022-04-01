@@ -7,7 +7,7 @@ It is intended to allow highlighting of new features.
 {% include home/feature/start-section -%}
   {% include home/feature/start-row -%}
   {% capture left -%}
-  <a href="https://www.tsp.gov/account-basics/" target="_blank" rel="noopener" class="no-icon">
+  <a href="https://www.tsp.gov/tsp-basics/" target="_blank" rel="noopener" class="no-icon">
   {% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}
   </a>
   {% endcapture -%}
