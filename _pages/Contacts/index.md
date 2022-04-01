@@ -96,7 +96,7 @@ Media inquiries may be sent to <PressInquiries@frtib.gov>.
 
 ### Having technical issues with the website?
 
-<a href="mailto:webmaster@tsp.gov?subject=FRTIB website technical issues" target="_blank" rel="noopener">Email the FRTIB Webmaster</a> about any technical issues with the web pages on this Website.
+<a href="mailto:{{site.email}}?subject=FRTIB website technical issues" target="_blank" rel="noopener">Email the FRTIB Webmaster</a> about any technical issues with the web pages on this Website.
 
 ### Keep up with FRTIB news, updates and announcements
 
