@@ -25,7 +25,7 @@ FRTIB’s mission is to help current and former civilian employees and members o
 
 Download the  FY22-26 Strategic Plan to see our plans for the next five years.
 
-<a class="usa-button on-card" href="{{site.baseurl}}reading-room-strategic-plan/">View the Strategic Plan</a>
+<a class="usa-button on-card" href="{{site.baseurl}}/reading-room-strategic-plan/">View the Strategic Plan</a>
 {% endcapture -%}
 {% assign body = body|markdownify -%}
 {% include home/hero-callout label="Introduction" header=header body=body -%}

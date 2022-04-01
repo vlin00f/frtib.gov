@@ -10,7 +10,7 @@
 .offsite-link {
   background: 0 0;
   background-color: currentColor;
-  -webkit-mask: url(../img/usa-icons/launch.svg) no-repeat center/contain;
+  -webkit-mask: asset_url("img/usa-icons/launch.svg") no-repeat center/contain;
   width: 1.75ex;
   background-position: center;
   content: "";
@@ -28,7 +28,7 @@
 }
 .navigate_next {
   @extend .subscribe-img;
-  -webkit-mask: url(../img/usa-icons/navigate_next.svg) no-repeat center/contain;
+  -webkit-mask: asset_url("img/usa-icons/navigate_next.svg") no-repeat center/contain;
   height: 1.75ex;
   width: 2.0ex;
 }
@@ -46,17 +46,17 @@
 }
 .usa-alert--info:before {
   @extend .usa-icon-base;
-  background: url(../img/usa-icons/info.svg) no-repeat center / 2rem 2rem;
+  background: asset_url("img/usa-icons/info.svg") no-repeat center / 2rem 2rem;
 }
 .usa-alert--warning:before {
   @extend .usa-icon-base;
-  background: url(../img/usa-icons/warning.svg) no-repeat center / 2rem 2rem;
+  background: asset_url("img/usa-icons/warning.svg") no-repeat center / 2rem 2rem;
 }
 .usa-alert--error:before {
   @extend .usa-icon-base;
-  background: url(../img/usa-icons/error.svg) no-repeat center / 2rem 2rem;
+  background: asset_url("img/usa-icons/error.svg") no-repeat center / 2rem 2rem;
 }
 .usa-alert--success:before {
   @extend .usa-icon-base;
-  background: url(../img/usa-icons/check_circle.svg) no-repeat center / 2rem 2rem;
+  background: asset_url("img/usa-icons/check_circle.svg") no-repeat center / 2rem 2rem;
 }

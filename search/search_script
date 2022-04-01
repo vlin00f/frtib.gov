@@ -7,7 +7,6 @@
   var group = urlParams.get('group') || 'everything';
   params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: query, group: group }
 
-
   Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
 
   document.getElementById('extended-search-field-small').value = query;

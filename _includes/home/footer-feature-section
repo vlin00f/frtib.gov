@@ -7,7 +7,7 @@ It is intended to allow highlighting of new features.
 {% include home/feature/start-section -%}
   {% include home/feature/start-row -%}
   {% capture left -%}
-  <a href="https://www.tsp.gov/account-basics/" target="_blank" rel="noopener" class="no-icon">
+  <a href="https://www.tsp.gov/tsp-basics/" target="_blank" rel="noopener" class="no-icon">
   {% asset tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}
   </a>
   {% endcapture -%}
@@ -16,7 +16,7 @@ It is intended to allow highlighting of new features.
   {% endcapture -%}
   {% capture right-body -%}
   Whether you're new to the TSP, or you need a refresher, we're here to
-  <a href="https://www.tsp.gov" target="_blank" rel="noopener">help with the basics</a>.
+  <a href="https://www.tsp.gov/tsp-basics/" target="_blank" rel="noopener">help with the basics</a>.
   {% endcapture -%}
   {% assign right-body = right-body|markdownify -%}
   {% include home/feature/box left=left right-header=right-header right-body=right-body -%}
