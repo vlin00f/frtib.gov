@@ -27,7 +27,7 @@ __TDD (for hearing-impaired participants)__
 __International callers__ who cannot use the toll-free number should call <a href="tel:404-233-4400">404-233-4400</a>
 (not toll free).
 
-You can also contact the FRTIB through the options listed on
+You can also contact the TSP through the options listed on
 <a href="https://www.tsp.gov/contact" target="_blank" rel="noopener">www.tsp.gov/contact</a>.
 {% endcapture -%}
 {% include alert-block msg_type="info" msg_body=message_body markdownify=true
