@@ -15,7 +15,23 @@
 
 .usa-logo {
   line-height: 1.2rem;
+
 }
+
+.usa-logo__text {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  height: 100px;
+  margin: 0;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+
+}
+
 
 //    END seal and text edits
 
