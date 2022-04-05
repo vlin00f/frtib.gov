@@ -3,22 +3,10 @@
   <div class="usa-footer__primary-section">
     <nav class="usa-footer__nav" aria-label="Footer navigation">
       <ul class="grid-row grid-gap">
+{% for nav_item in site.data.navigation.footer_nav -%}
         <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/privacy/">Privacy Policy</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/no-fear/">No Fear Act</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/fair-act/">Fair Act</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/eeo/">EEO</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/data/">Data</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/onboarding/">Onboarding</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/vulnerability-disclosure-policy/">Vulnerability Disclosure</a></li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{site.baseurl}}/IPv6/">FRTIB IPv6 Policy</a></li>
+          <a class="usa-footer__primary-link" href="{{site.baseurl}}{{nav_item.url}}">{{nav_item.name}}</a></li>
+{% endfor -%}
       </ul>
     </nav>
   </div>

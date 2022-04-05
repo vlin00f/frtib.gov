@@ -175,3 +175,23 @@ search_nav:
   - name: Board Meeting Minutes
     group: minutes
     dc: 9433
+
+footer_nav:
+  - name: Privacy Policy
+    url: /privacy/
+  - name: No Fear Act
+    url: /no-fear/
+  - name: Fair Act
+    url: /fair-act/
+  - name: Accessibility
+    url: /accessibility/
+  - name: EEO
+    url: /eeo/
+  - name: Data
+    url: /data/
+  - name: Onboarding
+    url: /onboarding/
+  - name: Vulnerability Disclosure
+    url: /vulnerability-disclosure-policy/
+  - name: FRTIB IPv6 Policy
+    url: /IPv6/
