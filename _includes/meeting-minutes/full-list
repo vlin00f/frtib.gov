@@ -8,7 +8,7 @@ Component to display the main meeting minutes files.
 {% assign mmfile = filelist.first -%}
 {% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
 Most recent board meeting minutes:  <a href="{{fpath}}" target="_blank"><button class="usa-button meeting-minutes-button">{{filelist.first.name}}</button></a>
-Updated: 29-Dec
+Updated: {{page.last_update}}
 
 <div class="usa-accordion">
 {% assign year = '0000' -%}

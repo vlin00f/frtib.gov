@@ -169,9 +169,6 @@ search_nav:
   - name: Employee Surveys
     group: surveysemp
     dc: 9431
-  - name: FOIA Reports
-    group: foia
-    dc: 9432
   - name: Board Meeting Minutes
     group: minutes
     dc: 9433
