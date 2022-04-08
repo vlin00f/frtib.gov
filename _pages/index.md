@@ -7,8 +7,9 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /
 return_to_top: false
-#redirect_from:
-#  - /loans/
+redirect_from:
+  - /index.html
+  - /Home.html
 #document-ready:
 #  - getRate();
 ---

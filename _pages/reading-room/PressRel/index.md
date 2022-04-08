@@ -7,6 +7,7 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room-press-releases/
 redirect_from:
+  - /ReadingRoom/PressRel/Archive.html
   - /PressRel
   - /Press
 #document-ready:

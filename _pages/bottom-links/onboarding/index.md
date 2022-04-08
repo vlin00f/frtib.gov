@@ -8,6 +8,7 @@ scripts:
 permalink: /onboarding/
 redirect_from:
   - /onboarding.html
+  - /onboarding/federal.html
 #document-ready:
 #  - getRate();
 ---

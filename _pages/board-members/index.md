@@ -9,6 +9,7 @@ permalink: /board-members/
 redirect_from:
   - /BoardMembers
   - /BoardMembers.html
+  - /BoardMembers/index.html
 #document-ready:
 #  - getRate();
 ---

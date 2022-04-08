@@ -8,6 +8,7 @@ scripts:
 permalink: /procurement/
 redirect_from:
   - /Procurement.html
+  - /Procurement/DoingBusiness.html
 #document-ready:
 #  - getRate();
 ---
