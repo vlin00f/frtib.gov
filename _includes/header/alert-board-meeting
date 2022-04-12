@@ -5,12 +5,12 @@ Include this version to account an upcoming board meeting.  Include alert-none i
 
 Change only the conference date, time, phone, id, and url in the following lines.
 {% endcomment -%}
-{% assign confDate = "Thursday, March 24<sup>th</sup>" -%}
+{% assign confDate = "Thursday, April 26<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "614 746 295#" -%}
+{% assign confID = "676 492 751#" -%}
 {% capture confURL -%}
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWZmZDI2MGEtYjEwNi00MzczLWI5YTctODJmYTdjN2ZlYzZm%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%227c8d802c-5559-41ed-9868-8bfad5d44af9%22%7d
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzEwYTM0OTYtODE2Ny00MTU5LWIyYmQtNjgzNzFjMjJiOWRi%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%227c8d802c-5559-41ed-9868-8bfad5d44af9%22%7d
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE    {% endcomment -%}
