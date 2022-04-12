@@ -5,7 +5,7 @@ Include this version to account an upcoming board meeting.  Include alert-none i
 
 Change only the conference date, time, phone, id, and url in the following lines.
 {% endcomment -%}
-{% assign confDate = "Thursday, April 26<sup>th</sup>" -%}
+{% assign confDate = "Tuesday, April 26<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "676 492 751#" -%}
