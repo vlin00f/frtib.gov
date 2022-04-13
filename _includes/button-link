@@ -1,1 +1,3 @@
-  <a href="{{site.baseurl}}{{include.url}}" target="_blank"><button class="usa-button on-card thin">{{include.text}}</button></a>
+{% assign xtraClass1 = include.xtraClass | default: '' -%}
+{% assign xtraClass2 = include.xtraClass | default: '' -%}
+<a href="{{site.baseurl}}{{include.url}}" target="_blank" class="{{xtraClass1}}"><button class="usa-button on-card thin {{xtraClass2}}">{{include.text}}</button></a>
