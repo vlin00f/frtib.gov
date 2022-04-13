@@ -18,6 +18,11 @@ Prior to your report date several new hire forms are required to be completed in
 
 Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include pre-onboarding training requirements and information that is pertinent for New Employee Orientation.
 
+{% comment -%}
+{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
+{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-3.pdf" text="TSP-3: Thrift Savings Plan Designation of Beneficiary Form [PDF]" -%}
+{% endcomment -%}
+
 * [TSP-1: Thrift Savings Plan Election Form](https://www.tsp.gov/forms/tsp-1.pdf){: target="_blank}
 * [TSP-3: Thrift Savings Plan Designation of Beneficiary Form](https://www.tsp.gov/forms/tsp-3.pdf){: target="_blank}
 
