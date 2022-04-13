@@ -18,6 +18,9 @@ Prior to your report date several new hire forms are required to be completed in
 
 Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include pre-onboarding training requirements and information that is pertinent for New Employee Orientation.
 
+* [Thrift Savings Plan Form TSP-1](https://www.tsp.gov/forms/tsp-1.pdf){: target="_blank}
+* [Thrift Savings Plan Form TSP-3](https://www.tsp.gov/forms/tsp-3.pdf){: target="_blank}
+
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Federal Employees Forms" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/forms/" format='title' reverse=false dobutton=true -%}
