@@ -1,1 +1,1 @@
-<a href="{{site.baseurl}}{{include.url}}" target="_blank" class="no-icon" rel="noopener"><button class="usa-button thin">{{include.text}}{% asset img/usa-icons/launch.svg class="subscribe-img" alt="go to subscribe page" %}</button></a>
+<a href="{{include.url}}" target="_blank" class="no-icon" rel="noopener"><button class="usa-button thin">{{include.text}}{% asset img/usa-icons/launch.svg class="subscribe-img" alt="go to subscribe page" %}</button></a>
