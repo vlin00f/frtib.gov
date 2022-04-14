@@ -1,0 +1,1 @@
+<a href="{{include.url}}" target="_blank" class="no-icon" rel="noopener"><button class="usa-button thin">{{include.text}}{% asset img/usa-icons/launch.svg class="subscribe-img" alt="go to URL" %}</button></a>

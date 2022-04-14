@@ -21,6 +21,12 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Federal Employees Forms" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/forms/" format='title' reverse=false dobutton=true -%}
+<p>
+{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
+</p>
+<p>
+{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-3.pdf" text="TSP-3: Thrift Savings Plan Designation of Beneficiary Form [PDF]" -%}
+</p>
 {% include accordion/end  inList=false -%}
 </div>
 
