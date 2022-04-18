@@ -22,7 +22,7 @@ title: Search
   <input name="affiliate" type="hidden" value="{{site.searchgov.affiliate}}" />
   <input name="dc" id="dc" type="hidden" value="" />
 {% endcomment -%}
-<form id="search_form_page" class="usa-search usa-search--small" action="/search/" accept-charset="UTF-8" method="get" onSubmit="onSearchSubmit();">
+<form id="search_form_page" class="usa-search usa-search--small" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get" onSubmit="onSearchSubmit();">
   <input name="utf8" type="hidden" value="✓" />
   <input name="group" id="group" type="hidden" value="everything" />
   <div role="search">

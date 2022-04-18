@@ -24,7 +24,7 @@ function addElement(name, value, form) {
   input.type = 'text';
   input.name = name;
   input.value = value;
-  console.log(input, name, value, form);
+  // console.log(input, name, value, form);
   document.getElementById(form).appendChild(input);
   return true;
 }
