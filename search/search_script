@@ -47,8 +47,8 @@
           `, true);
 
       }
-      console.log({page}, {limit}, posts.web.next_offset, {start});
-      console.log(buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit));
+      // console.log({page}, {limit}, posts.web.next_offset, {start});
+      // console.log(buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit));
       document.getElementById('search-nav').innerHTML = buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit);
     }).catch(function(ex) {
       console.log('parsing failed', ex);
