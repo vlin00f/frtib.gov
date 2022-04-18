@@ -13,7 +13,8 @@ function doSearch(group, dc) {
   window.location.href = "https://search.usa.gov/search/docs?affiliate=frtib.gov&dc="+dc+"&query="+query;
   return;
   */
-
+  var limit = document.getElementById('limit').value;
+  if (limit != 20) { addElement('limit', limit, 'search_form_div'); }
   document.getElementById('group').value = group;
   // document.getElementById('dc').value = dc;
   document.getElementById('search_form_page').submit();
