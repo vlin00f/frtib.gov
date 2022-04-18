@@ -5,27 +5,51 @@
   var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
   var query = urlParams.get('query');
   var group = urlParams.get('group') || 'everything';
-  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: query, group: group }
+  var limit = urlParams.get('limit') || 20;
+  var offset = urlParams.get('offset') || 0;
+  var site = getAccessKey(group);
+  // console.log(site);
+  params = { affiliate: site[0], access_key: site[1], query: query, group: group }
+  if (limit != 20) { params.limit = limit; }
 
   Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
+  if (offset != 0) {
+    console.log('offsetting');
+    searchEndpoint.searchParams.append('offset', offset);
+  }
 
   document.getElementById('extended-search-field-small').value = query;
   document.getElementById('extended-search-field-big').value = query;
   document.getElementById('group').value = group;
+  document.getElementById('limit').value = limit;
   document.getElementById('search_'+group).classList.add('search-current');
 
   fetch(searchEndpoint).then(function(res) {
       return res.json()
     }).then(function(posts) {
+      document.getElementById('next_offset').value = posts.web.next_offset;
+      var start = 1;
+      if (posts.web.next_offset >= limit) {
+        start = posts.web.next_offset-limit+1;
+      } else {
+        start = posts.web.total - posts.web.results.length + 1;
+      }
+      document.getElementById('search-results').start = start;
+      var page = (offset / limit) + 1;
+      render_result(`<div>${posts.web.total} results</div>`, true);
       for (item in posts.web.results){
         render_result(`
           <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
             <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
+            <div class="urlresult">${posts.web.results[item]['url']}</div>
             <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
           </li>
-          `, true)
+          `, true);
 
       }
+      console.log({page}, {limit}, posts.web.next_offset, {start});
+      console.log(buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit));
+      document.getElementById('search-nav').innerHTML = buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit);
     }).catch(function(ex) {
       console.log('parsing failed', ex);
     }).finally(function(e){
@@ -41,15 +65,38 @@
       document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
     }
 
-    function doSearch(group, dc) {
-      var query = document.getElementById('extended-search-field-big').value;
-      window.location.href = "https://search.usa.gov/search/docs?affiliate=frtib.gov&dc="+dc+"&query="+query;
-      return;
+    function getAccessKey(group) {
+      var affiliate = "{{site.searchgov.affiliate}}";
+      var access_key = "{{site.searchgov.access_key}}";
 
-      document.getElementById('group').value = group;
-      document.getElementById('dc').value = dc;
-      document.getElementById('search_form_page').submit();
+      /*
+      if (group != 'everything') {
+        affiliate = 'beta.tsp';
+        access_key = 'sVO7chy_W4g9AMmHj90csL3Oyn6z7JKRs1Pb8BxCJ9Y=';
+      }
+      */
+
+      if (group == 'surveysemp') {
+        affiliate = 'frtib.surveysemp';
+        access_key = '2pm7uO0nmTqoDQYpY7ImTlTYc5yOCTqLGFKqpBunUkg=';
+      }
+      if (group == 'surveyspart') {
+        affiliate = 'frtib.surveyspart';
+        access_key = 'ETlC1QWx0E8yOmdKUU05zThKu4BtvPbmZyWfd5yD0eo=';
+      }
+      if (group == 'reports') {
+        affiliate = 'frtib.reports';
+        access_key = 'JV59BLkjvsS_Sl36Z1Lk9GkCCtQRtwMO0oIoRTlYaMI=';
+      }
+      if (group == 'minutes') {
+        affiliate = 'frtib.minutes';
+        access_key = 'qCdsRliFeUDAqr8rCAmBLU5aV_QWVGfV-DU8yWLk-Y4=';
+      }
+
+      // console.log(affiliate + ' ' + access_key);
+      return [affiliate, access_key];
     }
+
 
 //]]>
 </script>
