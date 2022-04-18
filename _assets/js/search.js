@@ -44,7 +44,7 @@ function makePaginationLink(page, linkFlag, maxPage) {
   if (linkFlag) {
     return '<a href="javascript:void(0)" class="search-page" onClick="goToPage('+page+');">'+page+'</a>'+"\n";
   }
-  return '<em>'+page+'</em>'+"\n";
+  return '<em class="search-page">'+page+'</em>'+"\n";
 }
 function makePrevNextLink(direction, page, maxPage) {
   page = parseInt(page);
