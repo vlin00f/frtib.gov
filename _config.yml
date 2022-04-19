@@ -136,6 +136,8 @@ searchgov:
   # If you do not want to present search suggestions, set this value to false.
   suggestions: true
 
+  placeholder: Search FRTIB.gov
+
 ##########################################################################################
 # The values below here are more advanced and should only be
 # changed if you know what they do
