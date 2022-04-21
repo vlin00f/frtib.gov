@@ -32,12 +32,12 @@
   </url>
   {% endunless %}{% endfor %}
   {% endunless %}{% endfor %}
-  {% for file in site.html_files %}
+  {% for file in site.html_files %}{% unless file.path contains '/_archive/' -%}
   <url>
     <loc>{{ file.path | prepend: site_url }}</loc>
     <lastmod>{{ file.modified_time | date: '%A, %B %d, %Y (%I:%M %P)' }}</lastmod>
   </url>
-  {% endfor %}
+  {% endunless %}{% endfor %}
   {% for page in site.pages %}
   <url>
     <loc>{{ page.url | replace:'/index.html','/' | prepend: site_url }}</loc>
@@ -46,20 +46,20 @@
     {% endif %}
   </url>
   {% endfor %}
-  {% for file in site.static_files %}{% unless file.extname != ".pdf" %}
+  {% for file in site.static_files %}{% unless file.extname != ".pdf" %}{% unless file.path contains '/_archive/' -%}
   <url>
     <loc>{{ file.path | prepend: site_url }}</loc>
     <lastmod>{{ file.modified_time | date: '%A, %B %d, %Y (%I:%M %P)' }}</lastmod>
-  </url>{% endunless %}{% endfor %}
+  </url>{% endunless %}{% endunless %}{% endfor %}
   {% assign special_collections = "pdf,meeting_minutes" | split: ',' -%}
   {% for collection in site.collections %}{% unless collection.last.output == false %}
     {% if special_collections contains collection.label -%}
-    {% for file in collection.files %}
+    {% for file in collection.files %}{% unless file.path contains '/_archive/' -%}
     <url>
       <loc>{{ file.path | replace_first: '_', '/' | prepend: site_url }}</loc>
       {% if file.modified_time %}<lastmod>{{ file.modified_time | date: '%A, %B %d, %Y (%I:%M %P)' }}</lastmod>{% endif %}
     </url>
-    {% endfor %}
+    {% endunless %}{% endfor %}
   {% endif %}
 {% endunless %}{% endfor %}
 </urlset>

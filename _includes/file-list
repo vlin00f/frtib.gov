@@ -18,12 +18,12 @@ List all the static files in a collection with a specific prefix (i.e. subfolder
 {% endif -%}
 {% for collection in site.collections -%}
 {% if collection.label == coll -%}
-{% for file in collection.files -%}
+{% for file in collection.files -%}{% unless file.path contains '/_archive/' -%}
 {% assign currPrefix = file.path | slice: 0, prefixLen -%}
 {% if currPrefix == prefix -%}
 {% assign fileList = fileList | push: file -%}
 {% endif -%}
-{% endfor -%}
+{% endunless -%}{% endfor -%}
 {% break -%}
 {% endif -%}
 {% endfor -%}
