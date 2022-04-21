@@ -20,9 +20,15 @@ We are committed to protecting the privacy of everyone who visits our website.
 
 Our policy for frtib.gov is that no personal information about you is collected.
 
-Information automatically captured and stored<br>
-Cookies<br>
-Security monitoring<br>
+<br>
 
+<!-- cards starts here -->
+<ul class="usa-card-group">
+{% for room in site.data.navigation.privacy_nav -%}
+{% if forloop.first -%}{% continue -%}{% endif -%}
+{% include card-no-media striped=true heading=room.name button_link=room.url
+      xtext=room.text button_text=room.button_text image=room.image -%}
+{% endfor -%}
+</ul>
 
 <!-- CONTENT END -->

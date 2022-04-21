@@ -198,8 +198,10 @@ privacy_nav:
     url: /privacy/
   - name: Information automatically captured and stored
     url: /information-captured-stored/
+    button_text: "Visit the Informaton automatically captured and stored page"
   - name: Cookies
     url: /cookies/
+    button_text: "Visit the Cookies page"
   - name: Security Monitoring
     url: /security-monitoring/
-    
+    button_text: "Visit the Security Monitoring page"
