@@ -192,3 +192,12 @@ footer_nav:
     url: /vulnerability-disclosure-policy/
   - name: FRTIB IPv6 Policy
     url: /IPv6/
+
+privacy_nav:
+  - name: Information automatically captured and stored
+    url: /information-captured-stored/
+  - name: Cookies
+    url: /cookies/
+  - name: Security Monitoring
+    url: /security-monitoring/
+    
