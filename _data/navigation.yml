@@ -194,6 +194,8 @@ footer_nav:
     url: /IPv6/
 
 privacy_nav:
+  - name: Privacy Policy
+    url: /privacy/
   - name: Information automatically captured and stored
     url: /information-captured-stored/
   - name: Cookies
