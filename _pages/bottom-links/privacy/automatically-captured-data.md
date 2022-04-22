@@ -18,7 +18,7 @@ redirect_from:
 
 The FRTIB website does not collect any personal information about you. When you browse, read pages, or download information on the FRTIB website, we automatically gather and store certain technical (non-personal) information about your visit. This information is only used to help make the sites more effective and user-friendly.
 
-Automatically captured information includes:
+Automatically captured data includes:
 
 <ul>
   <li>Information about your connection to our web server, including the Internet domain and IP address from which you access our website;</li>
