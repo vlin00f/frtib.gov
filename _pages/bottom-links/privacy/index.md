@@ -2,7 +2,7 @@
 layout: page2
 title: Privacy Policy
 styles:
-sidenav:
+sidenav: privacy_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /privacy/
@@ -13,14 +13,22 @@ redirect_from:
 #  - getRate();
 ---
 
-## Privacy Policy
+## Website Privacy Policy
 
-This Web site (<a href="https://www.frtib.gov">www.frtib.gov</a>) is provided as a public service by the Federal Retirement Thrift Investment Board.
+Thank you for visiting the Federal Retirement Thrift Investment Board’s (FRTIB) website and reviewing our privacy policy.
+We are committed to protecting the privacy of everyone who visits our website.
 
-Thank you for visiting the FRTIB Web site and reviewing our privacy policy.
+Our policy for frtib.gov is that no personal information about you is collected.
 
-Our privacy policy is clear: We do not use "cookies" and there is no personal information collected about you when you browse this Web site.
+<br>
 
-You browse this Web site anonymously.
+<!-- cards starts here -->
+<ul class="usa-card-group">
+{% for room in site.data.navigation.privacy_nav -%}
+{% if forloop.first -%}{% continue -%}{% endif -%}
+{% include card-no-media striped=true heading=room.name button_link=room.url
+      xtext=room.text button_text=room.button_text image=room.image -%}
+{% endfor -%}
+</ul>
 
 <!-- CONTENT END -->
