@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: Automatically captured information
+title: Automatically captured data
 styles:
 sidenav: privacy_nav
 scripts:
