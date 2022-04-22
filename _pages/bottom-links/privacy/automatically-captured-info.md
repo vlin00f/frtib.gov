@@ -1,24 +1,24 @@
 ---
 layout: page2
-title: Information automatically captured and stored
+title: Automatically captured information
 styles:
 sidenav: privacy_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /information-captured-stored/
+permalink: /automatically-captured-info/
 redirect_from:
-  - /Information-captured-stored.html
+  - /Automatically-captured-information.html
 #document-ready:
 #  - getRate();
 ---
 
-## Information automatically captured and stored
+## Automatically captured information
 
 ### Public website access
 
-The public components of the FRTIB website does not collect any personal information about you. When you browse, read pages, or download information on the FRTIB website, we automatically gather and store certain technical (non-personal) information about your visit. This information is only used to help make the sites more effective and user-friendly.
+The FRTIB website does not collect any personal information about you. When you browse, read pages, or download information on the FRTIB website, we automatically gather and store certain technical (non-personal) information about your visit. This information is only used to help make the sites more effective and user-friendly.
 
-Information automatically collected and stored includes:
+Automatically captured information includes:
 
 <ul>
   <li>Information about your connection to our web server, including the Internet domain and IP address from which you access our website;</li>

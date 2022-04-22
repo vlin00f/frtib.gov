@@ -15,7 +15,7 @@ redirect_from:
 
 ## Website Privacy Policy
 
-Thank you for visiting the Federal Retirement Thrift Investment Board’s (FRTIB) website and reviewing our privacy policy.<br>
+Thank you for visiting the Federal Retirement Thrift Investment Board’s (FRTIB) website and reviewing our privacy policy.
 We are committed to protecting the privacy of everyone who visits our website.
 
 Our policy for frtib.gov is that no personal information about you is collected.

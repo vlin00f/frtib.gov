@@ -196,9 +196,9 @@ footer_nav:
 privacy_nav:
   - name: Privacy Policy
     url: /privacy/
-  - name: Information automatically captured and stored
-    url: /information-captured-stored/
-    button_text: "Visit the Informaton automatically captured and stored page"
+  - name: Automatically captured information
+    url: /automatically-captured-info/
+    button_text: "Visit the Automatically captured information page"
   - name: Cookies
     url: /cookies/
     button_text: "Visit the Cookies page"
