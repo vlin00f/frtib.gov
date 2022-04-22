@@ -5,14 +5,14 @@ styles:
 sidenav: privacy_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /automatically-captured-info/
+permalink: /automatically-captured-data/
 redirect_from:
-  - /Automatically-captured-information.html
+  - /Automatically-captured-data.html
 #document-ready:
 #  - getRate();
 ---
 
-## Automatically captured information
+## Automatically captured data
 
 ### Public website access
 
