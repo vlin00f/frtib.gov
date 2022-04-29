@@ -10,6 +10,7 @@ Component to display the main meeting minutes files.
 Most recent board meeting minutes:  <a href="{{fpath}}" target="_blank"><button class="usa-button meeting-minutes-button">{{filelist.first.name}}</button></a>
 Updated: {{page.last_update}}
 
+<h3 class="usa-sr-only">Meeting minutes grouped by year, ordered by month, descending<h3>
 <div class="usa-accordion">
 {% assign year = '0000' -%}
 {% assign closeDiv = '' -%}
@@ -19,7 +20,7 @@ Updated: {{page.last_update}}
 {% if curYear != year -%}
 {% assign year = curYear -%}
 {{closeDiv}}
-{% include accordion/start expanded=false divID=curYear title=curYear inList=true -%}
+{% include accordion/start expanded=false divID=curYear title=curYear inList=false -%}
 <ul class="usa-button-group">
 {% assign closeDiv = "</ul></div><br>" -%}
 {% endif -%}
