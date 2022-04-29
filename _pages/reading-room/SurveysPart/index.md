@@ -5,9 +5,10 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /participant-surveys/
+permalink: /reading-room/participant-surveys/
 redirect_from:
-  - /reading-room-participant-surveys/
+- /reading-room-participant-surveys/
+- /participant-surveys/
   - /SurveysPart
   - /PartSurveys
 #document-ready:

@@ -5,9 +5,9 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /participant-surveys/behavior/
-#redirect_from:
-#  - /reading-room-participant-surveys/
+permalink: /reading-room/participant-surveys/behavior/
+redirect_from:
+  - /participant-surveys/behavior
 #document-ready:
 #  - getRate();
 ---

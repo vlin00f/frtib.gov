@@ -21,6 +21,7 @@ __Most recent:__
 
 {% include file-list coll="pdf" folder="/reading-room/FOIA/year/" format='title' reverse=true dobutton=true count=2 -%}
 
+<h3 class="usa-sr-only">older FOIA reports, descending by year<h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Annual FOIA Reports" inList=false -%}
 {% include file-list coll="pdf" folder="/reading-room/FOIA/year/" format='title' reverse=true dobutton=true dropTwo=true -%}

@@ -5,9 +5,10 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-reports-to-congress/
+permalink: /reading-room/reports-to-congress/
 redirect_from:
   - /congress
+  - /reading-room-reports-to-congress
 #document-ready:
 #  - getRate();
 ---
@@ -22,12 +23,14 @@ FRTIB also provides to Congress summaries of education outreach efforts to TSP p
 {% include file-list coll="pdf" folder="/reading-room/congress/Fin" format='title' reverse=true dobutton=true count=1 -%}
 
 
+<h3 class="usa-sr-only">Older annual reports, descending by year<h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="annual-files" title="Previous Annual Reports" inList=false %}
 {% include file-list coll="pdf" folder="/reading-room/congress/TSP" reverse=true format='title' dobutton=true dropFirst=true -%}
 {% include accordion/end  inList=false %}
 </div>
 
+<h3 class="usa-sr-only">older educational efforts reports, descending by year<h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="educational-files" title="Previous Reports on Education Efforts" inList=false %}
 {% include file-list coll="pdf" folder="/reading-room/congress/Fin" reverse=true format='title' dobutton=true dropFirst=true -%}
