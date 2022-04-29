@@ -6,6 +6,7 @@ title: Search
 
 {% if site.searchgov == false -%}<script>window.location = "/";</script>{% endif -%}
 
+<h1 class="hide">Content start</h1>
 <h2>Search Results</h2>
 
 <nav class="search-filters">
@@ -58,9 +59,10 @@ title: Search
 {% endif %}
 
 <ol id="search-results" start="1"></ol>
-<ol id="search-nav" class="search-block">
-  << <a href="#" onClick="goToPage(0);">Previous</a>
-  <a href="#" onClick="goToPage(2);">Next</a> >>
-</ol>
+<div id="search-nav" class="search-block">
+  <span class="search-previous disabled">Previous</span>
+  <em class="search-page">1</em>
+  <span class="search-next disabled">Next</span>
+</div>
 
 {% include_relative search_script -%}
