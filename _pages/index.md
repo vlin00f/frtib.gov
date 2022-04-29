@@ -15,7 +15,6 @@ redirect_from:
 ---
 
 <div class="usa-grid-full">
-<main id="main-content">
 
 <!-- top area -->
 {% capture header -%}
@@ -76,7 +75,6 @@ Overall TSP Satisfaction
 <!-- bottom area above footer-->
 {% include home/footer-feature-section -%}
 
-</main>
 </div>
 
 
