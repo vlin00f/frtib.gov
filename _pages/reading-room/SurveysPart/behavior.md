@@ -12,7 +12,7 @@ redirect_from:
 #  - getRate();
 ---
 
-#### Participant Behavior and Demographics
+## Participant Behavior and Demographics
 
 {% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true -%}
 
