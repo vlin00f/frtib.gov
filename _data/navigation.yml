@@ -137,7 +137,7 @@ procurement_nav:
   - name: Procurement
     url: /procurement/
   - name: Acquisition Process and Methods
-    url: /procurement-acquisitions/
+    url: /procurement/acquisitions/
 #  - name: Contract 1
 #    url: /contract1/
 
