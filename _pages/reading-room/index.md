@@ -19,7 +19,6 @@ most_recent:
   - /reading-room/FinStmts
   - /reading-room/FOIA/year/foia-annual-report-2021.docx
   - /reading-room/SurveysPart/TSP-
-  - /reading-room/SurveysPart/Participant-Behavior
 ---
 
 ## Reading Room
