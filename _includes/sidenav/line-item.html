@@ -1,9 +1,8 @@
-{% comment %}
+{% comment -%}
 Single li used in the sidenav component
-{% endcomment %}
+{% endcomment -%}
 {% assign myItem = include.myItem -%}
 {% assign isCurrent = 'class="usa-current"' -%}
 <li class="usa-sidenav__item">
-  <a href="{{site.baseurl}}{{ myItem.url }}" {% if page.url == myItem.url -%}{{isCurrent}}{% endif -%}>
-    {{ myItem.name }}{% if myItem.children -%}<span class="navigate_next"></span>{% endif -%}</a>
+  <a href="{{site.baseurl}}{{ myItem.url }}" {% if page.url == myItem.url -%}{{isCurrent}}{% endif -%}>{{ myItem.name }}{% if myItem.children -%}<span class="navigate_next"></span>{% endif -%}</a>
 </li>

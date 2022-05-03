@@ -5,9 +5,10 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-fersa/
+permalink: /reading-room/fersa/
 redirect_from:
   - /fersa
+  - /reading-room-fersa
 #document-ready:
 #  - getRate();
 ---

@@ -6,7 +6,7 @@ title: Search
 
 {% if site.searchgov == false -%}<script>window.location = "/";</script>{% endif -%}
 
-<h1>Search Results</h1>
+<h2>Search Results</h2>
 
 <nav class="search-filters">
   <ul>
@@ -25,12 +25,13 @@ title: Search
 <form id="search_form_page" class="usa-search usa-search--small" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get" onSubmit="onSearchSubmit();">
   <input name="utf8" type="hidden" value="✓" />
   <input name="group" id="group" type="hidden" value="everything" />
-  <div role="search">
-    <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+  <div role="search" aria-label="Search page with filters">
+    <label class="usa-sr-only" for="extended-search-field-big">Search big</label>
     <input class="usa-input usagov-search-autocomplete" id="extended-search-field-big" type="search" name="query" autocomplete="off" placeholder="{{site.searchgov.placeholder}}">
     <button class="usa-button on-card" type="submit">
       {% asset "img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" %}
     </button>
+    <label class="usa-sr-only" for="limit">Number of hits per page</label>
     <select id="limit" onChange="onSearchSubmit(); submit();" class="search-select-hits">
       {% assign items = "10,15,20,30,40,50" | split: "," -%}
       {% for item in items -%}
@@ -57,9 +58,10 @@ title: Search
 {% endif %}
 
 <ol id="search-results" start="1"></ol>
-<ol id="search-nav" class="search-block">
-  << <a href="#" onClick="goToPage(0);">Previous</a>
-  <a href="#" onClick="goToPage(2);">Next</a> >>
-</ol>
+<div id="search-nav" class="search-block">
+  <span class="search-previous disabled">Previous</span>
+  <em class="search-page">1</em>
+  <span class="search-next disabled">Next</span>
+</div>
 
 {% include_relative search_script -%}

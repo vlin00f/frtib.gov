@@ -5,10 +5,11 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-employee-surveys/
+permalink: /reading-room/employee-surveys/
 redirect_from:
   - /SurveysEmp
   - /EmpSurveys
+  - /reading-room-employee-surveys
 #document-ready:
 #  - getRate();
 ---
@@ -59,6 +60,7 @@ The results received from the Federal Employee Viewpoint Surveys remain an impor
 __Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true format='title' dobutton=true count=1 -%}
 
 
+<h3 class="usa-sr-only">previous surveys, descending by year<h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Surveys" inList=false -%}
 {% include file-list coll="pdf" folder="/reading-room/SurveysEmp" format='title' reverse=true dobutton=true dropFirst=true -%}

@@ -5,9 +5,10 @@ styles:
 sidenav: procurement_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /procurement-acquisitions/
+permalink: /procurement/acquisitions/
 redirect_from:
   - /acquisitions/
+  - /procurement-acquisitions
 #document-ready:
 #  - getRate();
 ---

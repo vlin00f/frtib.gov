@@ -5,9 +5,10 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /reading-room-investment-benchmarks/
+permalink: /reading-room/investment-benchmarks/
 redirect_from:
   - /InvBMarks
+  - /reading-room-investment-benchmarks
 #document-ready:
 #  - getRate();
 ---
@@ -19,6 +20,7 @@ The FRTIB regularly engages in reviews of both the investment funds offered by t
 __Most recent:__ {% include file-list coll="pdf" folder="/reading-room/InvBMarks" reverse=true format='title' dobutton=true count=1 -%}
 
 
+<h3 class="usa-sr-only">older investment reports, descending by year<h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Reports" inList=false -%}
 {% include file-list coll="pdf" folder="/reading-room/InvBMarks" format='title' reverse=true dobutton=true dropFirst=true -%}

@@ -46,6 +46,8 @@
     {% endif %}
   </url>
   {% endfor %}
+{% comment -%} Comment out pdf files.
+end of comment blocked section {% endcomment -%}
   {% for file in site.static_files %}{% unless file.extname != ".pdf" %}{% unless file.path contains '/_archive/' -%}
   <url>
     <loc>{{ file.path | prepend: site_url }}</loc>

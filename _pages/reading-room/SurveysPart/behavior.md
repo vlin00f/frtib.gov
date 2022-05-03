@@ -5,14 +5,14 @@ styles:
 sidenav: reading_room_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /participant-surveys/behavior/
-#redirect_from:
-#  - /reading-room-participant-surveys/
+permalink: /reading-room/participant-surveys/behavior/
+redirect_from:
+  - /participant-surveys/behavior
 #document-ready:
 #  - getRate();
 ---
 
-#### Participant Behavior and Demographics
+## Participant Behavior and Demographics
 
 {% include file-list coll="pdf" folder="/reading-room/SurveysPart/Participant-Behavior" reverse=true format='title' dobutton=true -%}
 

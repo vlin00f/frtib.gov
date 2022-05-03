@@ -11,22 +11,26 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
   <nav>
     <ul class="usa-sidenav">
       {% include sidenav/line-item.html myItem=curSidenav.first -%}
-      <ul class="usa-sidenav__sublist">
-        {% for sideItem in navList.[include.sidenav] -%}
-        {% if forloop.first -%}{% continue -%}{% endif -%}
-        {% include sidenav/line-item.html myItem=sideItem -%}
-        {% if sideItem.children -%}
-          {% assign testArray = page.url | split: sideItem.url -%}
-          {% if testArray[0] == '' or testArray[0] == nil -%}
-          <ul class="usa-sidenav__sublist">
-          {% for gcItem in navList.[sideItem.children] -%}
-          {% include sidenav/line-item.html myItem=gcItem -%}
-          {% endfor -%}
-          </ul>
+      <li class="usa-sidenav__item">
+        <ul class="usa-sidenav__sublist">
+          {% for sideItem in navList.[include.sidenav] -%}
+          {% if forloop.first -%}{% continue -%}{% endif -%}
+          {% include sidenav/line-item.html myItem=sideItem -%}
+          {% if sideItem.children -%}
+            {% assign testArray = page.url | split: sideItem.url -%}
+            {% if testArray[0] == '' or testArray[0] == nil -%}
+            <li class="usa-sidenav__item">
+              <ul class="usa-sidenav__sublist">
+              {% for gcItem in navList.[sideItem.children] -%}
+              {% include sidenav/line-item.html myItem=gcItem -%}
+              {% endfor -%}
+              </ul>
+            </li>
+            {% endif -%}
           {% endif -%}
-        {% endif -%}
-        {% endfor -%}
-      </ul>
+          {% endfor -%}
+        </ul>
+      </li>
     </ul>
   </nav>
 </aside>

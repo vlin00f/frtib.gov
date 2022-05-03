@@ -14,7 +14,7 @@
 
   Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
   if (offset != 0) {
-    console.log('offsetting');
+    // console.log('offsetting');
     searchEndpoint.searchParams.append('offset', offset);
   }
 
@@ -24,41 +24,43 @@
   document.getElementById('limit').value = limit;
   document.getElementById('search_'+group).classList.add('search-current');
 
-  fetch(searchEndpoint).then(function(res) {
-      return res.json()
-    }).then(function(posts) {
-      document.getElementById('next_offset').value = posts.web.next_offset;
-      var start = 1;
-      if (posts.web.next_offset >= limit) {
-        start = posts.web.next_offset-limit+1;
-      } else {
-        start = posts.web.total - posts.web.results.length + 1;
-      }
-      document.getElementById('search-results').start = start;
-      var page = (offset / limit) + 1;
-      render_result(`<div>${posts.web.total} results</div>`, true);
-      for (item in posts.web.results){
-        render_result(`
-          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
-            <div class="urlresult">${posts.web.results[item]['url']}</div>
-            <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
-          </li>
-          `, true);
+  if (query.trim() != "") {
+    fetch(searchEndpoint).then(function(res) {
+        return res.json()
+      }).then(function(posts) {
+        document.getElementById('next_offset').value = posts.web.next_offset;
+        var start = 1;
+        if (posts.web.next_offset >= limit) {
+          start = posts.web.next_offset-limit+1;
+        } else {
+          start = posts.web.total - posts.web.results.length + 1;
+        }
+        document.getElementById('search-results').start = start;
+        var page = (offset / limit) + 1;
+        render_result(`<div>${posts.web.total} results</div>`, true);
+        for (item in posts.web.results){
+          render_result(`
+            <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+              <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
+              <div class="urlresult">${posts.web.results[item]['url']}</div>
+              <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
+            </li>
+            `, true);
 
-      }
-      // console.log({page}, {limit}, posts.web.next_offset, {start});
-      // console.log(buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit));
-      document.getElementById('search-nav').innerHTML = buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit);
-    }).catch(function(ex) {
-      console.log('parsing failed', ex);
-    }).finally(function(e){
+        }
+        // console.log({page}, {limit}, posts.web.next_offset, {start});
+        // console.log(buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit));
+        document.getElementById('search-nav').innerHTML = buildPaginationBlock(posts.web.total, page, posts.web.next_offset, limit);
+      }).catch(function(ex) {
+        console.log('parsing failed', ex);
+      }).finally(function(e){
 
-      if(document.getElementById('search-results').childNodes.length == 0){
-        render_result(`<li class="title">No results found</li>`, false)
-      }
+        if(document.getElementById('search-results').childNodes.length == 0){
+          render_result(`<li class="title">No results found</li>`, false)
+        }
 
-    })
+      })
+    } // end if query.trim()
 
     function render_result(content, append = true){
       const previous = document.getElementById('search-results').innerHTML;

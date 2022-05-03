@@ -7,16 +7,17 @@ This template is for a single page that does not have a date associated with it.
 {% endcomment -%}
 {% assign sidenav = page.sidenav | strip | default: "" -%}
 {% assign gridStyle = "desktop:grid-col-12" -%}
-<div id="main-content" class="usa-layout-docs usa-section">
+<div class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
         {% if sidenav != "" -%}
           {% include sidenav/main.html sidenav=sidenav -%}
           {% assign gridStyle = "desktop:grid-col-9" -%}
         {% endif -%}
-        <div class="usa-layout-docs__main {{gridStyle}} usa-prose">
-            {{ content }}
-        </div>
+        <main class="usa-layout-docs__main {{gridStyle}} usa-prose" id="main-content" role="main">
+          <h1 class="usa-sr-only">Content start</h1>
+          {{ content }}
+        </main>
     </div>
   </div>
 </div>
