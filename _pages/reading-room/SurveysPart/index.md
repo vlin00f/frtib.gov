@@ -7,8 +7,8 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /reading-room/participant-surveys/
 redirect_from:
-- /reading-room-participant-surveys/
-- /participant-surveys/
+  - /reading-room-participant-surveys/
+  - /participant-surveys/
   - /SurveysPart
   - /PartSurveys
 #document-ready:
