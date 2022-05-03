@@ -20,7 +20,7 @@ An independent auditor provides a year-end audit of Thrift Savings Fund which de
 
 __Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/FinStmts" format='title' reverse=true dobutton=true count=1 -%}
 
-<h3 class="usa-sr-only">older financial reports, descending by year<h3>
+<h3 class="usa-sr-only">older financial reports, descending by year</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Previous Financial Statements" inList=false -%}
 {% include file-list coll="pdf" folder="/reading-room/FinStmts" format='title' reverse=true dobutton=true dropFirst=true -%}
