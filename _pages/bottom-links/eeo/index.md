@@ -30,7 +30,7 @@ Contact Don Sapp, FRTIB’s EEO Manager at<br>
 * <Donald.Sapp@frtib.gov> or
 * <a href="tel:202-864-8536">202-864-8536</a> (Office) <a href="tel:202-748-2422"> 202-748-2422</a> (Cell)
 
-<h3 class="usa-sr-only">EEO documents<h3>
+<h3 class="usa-sr-only">EEO documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/eeo" format='title' reverse=true dobutton=true -%}
