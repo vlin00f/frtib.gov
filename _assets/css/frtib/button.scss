@@ -4,29 +4,6 @@
 */
 
 //   alterations to USWDS styles
-.usa-nav__primary a:not(.usa-button):not(.usa-current) {
-  color: #eee;
-}
-
-.usa-nav__primary>.usa-nav__primary-item>a, .usa-nav__primary button, .usa-nav__secondary-links a {
-  color: #eee;
-  font-size: 1.10rem;
-  font-weight: normal;
-}
-
-.usa-nav__primary button[aria-expanded="false"], .usa-nav__primary button[aria-expanded="false"]:hover {
-  background-image: asset_url("img/usa-icons-bg/expand_more--white.svg"), linear-gradient(transparent, transparent);
-}
-
-.usa-nav__primary a:not(.usa-button):not(.usa-current):hover {
-    color: #fad980;
-    background-color: #205493;
-}
-.usa-nav__primary button:hover, .usa-nav__primary>.usa-nav__primary-item>a:hover,
-  .usa-nav__submenu .usa-nav__submenu-item a:hover {
-  color: #fad980;
-}
-
 .usa-button {
   background-color: #0071bc;
   color: #fff;
