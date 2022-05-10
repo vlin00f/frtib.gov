@@ -7,9 +7,21 @@
     background-image: none;
     color: #000000;
   }
+  p {
+    color: #000000;
+  }
 
-  .usa-header {
-    display: none;
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  img, svg {
+    display: none !important;
+  }
+
+  .usa-header, .usa-navbar, .usa-footer__nav, .usa-sidenav, .usa-banner, .usa-footer__primary-section, .usa-footer__return-to-top {
+    display: none !important;
   }
 
   .main-content {
@@ -23,10 +35,6 @@
     color: #000000;
   }
 
-  img, svg {
-    display: none !important;
-  }
-
   .usa-button {
     background-color: #ffffff;
     color: #000000;
@@ -35,20 +43,15 @@
     padding: 3px;
   }
 
-  .usa-navbar, .usa-footer__nav, .usa-sidenav, .usa-banner, .usa-footer__primary-section {
-    display: none !important;
-  }
-
-  .usa-section--dark, .usa-section--dark h1, .usa-section--dark h2, .usa-section--dark h3, .usa-section--dark h4, .usa-section--dark h5, .usa-section--dark h6 {
+  .usa-section--dark p, .usa-section--dark, .usa-section--dark h1, .usa-section--dark h2, .usa-section--dark h3, .usa-section--dark h4, .usa-section--dark h5, .usa-section--dark h6 {
   color: #000000;
   background-color: #ffffff;
-}
+  }
 
-  .usa-footer__secondary-section, .usa-footer__contact-heading, .usa-footer__address, .usa-footer__contact-info {
+  .usa-footer__secondary-section, .usa-footer__secondary-section a, .usa-footer__contact-heading, .usa-footer__address, .usa-footer__contact-info {
     color: #000000 !important;
     background-color: #ffffff;
   }
-
 
   .usa-alert, .usa-alert--success, .usa-alert--no-icon, .usa-alert--info {
     color: #000000;
