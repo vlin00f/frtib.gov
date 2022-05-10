@@ -1,0 +1,6 @@
+{% comment -%}
+Component to make no button offsite links simple.  Will use url for text unless you override.
+Sets rel='noopener' and open in new tab.
+{% endcomment -%}
+{% assign linkText = include.linkText | default: include.url -%}
+<a href="{{include.url}}" target="_blank" rel="noopener">{{linkText}}</a>
