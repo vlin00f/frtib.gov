@@ -1,0 +1,5 @@
+{% assign divID = accStep | prepend: 'step' -%}
+{% assign title = accStep | append: '. ' | append: include.title -%}
+<div class="usa-accordion">
+{% include accordion/start divID=divID title=title -%}
+{% assign accStep = accStep | plus: 1 -%}

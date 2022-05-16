@@ -161,6 +161,9 @@ collections:
   careers:
     label: careers
     output: false
+  docs:
+    label: docs
+    output: true
 
 defaults:
   - scope:
