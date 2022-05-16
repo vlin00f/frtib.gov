@@ -4,6 +4,10 @@ Include one of the alerts in _includes/header/ folder from the _includes/header/
 Include this version to account an upcoming board meeting.  Include alert-none instead to turn off this alert.
 
 Change only the conference date, time, phone, id, and url in the following lines.
+
+To add/remove the ETAC text to the modal switch lines 14/15. The second one, after you edit, is the one that is used.
+So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
+for the once a year joint meeting.
 {% endcomment -%}
 {% assign confDate = "Tuesday, May 24<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
