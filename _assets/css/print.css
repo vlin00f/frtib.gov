@@ -20,7 +20,8 @@
     display: none !important;
   }
 
-  .usa-header, .usa-navbar, .usa-footer__nav, .usa-sidenav, .usa-banner, .usa-footer__primary-section, .usa-footer__return-to-top {
+
+  .usa-menu-btn, .usa-footer__nav, .usa-sidenav, .usa-banner, .usa-footer__primary-section, .usa-footer__return-to-top {
     display: none !important;
   }
 
