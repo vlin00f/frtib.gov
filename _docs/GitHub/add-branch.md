@@ -18,7 +18,7 @@ redirect_from: /docs/GitHub/
 {% assign accStep = 0 -%}
 
 {% comment -%}###############################################################{% endcomment -%}
-{% include accordion/start-steps title="Discussion" inList=true -%}
+{% include accordion/start-steps title="Discussion" -%}
 For audit history we only merge branches whose names are of the form
 
 TASK#######-*purpose-user*
@@ -40,13 +40,13 @@ In GitHub Desktop or Atom on your local work computer, switch the main branch.
 
 
 {% comment -%}###############################################################{% endcomment -%}
-{% include accordion/start-steps expanded=false divID="educational-files" title="Fetch the latest <i>main</i>" -%}
+{% include accordion/start-steps title="Fetch the latest <i>main</i>" -%}
 Click the fetch button in GitHub desktop or atom to insure your local copy of *main* is up-to-date with the repository on GitHub.
 {% include accordion/end-steps -%}
 
 
 {% comment -%}###############################################################{% endcomment -%}
-{% include accordion/start-steps expanded=false divID="educational-files" title="Choose 'New Branch'" -%}
+{% include accordion/start-steps title="Choose 'New Branch'" -%}
 In atom choose *New Branch* at the bottom of the window and enter the name for the new branch.
 
 In GitHub Desktop the *New Branch* button is near the top in the center.
@@ -60,7 +60,7 @@ where ####### is the 7 digit task number from service now, purpose is a short cl
 
 
 {% comment -%}###############################################################{% endcomment -%}
-{% include accordion/start-steps expanded=false divID="educational-files" title="Publish the new branch" -%}
+{% include accordion/start-steps title="Publish the new branch" -%}
 Click *Publish* to register your branch on the GitHub site.
 
 You can now make local changes, stage those changes with a comment, and *Push* to GitHub.

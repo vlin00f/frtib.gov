@@ -13,6 +13,8 @@ redirect_from: /docs/Search/
 
 ## {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
 
 Email from dav.  Edit content for this page
 

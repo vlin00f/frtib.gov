@@ -11,8 +11,10 @@ completed: false
 #  - getRate();
 ---
 
-## {{page.title}}
+### {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
 
 
 0. Discussion

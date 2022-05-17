@@ -13,6 +13,9 @@ redirect_from: /docs/github/
 
 ## {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
+
 Once a branch has been approved to get added to production (the *main* branch) perform these steps.
 
 0. Discussion

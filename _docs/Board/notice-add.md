@@ -13,6 +13,9 @@ redirect_from: /docs/Board/
 
 ## {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
+
 Once a month the next board meeting is added to the header of the site, usually 1-2 weeks before the meeting.
 
 0. Discussion

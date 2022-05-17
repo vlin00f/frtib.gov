@@ -13,6 +13,9 @@ redirect_from: /docs/Pa11y/
 
 ## {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
+
 Now pa11y is merged so all future branches should pass the pa11y/htmlproofer check.
 
 

@@ -13,6 +13,9 @@ completed: false
 
 ## {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
+
 After a board meeting the notice in the header is removed.  No additional information is needed for this task.
 
 0. Discussion

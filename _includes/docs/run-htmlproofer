@@ -1,0 +1,11 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Run htmlproofer on the site" -%}
+
+While running your local server open another terminal window in the same folder and run the following command:
+
+
+                npm run htmlproofer
+
+
+This runs some html checks on the site.  It will finish with blue text saying something like “Run on 124 files!  HTML-Proofer finished successfully.”  This is checking for broken links and some other HTML issues.  It does not verify offsite links as that will always fail on the federalist build (offsite links blocked for security) so we have disabled that test.  It should make sure all the links on the site to itself go to pages.
+{% include accordion/end-steps -%}

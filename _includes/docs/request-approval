@@ -1,0 +1,6 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Request approval" -%}
+If Federalist builds your branch successfully and you have made all the necessary changes for the TASK you are ready to push your changes to production.
+
+Send an email to the requestor of the site change and include the preview link for the branch from the Federalist build to their approval to publish the changes and close the TASK.
+{% include accordion/end-steps -%}

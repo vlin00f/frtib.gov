@@ -14,6 +14,9 @@ completed: false
 
 ## {{page.title}}
 
+<h3 class="usa-sr-only">steps for {{page.title}}</h3>
+{% assign accStep = 0 -%}
+
 The contents of the [Board Members]({{site.baseurl}}/board-members) page are defined in a _data file, not in the .md file for the page.
 
 0. Discussion

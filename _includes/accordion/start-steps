@@ -1,5 +1,6 @@
 {% assign divID = accStep | prepend: 'step' -%}
 {% assign title = accStep | append: '. ' | append: include.title -%}
+{% assign expanded = include.expanded | default: false -%}
 <div class="usa-accordion">
-{% include accordion/start divID=divID title=title -%}
+{% include accordion/start divID=divID title=title expanded=include.expanded -%}
 {% assign accStep = accStep | plus: 1 -%}
