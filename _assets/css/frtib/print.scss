@@ -1,5 +1,5 @@
 /* print stylesheet */
-
+@media print {
 
   body {
     background-color: #ffffff;
@@ -20,6 +20,13 @@
     display: none !important;
   }
 
+  #FRTIBseal {
+    display: block !important;
+    height: 48px;
+    width:  48px;
+    position: relative;
+    top: 25px;
+  }
 
   .usa-menu-btn, .usa-footer__nav, .usa-sidenav, .usa-banner, .usa-footer__primary-section, .usa-footer__return-to-top {
     display: none !important;
@@ -36,6 +43,7 @@
     color: #000000;
   }
 
+/*
   .usa-button {
     background-color: #ffffff;
     color: #000000;
@@ -43,6 +51,7 @@
     border: solid;
     padding: 3px;
   }
+*/
 
   .usa-section--dark p, .usa-section--dark, .usa-section--dark h1, .usa-section--dark h2, .usa-section--dark h3, .usa-section--dark h4, .usa-section--dark h5, .usa-section--dark h6 {
   color: #000000;
@@ -64,3 +73,4 @@
     display: block !important;
     height: auto !important;
 } */
+}
