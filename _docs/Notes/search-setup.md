@@ -6,7 +6,7 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /:collection/:path
 completed: false
-redirect_from: /docs/Search/
+#redirect_from: /docs/Search/
 #document-ready:
 #  - getRate();
 ---
