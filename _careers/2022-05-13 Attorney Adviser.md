@@ -1,5 +1,5 @@
 ---
-position: Attorney-Advisor (General)
+position: Attorney-Adviser
 grade: GS-0905-12/13/14
 start: 2022-05-13
 end: 2022-05-27
