@@ -16,6 +16,22 @@ redirect_from: /docs/Meeting-Minutes/
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}
 
+{{page.description}}?
+
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Discussion" -%}
+What to think about when doing this sort of task ...
+{% include accordion/end-steps -%}
+
+
+{% include docs/make-branch -%}
+
+
+## other steps
+
+{% include docs/standard-end-steps -%}
+
+
 
 0. Discussion
 

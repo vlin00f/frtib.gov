@@ -16,6 +16,21 @@ completed: false
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}
+{{page.description}}?
+
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Discussion" -%}
+What to think about when doing this sort of task ...
+{% include accordion/end-steps -%}
+
+
+{% include docs/make-branch -%}
+
+
+## other steps
+
+{% include docs/standard-end-steps -%}
+
 
 The contents of the [Board Members]({{site.baseurl}}/board-members) page are defined in a _data file, not in the .md file for the page.
 

@@ -1,6 +1,7 @@
 ---
 layout: docpage
 title: Merge branch
+description: Merge a branch into <i>main</i> to put the changes into production
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -16,12 +17,33 @@ redirect_from: /docs/github/
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}
 
-Once a branch has been approved to get added to production (the *main* branch) perform these steps.
+{{page.description}}
 
-0. Discussion
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Discussion" -%}
+What to think about when doing this sort of task ...
+{% include accordion/end-steps -%}
 
-For audit history, attached the email approval from the customer to the service now TASK associated with the branch.  Then perform the following steps.
+Go to top of Github FRTIB site
 
-This is the GitHub steps
+click branches
 
-### put steps here
+new pull request
+
+create pull request
+
+pa11y seems to fail from timeout
+
+pa11y fail details
+
+rerun all pa11y steps
+
+go back to the pull request
+
+Merge
+
+confirm merge
+
+watch build on federalist
+
+check site after complete for your expected changes

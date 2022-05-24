@@ -32,6 +32,6 @@ How-to pages for frtib.gov maintenance.
 {% endif -%}
 {% include docpage-complete page=docpage -%}
 
-[{{docpage.title}}]({{site.baseurl}}{{docpage.url}})
+[{{docpage.title}}]({{site.baseurl}}{{docpage.url}}){% if docpage.description -%}&nbsp; - {% endif -%}{{docpage.description}}
 
 {% endunless -%}{% endfor -%}

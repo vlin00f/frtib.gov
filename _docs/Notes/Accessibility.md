@@ -1,6 +1,7 @@
 ---
 layout: docpage
 title: Accessibilty testing
+description: One of two standard tests run before a merge
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -15,6 +16,8 @@ redirect_from: /docs/Notes/
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = -1 -%}
+
+{{page.description}}
 
 Part of the standard USWDS/Federalist template (2.0) is automated accessibility testing when a copy of the site is built.  This test happens when a Pull request is done.
 

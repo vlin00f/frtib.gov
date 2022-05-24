@@ -1,6 +1,7 @@
 ---
 layout: docpage
 title: Add top navigation
+description: Add a link in the header area just below the seal.
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -11,17 +12,13 @@ completed: false
 #  - getRate();
 ---
 
-### {{page.title}}
+## {{page.title}}
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}
 
+{{page.description}}
 
-0. Discussion
+If you are adding a link to the list at the top of the pages just under the seal you are probably adding a new page.  You should follow the steps outlined [there]({{site.baseurl}}/docs/Add-Content/add-page).
 
-Adding to the top nav is a big deal.  There is limited space on desktop. Make sure you view the change on desktop of several phone sizes the make sure it looks good.
-
-Usually done as part of the add page step.
-
-The top nav is controlled by top_navigation in _data/navigation.yml.
-(Maybe this should be a page about what each nav is in the file.)
+As a summary you will follow the usual steps to make a branch, make changes, get approval and merge but specifically you will need to edit the *top_navigation* block in *_data/navigation.yml* file to add the link.  You can add a link for a page already on the site or a url that is offsite by doing that step and skipping the steps to add a new page.

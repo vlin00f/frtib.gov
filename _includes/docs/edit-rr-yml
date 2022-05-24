@@ -1,6 +1,6 @@
 {% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title="Edit _data/reading-room-files.yml" -%}
-The site is built to automatically add files to various pages as soon as the file is added into the diretory structure under _pdf/.
+The site is built to automatically add files to various pages as soon as the file is added into the directory structure under _pdf/.
 
 This means you can add the file to the site with a simple drag/drop into the right place but you need to tell the component that creates the link on the page for a new file what text to label that link with.  This is done in the _data/reading-room-files.yml file.
 

@@ -1,6 +1,7 @@
 ---
 layout: docpage
 title: Reading Room most recent
+description: Update the recents updates section of the Reading Room
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -14,7 +15,9 @@ completed: false
 ## {{page.title}}
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
-{% assign accStep = 0 -%}
+{% assign accStep = -1 -%}
+
+{{page.description}}
 
 {% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title="Discussion" expanded=true -%}

@@ -1,6 +1,7 @@
 ---
 layout: docpage
 title: Add branch
+description: Create a new branch to stage requested changes
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -16,6 +17,8 @@ redirect_from: /docs/GitHub/
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}
+
+{{page.description}}
 
 {% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title="Discussion" -%}
