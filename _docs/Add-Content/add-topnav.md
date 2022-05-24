@@ -5,7 +5,7 @@ description: Add a link in the header area just below the seal.
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 # redirect_from: /docs/Add-content/
 #document-ready:

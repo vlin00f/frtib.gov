@@ -5,7 +5,7 @@ description: Add file to an existing page on the site.
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 redirect_from: /docs/Add-content/
 #document-ready:

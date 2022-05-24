@@ -5,7 +5,7 @@ description: One of two standard test done before a merge
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 # redirect_from: /docs/Notes/
 #document-ready:

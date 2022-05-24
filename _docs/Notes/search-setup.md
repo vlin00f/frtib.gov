@@ -5,7 +5,7 @@ description: Overview of Search.gov setup for this site
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 #redirect_from: /docs/Search/
 #document-ready:

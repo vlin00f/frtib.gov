@@ -5,7 +5,7 @@ description: Merge a branch into <i>main</i> to put the changes into production
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 redirect_from: /docs/github/
 #document-ready:

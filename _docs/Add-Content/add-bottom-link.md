@@ -5,7 +5,7 @@ description: Add new page linked at the bottom of the pages above the footer
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 # redirect_from: /docs/Add-content/
 #document-ready:

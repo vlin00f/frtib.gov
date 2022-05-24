@@ -4,7 +4,7 @@ title: Add documentation page
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 redirect_from: /docs/Documentation/
 #document-ready:

@@ -5,7 +5,7 @@ description: Create a new branch to stage requested changes
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 redirect_from: /docs/GitHub/
 #document-ready:

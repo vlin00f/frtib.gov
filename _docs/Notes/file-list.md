@@ -5,7 +5,7 @@ description: How does the file-list component work?
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 #redirect_from: /docs/Search/
 #document-ready:

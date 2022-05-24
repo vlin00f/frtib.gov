@@ -4,7 +4,7 @@ title: Edit board member details
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 # redirect_from: /docs/FOLDER/
 #  - /docs/board/

@@ -5,7 +5,7 @@ description: Update the recents updates section of the Reading Room
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 # redirect_from: /docs/Add-content/
 #document-ready:

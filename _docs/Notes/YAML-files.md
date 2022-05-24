@@ -5,7 +5,7 @@ description: What is each YAML file used for?
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 #redirect_from: /docs/Search/
 #document-ready:

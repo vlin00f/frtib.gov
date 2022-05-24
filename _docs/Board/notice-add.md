@@ -4,7 +4,7 @@ title: Add board meeting notice
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /:collection/:path
+permalink: /:collection/:path/
 completed: false
 redirect_from: /docs/Board/
 #document-ready:
