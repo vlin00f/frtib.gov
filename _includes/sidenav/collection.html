@@ -21,7 +21,7 @@ Special sidenav for the documentation section.
             {% assign docURL = docpage.url | split: '/' | pop | join: '/' -%}
             {% if docURL != lastURL -%}
               <li class="usa-sidenav__item">
-                <a href="{{site.baseurl}}{{ docURL }}" {% if curURL == docURL -%}class="usa-current"{% endif -%}>{{ docURL | remove_first: '/docs/' }}<span class="navigate_next"></span></a>
+                <a href="{{site.baseurl}}{{ docURL }}/" {% if curURL == docURL -%}class="usa-current"{% endif -%}>{{ docURL | remove_first: '/docs/' }}<span class="navigate_next"></span></a>
               </li>
               {% assign lastURL = docURL -%}
               {% if lastURL == curURL -%}
