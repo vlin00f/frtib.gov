@@ -7,7 +7,7 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /:collection/:path/
 completed: false
-redirect_from: /docs/Notes/
+# redirect_from: /docs/Notes/
 #document-ready:
 #  - getRate();
 ---

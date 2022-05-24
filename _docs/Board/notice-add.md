@@ -6,7 +6,7 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /:collection/:path/
 completed: false
-redirect_from: /docs/Board/
+# redirect_from: /docs/Board/
 #document-ready:
 #  - getRate();
 ---

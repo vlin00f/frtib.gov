@@ -28,9 +28,9 @@ Special sidenav for the documentation section.
               <ul class="usa-sidenav__sublist">
                 {% for subdocpage in site.docs -%}
                 {% assign subdocURL = subdocpage.url | split: '/' | pop | join: '/' -%}
-                {% unless subdocURL != lastURL -%}
+                {% unless subdocURL != lastURL -%}{% unless subdocpage.title == "Index" -%}
                 {% include sidenav/collection-line-item.html myItem=subdocpage -%}
-                {% endunless -%}
+                {% endunless -%}{% endunless -%}
                 {% endfor -%}
               </ul>
               {% endif -%}
