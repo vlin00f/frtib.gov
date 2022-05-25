@@ -16,7 +16,6 @@ Request approval of your changes from the original requestor.
 Merge with the main branch.
 {% endcomment -%}
 {% include docs/review-changes -%}
-{% include docs/run-one-pa11y -%}
 {% include docs/run-htmlproofer -%}
 {% include docs/run-pa11y -%}
 {% include docs/commit-changes -%}

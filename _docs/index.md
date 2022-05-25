@@ -11,7 +11,7 @@ redirect_from: /documention/
 #  - getRate();
 ---
 
-## {{page.title}}
+## {% include docs/page-complete page=page -%}{{page.title}}
 
 How-to pages for frtib.gov maintenance.
 
@@ -24,14 +24,14 @@ How-to pages for frtib.gov maintenance.
 {% assign curURL = page.url | split: '/' | pop | join: '/' -%}
 {% assign lastURL = "" -%}
 
-{% for docpage in site.docs -%}{% unless docpage.path == landing.path -%}
+{% for docpage in site.docs -%}{% unless docpage.path == landing.path -%}{% unless docpage.title == "Index" -%}
 {% assign docURL = docpage.url | split: '/' | pop | join: '/' -%}
 {% if docURL != lastURL -%}
   <h3>{{ docURL | remove_first: '/docs/' }}</h3>
   {% assign lastURL = docURL -%}
 {% endif -%}
-{% include docpage-complete page=docpage -%}
+{% include docs/page-complete page=docpage -%}
 
 [{{docpage.title}}]({{site.baseurl}}{{docpage.url}}){% if docpage.description -%}&nbsp; - {% endif -%}{{docpage.description}}
 
-{% endunless -%}{% endfor -%}
+{% endunless -%}{% endunless -%}{% endfor -%}

@@ -12,7 +12,7 @@ completed: false
 #  - getRate();
 ---
 
-## {{page.title}}
+## {% include docs/page-complete page=page -%}{{page.title}}
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}

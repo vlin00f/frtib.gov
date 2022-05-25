@@ -5,6 +5,6 @@ Single li used in the sidenav component
 {% assign isCurrent = 'class="usa-current"' -%}
 <li class="usa-sidenav__item">
   <a href="{{site.baseurl}}{{ myItem.url }}" {% if page.url == myItem.url -%}{{isCurrent}}{% endif -%}>
-    {% include docpage-complete page=myItem-%}{{ myItem.title }}
+    {% include docs/page-complete page=myItem-%}{{ myItem.title }}
   </a>
 </li>

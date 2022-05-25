@@ -12,7 +12,7 @@ completed: false
 #  - getRate();
 ---
 
-## {{page.title}}
+## {% include docs/page-complete page=page -%}{{page.title}}
 
 <h3 class="usa-sr-only">steps for {{page.title}}</h3>
 {% assign accStep = 0 -%}
@@ -56,4 +56,10 @@ See the discussion in the *navigation.yml* accordion on this [page]({{site.baseu
 {% include accordion/end-steps -%}
 
 
-{% include docs/standard-end-steps -%}
+{% include docs/review-changes -%}
+{% include docs/run-one-pa11y -%}
+{% include docs/run-htmlproofer -%}
+{% include docs/run-pa11y -%}
+{% include docs/commit-changes -%}
+{% include docs/request-approval -%}
+{% include docs/merge-main -%}
