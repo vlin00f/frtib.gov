@@ -67,11 +67,12 @@ __Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.__
 
 To ensure proper handling, forms, written requests, inquiries, and other correspondence from TSP participants and beneficiaries should continue to be mailed to:
 
-TSP Service Office <br>
-P.O. Box 385021<br>
-Birmingham, AL 35238
+Thriftline Service Center<br>
+C/O Broadridge Processing
+P.O. Box 1600<br>
+Newark, NJ 07101-1600
 
-These inquiries may also be __faxed__ to the TSP Service Office at <a href="tel:(866) 817-5023">(866) 817-5023</a>.
+These inquiries may also be __faxed__ to the TSP Service Office at <a href="tel:1-276-926-8928">1-276-926-8928</a>.
 
 {% endcapture -%}
 {% include card-no-media card_body=true text=card_body noButton=true card_size=12
