@@ -72,7 +72,7 @@ C/O Broadridge Processing
 P.O. Box 1600<br>
 Newark, NJ 07101-1600
 
-These inquiries may also be __faxed__ to the TSP Service Office at <a href="tel:1-276-926-8928">1-276-926-8928</a>.
+These inquiries may also be __faxed__ to the Thriftline Service Center at <a href="tel:1-276-926-8928">1-276-926-8928</a>.
 
 {% endcapture -%}
 {% include card-no-media card_body=true text=card_body noButton=true card_size=12
@@ -91,7 +91,7 @@ __Federal Retirement Thrift Investment Board__<br>
 Suite 1000<br>
 Washington, D.C. 20002
 
-Please be aware that the FRTIB will forward any forms, written requests, inquiries, or correspondence it receives from TSP participants or beneficiaries to the TSP Service Office.
+Please be aware that the FRTIB will forward any forms, written requests, inquiries, or correspondence it receives from TSP participants or beneficiaries to the Thriftline Service Center.
 
 ### Press inquiries
 
