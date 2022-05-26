@@ -34,7 +34,7 @@ PSD templates for banners and hero image are available at _docs/_image_raw (zip 
 
 Images on site are saved as jpg for optimized size, but can be saved as a png.  The current unedited eps files (zip file), including the white FRTIB seal used on the site are in _docs/_image_raw/unedited_image_libary.  
 
-Sizing:
+**Sizing:
 Hero image: 2048x820
 Homepage Features: 150x150
 Banner: 1800x500
@@ -60,7 +60,7 @@ Update/replace Homepage Feature Images
 
 Move feature images (root) to _assets/img/
 Open _includes/home/footer-feature-section
-Look for capture left  to edit the link, text and image on the left column.
+Look for % capture left to edit the link, text and image on the left column.
 Look for % capture right-header to edit the link, text and image on the right column.
 Save footer-feature-section
 
@@ -71,3 +71,12 @@ Go to _pages/ and choose the landing page's folder that needs to be unedited
 Open _pages/FOLDER/index.md
 Look for card_img= and edit the image name, and altText
 Save index.md
+
+Update/replace 404.html graphic
+
+Move new 404 graphic image to _assets/img/hero
+Open 404.html (at the root)
+Look for div class="usa-card__img" and edit the line asset hero/NEW GRAPHIC NAME HERE alt="404 Page Not Found"
+Save 404.html
+
+Once old images are no longer in use, move to __unused-images to archive
