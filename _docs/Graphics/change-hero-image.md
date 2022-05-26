@@ -24,15 +24,15 @@ There are several types of images on the site: the homepage hero image, the two 
 
 Must have Adobe Photoshop for basic editing, and Adobe Illustrator for vector image editing (for changing out/rearranging elements within the actual image.)
 
-When it's time to replace images, search through istockphoto.com for appropriate vector illustrations.  For hero images, make sure the focus of the image is on the right side, as the callout box will sit on top of the image on the left.  For banner images, choose illustrations that are relevant to the content of the page.  Always try to choose illustrations that show diversity, or can be edited for diversity.  Vector images can also be edited in Illustrator to match the approved color palette.
+When it's time to replace images, search through istockphoto.com for appropriate vector illustrations.  Photos can also be used, but these tend to get dated very quickly.  
+
+For hero images, make sure the focus of the image is on the right side -- or can be edited to place on the right -- as the callout box will sit on top of the image on the left.  For banner images, choose horizontal illustrations that are relevant to the content of the page.  Always try to choose illustrations that show diversity, or can be edited for diversity.  Vector images can also be edited in Illustrator to match the approved color palette.
 
 When purchasing and downloading images from istockphoto, download the largest size image available.  Always save an original, unedited copy to keep in a library for future re-use.  
 
-PSD templates for banners and hero image are available at _docs/_image_raw.  The homepage hero PSD templates have ruler guides for optimal positioning.  It also has background layers with current approved primary color palette.  PSD files are also set for the size that images should be saved.  
+PSD templates for banners and hero image are available at _docs/_image_raw (zip file).  The homepage hero PSD templates have ruler guides for optimal positioning.  It also has background layers with current approved primary color palette.  PSD files are also set for the size that images should be saved.  
 
-There is also a copy of the white FRTIB seal in the _image_raw folder.
-
-Images on site are saved as jpg for optimized size, but can be saved as a png.  The current unedited eps files used on the site are in _docs/_image_raw/unedited_image_libary.  
+Images on site are saved as jpg for optimized size, but can be saved as a png.  The current unedited eps files (zip file), including the white FRTIB seal used on the site are in _docs/_image_raw/unedited_image_libary.  
 
 Sizing:
 Hero image: 2048x820
@@ -41,6 +41,7 @@ Banner: 1800x500
 
 The site web style guide is located here _docs/_image_raw/Web_Style-GuideR.pdf - use this guide's approved color palette.
 
+An excel spreadsheet with istockphoto links to current images on the site is also in _docs/_image_raw/FRTIB_ImagesList_FINAL.xlsx.
 
 
 {% include accordion/end-steps -%}
