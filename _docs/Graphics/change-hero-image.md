@@ -52,7 +52,7 @@ Move hero image to _assets/img/hero
 Copy hero image name
 Open _assets/css/frtib/other.scss
 Scroll to find .usa-hero
-Edit background-image: asset_url("hero/PASTE HERO IMAGE HERE");
+Edit background-image: asset_url("hero/PASTE HERO IMAGE NAME HERE");
 Save other.scss
 
 
@@ -60,8 +60,8 @@ Update/replace Homepage Feature Images
 
 Move feature images (root) to _assets/img/
 Open _includes/home/footer-feature-section
-Look for {% capture left -%} to edit the link, text and image on the left column.
-Look for {% capture right-header -%} to edit the link, text and image on the right column.
+Look for capture left  to edit the link, text and image on the left column.
+Look for % capture right-header to edit the link, text and image on the right column.
 Save footer-feature-section
 
 Update Subpage Banner Images
