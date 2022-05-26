@@ -1,6 +1,6 @@
 ---
 layout: docpage
-title: Add documentation page
+title: Add graphics page
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
