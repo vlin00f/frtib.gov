@@ -559,22 +559,6 @@
   updated:
   title: 2007 FRTIB C-002 Service Bureau [PDF]
   desc: 2007 FRTIB C-002 Service Bureau [PDF]
-- name: foia-annual-report-2020.xml
-  updated:
-  title: 2020 FOIA Annual Report [XML]
-  desc: 2020 FOIA Annual Report [XML]
-- name: foia-annual-report-2020.docx
-  updated:
-  title: 2020 FOIA Annual Report [DOCX]
-  desc: 2020 FOIA Annual Report [DOCX]
-- name: foia-annual-report-2019.xml
-  updated: 2019 FOIA Annual Report [XML]
-  title: 2019 FOIA Annual Report [XML]
-  desc:
-- name: foia-annual-report-2019.pdf
-  updated:
-  title: 2019 FOIA Annual Report [PDF]
-  desc: 2019 FOIA Annual Report [PDF]
 
 ## FOIA Annual
 - name: foia-annual-report-2021.xml
@@ -587,20 +571,20 @@
   desc: 2021 Annual Report [DOCX]
 - name: foia-annual-report-2020.docx
   updated:
-  desc: 2020 Annual Report [DOCX]
-  title: 2020 Annual Report [DOCX]
+  desc: 2020 FOIA Annual Report [DOCX]
+  title: 2020 FOIA Annual Report [DOCX]
 - name: foia-annual-report-2020.xml
   updated:
-  desc: 2020 Annual Report [XML]
-  title: 2020 Annual Report [XML]
+  desc: 2020 FOIA Annual Report [XML]
+  title: 2020 FOIA Annual Report [XML]
 - name: foia-annual-report-2019.pdf
   updated:
-  desc: 2019 Annual Report [PDF]
-  title: 2019 Annual Report [PDF]
+  desc: 2019 FOIA Annual Report [PDF]
+  title: 2019 FOIA Annual Report [PDF]
 - name: foia-annual-report-2019.xml
   updated:
-  desc: 2019 Annual Report [XML]
-  title: 2019 Annual Report [XML]
+  desc: 2019 FOIA Annual Report [XML]
+  title: 2019 FOIA Annual Report [XML]
 
 ## board-meeting
 - name: 2022_Board_Meeting_Calendar_schedule.pdf
