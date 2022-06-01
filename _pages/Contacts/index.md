@@ -72,7 +72,7 @@ C/O Broadridge Processing
 P.O. Box 1600<br>
 Newark, NJ 07101-1600
 
-These inquiries may also be __faxed__ to the Thriftline Service Center at <a href="tel:1-276-926-8928">1-276-926-8928</a>.
+These inquiries may also be __faxed__ to the Thriftline Service Center at <a href="tel:1-276-926-8948">1-276-926-8948</a>.
 
 {% endcapture -%}
 {% include card-no-media card_body=true text=card_body noButton=true card_size=12
