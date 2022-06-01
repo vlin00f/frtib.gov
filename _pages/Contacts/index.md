@@ -68,7 +68,7 @@ __Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.__
 To ensure proper handling, forms, written requests, inquiries, and other correspondence from TSP participants and beneficiaries should continue to be mailed to:
 
 Thriftline Service Center<br>
-C/O Broadridge Processing
+C/O Broadridge Processing<br>
 P.O. Box 1600<br>
 Newark, NJ 07101-1600
 
