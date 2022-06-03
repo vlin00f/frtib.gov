@@ -1,7 +1,7 @@
 ---
 layout: docpage
-title: hero image
-description: Change hero image on homepage
+title: banner image
+description: Change subpage banner image
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -21,19 +21,16 @@ completed: false
 
 See the image discussion [here]({{site.baseurl}}/docs/Graphics/)
 
-#### Update/replace Hero image on homepage
+#### Update Subpage Banner Images
 
-Move hero image to _assets/img/hero
+Move banner image(s) to _assets/img/
 
-Copy hero image name
+Go to _pages/ and choose the landing page's folder that needs to be unedited
 
-Open _assets/css/frtib/other.scss
+Open _pages/FOLDER/index.md
 
-Scroll to find .usa-hero
+Look for card_img= and edit the image name, and altText
 
-Edit background-image: asset_url("hero/PASTE HERO IMAGE NAME HERE");
-
-Save other.scss
-
+Save index.md
 
 Once old images are no longer in use, move to *__unused-images* to archive

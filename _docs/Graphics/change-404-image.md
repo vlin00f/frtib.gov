@@ -1,7 +1,7 @@
 ---
 layout: docpage
-title: hero image
-description: Change hero image on homepage
+title: 404 image
+description: Change 404 image
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -21,19 +21,14 @@ completed: false
 
 See the image discussion [here]({{site.baseurl}}/docs/Graphics/)
 
-#### Update/replace Hero image on homepage
+#### Update/replace 404.html graphic
 
-Move hero image to _assets/img/hero
+Move new 404 graphic image to _assets/img/hero
 
-Copy hero image name
+Open 404.html (at the root)
 
-Open _assets/css/frtib/other.scss
+Look for div class="usa-card__img" and edit the line asset hero/NEW GRAPHIC NAME HERE alt="404 Page Not Found"
 
-Scroll to find .usa-hero
-
-Edit background-image: asset_url("hero/PASTE HERO IMAGE NAME HERE");
-
-Save other.scss
-
+Save 404.html
 
 Once old images are no longer in use, move to *__unused-images* to archive

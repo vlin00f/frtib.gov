@@ -1,6 +1,6 @@
 ---
 permalink: /:collection/:path
-redirect: change-hero-image
+redirect: site-images
 ---
 <!DOCTYPE html>
 <html lang="en-US">

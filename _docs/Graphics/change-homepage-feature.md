@@ -1,7 +1,7 @@
 ---
 layout: docpage
-title: hero image
-description: Change hero image on homepage
+title: feature image
+description: Change homepage feature image in footer
 styles:
 scripts:
 #  - /assets/js/jquery.min.js
@@ -21,19 +21,16 @@ completed: false
 
 See the image discussion [here]({{site.baseurl}}/docs/Graphics/)
 
-#### Update/replace Hero image on homepage
+#### Update/replace Homepage Feature Images
 
-Move hero image to _assets/img/hero
+Move feature images (root) to _assets/img/
 
-Copy hero image name
+Open _includes/home/footer-feature-section
 
-Open _assets/css/frtib/other.scss
+Look for % capture left to edit the link, text and image on the left column.
 
-Scroll to find .usa-hero
+Look for % capture right-header to edit the link, text and image on the right column.
 
-Edit background-image: asset_url("hero/PASTE HERO IMAGE NAME HERE");
-
-Save other.scss
-
+Save footer-feature-section
 
 Once old images are no longer in use, move to *__unused-images* to archive
