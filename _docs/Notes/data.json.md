@@ -19,6 +19,6 @@ completed: false
 
 {{page.description}}
 
-[data.json]({{site.baseurl}}/data.json) file provided by cdo
+[data.json]({{site.baseurl}}/data.json) file provided by CDO
 
 The data file is read by data.gov to list public data sets available from [FRTIB](https://catalog.data.gov/dataset?q=frtib){: target="_blank"}.
