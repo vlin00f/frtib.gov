@@ -25,9 +25,6 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 <p>
 {% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
 </p>
-<p>
-{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-3.pdf" text="TSP-3: Thrift Savings Plan Designation of Beneficiary Form [PDF]" -%}
-</p>
 {% include accordion/end  inList=false -%}
 </div>
 
