@@ -68,20 +68,18 @@ with the first part being the date the job starts and TITLE matching the title o
 {% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title="Edit new job opening file" -%}
 The file should look simular to what is below.  Update the bolded items.
-<pre>
-&#8722;&#8722;&#8722;
-position: **Special Assistant**
-grade: **GS-0301-09**
-start: **2022-05-11**
-end: **2022-05-25**
-codes:
-  &#8722; frtib: **FRTIB-22-IMP-025-11495934**
-    usa: **653732000**
-&#8722;&#8722;&#8722;
 
-The FRTIB is looking for a highly qualified and motivated
-individual to serve as a #position#.
-</pre>
+<br>&#8722;&#8722;&#8722;
+<br>position: **Special Assistant**
+<br>grade: **GS-0301-09**
+<br>start: **2022-05-11**
+<br>end: **2022-05-25**
+<br>codes:
+<br>  &#8722; frtib: **FRTIB-22-IMP-025-11495934**
+<br>    usa: **653732000**
+<br>&#8722;&#8722;&#8722;
+
+The FRTIB is looking for a highly qualified and motivated individual to serve as a #position#.
 {% include accordion/end-steps -%}
 
 
