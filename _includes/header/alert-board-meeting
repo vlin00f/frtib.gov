@@ -9,14 +9,14 @@ To add/remove the ETAC text to the modal switch lines 14/15. The second one, aft
 So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
 for the once a year joint meeting.
 {% endcomment -%}
-{% assign confDate = "Tuesday, May 24<sup>th</sup>" -%}
+{% assign confDate = "Tuesday, June 28<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "399 176 570#" -%}
+{% assign confID = "584 412 888#" -%}
 {% assign ETAC = "" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTc0MDQyNDctYzE3My00NTUwLWI1ODQtOTU1MTY2NmEyM2Ji%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%227c8d802c-5559-41ed-9868-8bfad5d44af9%22%7d
+      https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzFkODU3NDgtZmVlZC00MTc4LWI3YTYtNGU4MDUxNjAwMGVh%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%227c8d802c-5559-41ed-9868-8bfad5d44af9%22%7d
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE    {% endcomment -%}
