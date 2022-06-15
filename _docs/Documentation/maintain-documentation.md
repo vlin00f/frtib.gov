@@ -37,6 +37,13 @@ The documentation pages are maintained within the repository but we do not want 
 To keep the documentation branch up-to-date with changing in production we could simply delete the branch and then remake it by creating a new branch off of main with the same name and turning the documentation switch on but there is an even easier way.  We can merge all changes in production to this branch with a simple command but we must be in the correct state to do it.
 
 {% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="fetch <i>main</i>" -%}
+Before updating the documentation branch with changes in *main* you need to make sure your local copy of *main* is up to date.
+
+Locally switch to *main* and do a fetch.
+{% include accordion/end-steps -%}
+
+{% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title=titleGet -%}
 {{getBranch}}
 {% include accordion/end-steps -%}
