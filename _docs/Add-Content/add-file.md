@@ -47,7 +47,7 @@ See the discussion.  The file should be place into a subfolder of _pdf/ correspo
 
 {% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title="Verify the file is listed on the page" -%}
-View the page you are expecting to show your new file.  If its there, you are done with this step.
+On your localhost:4000 server view the page you are expecting to show your new file.  If its there, you are done with this step.
 
 If the new file is not showing on the page you will need to edit the \*.md file for the page and alter or add the call to the file-list component.  This [page]({{site.baseurl}}/docs/Notes/file-list) explains how the file-list component works and will help you understand how to edit the call on the page to make your file show properly.
 {% include accordion/end-steps -%}

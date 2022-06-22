@@ -23,9 +23,9 @@ completed: false
 {% include accordion/start-steps title="Discussion" -%}
 FRTIB board meetings are open to the public and held on the 4<sup>th</sup> Tuesday of each month.  The schedule and archive of previous meeting's minutes his [here]({{site.baseurl}}/meeting-minutes/).
 
-Typically the request to post a notice of the next meeting comes in 2 weeks before the meeting and includes a request to take down the notice a day or two after the meeting.  We use the same task number to add and remove the notice but include *add* in the branch name:
+Typically the request to post a notice of the next meeting comes in 2 weeks before the meeting and includes a request to take down the notice a day or two after the meeting.  We use the same task number and branch to add and remove the notice:
 
-TASK*#######*-*May*-board-meeting-add-*user*
+TASK*#######*-*May*-board-meeting-*user*
 
 When adding the notice there is some extra information we need from the requestor.  As discussed in the edit step later you will edit a few lines called out in the notice component.
 

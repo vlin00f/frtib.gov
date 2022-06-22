@@ -23,9 +23,11 @@ completed: false
 {% include accordion/start-steps title="Discussion" -%}
 FRTIB board meetings are open to the public and held on the 4<sup>th</sup> Tuesday of each month.  The schedule and archive of previous meeting's minutes is [here]({{site.baseurl}}/meeting-minutes/).
 
-Typically the request to post a notice of the next meeting comes in 2 weeks before the meeting and includes a request to take down the notice a day or two after the meeting.  Since removing the notice makes no other changes to the site we don't need approval to remove it (unless that policy is changed in the future.) We use the same task number to remove the notice that was used to add the notice but include *remove* in the branch name:
+Typically the request to post a notice of the next meeting comes in 2 weeks before the meeting and includes a request to take down the notice a day or two after the meeting.  Since removing the notice makes no other changes to the site we don't need approval to remove it (unless that policy is changed in the future.) We use the same task number and branch to remove the notice that was used to add the notice:
 
-TASK*#######*-*May*-board-meeting-remove-*user*
+TASK*#######*-*May*-board-meeting-*user*
+
+When the notice was added the branch was merged into main and so marked on the GitHub site.  When you make the change to remove the notice and commit/push to the branch the merged mark will go away and you will follow the usual steps to merge the branch a second time.
 
 Unlike adding a notice, notice removal requires no extra information because we are just removing a link from the site. The basic steps are make a branch, alter the header component so that the meeting notice is no longer on the pages, commit the change, review on the preview site and merge with main.  Make sure to review the change on production after you merge.
 
