@@ -1,5 +1,5 @@
 ---
-position: Human Resource Specialist
+position: Human Resources Specialist
 grade: GS-0201-13
 start: 2022-06-22
 end: 2022-07-01
