@@ -25,7 +25,7 @@ ___
     {% if member.group == 'board' -%}
 <a id="board{{forloop.index}}" name="board{{forloop.index}}"></a><br>
     {% if member.image -%}{% asset "board/{{member.image}}" width="200" alt="TSP" class="board" %}{% endif -%}
-<strong>{{member.name}}</strong>. {{member.description }}<br><br>
+<strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
   {% endfor %}
 ### Executive Director
@@ -34,7 +34,7 @@ ___
     {% if member.group == 'executive-director' -%}
 <a id="boardX" name="boardX"></a><br>
 {% if member.image -%}{% asset "board/{{member.image}}" width="200" alt="TSP" class="board" %}{% endif -%}
-<strong>{{member.name}}</strong>. {{member.description }}<br><br>
+<strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
     {% endfor %}
 ### Employee Thrift Advisory Council
@@ -42,7 +42,7 @@ ___
   {% for member in site.data.board -%}
     {% if member.group == 'etac' -%}
 <a id="etac" name="etac"></a><br>
-<strong>{{member.name}}</strong>. {{member.description }}<br><br>
+<strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
   {% endfor %}
 {% endif -%}
