@@ -6,7 +6,7 @@ styles:
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /:collection/:path/
-completed: false
+completed: true
 # redirect_from: /docs/Add-Content/
 #document-ready:
 #  - getRate();
