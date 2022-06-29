@@ -20,8 +20,8 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 
 <h3 class="usa-sr-only">information for FRTIB new hires</h3>
 <p>
-A zip file containing all the PDFs in the accordion below:
-{% include button-link url="/pdf/onboarding_orientation.zip" text="Onboarding Orientation [ZIP]" -%}
+A zip file containing all the PDFs in the drop-down below:
+{% include button-link url="/pdf/onboarding_orientation.zip" text="Orientation Documents[ZIP]" -%}
 </p>
 
 <div class="usa-accordion">

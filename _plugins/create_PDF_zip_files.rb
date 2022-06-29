@@ -36,7 +36,8 @@ class ZipFileGenerator
       disk_file_path = File.join(@input_dir, zipfile_path)
 
       if File.directory? disk_file_path
-        recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
+        # dont recurse to avoid archive and other sub directorys.  Instead could check value for _archive and ignore just those
+        # recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
       else
         put_into_archive(disk_file_path, zipfile, zipfile_path)
       end

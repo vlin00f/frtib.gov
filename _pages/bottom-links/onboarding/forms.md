@@ -22,11 +22,11 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 <h3 class="usa-sr-only">Forms for internal FRTIB new hires</h3>
 
 <p>
-Form TSP-1 from [tsp.gov](https://www.tsp.gov/) site: {% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: TSP Election Form [PDF]" -%}
+{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: TSP Election Form [PDF]" -%}
 </p>
 
 <p>
-A zip file containing all the PDFs in the accordion below:
+A zip file containing all the PDFs in the drop-down below:
 {% include button-link url="/pdf/onboarding_forms.zip" text="Onboarding Forms [ZIP]" -%}
 </p>
 
