@@ -253,4 +253,4 @@ assets:
   compression: true
   sources:
     - node_modules/uswds/dist
-    - node_modules/netlify-cms/dist
+#    - node_modules/netlify-cms/dist
