@@ -885,10 +885,6 @@
   updated:
   title: Mediation Brochure [PDF]
   desc: Mediation Brochure [PDF]
-- name: MD715 AAP 2020 Report.pdf
-  updated:
-  title: MD715 AAP 2020 Report [PDF]
-  desc: MD715 AAP 2020 Report [PDF]
 - name: Harassment Investigation Procedures.pdf
   updated:
   title: ORM.322 - Harassment Investigation Procedures [PDF]
@@ -909,10 +905,14 @@
   updated:
   title: EEO Complaint Process Brochure [PDF]
   desc: EEO Complaint Process Brochure [PDF]
-- name: ED_FY_2021_EEO_Policy_Statement.pdf
-  updated:
-  title: FY2021 EEO Policy Statement [PDF]
-  desc: FY2021 EEO Policy Statement [PDF]
+- name: MD715_Affirmative_Action_Plan_2021_Report.pdf
+  updated: 2022-07-01
+  title: MD715 Affirmative Action Plan 2021 Report [PDF]
+  desc: MD715 Affirmative Action Plan 2021 Report [PDF]
+- name: ED_FY_2022_EEO_Policy_Statement.pdf
+  updated: 2022-07-01
+  title: FY2022 EEO Policy Statement [PDF]
+  desc: FY2022 EEO Policy Statement [PDF]
 - name: Diversity and Inclusion brochure.pdf
   updated:
   title: Diversity and Inclusion Brochure [PDF]
