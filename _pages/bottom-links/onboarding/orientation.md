@@ -20,7 +20,7 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 
 <h3 class="usa-sr-only">information for FRTIB new hires</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download Orientation Documents" inList=false -%}
+{% include accordion/start expanded=false divID="all-files" title="Information - Read Only" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/orientation/" format='title' reverse=false dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>

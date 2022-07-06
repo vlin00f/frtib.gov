@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: TSP Participant Survey Results
+title: TSP Participant Satisfaction Survey Results
 styles:
 sidenav: reading_room_nav
 scripts:
@@ -12,10 +12,9 @@ redirect_from:
 #  - getRate();
 ---
 
-## TSP Participant Survey Results
+## {{page.title}}
 
 {% include file-list coll="pdf" folder="/reading-room/SurveysPart/TSP-" reverse=true format='title' dobutton=true -%}
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/2020" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->
