@@ -40,5 +40,5 @@ To create another ZIP file duplicate one of the lines and change the two argumen
 Notes:
 * The file paths to the files to zip are where they sit in the repository, i.e. the collection, relative to the top.
 * The file path to the ZIP file you want to create is where it will sit on the *_site*, i.e. not in the collection.
-* The ZIP files are made when the local server is started, not when any change is mage.  Stop/Restart the local server each time you make a change in the collection to see the changes reflected in the ZIP file.
+* The ZIP files are made when the local server is started, not when any change is made.  Stop/Restart the local server each time you make a change in the collection to see the changes reflected in the ZIP file.
 * Since the Federalist builder builds a new copy from scratch every time it will remake the ZIP file fresh on each build so production should never be out of date, even if you didn't remake the ZIP file on your local server.

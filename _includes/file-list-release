@@ -1,0 +1,67 @@
+{% comment -%}
+List all the static files in a collection with a specific prefix (i.e. subfolder in collection).
+
+this is the version we used when we launched the site
+{% endcomment -%}
+
+{% assign coll = include.coll | default: "pdf" -%}
+{% assign folder = include.folder | default: "/procurement" -%}
+{% assign prefix = '_' | append: coll | append: folder -%}
+{% assign prefixLen = prefix | size -%}
+{% assign fileList = "" | split: "," -%}
+{% assign informat = include.format | default: 'name' -%}
+{% assign datafile = include.datafile | default: 'reading-room-files' -%}
+{% assign startList = "" -%}
+{% assign endList = "" -%}
+{% assign maxFiles = include.count | defaut: 1000000 -%}
+{% if include.doList -%}
+  {% assign startList = '<li>' -%}
+  {% assign endList = '</li>' -%}
+{% endif -%}
+{% for collection in site.collections -%}
+{% if collection.label == coll -%}
+{% for file in collection.files -%}{% unless file.path contains '/_archive/' -%}
+{% assign currPrefix = file.path | slice: 0, prefixLen -%}
+{% if currPrefix == prefix -%}
+{% assign fileList = fileList | push: file -%}
+{% endif -%}
+{% endunless -%}{% endfor -%}
+{% break -%}
+{% endif -%}
+{% endfor -%}
+{% if include.reverse -%}
+{% assign sorted = fileList | sort: 'name' | reverse -%}
+{% else -%}
+{% assign sorted = fileList | sort: 'name' -%}
+{% endif -%}
+{% if include.doList -%}<ul class="usa-list">{% endif -%}
+{% if include.doCards -%}<ul class="usa-card-group">{% endif -%}
+{% assign fileCount = 0 -%}
+{% for file in sorted -%}
+  {% assign format = informat -%}
+  {% if include.dropFirst -%}{% if forloop.first -%}{% continue -%}{% endif -%}{% endif -%}
+  {% if include.dropTwo -%}{% if forloop.index <= 2 -%}{% continue -%}{% endif -%}{% endif -%}
+  {% if include.addLI -%}<li>{% endif -%}
+  {% capture url -%}{{site.baseurl}}{{file.path | replace_first: '_', '/'}}{% endcapture -%}
+  {% assign cur = site.data.[datafile] | where: "name", file.name | first %}
+  {% unless cur -%}{% assign format = 'name' -%}{% endunless -%}
+  {% assign name = file.name -%}
+  {% if format == 'desc' -%}{% assign name = cur.desc -%}{% endif -%}
+  {% if format == 'title' -%}{% assign name = cur.title -%}{% endif -%}
+  {% if format == 'press-release' -%}{{cur.desc}} &nbsp;&nbsp; {% assign name = cur.title -%}{% endif -%}
+  {% if include.doCards -%}
+    {% include card-no-media heading=name button_link=url text=name button_text="Open file" image=room.image -%}
+    {% continue -%}
+  {% endif -%}
+  {{startList}}{% if include.dobutton -%}
+  <a href="{{url}}" target="_blank"><button class="usa-button {{include.button_style}}">{{name}}</button></a><br>{{include.sep}}
+  {% else -%}
+  <a href="{{url}}" target="blank">{{name}}</a><br>{{include.sep}}
+  {% endif -%}{{endList}}
+  {% if include.addLI -%}</li>{% endif -%}
+  {% assign fileCount = fileCount | plus: 1 -%}
+  {% if fileCount >= maxFiles -%}{% break -%}{% endif -%}
+
+{% endfor -%}
+{% if include.doCards -%}</ul>{% endif -%}
+{% if include.doList -%}</ul>{% endif -%}
