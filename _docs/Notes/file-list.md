@@ -47,6 +47,8 @@ In the .md file for the page  below those list is code to create two accordions.
 {&#37; include file-list coll="pdf" folder="/reading-room/congress/Fin" reverse=true format='title' dobutton=true dropFirst=true -&#37;}
 </div>
 
+2022 June - Dav added sorting by the text of the button when you do a file list.  The default sort, set by "sortKey='XXX'", is by 'buttxt', i.e. the text on the button or link to the file.  This defaults to the filename but can be set by "format='YYY'" where YYY is title, desc or press-release.  The sortKey can be changed directly to title, desc, or updated, values obtained from reading-room-files.yml.  Normally we set format='title' and let sortKey default to 'title'.
+
 #### Notes
 
 * The *count=1* is there to show just the first file of the list.  Its a counter because we used count=4 on the reading room page at one time because we changed that code.

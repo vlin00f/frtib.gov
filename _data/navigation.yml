@@ -109,16 +109,22 @@ rr_partsurvey_nav:
     text: "Participant Behavior and Demographics"
     button_text: "See surveys"
     image: FRTIB_Seal_White.png
-  - name: Survey results
-    url: /reading-room/participant-surveys/results/
-    text: "Participant Behavior and Demographics"
-    button_text: "See results"
+  - name: Financial Wellness Surveys
+    url: /reading-room/participant-surveys/wellness/
+    text: "Financial Wellness Surveys"
+    button_text: "See surveys"
     image: FRTIB_Seal_White.png
   - name: Outreach Evaluation Summaries
     url: /reading-room/participant-surveys/outreach/
     text: "Outreach Evaluation Summaries"
     button_text: "See summaries"
     image: FRTIB_Seal_White.png
+  - name: Satisfaction Surveys
+    url: /reading-room/participant-surveys/satisfaction/
+    text: "Participant Behavior and Demographics"
+    button_text: "See results"
+    image: FRTIB_Seal_White.png
+
 
 rr_foia_nav:
   - name: Frequently Requested Records
@@ -149,12 +155,12 @@ procurement_nav:
 onboarding_nav:
   - name: Onboarding
     url: /onboarding/
+  - name: Pre-Onboarding Training
+    url: /onboarding/training/
+    button_text: "See training"
   - name: Federal Employees Forms
     url: /onboarding/forms/
     button_text: "See forms"
-  - name: Training
-    url: /onboarding/training/
-    button_text: "See training"
   - name: Orientation
     url: /onboarding/orientation/
     button_text: "See orientation"

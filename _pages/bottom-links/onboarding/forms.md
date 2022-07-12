@@ -14,9 +14,9 @@ permalink: /onboarding/forms/
 
 ## Federal Employees Forms
 
-Prior to your report date several new hire forms are required to be completed in order for the agency to create your personnel and payroll records. To help facilitate forms completion we have created a forms checklist (Appendix A of the Onboarding Checklist), and all forms you may need for in-processing are listed below. Download and save each form; email your completed forms to the HR Specialist listed in your offer letter.
+Prior to your report date several new hire forms are required to be completed in order for the agency to create your personnel and payroll records. To help facilitate forms completion we have created a forms checklist [Appendix A of the Onboarding Checklist]({{site.baseurl}}/pdf/onboarding/FRTIB-Onboarding-EmployeeOnly-Checklist-v4.pdf){: target="_blank"}, and all forms you may need for in-processing are listed below. Email all completed forms to the HR Specialist listed in your offer letter.
 
-Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include pre-onboarding training requirements and information that is pertinent for New Employee Orientation.
+Please visit the other sections of the FRTIB Onboarding page for information on various tasks to be completed for a successful onboarding experience to include pre-onboarding training requirements and information that is pertinent for New Employee Orientation.
 
 
 <h3 class="usa-sr-only">Forms for internal FRTIB new hires</h3>
@@ -32,8 +32,12 @@ A zip file containing all the PDFs in the drop-down below:
 
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Federal Employees Forms" inList=false -%}
-{% include file-list coll="pdf" folder="/onboarding/forms/" format='title' reverse=false dobutton=true -%}
+{% include file-list coll="pdf" folder="/onboarding/forms/forms/" format='title' reverse=false dobutton=true -%}
 {% include accordion/end  inList=false -%}
+</div>
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="info" title="Information - Read Only" inList=false -%}
+{% include file-list coll="pdf" folder="/onboarding/forms/information/" format='title' reverse=false dobutton=true -%}
 </div>
 
 

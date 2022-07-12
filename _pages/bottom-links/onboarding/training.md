@@ -14,13 +14,13 @@ permalink: /onboarding/training/
 
 ## Federal Employees Training
 
-### Pre-Orientation Training
+### Pre-Onboarding Training
 
-Prior to your report date you will need to complete required training in order to be granted access to the FRTIB's network and systems, and to be issued IT equipment. Please visit the following websites to complete the required training at least 14 days prior to your report date. If you do not return the proofs of completion before you report your IT access will be delayed. Follow the instructions in your welcome email from Human Resources for where to return each proof of completion.
+Prior to your report date you will need to complete required training in order to be granted access to the FRTIB's network and systems, and to be issued IT equipment. Please visit the following websites to complete the required training 14 days prior to your report date. If you do not return the proofs of completion before you report your IT access will be delayed. Follow the instructions in your welcome email from Human Resources for where to return each proof of completion.
 
 * {% include offsite-link linkText="Cyber Security Awareness Training" url="https://dl.dod.cyber.mil/wp-content/uploads/trn/online/disa_cac_2022_final_web/launch.html" -%}
 * {% include offsite-link linkText="Privacy Awareness Training" url="https://www.dhs.gov/xlibrary/privacy_training/index.htm" -%}
-* {% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true -%}
+* {% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true count=1 -%}
 
 <!-- -->
 ### Note to New Hires About Acceptable Signatures:

@@ -33,7 +33,7 @@ Contact Don Sapp, FRTIB’s EEO Manager at<br>
 <h3 class="usa-sr-only">EEO documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
-{% include file-list coll="pdf" folder="/eeo" format='title' reverse=true dobutton=true -%}
+{% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 
