@@ -23,7 +23,7 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 {% include accordion/start expanded=false divID="forms" title="Forms for completion" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/forms/forms" format='title' reverse=false dobutton=true -%}
 <p>
-{% include button-link-offsite url="https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf" text="I-9 Employment Eligibility Verification [PDF]" -%}
+{% include button-link-offsite url="https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf" text="I-9 Employment Eligibility Verification [PDF]" -%}
 </p>
 <p>
 {% include button-link-offsite url="https://www.opm.gov/forms/pdf_fill/sf1152.pdf" text="SF-1152 Designation of Beneficiary [PDF]" -%}
