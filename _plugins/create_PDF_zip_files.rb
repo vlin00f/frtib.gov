@@ -61,5 +61,5 @@ def make_zip_file(directory_to_zip, output_file)
   zf.write()
 end
 
-make_zip_file "_pdf/onboarding/forms", "pdf/onboarding_forms.zip"
+make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
