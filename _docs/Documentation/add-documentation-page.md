@@ -33,7 +33,7 @@ If you want to add a new page to an existing area copy one of the \*.md files in
 The easiest way to add new area is to duplicate one of the existing folders in *_docs* and alter this copy to be the new area you need as follows.
 
 
-% assign accStep = 1 -%}
+{% assign accStep = 1 -%}
 {% comment -%}###############################################################{% endcomment -%}
 {% include accordion/start-steps title="Duplicate an existing documentation folder" -%}
 Duplicate an existing *docs/* folder and give the new folder a name appropriate to this new grouping.
