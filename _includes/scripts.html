@@ -65,3 +65,10 @@ Note, we are not using jquery on this site so document-ready is just a script at
 -->
 </script>
 {% endif -%}
+<script type="text/javascript">
+function showContent() {
+  document.body.style.visibility = 'visible';
+  document.body.style.opacity = 1;
+}
+window.addEventListener('DOMContentLoaded', function () { showContent(); });
+</script>
