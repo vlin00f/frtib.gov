@@ -49,13 +49,16 @@ class ZipFileGenerator
   end
 
   def recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
-    zipfile.mkdir zipfile_path
+    # zipfile.mkdir zipfile_path
     subdir = Dir.entries(disk_file_path) - %w[. ..]
     write_entries subdir, zipfile_path, zipfile
   end
 
   def put_into_archive(disk_file_path, zipfile, zipfile_path)
-    zipfile.add(zipfile_path, disk_file_path)
+    # puts disk_file_path + ' /// ' + zipfile_path + '  ///  ' + File.basename(zipfile_path)
+    new_name = File.basename(zipfile_path)
+    puts new_name
+    zipfile.add(new_name, disk_file_path)
   end
 end
 
@@ -74,6 +77,7 @@ forms_dir = "_pdf/onboarding/forms/forms/downloads"
 info_dir = "_pdf/onboarding/forms/information/downloads"
 
 fetch_PDF "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
+fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf1152.pdf", "sf1152.pdf", forms_dir
 
 make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
