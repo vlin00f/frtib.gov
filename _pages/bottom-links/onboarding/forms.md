@@ -18,13 +18,13 @@ Prior to your report date several new hire forms are required to be completed in
 
 Please visit the other sections of the FRTIB Onboarding page for information on various tasks to be completed for a successful onboarding experience to include pre-onboarding training requirements and information that is pertinent for New Employee Orientation.
 
+A zip file containing all the PDFs in the drop-down below:
+{% include button-link url="/pdf/onboarding_forms.zip" text="Onboarding Forms [ZIP]" -%}
 
 <h3 class="usa-sr-only">Forms for internal FRTIB new hires</h3>
-
-<p>
-{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: TSP Election Form [PDF]" -%}
-</p>
-
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="forms" title="Forms for completion" inList=false -%}
+{% include file-list coll="pdf" folder="/onboarding/forms/forms/" format='title' reverse=false dobutton=true -%}
 <p>
 {% include button-link-offsite url="https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf" text="I-9 Employment Eligibility Verification [PDF]" -%}
 </p>
@@ -73,16 +73,12 @@ Please visit the other sections of the FRTIB Onboarding page for information on 
 <p>
 {% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
 </p>
-
-
-A zip file containing all the PDFs in the drop-down below:
-{% include button-link url="/pdf/onboarding_forms.zip" text="Onboarding Forms [ZIP]" -%}
-
-<div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download Federal Employees Forms" inList=false -%}
-{% include file-list coll="pdf" folder="/onboarding/forms/forms/" format='title' reverse=false dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
+
+A zip file containing all the PDFs in the drop-down below:
+{% include button-link url="/pdf/onboarding_info.zip" text="Onboarding Information [ZIP]" -%}
+
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="info" title="Information - Read Only" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/forms/information/" format='title' reverse=false dobutton=true -%}

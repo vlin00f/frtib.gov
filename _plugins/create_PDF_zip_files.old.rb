@@ -1,5 +1,4 @@
 require 'zip'
-require 'open-uri'
 
 # from https://github.com/rubyzip/rubyzip
 #
@@ -37,11 +36,8 @@ class ZipFileGenerator
       disk_file_path = File.join(@input_dir, zipfile_path)
 
       if File.directory? disk_file_path
-        if zipfile_path.start_with?('_archive')
-          # dont recurse into _archive
-        else
-          recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
-        end
+        # dont recurse to avoid archive and other sub directorys.  Instead could check value for _archive and ignore just those
+        # recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
       else
         put_into_archive(disk_file_path, zipfile, zipfile_path)
       end
@@ -59,21 +55,11 @@ class ZipFileGenerator
   end
 end
 
-def fetch_PDF(pdf_url, pdf_name, pdf_dir)
-  download = URI.open(pdf_url)
-  IO.copy_stream(download, pdf_dir + '/' + pdf_name)
-end
-
 def make_zip_file(directory_to_zip, output_file)
   File.delete(output_file) if File.exist?(output_file)
   zf = ZipFileGenerator.new(directory_to_zip, output_file)
   zf.write()
 end
-
-forms_dir = "_pdf/onboarding/forms/forms/downloads"
-info_dir = "_pdf/onboarding/forms/information/downloads"
-
-fetch_PDF "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
 
 make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
