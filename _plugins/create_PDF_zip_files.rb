@@ -57,7 +57,6 @@ class ZipFileGenerator
   def put_into_archive(disk_file_path, zipfile, zipfile_path)
     # puts disk_file_path + ' /// ' + zipfile_path + '  ///  ' + File.basename(zipfile_path)
     new_name = File.basename(zipfile_path)
-    puts new_name
     zipfile.add(new_name, disk_file_path)
   end
 end
