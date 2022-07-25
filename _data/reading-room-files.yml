@@ -941,3 +941,18 @@
   updated:
   title: ORM.530 - Section 508 Policy (final) [PDF]
   desc: ORM.530 - Section 508 Policy (final) [PDF]
+
+
+# remote PDFs
+- name: i-9-paper-version.pdf
+  updated: 2022-07-25
+  title: Remote I-9 [PDF]
+  desc: Remote I-9 [PDF]
+- name: i-9-paper-version.pdf
+  updated: 2022-07-25
+  title: Remote I-9 [PDF]
+  desc: Remote I-9 [PDF]
+- name: sf1199a.pdf
+  updated: 2022-07-25
+  title: XXX SF-1199A Direct Deposit Sign-Up Form [PDF]
+  desc: XXX SF-1199A Direct Deposit Sign-Up Form [PDF]

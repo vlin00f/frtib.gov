@@ -77,6 +77,9 @@ info_dir = "_pdf/onboarding/forms/information/downloads"
 
 fetch_PDF "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
 fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf1152.pdf", "sf1152.pdf", forms_dir
+fetch_PDF "https://www.gsa.gov/Forms/TrackForm/32810", "sf1199a.pdf", forms_dir
+
+
 
 make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
