@@ -25,6 +25,7 @@ A zip file containing all the PDFs in the drop-down below:
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="forms" title="Forms for completion" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/forms/forms/" format='title' reverse=false dobutton=true -%}
+<hr>
 <p>
 {% include button-link-offsite url="https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf" text="I-9 Employment Eligibility Verification [PDF]" -%}
 </p>
@@ -70,6 +71,7 @@ A zip file containing all the PDFs in the drop-down below:
 <p>
 {% include button-link-offsite url="https://www.irs.gov/pub/irs-pdf/fw4.pdf" text="W-4 Employee’s Withholding Certificate [PDF]" -%}
 </p>
+
 <p>
 {% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
 </p>
@@ -82,6 +84,7 @@ A zip file containing all the PDFs in the drop-down below:
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="info" title="Information - Read Only" inList=false -%}
 {% include file-list coll="pdf" folder="/onboarding/forms/information/" format='title' reverse=false dobutton=true -%}
+<hr>
 <p>
 {% include button-link-offsite url="https://www.opm.gov/healthcare-insurance/fastfacts/benefeds.pdf" text="(BENEFEDS) Federal Benefits FastFacts [PDF]" -%}
 </p>

@@ -943,16 +943,98 @@
   desc: ORM.530 - Section 508 Policy (final) [PDF]
 
 
-# remote PDFs
+# remote completion PDFs in the onbaording/forms section
 - name: i-9-paper-version.pdf
   updated: 2022-07-25
-  title: Remote I-9 [PDF]
-  desc: Remote I-9 [PDF]
-- name: i-9-paper-version.pdf
+  title: XXX I-9 Employment Eligibility Verification [PDF]
+  desc: I-9 Employment Eligibility Verification [PDF]
+- name: sf1152.pdf
   updated: 2022-07-25
-  title: Remote I-9 [PDF]
-  desc: Remote I-9 [PDF]
+  title: XXX SF-1152 Designation of Beneficiary [PDF]
+  desc: SF-1152 Designation of Beneficiary [PDF]
 - name: sf1199a.pdf
   updated: 2022-07-25
   title: XXX SF-1199A Direct Deposit Sign-Up Form [PDF]
-  desc: XXX SF-1199A Direct Deposit Sign-Up Form [PDF]
+  desc: SF-1199A Direct Deposit Sign-Up Form [PDF]
+- name: sf144.pdf
+  updated: 2022-07-25
+  title: XXX SF-144 Statement of Prior Federal Service [PDF]
+  desc: SF-144 Statement of Prior Federal Service [PDF]
+- name: sf181.pdf
+  updated: 2022-07-25
+  title: XXX SF-181 Ethnicity and Race Identification [PDF]
+  desc: SF-181 Ethnicity and Race Identification [PDF]
+- name: sf256.pdf
+  updated: 2022-07-25
+  title: XXX SF-256 Self Identification of Disability [PDF]
+  desc: SF-256 Self Identification of Disability [PDF]
+- name: sf2809.pdf
+  updated: 2022-07-25
+  title: XXX SF-2809 Health Benefits Election [PDF]
+  desc: SF-2809 Health Benefits Election [PDF]
+- name: sf2817.pdf
+  updated: 2022-07-25
+  title: XXX SF-2817 Life Insurance Election (FEGLI) [PDF]
+  desc: SF-2817 Life Insurance Election (FEGLI) [PDF]
+- name: sf2823.pdf
+  updated: 2022-07-25
+  title: XXX SF-2823 Designation of Beneficiary (FEGLI) [PDF]
+  desc: SF-2823 Designation of Beneficiary (FEGLI) [PDF]
+- name: sf3102.pdf
+  updated: 2022-07-25
+  title: XXX SF-3102 Designation of Beneficiary (FERS) [PDF]
+  desc: SF-3102 Designation of Beneficiary (FERS) [PDF]
+- name: 2017_D-4_Fill-In.pdf
+  updated: 2022-07-25
+  title: XXX D-4 Employee Withholding Allowance Certificate [PDF]
+  desc: D-4 Employee Withholding Allowance Certificate [PDF]
+- name: MW507.pdf
+  updated: 2022-07-25
+  title: XXX MW507 Employee’s Maryland Withholding Exemption Certificate [PDF]
+  desc: MW507 Employee’s Maryland Withholding Exemption Certificate [PDF]
+- name: 2022_MW507M.pdf
+  updated: 2022-07-25
+  title: XXX MW507M Exemption from Maryland Withholding Tax [PDF]
+  desc: MW507M Exemption from Maryland Withholding Tax [PDF]
+- name: va-4-any.pdf
+  updated: 2022-07-25
+  title: XXX VA-4 VA Department of Taxation Personal Exemption Worksheet [PDF]
+  desc: VA-4 VA Department of Taxation Personal Exemption Worksheet [PDF]
+- name: fw4.pdf
+  updated: 2022-07-25
+  title: XXX W-4 Employee’s Withholding Certificate [PDF]
+  desc: W-4 Employee’s Withholding Certificate [PDF]
+- name: tsp-1.pdf
+  updated: 2022-07-25
+  title: XXX TSP-1 - Thrift Savings Plan Election Form [PDF]
+  desc: TSP-1 - Thrift Savings Plan Election Form [PDF]
+
+# remote information PDFs in the onbaording/forms section
+- name: benefeds.pdf
+  updated: 2022-07-25
+  title: XXX (BENEFEDS) Federal Benefits FastFacts [PDF]
+  desc: (BENEFEDS) Federal Benefits FastFacts [PDF]
+- name: dental.pdf
+  updated: 2022-07-25
+  title: XXX (FEDVIP) Federal Employees Dental Insurance Program Leaflet [PDF]
+  desc: (FEDVIP) Federal Employees Dental Insurance Program Leaflet [PDF]
+- name: vision.pdf
+  updated: 2022-07-25
+  title: XXX (FEDVIP) Federal Employees Vision Insurance Program Leaflet [PDF]
+  desc: (FEDVIP) Federal Employees Vision Insurance Program Leaflet [PDF]
+- name: fegli.pdf
+  updated: 2022-07-25
+  title: XXX (FEGLI) Federal Employees’ Group Life Insurance Program Leaflet [PDF]
+  desc: (FEGLI) Federal Employees’ Group Life Insurance Program Leaflet [PDF]
+- name: fehb.pdf
+  updated: 2022-07-25
+  title: XXX (FEHB) Federal Employees Health Benefits Program Leaflet [PDF]
+  desc: (FEHB) Federal Employees Health Benefits Program Leaflet [PDF]
+- name: fsafeds.pdf
+  updated: 2022-07-25
+  title: XXX (FSAFEDS) Federal Flexible Spending Account Programs Leaflet [PDF]
+  desc: (FSAFEDS) Federal Flexible Spending Account Programs Leaflet [PDF]
+- name: 4289-FSAFEDS-New-Hire-Brochure.pdf
+  updated: 2022-07-25
+  title: XXX (FSAFEDS) New Hire Brochure [PDF]
+  desc: (FSAFEDS) New Hire Brochure [PDF]
