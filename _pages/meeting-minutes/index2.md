@@ -1,0 +1,46 @@
+---
+layout: page2
+title: Meeting Minutes
+styles:
+# sidenav:
+scripts:
+#  - /assets/js/jquery.min.js
+permalink: /meeting-minutes2/
+return_to_top: true
+last_update: April 27, 2022
+#redirect_from:
+#  - /MeetingMinutes.html
+#  - /MeetingMinutes/
+#document-ready:
+#  - getRate();
+minYear: 2020
+maxYear: 2022
+---
+
+## Meeting Minutes
+{% include subscribe-button title="to receive Meeting Minutes updates" topic_id="USTSP_6" -%}
+
+<br>
+{% capture body -%}
+Board meetings, which can be observed by the public, are generally held the 4<sup>th</sup> Tuesday of each month (except where noted on the current meeting calendar).
+{% endcapture -%}
+{% capture foot_text -%}
+{% include file-list coll="pdf" folder="/board-meetings/2022_Board_Meeting_Calendar_schedule.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
+{% endcapture -%}
+{% include desc-box  card_body=body card_foot=foot_text
+      card_img="hero/meetingminutes_headerL.png" altText="Record of FRTIB meeting minutes" -%}
+
+
+{% include meeting-minutes/full-list maxYear=page.maxYear minYear=page.minYear -%}
+
+Older meeting minutes files can be accessed as ZIP files (with attachments) at the [Meeting Minutes Archive](https://federalist-538a912a-b26d-432a-9bf8-9e7a484f89b7.app.cloud.gov/site/frtib/minutes.frtib.gov/).
+
+{% comment -%}
+<!-- uncomment this liqud block to see examples of the alert types -->
+{% include alert-block msg_type="info" msg_head="info head" msg_body="this is the info message" -%}
+{% include alert-block msg_type="warning" msg_head="warning head" msg_body="this is the warning message" -%}
+{% include alert-block msg_type="error" msg_head="error head" msg_body="this is the error message" -%}
+{% include alert-block msg_type="success" msg_head="success head" msg_body="this is the success message" -%}
+{% endcomment -%}
+
+<!-- CONTENT END -->

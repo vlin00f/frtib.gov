@@ -163,7 +163,7 @@ collections:
     output: false
   docs:
     label: docs
-    output: true
+    output: false
 
 defaults:
   - scope:
