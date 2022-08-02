@@ -1,0 +1,13 @@
+{% assign divID = accStep | prepend: 'step' -%}
+{% assign title = include.title -%}
+{% if accStep >= 0 -%}
+  {% assign title = title | prepend: '. ' | prepend: accStep -%}
+{% endif -%}
+{% assign expanded = include.expanded | default: false -%}
+<div class="usa-accordion">
+{% include accordion/start divID=divID title=title expanded=include.expanded -%}
+{% if accStep >= 0 -%}
+  {% assign accStep = accStep | plus: 1 -%}
+{% else -%}
+  {% assign accStep = accStep | minus: 1 -%}
+{% endif -%}

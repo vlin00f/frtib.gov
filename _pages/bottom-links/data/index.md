@@ -20,6 +20,6 @@ The FRTIB has established a Data Governance Policy which provides a framework to
 
 Stephen Huber is the FRTIB’s Acting Chief Data Officer. He can be reached at <stephen.huber@frtib.gov> or 202-942-1600.
 
-{% include file-list coll="pdf" folder="/data/" reverse=true format='title' dobutton=true -%}
+{% include file-list coll="pdf" folder="/data/" format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

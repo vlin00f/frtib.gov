@@ -14,6 +14,6 @@ redirect_from:
 
 ## TSP Financial Wellness Survey Results
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/2020_F" reverse=true format='title' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/wellness/" format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

@@ -1,0 +1,10 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Commit changes" -%}
+In GitHub Desktop or Atom stage your file changes, add a comment, and commit the changes to the TASK branch.  Then publish/push your changes up to GitHub.
+
+Federalist will see that your new branch and that it has changed everytime you *push* up the changes and it will attempt to build a copy of the site.  If successful your changes will be copied to the preview site for the branch and the *preview-site* link will be shown on the build list.  Use the *preview-site* link and verify your changes are there and look correct.
+
+You can commit changes and push them to Federalist at anytime.  You don't need to wait.  In fact its good to push up often so your changes are both on GitHub and your local machine.
+
+Move on to the next step when you have completed all the work for the TASK and your *preview-site* looks good.
+{% include accordion/end-steps -%}

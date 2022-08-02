@@ -1,0 +1,20 @@
+{% comment -%}
+This component just includes the end steps when you aren't adding pages or complex content and don't need to test accessibility.
+
+It makes the doc md file easier to read and edit.
+
+Compare to the standard-end-steps component.
+
+Review your changes.
+
+Commit all your changes to GitHub.
+
+Request approval of your changes from the original requestor.
+
+Merge with the main branch.
+{% endcomment -%}
+
+{% include docs/review-changes -%}
+{% include docs/commit-changes -%}
+{% include docs/request-approval -%}
+{% include docs/merge-main -%}

@@ -120,7 +120,7 @@ rr_partsurvey_nav:
     button_text: "See summaries"
     image: FRTIB_Seal_White.png
   - name: Satisfaction Surveys
-    url: /reading-room/participant-surveys/results/
+    url: /reading-room/participant-surveys/satisfaction/
     text: "Participant Behavior and Demographics"
     button_text: "See results"
     image: FRTIB_Seal_White.png

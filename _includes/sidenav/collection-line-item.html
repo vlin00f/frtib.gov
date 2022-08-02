@@ -1,0 +1,10 @@
+{% comment -%}
+Single li used in the sidenav component
+{% endcomment -%}
+{% assign myItem = include.myItem -%}
+{% assign isCurrent = 'class="usa-current"' -%}
+<li class="usa-sidenav__item">
+  <a href="{{site.baseurl}}{{ myItem.url }}" {% if page.url == myItem.url -%}{{isCurrent}}{% endif -%}>
+    {% include docs/page-complete page=myItem-%}{{ myItem.title }}
+  </a>
+</li>

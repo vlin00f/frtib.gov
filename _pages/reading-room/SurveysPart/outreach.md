@@ -14,6 +14,6 @@ redirect_from:
 
 ## Outreach Evaluation Summaries
 
-{% include file-list coll="pdf" folder="/reading-room/SurveysPart/CY" reverse=true format='title' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/SurveysPart/outreach/" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->

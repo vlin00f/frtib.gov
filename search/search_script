@@ -37,9 +37,23 @@
         }
         document.getElementById('search-results').start = start;
         var page = (offset / limit) + 1;
-        render_result(`<div>${posts.web.total} results</div>`, true);
+        // console.log(posts);
+        // DAV: following lines do best bets
+        if (posts.text_best_bets.length > 0) {
+          render_div('search-recommended', "<h3>Recommended by {{site.title}}</h3>");
+          for (item in posts.text_best_bets){
+            render_div('search-recommended', `
+              <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+                <b class="title"><a href="${posts.text_best_bets[item]['url']}">${posts.text_best_bets[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
+                <div class="urlresult">${posts.text_best_bets[item]['url']}</div>
+                <div> ${posts.text_best_bets[item]['description'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
+              </li>
+              `, true);
+          }
+        }
+        render_div('search-results', `<div>${posts.web.total} results</div>`, true);
         for (item in posts.web.results){
-          render_result(`
+          render_div('search-results', `
             <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
               <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
               <div class="urlresult">${posts.web.results[item]['url']}</div>
@@ -56,12 +70,16 @@
       }).finally(function(e){
 
         if(document.getElementById('search-results').childNodes.length == 0){
-          render_result(`<li class="title">No results found</li>`, false)
+          render_div('search-result', `<li class="title">No results found</li>`, false)
         }
 
       })
     } // end if query.trim()
 
+    function render_div(div, content, append = true){
+      const previous = document.getElementById(div).innerHTML;
+      document.getElementById(div).innerHTML = (append == true) ? previous + content : content;
+    }
     function render_result(content, append = true){
       const previous = document.getElementById('search-results').innerHTML;
       document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;

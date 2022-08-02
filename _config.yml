@@ -161,6 +161,9 @@ collections:
   careers:
     label: careers
     output: false
+  docs:
+    label: docs
+    output: false
 
 defaults:
   - scope:
@@ -250,4 +253,4 @@ assets:
   compression: true
   sources:
     - node_modules/uswds/dist
-    - node_modules/netlify-cms/dist
+#    - node_modules/netlify-cms/dist

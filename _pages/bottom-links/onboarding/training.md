@@ -20,7 +20,7 @@ Prior to your report date you will need to complete required training in order t
 
 * {% include offsite-link linkText="Cyber Security Awareness Training" url="https://dl.dod.cyber.mil/wp-content/uploads/trn/online/disa_cac_2022_final_web/launch.html" -%}
 * {% include offsite-link linkText="Privacy Awareness Training" url="https://www.dhs.gov/xlibrary/privacy_training/index.htm" -%}
-* {% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true -%}
+* {% include file-list coll="pdf" folder="/onboarding/training/" reverse=true format='title' dobutton=true count=1 -%}
 
 <!-- -->
 ### Note to New Hires About Acceptable Signatures:

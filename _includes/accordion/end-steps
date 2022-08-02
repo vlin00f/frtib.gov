@@ -1,0 +1,4 @@
+{% assign inList = include.inList | default: 0 -%}
+</div>
+{% if inList != 0 %}</li>{% endif -%}
+</div>

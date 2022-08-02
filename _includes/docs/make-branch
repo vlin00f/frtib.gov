@@ -1,0 +1,6 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Create a new branch for your TASK" -%}
+To add a branch see the steps [here]({{site.baseurl}}/docs/GitHub/add-branch).
+
+Make a new new branch with a name of the form TASK*#######-purpose-user*.
+{% include accordion/end-steps -%}

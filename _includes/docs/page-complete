@@ -1,0 +1,1 @@
+{% if include.page.completed != true -%}<span class="red">*</span>{% endif -%}

@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+{% comment -%}
+This template is for the documentation pages.  There is special sidenav code always applied.
+{% endcomment -%}
+{% assign gridStyle = "desktop:grid-col-12" -%}
+<div class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+        {% include sidenav/collection.html coll="docs" -%}
+        <main class="usa-layout-docs__main desktop:grid-col-9 usa-prose" id="main-content" role="main">
+          <h1 class="usa-sr-only">Content start</h1>
+          {{ content }}
+        </main>
+    </div>
+  </div>
+</div>

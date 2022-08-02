@@ -1,0 +1,4 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Review your changes" -%}
+Review your changes locally one last time to make sure you have satisfied the request.
+{% include accordion/end-steps -%}

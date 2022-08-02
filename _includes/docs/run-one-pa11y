@@ -1,0 +1,13 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Run pa11y on your new page(s)" -%}
+
+While running your local server open another terminal window in the same folder and run the following command:
+
+
+                npx pa11y-ci http://localhost:4000/....
+
+
+where that last argument is the url on your running localhost of the page you want to check.
+
+You should always test new pages locally before attempting to merge them into *main*.  You don't want to waste time trying to figure out why your Federalist Pull Request fails when you should have fixed it before you tried to merge the page remotely.
+{% include accordion/end-steps -%}

@@ -40,7 +40,7 @@
 
 }
 
-.bar-graph-one .bar::after {
+.bar-graph-satisfaction .bar::after {
   -webkit-animation: fade-in-text 2.2s 0.1s forwards;
   -moz-animation: fade-in-text 2.2s 0.1s forwards;
   animation: fade-in-text 2.2s 0.1s forwards;
@@ -52,62 +52,56 @@
   top: 17px;
 }
 
-.bar-graph-one .bar-one .bar {
-  background-color: #2e8540;
-  -webkit-animation: show-bar-one 1.2s 0.1s forwards;
-  -moz-animation: show-bar-one 1.2s 0.1s forwards;
-  animation: show-bar-one 1.2s 0.1s forwards;
-}
-
-.bar-graph-one .bar-two .bar {
-  background-color: #fdb81e;
-  -webkit-animation: show-bar-two 1.2s 0.2s forwards;
-  -moz-animation: show-bar-two 1.2s 0.2s forwards;
-  animation: show-bar-two 1.2s 0.2s forwards;
-}
-
-.bar-graph-one .bar-three .bar {
-  background-color: #981b1e;
-  -webkit-animation: show-bar-three 1.2s 0.3s forwards;
-  -moz-animation: show-bar-three 1.2s 0.3s forwards;
-  animation: show-bar-three 1.2s 0.3s forwards;
-}
-
-.bar-graph-one .bar-four .bar {
+.bar-graph-satisfaction .bar-zero .bar {
   background-color: #2e515f;
-  -webkit-animation: show-bar-four 1.2s 0.4s forwards;
-  -moz-animation: show-bar-four 1.2s 0.4s forwards;
-  animation: show-bar-four 1.2s 0.4s forwards;
+  -webkit-animation: show-bar-zero 1.2s 0.4s forwards;
+  -moz-animation: show-bar-zero 1.2s 0.4s forwards;
+  animation: show-bar-zero 1.2s 0.4s forwards;
 }
 
-// Bar Graph Horizontal Animations
+.bar-graph-satisfaction .bar-one .bar {
+  background-color: #2e8540;
+  -webkit-animation: show-bar-one 1.2s 0.4s forwards;
+  -moz-animation: show-bar-one 1.2s 0.4s forwards;
+  animation: show-bar-one 1.2s 0.4s forwards;
+}
+
+.bar-graph-satisfaction .bar-two .bar {
+  background-color: #fdb81e;
+  -webkit-animation: show-bar-two 1.2s 0.4s forwards;
+  -moz-animation: show-bar-two 1.2s 0.4s forwards;
+  animation: show-bar-two 1.2s 0.4s forwards;
+}
+
+.bar-graph-satisfaction .bar-three .bar {
+  background-color: #981b1e;
+  -webkit-animation: show-bar-three 1.2s 0.6s forwards;
+  -moz-animation: show-bar-three 1.2s 0.6s forwards;
+  animation: show-bar-three 1.2s 0.6s forwards;
+}
+
+/*
+// Bar Graph Horizontal Animations (redefined in _includes/home/satisfaction for easy updates)
+@-webkit-keyframes show-bar-zero {
+  0% { width: 0; }
+  100% { width: 1%; }
+}
+
 @-webkit-keyframes show-bar-one {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 89%;
-  }
+  0% { width: 0; }
+  100% { width: 1%; }
 }
 
 @-webkit-keyframes show-bar-two {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 9%;
-  }
+  0% { width: 0; }
+  100% { width: 1%; }
 }
 
 @-webkit-keyframes show-bar-three {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 2%;
-  }
+  0% { width: 0; }
+  100% { width: 1%; }
 }
-
+*/
 
 @-webkit-keyframes fade-in-text {
   0% {

@@ -12,6 +12,7 @@ redirect_from:
   - /Home.html
 #document-ready:
 #  - getRate();
+#
 ---
 
 <div class="usa-grid-full">
@@ -42,35 +43,7 @@ We seek to improve participant retirement outcomes; provide top-tier defined con
 {% assign right = right|markdownify -%}
 {% include home/middle left=left right=right -%}
 
-{% capture left -%}
-Overall TSP Satisfaction
-{% endcapture -%}
-{% capture right -%}
-<!--THIS IS BARCHART -->
-<section class="bar-graph bar-graph-horizontal bar-graph-one">
- <div class="left-border-thick-line">
-  <div class="bar-one">
-    <span class="descr">Extremely Satisfied/Satisfied (89%)</span>
-    <br clear="all">
-    <div class="bar" data-percentage="89%"></div>
-  </div>
-  <br clear="all">
-  <div class="bar-two">
-    <span class="descr">Neither Satisfied nor Unsatisfied (9%)</span>
-    <br clear="all">
-    <div class="bar" data-percentage="9%"></div>
-  </div>
-  <br clear="all">
-  <div class="bar-three">
-    <span class="descr">Dissatisfied/Extremely Dissatisfied (2%)</span>
-    <br clear="all">
-    <div class="bar" data-percentage="0%"></div>
-  </div>
- </div>
-</section>
-<!--END BARCHART-->
-{% endcapture -%}
-{% include home/middle left=left right=right -%}
+{% include home/satisfaction -%}
 
 <!-- bottom area above footer-->
 {% include home/footer-feature-section -%}

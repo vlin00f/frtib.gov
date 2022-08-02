@@ -1,0 +1,15 @@
+{% comment -%}
+Alert if documentation is turned on.  We dont want documentation to do into produciton.
+{% endcomment -%}
+{% for collection in site.collections -%}
+{% if collection.label == "docs" -%}
+{% if collection.output == true -%}
+  <div id="documentation" class="grid-container">
+    <h3>
+      <a href="{{site.baseurl}}/docs/">Documentation</a> is turned on.  Change site.collections.docs.output before merging with production.
+    </h3>
+  </div>
+{% endif -%}
+{% break -%}
+{% endif -%}
+{% endfor -%}

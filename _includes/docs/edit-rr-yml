@@ -1,0 +1,25 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Edit _data/reading-room-files.yml" -%}
+The site is built to automatically add files to various pages as soon as the file is added into the directory structure under _pdf/.
+
+This means you can add the file to the site with a simple drag/drop into the right place but you need to tell the component that creates the link on the page for a new file what text to label that link with.  This is done in the _data/reading-room-files.yml file.
+
+Edit _data/reading-room-files.yml and search for one of the files in the same location as the file you just added.  We try to keep the file mentions in that .yml file together for files that sit in the same area in _pdf/.  Generally the files are listed in order with a newly added file going before all its neighbor files.
+
+The entry for each file listed looks something like this:
+
+<pre>
+- name: TSP-Survey-Results-2011.pdf
+  title: 2011 TSP Survey Results [PDF]
+  updated: 2011-03-04
+  desc: 2011
+</pre>
+
+The name line is the exact name of the file.  This is how the component matches the file you added with the link it will add to the page.  If the link/button for the file you added appears on the page as its filename, then your entry in this file doesn't have the exact name.
+
+The title is the text that will be use for the link/button on the page.
+
+Updated is the year-month-day the file was added to the site.  This is for auditing and may be used for sorting in the future.  Add this value for all files that were put on the site after we went live.
+
+Desc is intended to be a longer form description of the file but is only used on the site for press releases.
+{% include accordion/end-steps -%}

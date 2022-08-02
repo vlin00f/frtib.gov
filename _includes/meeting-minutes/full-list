@@ -2,6 +2,8 @@
 Component to display the main meeting minutes files.
 {% endcomment -%}
 {% assign format = include.format | default: 'short' -%}
+{% assign maxYear = include.maxYear | default: 9999 -%}
+{% assign minYear = include.minYear | default: 1900 -%}
 
 {% include meeting-minutes/get-file-list theCollection='meeting_minutes' -%}
 
@@ -16,6 +18,9 @@ Updated: {{page.last_update}}
 {% for mmfile in filelist -%}
 {% assign fname = mmfile.name -%}
 {% assign curYear = fname | slice: 0, 4 -%}
+{% assign curYearNum = curYear | plus: 0 -%}
+{% if curYearNum > maxYear -%}{% continue %}{% endif -%}
+{% if curYearNum < minYear -%}{% continue %}{% endif -%}
 {% if curYear != year -%}
 {% assign year = curYear -%}
 {{closeDiv}}

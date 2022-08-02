@@ -1,0 +1,13 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Run pa11y on the site" -%}
+
+While running your local server open another terminal window in the same folder and run the following command:
+
+
+                npm run pa11y-ci:sitemap
+
+
+This runs pa11y on every page one by run.  At the end you should get something in green like: “50/50 URLs passed”
+
+Pa11y is set of tests for accessibility.
+{% include accordion/end-steps -%}

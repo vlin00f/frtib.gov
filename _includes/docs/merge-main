@@ -1,0 +1,4 @@
+{% comment -%}###############################################################{% endcomment -%}
+{% include accordion/start-steps title="Merge with <i>main</i>" -%}
+Merge the branch with *main* on GitHub following the steps outlined [here]({{site.baseurl}}/docs/GitHub/merge-branch).
+{% include accordion/end-steps -%}

@@ -1,0 +1,62 @@
+{% comment -%}
+This is the satisfaction image block on the home page.
+
+Update the three assignents below to change the chart.
+
+Last Edit: 2022-03-04
+{% endcomment -%}
+{% assign satisfied = 89 -%}
+{% assign neither = 9 -%}
+{% assign dissatisfied = 2 -%}
+{% comment -%} #######  Do not edit below this line  #######{% endcomment -%}
+<style>
+// Bar Graph Horizontal Animations
+@-webkit-keyframes show-bar-zero {
+  0% { width: 0; }
+  100% { width: {{satisfied}}%; }
+}
+
+@-webkit-keyframes show-bar-one {
+  0% { width: 0; }
+  100% { width: {{satisfied}}%; }
+}
+
+@-webkit-keyframes show-bar-two {
+  0% { width: 0; }
+  100% { width: {{neither}}%; }
+}
+
+@-webkit-keyframes show-bar-three {
+  0% { width: 0; }
+  100% { width: {{dissatisfied}}%; }
+}
+</style>
+{% capture left -%}
+Overall TSP Satisfaction
+{% endcapture -%}
+{% capture right -%}
+<!--THIS IS THE BARCHART -->
+<section class="bar-graph bar-graph-horizontal bar-graph-satisfaction">
+ <div class="left-border-thick-line">
+  <div class="bar-one">
+    <span class="descr">Extremely Satisfied/Satisfied ({{satisfied}}%)</span>
+    <br clear="all">
+    <div class="bar" data-percentage="{{satisfied}}%"></div>
+  </div>
+  <br clear="all">
+  <div class="bar-two">
+    <span class="descr">Neither Satisfied nor Unsatisfied ({{neither}}%)</span>
+    <br clear="all">
+    <div class="bar" data-percentage="{{neither}}%"></div>
+  </div>
+  <br clear="all">
+  <div class="bar-three">
+    <span class="descr">Dissatisfied/Extremely Dissatisfied ({{dissatisfied}}%)</span>
+    <br clear="all">
+    <div class="bar" data-percentage="{{dissatisfied}}%"></div>
+  </div>
+ </div>
+</section>
+<!--END BARCHART-->
+{% endcapture -%}
+{% include home/middle left=left right=right -%}

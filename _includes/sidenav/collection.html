@@ -1,0 +1,43 @@
+{% comment %}
+Special sidenav for the documentation section.
+{% endcomment %}
+
+{% comment -%}Get documentation home page{% endcomment -%}
+{% for docpage in site.docs -%}{% unless docpage.path != "_docs/index.md" -%}
+{% assign landing = docpage -%}
+{% endunless -%}{% endfor -%}
+
+{% comment -%}Get current page path{% endcomment -%}
+{% assign curURL = page.url | split: '/' | pop | join: '/' -%}
+{% assign lastURL = "" -%}
+
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+  <nav>
+    <ul class="usa-sidenav">
+      {% include sidenav/collection-line-item.html myItem=landing -%}
+      <li class="usa-sidenav__item">
+        <ul class="usa-sidenav__sublist">
+          {% for docpage in site.docs -%}{% unless docpage.path == landing.path -%}
+            {% assign docURL = docpage.url | split: '/' | pop | join: '/' -%}
+            {% if docURL != lastURL -%}
+              <li class="usa-sidenav__item">
+                <a href="{{site.baseurl}}{{ docURL }}/" {% if curURL == docURL -%}class="usa-current"{% endif -%}>{{ docURL | remove_first: '/docs/' }}<span class="navigate_next"></span></a>
+              </li>
+              {% assign lastURL = docURL -%}
+              {% if lastURL == curURL -%}
+              <ul class="usa-sidenav__sublist">
+                {% for subdocpage in site.docs -%}
+                {% assign subdocURL = subdocpage.url | split: '/' | pop | join: '/' -%}
+                {% unless subdocURL != lastURL -%}{% unless subdocpage.title == "Index" -%}
+                {% include sidenav/collection-line-item.html myItem=subdocpage -%}
+                {% endunless -%}{% endunless -%}
+                {% endfor -%}
+              </ul>
+              {% endif -%}
+            {% endif -%}
+          {% endunless -%}{% endfor -%}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</aside>

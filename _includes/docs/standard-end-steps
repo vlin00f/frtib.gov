@@ -1,0 +1,23 @@
+{% comment -%}
+This component just includes the regular last six steps of a site change on a docs page.
+
+It makes the doc md file easier to read and edit.  The 6 steps are other files in this folder.
+
+Run pa11y on the pages you changed.
+
+Run html proofer on the site.
+
+Run pa11y-ci on the site.
+
+Commit all your changes to GitHub.
+
+Request approval of your changes from the original requestor.
+
+Merge with the main branch.
+{% endcomment -%}
+{% include docs/review-changes -%}
+{% include docs/run-htmlproofer -%}
+{% include docs/run-pa11y -%}
+{% include docs/commit-changes -%}
+{% include docs/request-approval -%}
+{% include docs/merge-main -%}
