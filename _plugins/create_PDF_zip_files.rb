@@ -106,3 +106,4 @@ fetch_PDF "https://www.fsafeds.com/public/pdf/4289-FSAFEDS-New-Hire-Brochure.pdf
 make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
 make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
+make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
