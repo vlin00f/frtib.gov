@@ -25,7 +25,7 @@ On the main production site we keep the meeting minutes in *_meeting_minutes/YEA
 
 In order to ensure the ZIP files are complete we create each ZIP file at the same time that we prepage the main file and attachments for the main production site.  
 
-To add a new ZIP file to the archive as the files are added to production simply copy the *YYYYMMM*.zip file into *_meeting_minutes_hidden/YEAR*, creating the YEAR subfolder as needed.
+<b><bigger>To add a new ZIP file to the archive as the files are added to production simply copy the *YYYYMMM*.zip file into *_meeting_minutes_hidden/YEAR*, creating the YEAR subfolder as needed.</bigger></b>
 
 To make a YEAR of ZIP files that are hidden appear on the web site move the *_meeting_minutes_hidden/YEAR* folder from *_meeting_minutes_hidden/* to *_meeting_minutes/YEAR* and rebuild the site.
 
