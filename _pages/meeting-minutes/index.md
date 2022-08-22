@@ -29,7 +29,9 @@ Board meetings, which can be observed by the public, are generally held the 4<su
       card_img="hero/meetingminutes_headerL.png" altText="Record of FRTIB meeting minutes" -%}
 
 
-{% include meeting-minutes/full-list  -%}
+{% include meeting-minutes/full-list -%}
+
+Older meeting minutes files can be accessed as ZIP files (with attachments) at the [Meeting Minutes Archive](https://minutes.frtib.gov/){: target="_blank" }.
 
 {% comment -%}
 <!-- uncomment this liqud block to see examples of the alert types -->
