@@ -1,0 +1,48 @@
+/* custom stylesheet added for USWDS 3.0 */
+@use "uswds-core" as *;
+
+/*
+  FRTIB CSS
+
+*/
+//   alterations to USWDS styles
+
+// .center {
+//   margin: auto;
+//  width: 60%;
+// }
+.usa-footer {
+  font-size: 0.93rem;
+}
+.usa-footer__primary-section {
+  background-color: #205493;
+}
+
+.usa-footer__primary-section a {
+  color: #eee;
+}
+.usa-footer__primary-link {
+  font-weight: normal;
+}
+
+.usa-footer__secondary-section {
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  color: #eee;
+  background-color: #112e51;
+}
+
+.usa-footer__secondary-section a {
+  color: #eee;
+}
+
+.usa-footer__contact-heading {
+  color:#f1f1f1;
+}
+
+/*
+.usa-footer__logo-heading {
+  font-size: 2.0rem;
+  text-align: center;
+}
+*/

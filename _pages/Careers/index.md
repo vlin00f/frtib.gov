@@ -53,7 +53,7 @@ The health and safety of the workforce is our top priority.  FRTIB established a
 
 Click on the button below to download FRTIB’s COVID-19 Workplace Safety Plan
 
-{% include file-list coll="pdf" folder="/careers/FRTIB COVID-19 Workplace Safety Plan - August 2022.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
+{% include file-list coll="pdf" folder="/careers/FRTIB COVID-19 Workplace Safety Plan - July 2022.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
 
 </div>
 </div>

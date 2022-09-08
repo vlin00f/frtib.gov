@@ -1,0 +1,127 @@
+/* custom stylesheet added for USWDS 3.0 */
+@use "uswds-core" as *;
+
+/*
+  FRTIB CSS
+
+*/
+
+//   alterations to USWDS styles
+.usa-button {
+  background-color: #0071bc;
+  color: #fff;
+  font-size: .95rem;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.1rem;
+//  outline-width: .2em !important;
+//  outline-color: #112e51;
+}
+
+.usa-button:not(.on-card):not(.alert-button):not(.usa-modal__close) {
+  // max-width: 25em;
+  // min-width: 25em;
+  width: 20em;
+  padding: 0.15rem 1.25rem;
+}
+
+.usa-button.thin {
+  padding: 0.15rem 1.25rem;
+}
+.usa-button.subscribe {
+  background-color: #981b1e;
+}
+.meeting-minutes-button {
+  min-width: 8em;
+  max-width: 8em;
+}
+
+@media screen and (min-width: 64em) {
+  .alert-button {
+//    position: absolute;
+//    width: auto;
+//    top: .6em;
+//    left: 48%;
+//    right: 1rem;
+    position: absolute;
+    left: 58%;
+    border-radius: 0 0 0.2em 0.2em;
+    box-shadow: 0px 6px 12px rgba(19, 19, 25, 0.9);
+    transform: translateY(-7px);
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .alert-button {
+    width: 100%;
+  }
+}
+
+.alert-button {
+  max-width: 30rem;
+  min-width: 10em;
+  border-radius: 2px;
+  padding: .65em .65em .65em .65em;
+  background-color: #f9c642;
+  color: #112e51;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.alert-button:hover {
+  background-color: #fdb81e;
+  color: #fff;
+  box-shadow: none;
+
+}
+
+.alert-button:active {
+  box-shadow: inset 0 4px 8px rgba(19, 19, 25, 0.25);
+  color: #112e51;
+
+}
+
+// This is the expand svg for official website row at top of page
+
+.usa-banner__button[aria-expanded=false]::after {
+      background: 0 0;
+      background-color: #0071bc;
+      -webkit-mask: asset_url("img/usa-icons/expand_more.svg") no-repeat center/contain;
+}
+
+.usa-banner__button[aria-expanded=true]::after {
+    background: 0 0;
+    background-color: #981b1e;
+    -webkit-mask: asset_url("img/usa-icons/expand_less.svg") no-repeat center/contain;
+}
+
+.usa-banner__header-action::after {
+    background: asset_url("img/usa-icons/expand_more.svg") no-repeat center / 1rem 1rem;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    content: "";
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.usa-modal__close {
+    align-items: center;
+    align-self: flex-end;
+    color: #f1f1f1;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 0.93rem;
+    width: 4rem;
+    margin: -2rem 0px 0px auto;
+    padding: 0.25rem;
+    background: asset_url("img/usa-icons/close.svg") no-repeat center;
+    background-color: #0071bc;
+}
+
+.btn-social {
+  text-decoration: none;
+  color: #205493;
+}
