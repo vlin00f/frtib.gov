@@ -1,0 +1,79 @@
+/* custom stylesheet added for USWDS 3.0 */
+@use "uswds-core" as *;
+
+/* print stylesheet */
+@media print {
+
+  body {
+    background-color: #ffffff;
+    background: none;
+    background-image: none;
+    color: #000000;
+  }
+  p {
+    color: #000000;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  img, svg {
+    display: none !important;
+  }
+
+  #FRTIBseal {
+    display: block !important;
+    height: 48px;
+    width:  48px;
+    position: relative;
+    top: 25px;
+  }
+
+  .usa-menu-btn, .usa-footer__nav, .usa-sidenav, .usa-banner, .usa-footer__primary-section, .usa-footer__return-to-top {
+    display: none !important;
+  }
+
+  .main-content {
+    background-color: #ffffff;
+    color: #000000;
+    background-image: none;
+  }
+
+  .usa-hero, .usa-hero__callout, .usa-hero__heading, .usa-hero__heading--alt {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+/*
+  .usa-button {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: underline;
+    border: solid;
+    padding: 3px;
+  }
+*/
+
+  .usa-section--dark p, .usa-section--dark, .usa-section--dark h1, .usa-section--dark h2, .usa-section--dark h3, .usa-section--dark h4, .usa-section--dark h5, .usa-section--dark h6 {
+  color: #000000;
+  background-color: #ffffff;
+  }
+
+  .usa-footer__secondary-section, .usa-footer__secondary-section a, .usa-footer__contact-heading, .usa-footer__address, .usa-footer__contact-info {
+    color: #000000 !important;
+    background-color: #ffffff;
+  }
+
+  .usa-alert, .usa-alert--success, .usa-alert--no-icon, .usa-alert--info {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+  }
+
+/*  .usa-accordion, .usa-accordion__content {
+    display: block !important;
+    height: auto !important;
+} */
+}
