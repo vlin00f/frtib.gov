@@ -8,14 +8,21 @@ Component to display the job openings on the careers page.
 </noscript>
 
 {% for job in site.careers -%}
+{% assign sposition = job.sub_position | default: "" -%}
+{% assign jposition = job.position | append: " " | append: sposition | strip -%}
+{% if job.direct_hire == true -%}{% assign jposition = jposition | append: " (Direct Hire)" -%}{% endif -%}
 <div class="usa-accordion career-accordion hide" id="{{job.codes.first.usa}}" start="{{job.start|date: "%Y%m%d"}}" end="{{job.end|date: "%Y%m%d"}}">
-{% include accordion/start expanded=false divID=forloop.index title=job.position inList=false xtraClass1='bordered' -%}
+{% include accordion/start expanded=false divID=forloop.index title=jposition inList=false xtraClass1='bordered' -%}
 {{job.content | replace: '#position#', job.position }}
+{% if job.direct_hire == true -%}
+This is a Direct Hire announcement, open to all U.S. Citizens. <br>
+Veterans preference, Category Rating, and traditional rating and ranking of applicants does not apply under the Direct-Hire Authority.
+{% endif -%}
 <ul>
 {% for code in job.codes -%}
 <br>
 <li>
-{{ code.frtib}}, {{ job.position}}, {{job.grade}}, closing date: {{job.end | date: "%A, %B %d, %Y"}}.
+{{ code.frtib}}, {{ jposition}}, {{job.grade}}, closing date: {{job.end | date: "%A, %B %d, %Y"}}.
 <a href="https://www.usajobs.gov/job/{{code.usa}}" target="_blank" rel="noopener">
 Review the job details and apply for the position on USAJobs.gov.
 </a>
