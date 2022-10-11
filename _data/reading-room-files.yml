@@ -452,7 +452,7 @@
 - name: No_FEAR_2022_Quarter3Activity.pdf
   updated: 2022-09-23
   title: 2022 Qtr 3 No FEAR Data [PDF]
-  desc: 2022 Qtr 3 No FEAR Data [PDF]  
+  desc: 2022 Qtr 3 No FEAR Data [PDF]
 - name: No_FEAR_2022_Quarter2Activity.pdf
   updated: 2022-04-05
   title: 2022 Qtr 2 No FEAR Data [PDF]
@@ -593,6 +593,10 @@
   updated:
   title: 2007 FRTIB C-002 Service Bureau [PDF]
   desc: 2007 FRTIB C-002 Service Bureau [PDF]
+- name: TIB-2021-C-0003 Accenture Federal Services.pdf
+  updated: 2022-10-11
+  title: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
+  desc: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
 
 ## FOIA Annual
 - name: foia-annual-report-2021.xml
