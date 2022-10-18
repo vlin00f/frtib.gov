@@ -101,9 +101,9 @@ Media inquiries may be sent to <PressInquiries@frtib.gov>.
 
 ### Having technical issues with the website?
 
-<a href="mailto:{{site.email}}?subject=FRTIB website technical issues" target="_blank" rel="noopener">Email the FRTIB Webmaster</a> about any technical issues with the web pages on this Website.
+FRTIB.GOV website related issues should be directed to the FRTIB Webmaster <a href="mailto:{{site.email}}?subject=FRTIB website technical issues" target="_blank" rel="noopener">webmaster@frtib.gov</a>.
 
-TSP Account Related issues should be directed to the TSP Thriftline <thriftline@tsp.gov>.
+TSP Account related issues should be directed to the TSP Thriftline <a href="mailto:thriftline@tsp.gov?subject=TSP Account Issues" target="_blank" rel="noopener">thriftline@tsp.gov</a>.
 
 ### Keep up with FRTIB news, updates and announcements
 
