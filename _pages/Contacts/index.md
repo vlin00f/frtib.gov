@@ -23,9 +23,6 @@ From the 50 States, including the District of Columbia, the Virgin Islands, Puer
 __ThriftLine:__
 <a href="tel:1-877-968-3778">1-TSP-YOU-FRST (1-877-968-3778)</a>
 
-__TDD (for hearing-impaired participants)__
-<a href="tel:1-877-847-4385">1-TSP-THRIFT5 (1-877-847-4385)</a>
-
 __International callers__ who cannot use the toll-free number should call <a href="tel:404-233-4400">404-233-4400</a>
 (not toll free).
 
