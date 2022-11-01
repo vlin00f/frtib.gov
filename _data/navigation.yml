@@ -155,9 +155,6 @@ procurement_nav:
 onboarding_nav:
   - name: Onboarding
     url: /onboarding/
-  - name: Pre-Onboarding Training
-    url: /onboarding/training/
-    button_text: "See training"
   - name: Federal Employees Forms
     url: /onboarding/forms/
     button_text: "See forms"
