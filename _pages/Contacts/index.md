@@ -99,11 +99,11 @@ Please be aware that the FRTIB will forward any forms, written requests, inquiri
 
 Media inquiries may be sent to <PressInquiries@frtib.gov>.
 
-### Having technical issues with the website?
+### Having technical issues?
+
+TSP.GOV and TSP Account related issues should be directed to the TSP Thriftline <a href="mailto:thriftline@tsp.gov?subject=TSP Account Issues" target="_blank" rel="noopener">thriftline@tsp.gov</a>.
 
 FRTIB.GOV website related issues should be directed to the FRTIB Webmaster <a href="mailto:{{site.email}}?subject=FRTIB website technical issues" target="_blank" rel="noopener">webmaster@frtib.gov</a>.
-
-TSP Account related issues should be directed to the TSP Thriftline <a href="mailto:thriftline@tsp.gov?subject=TSP Account Issues" target="_blank" rel="noopener">thriftline@tsp.gov</a>.
 
 ### Keep up with FRTIB news, updates and announcements
 
