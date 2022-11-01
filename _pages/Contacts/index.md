@@ -23,9 +23,6 @@ From the 50 States, including the District of Columbia, the Virgin Islands, Puer
 __ThriftLine:__
 <a href="tel:1-877-968-3778">1-TSP-YOU-FRST (1-877-968-3778)</a>
 
-__TDD (for hearing-impaired participants)__
-<a href="tel:1-877-847-4385">1-TSP-THRIFT5 (1-877-847-4385)</a>
-
 __International callers__ who cannot use the toll-free number should call <a href="tel:404-233-4400">404-233-4400</a>
 (not toll free).
 
@@ -99,11 +96,11 @@ Please be aware that the FRTIB will forward any forms, written requests, inquiri
 
 Media inquiries may be sent to <PressInquiries@frtib.gov>.
 
-### Having technical issues with the website?
+### Having technical issues?
+
+TSP.GOV and TSP Account related issues should be directed to the TSP Thriftline <a href="mailto:thriftline@tsp.gov?subject=TSP Account Issues" target="_blank" rel="noopener">thriftline@tsp.gov</a>.
 
 FRTIB.GOV website related issues should be directed to the FRTIB Webmaster <a href="mailto:{{site.email}}?subject=FRTIB website technical issues" target="_blank" rel="noopener">webmaster@frtib.gov</a>.
-
-TSP Account related issues should be directed to the TSP Thriftline <a href="mailto:thriftline@tsp.gov?subject=TSP Account Issues" target="_blank" rel="noopener">thriftline@tsp.gov</a>.
 
 ### Keep up with FRTIB news, updates and announcements
 
