@@ -16,7 +16,7 @@ permalink: /onboarding/forms/
 
 Prior to your report date several new hire forms are required to be completed in order for the agency to create your personnel and payroll records. To help facilitate forms completion we have created a forms checklist [Appendix A of the Onboarding Checklist]({{site.baseurl}}/pdf/onboarding/FRTIB-Onboarding-EmployeeOnly-Checklist-v4.pdf){: target="_blank"}, and all forms you may need for in-processing are listed below. Email all completed forms to the HR Specialist listed in your offer letter.
 
-Please visit the other sections of the FRTIB Onboarding page for information on various tasks to be completed for a successful onboarding experience to include pre-onboarding training requirements and information that is pertinent for New Employee Orientation.
+Please visit the other sections of the FRTIB Onboarding page for information on various tasks to be completed for a successful onboarding experience to include information that is pertinent for New Employee Orientation.
 
 A zip file containing all the PDFs in the drop-down below:
 {% include button-link url="/pdf/onboarding_forms.zip" text="Onboarding Forms [ZIP]" -%}

@@ -16,7 +16,7 @@ permalink: /onboarding/orientation/
 
 The morning of your report date will be filled with activities to in-process you into our agency.  You will receive your Oath of Office, receive briefings from various program offices and a tour of our workspace.  To help orient you to the agency we have gathered information to support the new hire experience.  Information contained in this section will help acclimate you to the agency with topics ranging from the dress code to the agency’s strategic vision.  Contact your supervisor or your HR Specialist POC if you have additional questions.
 
-Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include information about forms you need to complete prior to your report date and pre-onboarding training requirements.
+Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include information about forms you need to complete prior to your report date.
 
 <h3 class="usa-sr-only">information for FRTIB new hires</h3>
 <p>
