@@ -23,7 +23,9 @@ From the 50 States, including the District of Columbia, the Virgin Islands, Puer
 __ThriftLine:__
 <a href="tel:1-877-968-3778">1-TSP-YOU-FRST (1-877-968-3778)</a>
 
-__International callers__ who cannot use the toll-free number should call <a href="tel:404-233-4400">404-233-4400</a>
+__711 TTS Relay:__ Persons with a hearing or speech disability may utilize the free Telecommunications Relay Service (TRS) by dialing 711 from any telephone.
+
+__International callers:__ International callers who cannot use the toll-free number should call <a href="tel:404-233-4400">404-233-4400</a>
 (not toll free).
 
 __Email:__ For general inquiries email <thriftline@tsp.gov>. Do not email personally identifiable information or documents.
