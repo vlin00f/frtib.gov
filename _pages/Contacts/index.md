@@ -42,7 +42,7 @@ You can also contact the TSP through the options listed on
 
 <!--start of automated response card -->
 {% capture card_body -%}
-__Available 24 hours a day, 7 days a week__
+__ThriftLine is available 24 hours a day, 7 days a week__
 
 From a touch-tone telephone, you can find out the latest information about the TSP (such as share prices and rates of return), as well as information about your TSP account.  You can also request certain account transactions.
 
