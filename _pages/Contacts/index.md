@@ -18,7 +18,7 @@ show_last_modified: false
 
 <h3 class="usa-sr-only">notice containing contact options</h3>
 {% capture message_body -%}
-From the 50 States, including the District of Columbia, the Virgin Islands, Puerto Rico, Guam, American Samoa, and Canada, call the following numbers toll free:
+From the 50 States, including the District of Columbia, the Virgin Islands, Puerto Rico, Guam, American Samoa, and Canada, call the following number toll free:
 
 __ThriftLine:__
 <a href="tel:1-877-968-3778">1-TSP-YOU-FRST (1-877-968-3778)</a>
@@ -42,17 +42,17 @@ You can also contact the TSP through the options listed on
 
 <!--start of automated response card -->
 {% capture card_body -%}
-__Available 24 hours a day, 7 days a week__
+__ThriftLine is available 24 hours a day, 7 days a week__
 
 From a touch-tone telephone, you can find out the latest information about the TSP (such as share prices and rates of return), as well as information about your TSP account.  You can also request certain account transactions.
 
-You will need your TSP account number and your 4-digit TSP Personal Identification Number (PIN).
+You will need your 8-digit Date Of Birth (DOB) and your 6-digit TSP Personal Identification Number (PIN).
 {% endcapture -%}
-{% include card-no-media text=card_body noButton=true card_size=6
+{% include card-no-media text=card_body noButton=true card_size=12
   heading='Automated Response System for TSP Account Holders' -%}
 
 <!--start of talk to card -->
-{% capture card_body -%}
+<!-- {% capture card_body -%}
 __Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.__
 
 Press 3 to speak to a Participant Service Representative (PSR) when calling the ThriftLine.
@@ -61,7 +61,7 @@ PSRs handle questions about loans, contribution allocations, interfund transfers
 {% endcapture -%}
 {% include card-no-media text=card_body noButton=true card_size=6
   heading='Talk to a Participant Service Rep' -%}
-
+-->
 <!--start of mail or fax card -->
 {% capture card_body -%}
 __Available Monday-Friday   7:00 a.m. to 9:00 p.m., Eastern time.__
