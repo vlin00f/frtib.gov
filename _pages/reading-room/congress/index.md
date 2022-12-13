@@ -19,8 +19,8 @@ In compliance with §105 of the TSP Enhancement Act of 2009, Public Law 111- 31,
 
 FRTIB also provides to Congress summaries of education outreach efforts to TSP participants.  The FRTIB engages participants through the TSP website; emails to participants; videos, webinars, and a podcast; one-on-one communications; and customized trainings for participants, agency and service representatives, and military financial educators.
 
-{% include file-list coll="pdf" folder="/reading-room/congress/annual/" format='title' reverse=true dobutton=true count=1 -%}
-{% include file-list coll="pdf" folder="/reading-room/congress/education/" format='title' reverse=true dobutton=true count=1 -%}
+__Most Recent Annual Report:__ {% include file-list coll="pdf" folder="/reading-room/congress/annual/" format='title' reverse=true dobutton=true count=1 -%}
+__Most Recent Education Efforts Report:__ {% include file-list coll="pdf" folder="/reading-room/congress/education/" format='title' reverse=true dobutton=true count=1 -%}
 
 
 <h3 class="usa-sr-only">Older annual reports, descending by year</h3>
