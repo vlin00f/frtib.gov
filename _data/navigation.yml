@@ -81,6 +81,8 @@ reading_room_nav:
 
 
 rr_pr_nav:
+  - name: Press Releases 2022
+    url: /reading-room/press-releases/2022/
   - name: Press Releases 2021
     url: /reading-room/press-releases/2021/
   - name: Press Releases 2020
