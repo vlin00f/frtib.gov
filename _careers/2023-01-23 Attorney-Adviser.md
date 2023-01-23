@@ -1,5 +1,5 @@
 ---
-position: Attorney-Adviser (General)
+position: Attorney-Adviser (Privacy)
 sub_position:
 direct_hire: false
 grade: GS-0905-11/12/13/14
