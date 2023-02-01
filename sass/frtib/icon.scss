@@ -47,6 +47,10 @@
   position: absolute;
   top: 0;
 }
+/*
+
+// edit out these customizations to prevent repeating alert and success icons on subscribtion pages
+
 .usa-alert--info:before {
   @extend .usa-icon-base;
   background: url("../img/usa-icons/info.svg") no-repeat center / 2rem 2rem;
@@ -63,3 +67,5 @@
   @extend .usa-icon-base;
   background: url("../img/usa-icons/check_circle.svg") no-repeat center / 2rem 2rem;
 }
+
+*/
