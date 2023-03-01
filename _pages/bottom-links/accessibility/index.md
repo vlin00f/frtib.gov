@@ -18,7 +18,7 @@ permalink: /accessibility/
 
 Section 508 of the Rehabilitation Act (Section 508) requires all electronic and information technology (also referred to as information and communication technology or ICT) that is developed, procured, maintained, or used by a federal agency to be accessible to people with disabilities. Examples of ICT include web sites, telephones, multimedia devices, and copiers. Access available to individuals with disabilities must be comparable to access available to others. Standards for Section 508 compliance are developed and maintained by the United States Access Board. Further information about the Access Board's standards and Section 508 generally may be found at [www.section508.gov](https://www.section508.gov){: target="_blank"}.
 
-If you have questions about the FRTIB's Section 508 program supporting ICT, or to file a complaint against the FRTIB under Section 508, email the <a href="mailto:508compliance@frtib.gov?subject=FRTIB 508 Compliance Issues" target="_blank" rel="noopener">FRTIB 508 Program Manager</a>.
+If you have questions about the FRTIB's Section 508 program supporting ICT, or to file a complaint against the FRTIB under Section 508, email the <a href="mailto:section508@frtib.gov?subject=FRTIB 508 Compliance Issues" target="_blank" rel="noopener">FRTIB 508 Program Manager</a>.
 
 ### Architectural Barriers Act of 1968 (42 U.S.C. §§ 4151--57)
 
