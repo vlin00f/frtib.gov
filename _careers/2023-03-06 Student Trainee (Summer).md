@@ -10,4 +10,4 @@ codes:
     usa: 709716600
 ---
 
-The FRTIB is looking for highly qualified and motivated individuals to serve as a #position#.
+The FRTIB is looking for highly qualified and motivated individuals to serve as #position#.
