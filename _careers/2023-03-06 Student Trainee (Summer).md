@@ -1,5 +1,5 @@
 ---
-position: Student Trainee (Summer)
+position: Student Trainees (Summer)
 sub_position:
 direct_hire: false
 grade: GS 4
@@ -10,4 +10,4 @@ codes:
     usa: 709716600
 ---
 
-The FRTIB is looking for a highly qualified and motivated individual to serve as a #position#.
+The FRTIB is looking for highly qualified and motivated individuals to serve as a #position#.
