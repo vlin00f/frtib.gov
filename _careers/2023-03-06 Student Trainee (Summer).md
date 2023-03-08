@@ -2,7 +2,7 @@
 position: Student Trainees (Summer)
 sub_position:
 direct_hire: false
-grade: GS-4
+grade: GS 4
 start: 2023-03-01
 end: 2023-03-15
 codes:
