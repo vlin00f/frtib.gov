@@ -10,7 +10,7 @@ codes:
     usa: 710908300
 ---
 
-The FRTIB is looking for a highly qualified and motivated individual to serve as a #position#. 
+The FRTIB is looking for a highly qualified and motivated individual to serve as a #position#.
 
 This vacancy is also being announced concurrently with vacancy announcement FRTIB-23-DE-021-11858484 under delegated examining procedures. NOTE: Applicants must apply separately for each announcement in order to be considered.
 
