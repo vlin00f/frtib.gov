@@ -2,7 +2,7 @@
 position: Writer-Editor (MP)
 sub_position:
 direct_hire: false
-grade: GS-1082-13
+grade: GS-13
 start: 2023-03-03
 end: 2023-03-17
 codes:
