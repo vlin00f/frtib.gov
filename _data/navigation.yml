@@ -3,16 +3,16 @@ top_navigation:
   - name: Home
     url: /
   - name: Board, Executive Director, and ETAC
-    url: /board-members
+    url: /board-members/
   - name: Reading Room
     url: /reading-room/
     children: reading_room_nav
   - name: Meeting Minutes
-    url: /meeting-minutes
+    url: /meeting-minutes/
   - name: Careers
-    url: /careers
+    url: /careers/
   - name: Procurement
-    url: /procurement
+    url: /procurement/
     children: procurement_nav
 
 # links above header search bar
