@@ -12,4 +12,4 @@ codes:
 
 The FRTIB is looking for a highly qualified and motivated individual to serve as a #position#.
 
-Those job seekers who are current federal employees, or who are eligible for certain special hiring authorities may apply to the “merit promotion” announcement.
+Those job seekers who are current federal employees, or who are eligible for certain special hiring authorities may apply to the “merit promotion” announcement. Please review that announcement to see if you are eligible for consideration under Merit Promotion procedures.
