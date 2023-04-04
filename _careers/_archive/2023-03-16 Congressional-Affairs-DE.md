@@ -3,8 +3,8 @@ position: Congressional Affairs Liaison (DE)
 sub_position:
 direct_hire: false
 grade: GS-14
-start: 2023-03-15
-end: 2023-04-08
+start: 2023-03-05
+end: 2023-03-25
 codes:
   - frtib: FRTIB-23-DE-023-11871446
     usa: 712956900
