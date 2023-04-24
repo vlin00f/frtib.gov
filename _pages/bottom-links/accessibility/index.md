@@ -24,6 +24,7 @@ If you have questions about the FRTIB's Section 508 program supporting ICT, or t
 
 The Architectural Barriers Act (ABA) requires access to facilities that are designed, built, altered, or leased with Federal funds. The Access Board is the federal agency responsible for enforcing the ABA. The Access Board's accessibility standards are available on their website at [www.access-board.gov/guidelines-and-standards/buildings-and-sites/about-the-aba-standards](https://www.access-board.gov/guidelines-and-standards/buildings-and-sites/about-the-aba-standards){: target="_blank"}, and information about filing a complaint may be found at [www.access-board.gov/enforcement](https://www.access-board.gov/enforcement/){: target="_blank"}.
 
+
 Click [here]({{site.baseurl}}/eeo/) for more information on the FRTIB's EEO policies.
 
 <!-- CONTENT END -->
