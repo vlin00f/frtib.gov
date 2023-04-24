@@ -15,7 +15,7 @@ redirect_from:
 # Enter the filename with a unique path/name prefix where the most recent file was added
 # (it doesn't have to be the whole filename and path, just enough to be unique for the file you just added)
 most_recent:
-  - /reading-room/SurveysPart/behavior/Participant-Behavior-and-Demographics-2017-2021
+  - /reading-room/SurveysPart/behavior/Participant-Behavior-and
   - /reading-room/congress/annual/TSP-Annual-Report_2021
   - /reading-room/SurveysEmp/2022_FRTIB_FEVS_Results
   - /reading-room/SurveysPart/outreach/CY20-CY22
