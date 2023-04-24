@@ -3,8 +3,8 @@ position: Congressional Affairs Liaison (MP)
 sub_position:
 direct_hire: false
 grade: GS-14
-start: 2023-03-05
-end: 2023-03-25
+start: 2023-03-15
+end: 2023-04-08
 codes:
   - frtib: FRTIB-23-MP-023-11871447
     usa: 712949900
