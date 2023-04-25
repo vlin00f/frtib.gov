@@ -214,3 +214,10 @@ privacy_nav:
   - name: Security Monitoring
     url: /security-monitoring/
     button_text: "Visit the Security Monitoring page"
+
+data_nav:
+  - name: Data Governance
+    url: /data/
+  - name: Artificial Intelligence (AI) Use Case Inventory
+    url: /data/ai-inventory/
+    button_text: "See Artificial Intelligence (AI) Use Case Inventory"
