@@ -22,17 +22,20 @@ In accordance with Section 5(e) of [Executive Order 13960](https://www.federalre
 FRTIB Artificial Intelligence (AI) Use Cases:
 
 <!--start accordion -->
-<div class="usa-accordion usa-accordion--bordered">
-
-{% include accordion/start expanded=false divID='aiAVA' title='AVA Chatbot' inList=false -%}
+<h3 class="usa-sr-only">AVA Chatbot</h3>
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="ai-AVA" title="AVA Chatbot" inList=false %}
 * Need summary language from AFS.
-{% include accordion/end inList=false -%}
+{% include accordion/end  inList=false %}
+</div>
 
-{% include accordion/start expanded=false divID='aiBirdeye' title='Birdeye' inList=false -%}
+<h3 class="usa-sr-only">Birdeye</h3>
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="ai-Birdeye" title="Birdeye" inList=false %}
 * Need summary language from AFS.
-{% include accordion/end inList=false -%}
+{% include accordion/end  inList=false %}
+</div>
 
-</div> <!-- end accordion -->
-<!-- END Acquisition Thresholds -->
+<!-- end accordion -->
 
 <!-- CONTENT END -->
