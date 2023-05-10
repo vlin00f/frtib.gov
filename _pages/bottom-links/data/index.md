@@ -2,7 +2,7 @@
 layout: page2
 title: Data Governance
 styles:
-sidenav:
+sidenav: data_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /data/
