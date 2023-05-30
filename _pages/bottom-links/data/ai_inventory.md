@@ -5,7 +5,7 @@ styles:
 sidenav: data_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /data/ai-inventory/
+permalink: /data/ai_inventory/
 # redirect_from:
 #  - /data.html
 #document-ready:
