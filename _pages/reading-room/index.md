@@ -23,7 +23,7 @@ most_recent:
 
 ## Reading Room
 
-{% include subscribe-button title="to receive Reading Room updates" topic_id="USTSP_8" -%}
+{% include subscribe-button title="to receive Reading Room updates" topic_id="USFRTIB_4" -%}
 <br>
 
 {% capture body -%}
