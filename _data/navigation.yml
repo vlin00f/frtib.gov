@@ -219,5 +219,5 @@ data_nav:
   - name: Data Governance
     url: /data/
   - name: Artificial Intelligence (AI) Use Case Inventory
-    url: /data/ai-inventory/
+    url: /data/ai_inventory/
     button_text: "See Artificial Intelligence (AI) Use Case Inventory"
