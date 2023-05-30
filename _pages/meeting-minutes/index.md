@@ -16,7 +16,7 @@ redirect_from:
 ---
 
 ## Meeting Minutes
-{% include subscribe-button title="to receive Meeting Minutes updates" topic_id="USTSP_6" -%}
+{% include subscribe-button title="to receive Meeting Minutes updates" topic_id="USFRTIB_2" -%}
 
 <br>
 {% capture body -%}
