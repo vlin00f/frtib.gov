@@ -27,7 +27,7 @@ A zip file containing all the PDFs in the drop-down below:
 {% include file-list coll="pdf" folder="/onboarding/forms/forms/" format='title' reverse=false dobutton=true -%}
 
 <p>
-{% include button-link-offsite url="https://www.tsp.gov/forms/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
+{% include button-link-offsite url="https://www.tsp.gov/publications/tsp-1.pdf" text="TSP-1: Thrift Savings Plan Election Form [PDF]" -%}
 </p>
 {% include accordion/end  inList=false -%}
 </div>
