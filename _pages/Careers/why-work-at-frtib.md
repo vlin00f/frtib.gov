@@ -9,21 +9,10 @@ permalink: /careers/why-work-at-frtib/
 
 ## Why work at FRTIB
 
-The morning of your report date will be filled with activities to in-process you into our agency.  You will receive your Oath of Office, receive briefings from various program offices and a tour of our workspace.  To help orient you to the agency we have gathered information to support the new hire experience.  Information contained in this section will help acclimate you to the agency with topics ranging from the dress code to the agency’s strategic vision.  Contact your supervisor or your HR Specialist POC if you have additional questions.
-
-Please visit the other sections of the FRTIB Onboarding page for information on various tasks that need to be completed for a successful onboarding experience to include information about forms you need to complete prior to your report date.
-
-<h3 class="usa-sr-only">information for FRTIB new hires</h3>
-<p>
-A zip file containing all the PDFs in the drop-down below:
-{% include button-link url="/pdf/onboarding_orientation.zip" text="Orientation Documents[ZIP]" -%}
+<p>  
+The Federal Retirement Thrift Investment Board (FRTIB) is a great place to work; and a place where great work gets done.  We are an independent Federal agency responsible for administering the Thrift Savings Plan (TSP) which is considered to be one of the best retirement plans in the world and a model for defined contribution plans. We are a diverse group of individuals with a shared focus on helping our participants achieve their desired retirement outcomes.  Do you want to make a lasting impact on the lives of our participants?  Join the FRTIB and help millions of civilian employees and members of the uniformed services prepare for one of the most significant financial decisions they will make in their lifetime, help them (and you) retire with dignity!
 </p>
 
-<div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Information - Read Only" inList=false -%}
-{% include file-list coll="pdf" folder="/onboarding/orientation/" format='title' reverse=false dobutton=true -%}
-{% include accordion/end  inList=false -%}
-</div>
 
 
 <!-- CONTENT END -->
