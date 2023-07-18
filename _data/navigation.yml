@@ -145,6 +145,16 @@ rr_foia_nav:
     button_text: "See reports"
     image: FRTIB_Seal_White.png
 
+careers_nav:
+  - name: Careers
+    url: /careers/
+  - name: Why Work at FRTIB
+    url: /careers/why-work-at-frtib/
+  - name: How to Apply
+    url: /careers/how-to-Apply/
+  - name: Hiring Process
+    url: /careers/hiring-process/
+
 procurement_nav:
   - name: Procurement
     url: /procurement/

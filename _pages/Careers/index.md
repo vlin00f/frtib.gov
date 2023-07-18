@@ -2,7 +2,7 @@
 layout: page2
 title: Careers@FRTIB
 styles:
-sidenav:
+sidenav: careers_nav
 scripts:
   - careers.js
 #  - /assets/js/jquery.min.js
