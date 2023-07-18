@@ -9,12 +9,7 @@ permalink: /careers/how-to-apply/
 
 ## How to Apply
 
-  <p>Visit USAJOBS to:
-  </p>
-  <ul><li><a class="external_link" href="https://frtib.usajobs.gov/">Review current FRTIB job openings</a></li>
-    <li><a class="external_link" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home">Check job application status</a> (sign in and check applications)</li>
-  </ul>
-
+<p> text here </p>
 
 
 <!-- CONTENT END -->
