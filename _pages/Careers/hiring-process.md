@@ -18,7 +18,7 @@ The hiring process steps are outlined below.  Contact your supervisor or your HR
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Apply for a job</h2>
 
-<p class="margin-top-05">Find out how to&nbsp;<a href="/careers/how-to-apply/">apply for a position at FRTIB</a>.</p>
+<p class="margin-top-05">Find out how to&nbsp;<a href="/careers/how-to-apply/" rel="noopener">apply for a position at FRTIB</a>.</p>
 </li>
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Application review</h2>
@@ -55,7 +55,7 @@ The hiring process steps are outlined below.  Contact your supervisor or your HR
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Day one</h2>
 
-<p>Your first day with FRTIB. Your first morning with us will begin with <a href="/onboarding/">onboarding and orientation.</a>.</p>
+<p>Your first day with FRTIB. Your first morning with us will begin with <a href="/onboarding/" rel="noopener">onboarding and orientation.</a>.</p>
 </li>
 </ol>
 {% endcapture -%}
