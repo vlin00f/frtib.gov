@@ -84,6 +84,12 @@
   updated:
   desc: 2000-2005
 
+## Fact Sheets
+- name: FS_08-04-2023-TSP-Investment-in-China.pdf
+  updated: August 04, 2023
+  desc: 08/04/2023
+  title: TSP Fact Sheet - Investment in China [PDF]
+
 ## Press releases
 - name: PR_2022-08-01_DAJ_Resignation.pdf
   updated: September 01, 2022
@@ -472,7 +478,7 @@
 - name: No_FEAR_2023_Quarter3Activity.pdf
   updated: 2023-07-12
   title: 2023 Qtr 3 No FEAR Data [PDF]
-  desc: 2023 Qtr 3 No FEAR Data [PDF]  
+  desc: 2023 Qtr 3 No FEAR Data [PDF]
 - name: No_FEAR_2023_Quarter2Activity.pdf
   updated: 2023-04-25
   title: 2023 Qtr 2 No FEAR Data [PDF]
