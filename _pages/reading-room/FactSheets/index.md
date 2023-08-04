@@ -15,7 +15,7 @@ redirect_from:
 
 ## Fact Sheets
 
-FRTIB Fact Sheets.
+TSP Fact Sheets
 
 
 __Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/FactSheets" format='title' reverse=true dobutton=true count=1 -%}
