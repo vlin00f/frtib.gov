@@ -17,13 +17,6 @@ redirect_from:
 
 TSP Fact Sheets
 
+{% include file-list coll="pdf" folder="/reading-room/FactSheets/FS_20" reverse=true format='press-release' dobutton=true -%}
 
-__Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/FactSheets" format='title' reverse=true dobutton=true count=1 -%}
-
-<h3 class="usa-sr-only">fact sheets, descending by year</h3>
-<div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Previous Fact Sheets" inList=false -%}
-{% include file-list coll="pdf" folder="/reading-room/FactSheets" format='title' reverse=true dobutton=true dropFirst=true -%}
-{% include accordion/end  inList=false -%}
-</div>
 <!-- CONTENT END -->
