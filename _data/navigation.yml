@@ -50,6 +50,11 @@ reading_room_nav:
     text: "Annual FRTIB report to congress including educational efforts"
     button_text: "Visit the Reports to Congress page"
     image: frtiblogo.jpg
+  - name: Fact Sheets
+    url: /reading-room/fact-sheets/
+    text: "FRTIB Fact Sheets"
+    button_text: "Visit the FRTIB Fact Sheets page"
+    image: servicerep2.jpg
   - name: Press Releases
     url: /reading-room/press-releases/
     children: rr_pr_nav
