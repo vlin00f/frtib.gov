@@ -11,6 +11,7 @@ top_navigation:
     url: /meeting-minutes/
   - name: Careers
     url: /careers/
+    children: careers_nav
   - name: Procurement
     url: /procurement/
     children: procurement_nav
@@ -150,10 +151,35 @@ careers_nav:
     url: /careers/
   - name: Why Work at FRTIB
     url: /careers/why-work-at-frtib/
+    children: careers_work_nav
+    text: "Why Work at FRTIB sub nav"
+  - name: Who Are We Seeking
+    url: /careers/seeking/
+    children: careers_seeking_nav
+    text: "Who Are We Seeking sub nav"
   - name: How to Apply
     url: /careers/how-to-apply/
   - name: Hiring Process
     url: /careers/hiring-process/
+  - name: COVID-19 Workplace Safety
+    url: /careers/covid-19-safety/
+
+careers_work_nav:
+  - name: Mission Statement
+    url: /careers/why-work-at-frtib/mission/
+  - name: Employee Benefits
+    url: /careers/why-work-at-frtib/employee-benefits/
+  - name: Work/Life Balance & Wellness
+    url: /careers/why-work-at-frtib/work-life-balance/
+careers_seeking_nav:
+  - name: Federal Employees
+    url: /careers/seeking/federal/
+  - name: Students & Recent Graduates
+    url: /careers/seeking/students-graduates/
+  - name: Veterans
+    url: /careers/seeking/veterans/
+  - name: Persons with Disabilities
+    url: /careers/seeking/disabilities/
 
 procurement_nav:
   - name: Procurement
