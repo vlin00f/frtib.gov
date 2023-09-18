@@ -9,12 +9,6 @@ permalink: /careers/how-to-apply/
 
 ## How to Apply
 
-<p>Visit USAJOBS to:
-</p>
-<ul><li><a class="external_link" href="https://frtibrecruitment.usajobs.gov" target="_blank" rel="noopener">Review current FRTIB job openings</a></li>
-  <li><a class="external_link" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" target="_blank" rel="noopener">Check job application status</a> (sign in and check applications)</li>
-</ul>
-
 Below is an overview of the federal hiring process. This process is utilized to assure that all applicants receive fair and equal opportunities.
 
 Contact your supervisor or your HR Specialist POC if you have additional questions.
