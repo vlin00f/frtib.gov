@@ -22,7 +22,7 @@ document-ready:
 
 <div class="usa-alert usa-alert--info usa-alert--no-icon">
 <div class="usa-alert__body">
-<p class="usa-alert__text">FRTIB has ranked among <a class="external_link" href="https://bestplacestowork.org/" target="_blank" rel="noopener">"The Best Places to Work in the Federal Government"</a> in effective leadership, pay, teamwork, work-life balance and innovation.
+<p class="usa-alert__text">FRTIB has ranked among <a class="external_link" href="https://bestplacestowork.org/rankings/detail/?c=RF00" target="_blank" rel="noopener">"The Best Places to Work in the Federal Government"</a> in effective leadership, pay, teamwork, work-life balance and innovation.
 </p>
 </div>
 </div>
