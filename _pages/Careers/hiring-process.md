@@ -28,7 +28,7 @@ The hiring process steps are outlined below.  Contact your supervisor or your HR
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Referral</h2>
 
-<p>After reviewing your application, the HR Specialist will advise you via email whether your resume has been forwarded to the hiring manager for possible interview.</p>
+<p>After reviewing your application, you will be notified via USAJobs whether your resume has been forwarded to the hiring manager for possible interview.</p>
 </li>
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Selection and tentative offer</h2>

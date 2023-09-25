@@ -161,25 +161,25 @@ careers_nav:
     url: /careers/how-to-apply/
   - name: Hiring Process
     url: /careers/hiring-process/
-  - name: COVID-19 Workplace Safety
-    url: /careers/covid-19-safety/
 
 careers_work_nav:
   - name: Mission Statement
-    url: /careers/why-work-at-frtib/mission/
+    url: /careers/why-work-at-frtib/mission-statement/
   - name: Employee Benefits
     url: /careers/why-work-at-frtib/employee-benefits/
   - name: Work/Life Balance & Wellness
     url: /careers/why-work-at-frtib/work-life-balance/
 careers_seeking_nav:
-  - name: Federal Employees
+  - name: Federal Employees & Recent Retirees
     url: /careers/seeking/federal/
-  - name: Students & Recent Graduates
-    url: /careers/seeking/students-graduates/
-  - name: Veterans
-    url: /careers/seeking/veterans/
+  - name: Private Sector Employees
+    url: /careers/seeking/private-sector/
   - name: Persons with Disabilities
     url: /careers/seeking/disabilities/
+  - name: Students & Recent Grads
+    url: /careers/seeking/students-graduates/
+  - name: Veterans and Military Spouses
+    url: /careers/seeking/veterans/
 
 procurement_nav:
   - name: Procurement

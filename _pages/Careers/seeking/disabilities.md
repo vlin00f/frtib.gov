@@ -1,17 +1,16 @@
 ---
 layout: page2
-title: Why work at FRTIB
+title: Who Are We Seeking - Person with Disabilities
 styles:
 sidenav: careers_nav
 scripts:
 permalink: /careers/seeking/disabilities/
 ---
 
-## Who Are We Seeking
+## Persons with Disabilities
 
-### Persons with Disabilities
 <p>  
-Persons with Disabilities placeholder
+A disability should never stop you from serving your country. We value our employees not only for their diversity but the unique experiences, expertise, skills and abilities they bring to our organization and the customers that we serve.
 </p>
 
 

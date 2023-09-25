@@ -1,17 +1,16 @@
 ---
 layout: page2
-title: Why work at FRTIB
+title: Who Are We Seeking - Veterans and Military Spouses
 styles:
 sidenav: careers_nav
 scripts:
 permalink: /careers/seeking/veterans/
 ---
 
-## Who Are We Seeking
+## Veterans and Military Spouses
 
-### Veterans
 <p>  
-Veterans placeholder
+You’ve gained experience and expertise in a military role that has uniquely qualified you to serve. Continue your service with the FRTIB in a variety of fields including Financial, Analytical, Information Technology, and Acquisitions.
 </p>
 
 

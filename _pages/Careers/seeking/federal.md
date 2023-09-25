@@ -1,17 +1,15 @@
 ---
 layout: page2
-title: Why work at FRTIB
+title: Who Are We Seeking - Federal Employees and Recent Retirees
 styles:
 sidenav: careers_nav
 scripts:
 permalink: /careers/seeking/federal/
 ---
 
-## Who Are We Seeking
-
-### Federal Employees and Recent Retirees
+## Federal Employees and Recent Retirees
 <p>  
-Federal Employees and Recent Retirees placeholder
+You’ve already gained a wealth of knowledge, experience, and expertise with regard to the functions and process that define the everyday business of the federal government. We value those experiences and best practices.
 </p>
 
 
