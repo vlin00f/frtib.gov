@@ -107,7 +107,7 @@ FRTIB.GOV website related issues should be directed to the FRTIB Webmaster <a hr
 ### Keep up with FRTIB news, updates and announcements
 
 {% capture subscribe_button -%}
-<a href="https://public.govdelivery.com/accounts/USFRTIB/subscriber/new?pop=t" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">Sign up for email updates{% asset img/usa-icons/launch.svg class="subscribe-img" alt="go to subscribe page" %}</button></a>
+<a href="https://public.govdelivery.com/accounts/USFRTIB/subscriber/new?pop=t" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">Sign up for email updates{{site.baseurl}}/assets/ img/usa-icons/launch.svg class="subscribe-img" alt="go to subscribe page" %}</button></a>
 {% endcapture -%}
 {{ subscribe_button}}from the FRTIB Website via GovDelivery Email Alerts.  
 

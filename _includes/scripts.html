@@ -34,8 +34,8 @@
 </script>
 {% endif %}
 
-{% asset app.js %}
-{% asset copy-to-clipboard.js %}
+{{site.baseurl}}/assets/ app.js %}
+{{site.baseurl}}/assets/ copy-to-clipboard.js %}
 {% if site.searchgov %}
   {% if site.searchgov.suggestions == true %}
     <script>
@@ -43,7 +43,7 @@
     </script>
     <script async src="https://search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
   {% endif %}
-  {% asset search.js %}
+  {{site.baseurl}}/assets/ search.js %}
 {% endif %}
 
 {% comment -%}
@@ -53,7 +53,7 @@ For pages, like careers, that need to run some javascript on load.
 Note, we are not using jquery on this site so document-ready is just a script at the bottom of the page.
 {% endcomment -%}
 {% for script in page.scripts -%}
-{% asset {{script}} %}
+{{site.baseurl}}/assets/ {{script}} %}
 {% endfor -%}
 {% if page.document-ready or layout.document-ready -%}
 <script type="text/javascript">

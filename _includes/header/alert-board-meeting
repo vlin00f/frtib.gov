@@ -28,7 +28,7 @@ for the once a year joint meeting.
 {% assign alertHeader = include.alertHeader | default: "Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
 {% assign alertIcon = "icon_redImportant.gif" -%}
 {% capture alertTitle -%}
-{% asset {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
+{{site.baseurl}}/assets/ {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
 {% endcapture -%}
 
 <a id="alert-message-button" href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
