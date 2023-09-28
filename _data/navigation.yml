@@ -151,16 +151,20 @@ careers_nav:
     url: /careers/
   - name: Why Work at FRTIB
     url: /careers/why-work-at-frtib/
+    button_text: Why Work at FRTIB
     children: careers_work_nav
     text: "Why Work at FRTIB sub nav"
   - name: Who Are We Seeking
     url: /careers/seeking/
+    button_text: Who Are We Seeking
     children: careers_seeking_nav
     text: "Who Are We Seeking sub nav"
   - name: How to Apply
     url: /careers/how-to-apply/
+    button_text:  How to Apply
   - name: Hiring Process
     url: /careers/hiring-process/
+    button_text: Hiring Process
 
 careers_work_nav:
   - name: Mission Statement
@@ -172,14 +176,19 @@ careers_work_nav:
 careers_seeking_nav:
   - name: Federal Employees & Recent Retirees
     url: /careers/seeking/federal/
+    button_text: Federal Employees & Recent Retirees
   - name: Private Sector Employees
     url: /careers/seeking/private-sector/
+    button_text: Private Sector Employees
   - name: Persons with Disabilities
     url: /careers/seeking/disabilities/
+    button_text: Persons with Disabilities
   - name: Students & Recent Grads
     url: /careers/seeking/students-graduates/
+    button_text: Students & Recent Grads
   - name: Veterans and Military Spouses
     url: /careers/seeking/veterans/
+    button_text: Veterans and Military Spouses
 
 procurement_nav:
   - name: Procurement

@@ -42,6 +42,12 @@ Please contact <a href="mailto:hroperations@frtib.gov?subject=Questions regardin
 </div>
 </div>
 
-
+<ul class="usa-card-group">
+{% for room in site.data.navigation.careers_nav -%}
+{% if forloop.first -%}{% continue -%}{% endif -%}
+{% include card-no-media striped=true heading=room.name button_link=room.url
+      xtext=room.text button_text=room.button_text image=room.image -%}
+{% endfor -%}
+</ul>
 
 <!-- CONTENT END -->
