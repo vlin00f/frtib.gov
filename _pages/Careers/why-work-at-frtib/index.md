@@ -24,7 +24,7 @@ FRTIB is committed to fostering diversity, equity, inclusion, and accessibility 
 FRTIB offers multiple work schedule options and up to three (3) day per week Telework. Flexible schedules allow our employees the option to work on a schedule to balance employee and agency needs. IT support and resources enable collaboration with your team inside and outside of the office.
 
 ### Benefits:
-We provide our employees with a first-class benefit package, including health insurance, life insurance, retirement, 10 paid holidays per year, vacation time, and more! In addition, we offer training/career development opportunities, flexible work schedules, and, in many locations, on-site fitness centers, health clinics, and child care centers.  
+We provide our employees with a first-class benefit package, including health insurance, life insurance, retirement, 11 paid holidays per year, vacation time, and more! In addition, we offer training/career development opportunities, flexible work schedules, and an on-site fitness center.  
 
 
 
