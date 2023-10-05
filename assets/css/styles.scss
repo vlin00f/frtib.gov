@@ -1,6 +1,7 @@
-@forward "uswds-theme";
-@forward "uswds";
-@forward "uswds-theme-custom-styles";
+---
+---
+
+
 
 /*
 * * * * * ==============================
@@ -13,31 +14,22 @@
 */
 
 // -------------------------------------
-// @forward "uswds-theme";
-// @forward "uswds";
 
-// Set correct paths for use with asset pipeline
-// removed for 3.0??? $theme-font-path: "fonts";
-// removed for 3.0??? $theme-image-path: "img";
+// @use "scss/stylesheets/packages/uswds-core" with (
+//   $theme-image-path: "../uswds/img",
+//   $theme-font-path: "../uswds/fonts"
+// );
 
-// -------------------------------------
-// Import individual USWDS packages...
-// @forward "scss/packages/required";
-// @forward "overrides/all";
-// @forward "scss/packages/global";
+// @forward "scss/stylesheets/uswds";
 
-// @forward "scss/packages/uswds-components";
-// @forward "scss/packages/uswds-utilities";
-
-
-@forward "frtib/header";
-@forward "frtib/other";
-@forward "frtib/icon";
-@forward "frtib/button";
-@forward "frtib/bargraph";
-@forward "frtib/search";
-@forward "frtib/footer";
-@forward "frtib/print";
+// @use "frtib/header";
+// @use "frtib/other";
+// @use "frtib/icon";
+// @use "frtib/button";
+// @use "frtib/bargraph";
+// @use "frtib/search";
+// @use "frtib/footer";
+// @use "frtib/print";
 
 /*
 ----------------------------------------

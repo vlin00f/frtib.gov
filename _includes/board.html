@@ -24,7 +24,7 @@ ___
   {% for member in site.data.board -%}
     {% if member.group == 'board' -%}
 <a id="board{{forloop.index}}" name="board{{forloop.index}}"></a><br>
-    {% if member.image -%}{{site.baseurl}}/assets/ "board/{{member.image}}" width="200" alt="TSP" class="board" %}{% endif -%}
+    {% if member.image -%}<img src="{{site.baseurl}}/assets/img/board/{{member.image}}" width="200" alt="TSP" class="board" />{% endif -%}
 <strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
   {% endfor %}
@@ -33,7 +33,7 @@ ___
   {% for member in site.data.board -%}
     {% if member.group == 'executive-director' -%}
 <a id="boardX" name="boardX"></a><br>
-{% if member.image -%}{{site.baseurl}}/assets/ "board/{{member.image}}" width="200" alt="TSP" class="board" %}{% endif -%}
+{% if member.image -%}<img src="{{site.baseurl}}/assets/img/board/{{member.image}}" width="200" alt="TSP" class="board" />{% endif -%}
 <strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
     {% endfor %}

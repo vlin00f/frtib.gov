@@ -8,7 +8,7 @@ It is intended to allow highlighting of new features.
   {% include home/feature/start-row -%}
   {% capture left -%}
   <a href="https://www.tsp.gov/tsp-basics/" target="_blank" rel="noopener" class="no-icon">
-  {{site.baseurl}}/assets/ tsp_logo.png alt="TSP Logo" style="padding: 0 1em" %}
+    <img src="{{site.baseurl}}/assets/img/tsp_logo.png" alt="TSP Logo" style="padding: 0 1em" />
   </a>
   {% endcapture -%}
   {% capture right-header -%}
@@ -23,7 +23,7 @@ It is intended to allow highlighting of new features.
 
   {% capture left -%}
   <a href="https://www.tsp.gov/how-to-invest/" target="_blank" rel="noopener" class="no-icon">
-  {{site.baseurl}}/assets/ Piechart_home.jpg height="150px" alt="TSP Funds pie chart" style="padding: 0 1em" %}
+    <img src="{{site.baseurl}}/assets/img/Piechart_home.jpg" height="150px" alt="TSP Funds pie chart" style="padding: 0 1em" />
   </a>
   {% endcapture -%}
   {% capture right-header -%}
@@ -40,7 +40,7 @@ It is intended to allow highlighting of new features.
 <!-- EXTRA FEATURE BOXES HERE -->
 {% include home/feature/start-row -%}
   {% capture left -%}
-  {{site.baseurl}}/assets/ circle-124.png alt="A circle" style="padding: 0 1em" %}
+  <img src="{{site.baseurl}}/assets/uswds/img/circle-124.png" alt="A circle" style="padding: 0 1em" />
   {% endcapture -%}
   {% capture right-header -%}
   Never highlight anything without a goal.
@@ -54,7 +54,7 @@ It is intended to allow highlighting of new features.
   {% include home/feature/box left=left right-header=right-header right-body=right-body -%}
 
   {% capture left -%}
-  {{site.baseurl}}/assets/ circle-124.png alt="A circle" style="padding: 0 1em" %}
+  <img src="{{site.baseurl}}/assets/uswds/img/circle-124.png" alt="A circle" style="padding: 0 1em" />
   {% endcapture -%}
   {% capture right-header -%}
   Could also have 2 or 6.

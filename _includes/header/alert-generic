@@ -18,7 +18,7 @@ You will be able to access <https://www.tsp.gov> and <https://www.frtib.gov> dur
 {% comment -%}  DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
 
 {% capture alertTitle -%}
-{{site.baseurl}}/assets/ {{alertIcon}} class="usa-banner__header-flag" alt="{{alertHeader}}" %}{{alertHeader}}
+<img src="{{site.baseurl}}/assets/img/{{alertIcon}}" class="usa-banner__header-flag" alt="{{alertHeader}}" />{{alertHeader}}
 {% endcapture -%}
 
 <a id="alert-message-button" href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>

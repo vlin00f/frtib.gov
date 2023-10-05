@@ -21,7 +21,7 @@
     {% endif -%}
     <div class="usa-card__media" style="width: 16.5rem;">
       <div class="usa-card__img">
-      {{site.baseurl}}/assets/ {{image}} alt="{{img_alt_text}}" -%}
+        <img src="{{site.baseurl}}/assets/img/{{image}}" alt="{{img_alt_text}}" />
       </div>
     </div>
     <div class="usa-card__body">{{text}}</div>

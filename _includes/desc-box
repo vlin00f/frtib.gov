@@ -5,7 +5,7 @@
 {% if include.card_img -%}
     <div class="usa-card__media">
        <div class="usa-card__img" >
-       {{site.baseurl}}/assets/ {{include.card_img}} alt="{{include.altText}}" -%}
+         <img src="{{site.baseurl}}/assets/img/{{include.card_img}}" alt="{{include.altText}}" />
        </div>
     </div>
 {% endif -%}

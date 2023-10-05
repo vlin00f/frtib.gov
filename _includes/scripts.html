@@ -34,8 +34,8 @@
 </script>
 {% endif %}
 
-{{site.baseurl}}/assets/ app.js %}
-{{site.baseurl}}/assets/ copy-to-clipboard.js %}
+<script src="{{site.baseurl}}/assets/uswds/js/uswds.min.js" />
+<script src="{{site.baseurl}}/assets/js/copy-to-clipboard.js" />
 {% if site.searchgov %}
   {% if site.searchgov.suggestions == true %}
     <script>
@@ -43,7 +43,7 @@
     </script>
     <script async src="https://search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
   {% endif %}
-  {{site.baseurl}}/assets/ search.js %}
+  <script src="{{site.baseurl}}/assets/js/search.js"></script>
 {% endif %}
 
 {% comment -%}
@@ -53,7 +53,7 @@ For pages, like careers, that need to run some javascript on load.
 Note, we are not using jquery on this site so document-ready is just a script at the bottom of the page.
 {% endcomment -%}
 {% for script in page.scripts -%}
-{{site.baseurl}}/assets/ {{script}} %}
+  <script src="{{site.baseurl}}/assets/js/{{script}}" />
 {% endfor -%}
 {% if page.document-ready or layout.document-ready -%}
 <script type="text/javascript">
@@ -68,9 +68,9 @@ Note, we are not using jquery on this site so document-ready is just a script at
 </script>
 {% endif -%}
 <script type="text/javascript">
-function showContent() {
-  document.body.style.visibility = 'visible';
-  document.body.style.opacity = 1;
-}
-window.addEventListener('DOMContentLoaded', function () { showContent(); });
+  function showContent() {
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
+  }
+  window.addEventListener('DOMContentLoaded', function () { showContent(); });
 </script>

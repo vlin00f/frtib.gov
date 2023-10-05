@@ -3,7 +3,7 @@
 {% assign def_url = 'https://public.govdelivery.com/accounts/USFRTIB/subscriber/new?topic_id=' -%}
 {% assign url = include.url | default: def_url | append: topic_id -%}
 {% capture button-content -%}
-Subscribe{{site.baseurl}}/assets/ img/usa-icons/launch.svg class="subscribe-img" alt="go to subscribe page" %}
+Subscribe <img src="{{site.baseurl}}/assets/uswds/img/usa-icons/launch.svg" class="subscribe-img" alt="go to subscribe page" />
 {% endcapture -%}
 {% capture here -%}
 <a href="{{url}}" target="_blank" rel="noopener"><button class="usa-button thin on-card subscribe">{{button-content}}</button></a>
