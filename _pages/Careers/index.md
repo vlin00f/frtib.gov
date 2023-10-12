@@ -26,7 +26,7 @@ We are a diverse group of individuals with a shared focus on helping our partici
 
 Do you want to make a lasting impact on the lives of our participants?  Join the FRTIB and help millions of civilian employees and members of the uniformed services prepare for one of the most significant financial decisions they will make in their lifetime, help them (and you) retire with dignity!
 
-Please contact <a href="mailto:hroperations@frtib.gov?subject=Questions regarding FRTIB benefits and employment">hroperations@frtib.gov</a> for any questions.
+<a class="external_link" href="https://frtibrecruitment.usajobs.gov" target="_blank" rel="noopener">Review current FRTIB job openings</a>
 
 {% endcapture -%}
 {% include desc-box
