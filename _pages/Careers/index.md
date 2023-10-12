@@ -45,7 +45,7 @@ Do you want to make a lasting impact on the lives of our participants?  Join the
 <ul class="usa-card-group">
 {% for room in site.data.navigation.careers_nav -%}
 {% if forloop.first -%}{% continue -%}{% endif -%}
-{% include card-header-first-careers striped=true heading=room.name button_link=room.url
+{% include card-no-media striped=true heading=room.name button_link=room.url
       xtext=room.text button_text=room.button_text image=room.image -%}
 {% endfor -%}
 </ul>
