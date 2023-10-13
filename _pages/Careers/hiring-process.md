@@ -18,7 +18,7 @@ The hiring process steps are outlined below.  Contact your supervisor or your HR
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Apply for a job</h2>
 
-<p class="margin-top-05">Find out how to&nbsp;<a href="https://federalist-17910b06-3ede-48a7-b216-90b5116c6220.sites.pages.cloud.gov/preview/frtib/frtib.gov/Task0261258-Careers-Page-Update-Jas/careers/how-to-apply/" rel="noopener">apply for a position at FRTIB</a>.</p>
+<p class="margin-top-05">Find out how to&nbsp;<a href="https://www.frtib.gov/careers/how-to-apply/" rel="noopener">apply for a position at FRTIB</a>.</p>
 </li>
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Application review</h2>
