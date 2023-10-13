@@ -186,9 +186,9 @@ careers_seeking_nav:
   - name: Students & Recent Grads
     url: /careers/seeking/students-graduates/
     button_text: Students & Recent Grads
-  - name: Veterans and Military Spouses
+  - name: Veterans
     url: /careers/seeking/veterans/
-    button_text: Veterans and Military Spouses
+    button_text: Veterans
 
 procurement_nav:
   - name: Procurement
