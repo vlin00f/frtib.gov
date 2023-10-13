@@ -60,7 +60,7 @@ You can check your application using the <b>Track This Application</b> link in y
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">FRTIB Hiring Process</h2>
 
-<p>This process next shifts to the <a class="external_link" href="https://federalist-17910b06-3ede-48a7-b216-90b5116c6220.sites.pages.cloud.gov/preview/frtib/frtib.gov/Task0261258-Careers-Page-Update-Jas/careers/hiring-process" target="_blank" rel="noopener">FRTIB Hiring Process</a>.
+<p>This process next shifts to the <a class="external_link" href="https://www.frtib.gov/careers/hiring-process/" target="_blank" rel="noopener">FRTIB Hiring Process</a>.
 <br>
 FRTIB will review your application to make sure you're eligible and meet the qualifications for the position.</p>
 
