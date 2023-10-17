@@ -16,7 +16,7 @@ for the once a year joint meeting.
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "" -%}
 {% capture confURL -%}
-       https://teams.microsoft.com/l/meetup join/19%3ameeting_M2VhNGNhZjYtODRjYy00NmY3LWI1NDktY2Q3YjI0YTFkYWEw% 40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d 1a7afae5910d%22%2c%22Oid%22%3a%2241d6f4d1-9772-4b51-a10d cf72f842224a%22%7d
+       https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2VhNGNhZjYtODRjYy00NmY3LWI1NDktY2Q3YjI0YTFkYWEw%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%2241d6f4d1-9772-4b51-a10d-cf72f842224a%22%7d
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE    {% endcomment -%}
