@@ -1,0 +1,29 @@
+{% assign card_size = include.card_size | default: 4 -%}
+{% assign heading = include.heading | default: 'heading' -%}
+{% assign image = include.image | default: "board/team1.jpg" -%}
+{% assign img_alt_text = include.img_alt_text | default: "" -%}
+{% assign text = include.text | default: "text" -%}
+{% assign button_text = include.button_text | default: "button_text" -%}
+{% assign button_link = include.button_link | default: "" -%}
+{% assign fc = button_link | slice: 0 %}
+{% if fc == '/' %}
+{% assign button_link = site.baseurl | append: button_link %}
+{% endif %}
+
+<li class="tablet:grid-col-{{card_size}} usa-card usa-card--header-first">
+  <div class="usa-card__container">
+    <header class="usa-card__header">
+      <h2 class="usa-card__heading">{{heading}}</h2>
+    </header>
+    <div class="usa-card__media">
+      <div class="usa-card__img">
+        {% asset {{image}} alt="{{img_alt_text}}" -%}
+      </div>
+    </div>
+    <div class="usa-card__footer">
+      {% if button_link -%}<a href="{{button_link}}">{% endif -%}
+        <button class="usa-button on-card">{{button_text}}</button>
+      {% if button_link -%}</a>{% endif -%}
+    </div>
+  </div>
+</li>

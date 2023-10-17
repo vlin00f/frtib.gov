@@ -11,6 +11,7 @@ top_navigation:
     url: /meeting-minutes/
   - name: Careers
     url: /careers/
+    children: careers_nav
   - name: Procurement
     url: /procurement/
     children: procurement_nav
@@ -50,6 +51,11 @@ reading_room_nav:
     text: "Annual FRTIB report to congress including educational efforts"
     button_text: "Visit the Reports to Congress page"
     image: frtiblogo.jpg
+  - name: Fact Sheets
+    url: /reading-room/fact-sheets/
+    text: "FRTIB Fact Sheets"
+    button_text: "Visit the FRTIB Fact Sheets page"
+    image: servicerep2.jpg
   - name: Press Releases
     url: /reading-room/press-releases/
     children: rr_pr_nav
@@ -144,6 +150,50 @@ rr_foia_nav:
     text: "Fiscal Year Reports"
     button_text: "See reports"
     image: FRTIB_Seal_White.png
+
+careers_nav:
+  - name: Careers
+    url: /careers/
+  - name: Why Work at FRTIB
+    url: /careers/why-work-at-frtib/
+    button_text: Why Work at FRTIB
+    children: careers_work_nav
+    text: "Why Work at FRTIB sub nav"
+  - name: Who Are We Seeking
+    url: /careers/seeking/
+    button_text: Who Are We Seeking
+    children: careers_seeking_nav
+    text: "Who Are We Seeking sub nav"
+  - name: How to Apply
+    url: /careers/how-to-apply/
+    button_text:  How to Apply
+  - name: Hiring Process
+    url: /careers/hiring-process/
+    button_text: Hiring Process
+
+careers_work_nav:
+  - name: Mission Statement
+    url: /careers/why-work-at-frtib/mission-statement/
+  - name: Employee Benefits
+    url: /careers/why-work-at-frtib/employee-benefits/
+  - name: Work/Life Balance & Wellness
+    url: /careers/why-work-at-frtib/work-life-balance/
+careers_seeking_nav:
+  - name: Federal Employees & Recent Retirees
+    url: /careers/seeking/federal/
+    button_text: Federal Employees & Recent Retirees
+  - name: Private Sector Employees
+    url: /careers/seeking/private-sector/
+    button_text: Private Sector Employees
+  - name: Persons with Disabilities
+    url: /careers/seeking/disabilities/
+    button_text: Persons with Disabilities
+  - name: Students & Recent Grads
+    url: /careers/seeking/students-graduates/
+    button_text: Students & Recent Grads
+  - name: Veterans
+    url: /careers/seeking/veterans/
+    button_text: Veterans
 
 procurement_nav:
   - name: Procurement
