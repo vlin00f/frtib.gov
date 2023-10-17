@@ -1,17 +1,13 @@
 ---
 layout: page2
-title: Who Are We Seeking - Persons with Disabilities
+title: Who Are We Seeking - People with Disabilities
 styles:
 sidenav: careers_nav
 scripts:
 permalink: /careers/seeking/disabilities/
 ---
 
-## Persons with Disabilities
-
-<p>  
-A disability should never stop you from serving your country. We value our employees not only for their diversity but the unique experiences, expertise, skills and abilities they bring to our organization and the customers that we serve.
-</p>
+## People with Disabilities
 
 ### Schedule A Hiring Authority:
 <a class="external_link" href="https://www.opm.gov/policy-data-oversight/disability-employment/hiring/#url=Schedule-A-Hiring-Authority" target="_blank" rel="noopener">Schedule A, 5 CFR 213.3102(u)</a>, known as Schedule A hiring authority, is an excepted service hiring authority used to appoint persons with severe physical, psychiatric, and/or intellectual disabilities. Such individuals may qualify for conversion to permanent status after two years of satisfactory service.
