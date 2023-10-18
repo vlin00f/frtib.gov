@@ -24,7 +24,7 @@ The Pathways Program is structured to recruit the next generation of the best an
 </ul>
 
 #### How to Apply:
-Once an announcement is posted on USAJobs, candidates must complete applications (to include all required documents) electronically. Candidates have until 11:59 p.m. Eastern Time on the closing date of the announcement to complete the application process. This includes submitting the online application as well as any required documents as defined in the Required Documents section in the listed announcement. If candidates fail to submit all of the required documents or submit their applications late, they will be disqualified for consideration of employment.
+Once an announcement is posted on <a class="external_link" href="https://frtibrecruitment.usajobs.gov" target="_blank" rel="noopener">USAJobs current FRTIB job openings</a>, candidates must complete applications (to include all required documents) electronically.<br> Candidates have until 11:59 p.m. Eastern Time on the closing date of the announcement to complete the application process. This includes submitting the online application as well as any required documents as defined in the Required Documents section in the listed announcement. If candidates fail to submit all of the required documents or submit their applications late, they will be disqualified for consideration of employment.
 
 #### Required Documents:
 <ul>
