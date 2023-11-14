@@ -16,9 +16,9 @@ redirect_from:
 # (it doesn't have to be the whole filename and path, just enough to be unique for the file you just added)
 most_recent:
   - /reading-room/InvBMarks/2023_Nov
+  - /reading-room/PressRel/PR_2023-11-14_I-Fund-Benchmark-Change
   - /reading-room/FinStmts/TSP-FS-Dec2022
   - /reading-room/congress/education/Financial_Literacy_Rpt_2022
-  - /reading-room/FactSheets/FS_2023-08-04
 ---
 
 ## Reading Room
