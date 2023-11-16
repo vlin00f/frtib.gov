@@ -659,36 +659,36 @@
 ## FOIA Annual
 - name: foia-annual-report-2022.xml
   updated: 2023-11-16
-  title: 2022 Annual Report [XML]
-  desc: 2022 Annual Report [XML]
+  title: FY2022 FOIA Annual Report [XML]
+  desc: FY2022 FOIA Annual Report [XML]
 - name: foia-annual-report-2022.docx
   updated: 2022-11-16
-  title: 2022 Annual Report [DOCX]
-  desc: 2022 Annual Report [DOCX]
+  title: FY2022 FOIA Annual Report [DOCX]
+  desc: FY2022 FOIA Annual Report [DOCX]
 - name: foia-annual-report-2021.xml
   updated: 2022-03-16
-  title: 2021 Annual Report [XML]
-  desc: 2021 Annual Report [XML]
+  title: FY2021 FOIA Annual Report [XML]
+  desc: FY2021 FOIA Annual Report [XML]
 - name: foia-annual-report-2021.docx
   updated: 2022-03-16
-  title: 2021 Annual Report [DOCX]
-  desc: 2021 Annual Report [DOCX]
+  title: FY2021 Annual Report [DOCX]
+  desc: FY2021 Annual Report [DOCX]
 - name: foia-annual-report-2020.docx
   updated:
-  desc: 2020 FOIA Annual Report [DOCX]
-  title: 2020 FOIA Annual Report [DOCX]
+  desc: FY2020 FOIA Annual Report [DOCX]
+  title: FY2020 FOIA Annual Report [DOCX]
 - name: foia-annual-report-2020.xml
   updated:
-  desc: 2020 FOIA Annual Report [XML]
-  title: 2020 FOIA Annual Report [XML]
+  desc: FY2020 FOIA Annual Report [XML]
+  title: FY2020 FOIA Annual Report [XML]
 - name: foia-annual-report-2019.pdf
   updated:
-  desc: 2019 FOIA Annual Report [PDF]
-  title: 2019 FOIA Annual Report [PDF]
+  desc: FY2019 FOIA Annual Report [PDF]
+  title: FY2019 FOIA Annual Report [PDF]
 - name: foia-annual-report-2019.xml
   updated:
-  desc: 2019 FOIA Annual Report [XML]
-  title: 2019 FOIA Annual Report [XML]
+  desc: FY2019 FOIA Annual Report [XML]
+  title: FY2019 FOIA Annual Report [XML]
 
 ## board-meeting
 - name: 2023_Board_Meeting_Calendar.pdf
