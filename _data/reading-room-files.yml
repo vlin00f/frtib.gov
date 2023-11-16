@@ -657,6 +657,14 @@
   desc: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
 
 ## FOIA Annual
+- name: foia-annual-report-2022.xml
+  updated: 2023-11-16
+  title: 2022 Annual Report [XML]
+  desc: 2022 Annual Report [XML]
+- name: foia-annual-report-2022.docx
+  updated: 2022-11-16
+  title: 2022 Annual Report [DOCX]
+  desc: 2022 Annual Report [DOCX]
 - name: foia-annual-report-2021.xml
   updated: 2022-03-16
   title: 2021 Annual Report [XML]
