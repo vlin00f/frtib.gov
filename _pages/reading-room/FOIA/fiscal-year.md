@@ -14,9 +14,6 @@ permalink: /foia/year/
 
 ## FOIA Fiscal Year Reports
 
-Need text here.
-
-
 __Most recent:__
 
 {% include file-list coll="pdf" folder="/reading-room/FOIA/year/" format='title' reverse=true dobutton=true count=2 -%}

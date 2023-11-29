@@ -355,11 +355,11 @@
   updated:
   desc: 2010 December financial statement
   title: 2010 December Financial Statement [PDF]
-- name: e-read_guide.pdf
-  updated:
-  desc: Reading Room FOIA Certification
-  title: Reading Room FOIA Certification [PDF]
 - name: FOIA-Certification.pdf
+  updated:
+  desc: FOIA Certification
+  title: FOIA Certification [PDF]
+- name: e-read_guide.pdf
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
