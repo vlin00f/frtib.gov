@@ -28,7 +28,7 @@ We have created an onboarding checklist to assist you in the onboarding process.
 
 This document serves as a list of tasks for the agency and you to complete, with corresponding timelines. While many of the listed items are transactional (i.e., completing a form), most items involve having important discussions with your supervisor in order to prepare you with the foundational knowledge of the FRTIB's mission and organization. Use this document in partnership with your supervisor and HR to ensure you receive all of the necessary and beneficial tools and information.
 
-Please visit each section below for information on various forms needed for in-processing and information that is pertinent for New Employee Orientation.
+Please visit the section below for information on New Employee Orientation.
 
 <br>
 

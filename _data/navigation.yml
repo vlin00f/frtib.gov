@@ -207,9 +207,6 @@ procurement_nav:
 onboarding_nav:
   - name: Onboarding
     url: /onboarding/
-  - name: Federal Employees Forms
-    url: /onboarding/forms/
-    button_text: "See forms"
   - name: Orientation
     url: /onboarding/orientation/
     button_text: "See orientation"
