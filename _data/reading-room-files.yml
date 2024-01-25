@@ -911,26 +911,26 @@
   updated:
   title: How to Reserve a Conference Room [PDF]
   desc: How to Reserve a Conference Room [PDF]
-- name: Payroll_Calendar_2022.pdf
-  updated:
-  title: Payroll Schedule 2022 [PDF]
-  desc: Payroll Schedule 2022 [PDF]
+- name: Payroll_Calendar_2024.pdf
+  updated: 01=25-24
+  title: Payroll Schedule 2024 [PDF]
+  desc: Payroll Schedule 2024 [PDF]
 - name: Know_Your_Rights_When_Reporting_Wrongs_Handout-v2019.03.pdf
   updated:
   title: Whistleblower Disclosures - Know Your Rights When Reporting Wrongs [PDF]
   desc: Whistleblower Disclosures - Know Your Rights When Reporting Wrongs [PDF]
-- name: Mandatory_Training_By_Quarter_FY2022.pdf
-  updated:
-  title: Mandatory Training by Quarter for All Employees (FY 2022) [PDF]
-  desc: Mandatory Training by Quarter for All Employees (FY 2022) [PDF]
-- name: Mandatory_Training_Employees_FY2022.pdf
-  updated:
-  title: Mandatory Training for New FRTIB Employees (FY 2022) [PDF]
-  desc: Mandatory Training for New FRTIB Employees (FY 2022) [PDF]
-- name: Mandatory_Training_Supervisors_FY2022.pdf
-  updated:
-  title: Mandatory Training for Supervisory Employees (FY 2022) [PDF]
-  desc: Mandatory Training for Supervisory Employees (FY 2022) [PDF]
+- name: Mandatory_Training_By_Quarter-FY24.pdf
+  updated: 01-25-24
+  title: Mandatory Training by Quarter for All Employees (FY 2024) [PDF]
+  desc: Mandatory Training by Quarter for All Employees (FY 2024) [PDF]
+- name: Mandatory_Training_Employees-FY2024.pdf
+  updated: 01-25-24
+  title: Mandatory Training for FRTIB Employees (FY 2024) [PDF]
+  desc: Mandatory Training for FRTIB Employees (FY 2024) [PDF]
+- name: Mandatory_Training_Supervisors-FY2024.pdf
+  updated: 01-25-24
+  title: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
+  desc: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
 - name: New_Employee_Handbook_20200817.pdf
   updated:
   title: New Employee Handbook [PDF]
@@ -939,14 +939,26 @@
   updated:
   title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
   desc: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
-- name: Telework_Agreement_Application.pdf
-  updated:
-  title: Telework Application/Agreement Form [PDF]
-  desc: Telework Application/Agreement Form [PDF]
-- name: Telework_FAQs_2018.pdf
-  updated:
-  title: Telework FAQs [PDF]
-  desc: Telework FAQs [PDF]
+- name: Attachment_A-Telework_Eligibility_Worksheet_4.28.22.pdf
+  updated: 01-25-24
+  title: Attachment A - Telework Eligibility Worksheet [PDF]
+  desc: Attachment A - Telework Eligibility Worksheet [PDF]
+- name: Attachment_B-Telework_Agreement_Application_final.pdf
+  updated: 01-25-24
+  title: Attachment B - Telework Agreement Application [PDF]
+  desc: Attachment B - Telework Agreement Application [PDF]
+- name: Attachment_F-Self_Certifying_Safety_Checklist.pdf
+  updated: 01-25-24
+  title: Attachment F - Self Certifying Safety Checklist [PDF]
+  desc: Attachment F - Self Certifying Safety Checklist [PDF]
+- name: Attachment_G-Self_Certifying_Safety_Checklist.pdf
+  updated: 01-25-24
+  title: Attachment G - Self Certifying Safety Checklist [PDF]
+  desc: Attachment G - Self Certifying Safety Checklist [PDF]
+- name: Telework_Q_As_FINAL.pdf
+  updated: 01-25-24
+  title: Telework Qs and Answers [PDF]
+  desc: Telework Qs and Answers [PDF]
 
 ## training
 - name: FRTIB_Rules_of_Behavior_March_2022.pdf
