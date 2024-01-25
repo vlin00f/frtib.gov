@@ -16,46 +16,44 @@ redirect_from:
 
 ## Employee Surveys
 
-The Federal Employee Viewpoint Survey (FEVS) was administered from July 7, 2022, to July 22, 2022.  During this period, 161 FRTIB employees responded to the survey for an overall FRTIB response rate of 64.4%.  All FRTIB FEVS-eligible employees were encouraged to share their voice and participate in the annual survey. Below is a summary of our agency’s strengths, challenges, and areas of progress.
+The Federal Employee Viewpoint Survey (FEVS) was administered from May 16, 2023, to July 14, 2023. During this open period, 177 FRTIB employees responded to the survey for an overall FRTIB response rate of 74.4%.  All FRTIB FEVS-eligible employees were encouraged to share their voice and participate in the annual survey. Below is a summary of our agency’s strengths, challenges, and areas of progress.
 
 ### Strengths
 
-FRTIB showed clear strengths in the areas of work-life balance, supervisor and employee engagement,
-and the needs of our customers. These items were the highest overall positive responses:  
+FRTIB showed clear strengths in the areas of work-life balance, accountability, performance, and customer service. The below questions had the highest overall positive responses:
 
--	93% of employees said supervisors supported their needs to balance work and other life issues (Q47).
--	94% of employees said their supervisor treats them with respect (Q49).
--	93% of employees felt their supervisor holds them accountable for achieving results (Q51).
--	92% of employees felt their supervisors listens to what they have to say (Q48).
--	92% of employees felt employees met the needs of their customers (Q19).
+- 96% of employees said employees in their work unit met the needs of their customers (Q20).
+- 95% of employees felt employees in their work unit contribute positively to the agency performance (Q21).
+- 94% of employees said the organization shares results from the Federal Employee Viewpoint Survey (Q39).
+- 94% of employees felt supervisors support their need to balance work and other life issues (Q49).
+- 93% of employees felt supervisors hold them accountable for achieving results (Q53).
 
-
-71 items overall were identified as strengths (65% positive or higher). This is 31 more strengths than the previous year.
+76 items overall identified as strengths (65% positive or higher).
 
 
 ### Challenges
 
-While no items were technically identified as challenges (35% negative or higher responses), the greatest negative responses were in areas involving senior leaders and the impact of these survey results.   
+While no items were identified as challenges (35% negative or higher responses), the below questions had the highest overall negative responses:
 
--	33% of employees felt their senior leaders did not generate high levels of motivation and commitment in the workplace (Q55).  
--	31% of employees felt management did not involve them in decisions that affect their work (Q64).  This was an 8-point increase in negative responses from the previous year.
--	26% of employees did not have a high level of respect for their organization’s senior leaders (Q60). This was a 1-point increase in negative responses from the previous year.
--	24% of employees felt their organization’s senior leaders did not maintain high standards of honesty and integrity (Q56). This was a 7-point decrease in negative responses from the previous year.
--	31% of employees believed the results of this survey will not be used to make our agency a better place to work (Q44). This was a 11-point increase in negative responses from the previous year.
+- 29% of employees did not believe senior leaders generated high levels of motivation and commitment in the workplace (Q57).
+- 24% of employees did not believe differences in performance were recognized in a meaningful way (Q17).
+- 24% of employees did not believe management involved employees in decisions that affect their work (Q66).
+- 22% of employees did not believe the results of the survey will be used to make the Agency a better place to work (Q47).
+- 20% of employees believe arbitrary action, personal favoritism and/or political coercion were tolerated (Q45).
 
 
 ### Areas of Progress
 
-There were several areas where FRTIB’s results improved from the previous year. The greatest increases in positive responses were in areas involving support for work-life programs, senior leaders, and overall job satisfaction:
+There were several areas where FRTIB’s results improved from the previous year. The below questions had the greatest increases in positive responses:
 
--	66% of employees felt senior leaders demonstrate support for Work-Life Programs (Q61). This was a 12-point increase from the previous year.
--	52% of employees felt senior leaders generated a high level of motivation and commitment in the workplace (Q55). This was a 5-point increase from the previous year.
--	74% of employees overall were satisfied with their job (Q68). This was a 4-point increase from the previous year.
--	58% of employees felt senior leaders maintained high standard of honesty and integrity (Q56).  This was a 4-point increase from the previous year.
--	67% of employees overall were satisfied with the organization (Q70). This was a 3-point increase from the previous year.
+- 88% of employees felt protected from health and safety hazards on the job (Q36).  This was a 21-point increase from the previous year.
+- 81% of employees said the organization prepared them for potential physical security threats (Q43). This was an 18-point increase from the previous year.
+- 76% of employees felt employees in their work unit approach change as an opportunity (Q31). This was a 11-point increase from the previous year.
+- 65% of employees felt satisfied with the information they receive from management on what’s going on in the organization (Q68).  This was a 11-point increase from the previous year.
+- 64% of employees said management makes effective changes to address challenges facing the organization (Q65). This was a 11-point increase from the previous year.
 
 
-The results received from the Federal Employee Viewpoint Surveys remain an important component of the Agency’s ongoing commitment to ensuring FRTIB is a great place to work and where great work gets done. The Agency will continue to analyze these results to build off our strengths and improve in our challenge areas.
+The results received from the Federal Employee Viewpoint Surveys remain an important component of the Agency’s ongoing commitment to ensuring FRTIB is a great place to work and where great work gets done.  The Agency will continue to analyze these results to build off our strengths and improve our challenge areas.
 
 __Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/SurveysEmp" reverse=true format='title' dobutton=true count=1 -%}
 
