@@ -50,7 +50,7 @@
 - name: 2023_Financial_Wellness_Survey.pdf
   title: 2023 Financial Wellness Survey [PDF]
   updated: 2024-02-12
-  desc: 2023 Financial Wellness Survey  
+  desc: 2023 Financial Wellness Survey
 - name: 2020_Financial_Wellness_Survey.pdf
   title: 2020 Financial Wellness Survey [PDF]
   updated: 2021-06-24
@@ -571,8 +571,20 @@
   updated:
   title: 2019 Annual No FEAR Data [PDF]
   desc: 2019 Annual No FEAR Data [PDF]
-- name: FAIR Act data validation spreadsheet_MAX Collect June 2017.xlsx
-  updated:
+- name: FY23_Fair_Act_Report.xlsx
+  updated: 2024-02-13
+  title: FAIR Act Report for Fiscal Year (FY) 2023 [XLS]
+  desc: FAIR Act Report for Fiscal Year (FY) 2023 [XLS]
+- name: FY22_Fair_Act_Report.xlsx
+  updated: 2024-02-13
+  title: FAIR Act Report for Fiscal Year (FY) 2022 [XLS]
+  desc: FAIR Act Report for Fiscal Year (FY) 2022 [XLS]
+- name: FY20_Fair_Act_Report.xlsx
+  updated: 2024-02-13
+  title: FAIR Act Report for Fiscal Year (FY) 2020 [XLS]
+  desc: FAIR Act Report for Fiscal Year (FY) 2020 [XLS]
+- name: FY17_Fair_Act_Report.xlsx
+  updated: 2024-02-13
   title: FAIR Act Report for Fiscal Year (FY) 2017 [XLS]
   desc: FAIR Act Report for Fiscal Year (FY) 2017 [XLS]
 - name: Data_Governance_Policy.pdf
