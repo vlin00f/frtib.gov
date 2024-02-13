@@ -15,10 +15,10 @@ redirect_from:
 # Enter the filename with a unique path/name prefix where the most recent file was added
 # (it doesn't have to be the whole filename and path, just enough to be unique for the file you just added)
 most_recent:
+  - /reading-room/SurveysPart/wellness/2023_
   - /reading-room/SurveysEmp/2023_FRTIB_FEVS
   - /reading-room/SurveysPart/outreach/CY23
   - /reading-room/SurveysPart/satisfaction/TSP-Survey-Results-2023
-  - /reading-room/FOIA/year/foia-annual-report-2022.docx
 ---
 
 ## Reading Room
