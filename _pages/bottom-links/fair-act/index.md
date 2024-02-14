@@ -19,6 +19,13 @@ The “Federal Activities Inventory Reform Act of 1998” (FAIR Act) directs Fed
 
 The required information is below.
 
-{% include file-list coll="pdf" folder="/fair" reverse=true format='title' dobutton=true -%}
+__Most recent:__ {% include file-list coll="pdf" folder="/fair" format='title' reverse=true dobutton=true count=1 -%}
+
+<h3 class="usa-sr-only">older FAIR Act reports, descending by year</h3>
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Previous FAIR Act Reports" inList=false -%}
+{% include file-list coll="pdf" folder="/fair" format='title' reverse=true dobutton=true dropFirst=true -%}
+{% include accordion/end  inList=false -%}
+</div>
 
 <!-- CONTENT END -->
