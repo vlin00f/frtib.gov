@@ -12,7 +12,7 @@ for the once a year joint meeting.
 {% assign confDate = "Tuesday, February 27<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "472 801 767#" -%}
+{% assign confID = "675 746 624#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "" -%}
 {% capture confURL -%}
