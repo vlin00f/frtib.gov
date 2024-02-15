@@ -15,6 +15,7 @@ for the once a year joint meeting.
 {% assign confID = "675 746 624#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "" -%}
+{% assign confDial = "confPhone,confID" -%}
 {% capture confURL -%}
        https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTIxOTM4MzAtYTUyOC00NzNkLWFkMTUtZGQ3ODVhZTY0OGQx%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%2241d6f4d1-9772-4b51-a10d-cf72f842224a%22%7d
 {% endcapture -%}
@@ -41,7 +42,7 @@ for the once a year joint meeting.
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}};</li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}}, {{confDial}};</li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
 
