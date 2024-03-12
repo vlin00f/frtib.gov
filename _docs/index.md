@@ -13,7 +13,7 @@ redirect_from: /documention/
 
 ## {% include docs/page-complete page=page -%}{{page.title}}
 
-How-to pages for frtib.gov maintenance.
+How-to pages for frtib.gov maintenance. Updated 3/12/24 and republish.
 
 {% comment -%}Get documentation home page{% endcomment -%}
 {% for docpage in site.docs -%}{% unless docpage.path != "_docs/index.md" -%}
