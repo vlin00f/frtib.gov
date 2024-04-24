@@ -17,6 +17,19 @@ document-ready:
 ## Careers@FRTIB
 <br>
 
+<aside id="tsp-toolbar" role="toolbar" aria-label="TSP accessibility toolbar">
+  <ul >
+    <li>
+      <button id="toggle-tsp-alt-theme" class="tooltip"><i class="fad fa-adjust fa-lg"></i>
+      <span id="dark-theme" class="tooltiptext">Toggle contrast</span></button>
+    </li>
+    <li>
+      <button id="toggle-tsp-zoom" class="tooltip"><i class="fad fa-text-size fa-lg"></i>
+      <span id="text-size" class="tooltiptext">Toggle font size</span></button>
+    </li>
+  </ul>
+</aside>
+
 {% capture body -%}
 The Federal Retirement Thrift Investment Board (FRTIB) is a great place to work; and a place where great work gets done.  
 
