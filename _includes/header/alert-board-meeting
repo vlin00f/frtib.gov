@@ -3,7 +3,7 @@ Include one of the alerts in _includes/header/ folder from the _includes/header/
 
 Include this version to account an upcoming board meeting.  Include alert-none instead to turn off this alert.
 
-Change only the conference date, time, phone, id, url, and dial in the following lines. 
+Change only the conference date, time, phone, id, url, and dial in the following lines.
 
 To add/remove the ETAC text to the modal switch lines 16/17. The second one, after you edit, is the one that is used.
 So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
@@ -48,6 +48,9 @@ for the once a year joint meeting.
           <p>
           Attendees using the Teams link will be able to listen to the meeting and view the materials
           being discussed. Their lines will be muted.
+          </p>
+          <p>
+          Pursuant to 41 CFR 102–3.105(j) and 102–3.140 and section 10(a)(3) of the Federal Advisory Committee Act, interested parties may submit written statements in response to the stated agenda of the meeting, or to the Employee Thrift Advisory Council (ETAC), in general. Individuals may submit their comments to ETACComments@frtib.gov.
           </p>
         </div>
       </div>
