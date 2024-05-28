@@ -13,6 +13,14 @@ The home page uses wide.html layout, since it extends full width of page
   <noscript><style>body { visibility: visible; opacity: 1; }</style></noscript>
   {% include header/main.html %}
 
+  <!-- Accessibility Toolbar -->
+      <div id="accessibility-toolbar">
+          <button id="increase-text">A+</button>
+          <button id="decrease-text">A-</button>
+          <button id="toggle-contrast">Toggle Contrast</button>
+      </div>
+      <script src="accessibility.js"></script>
+      
   {{ content }}
 
   {% include footer/main.html %}
