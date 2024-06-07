@@ -10,7 +10,7 @@ So a value of "" means dont mention ETAC on the modal.  The value with the ETAC 
 for the once a year joint meeting.
 {% endcomment -%}
 {% assign confDate = "Tuesday, May 21<sup>st</sup>" -%}
-{% assign confTime = "10:00 a.m." -%}
+{% assign confTime = "9:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "954 314 663#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
