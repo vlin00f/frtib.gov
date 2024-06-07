@@ -12,7 +12,7 @@ for the once a year joint meeting.
 {% assign confDate = "Tuesday, June 25<sup>th</sup>" -%}
 {% assign confTime = "9:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "954 314 663#" -%}
+{% assign confID = "137 118 470#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "" -%}
 {% capture confURL -%}
@@ -41,7 +41,7 @@ for the once a year joint meeting.
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,954314663#">1-202-599-1426,954314663#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,137118470#">1-202-599-1426,137118470#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
 
