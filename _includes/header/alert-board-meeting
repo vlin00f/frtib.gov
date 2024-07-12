@@ -30,7 +30,7 @@ for the once a year joint meeting.
 {% capture alertTitle -%}
 <img src="{{site.baseurl}}/assets/img/{{alertIcon}}" class="usa-banner__header-flag" alt="{{alertHeader}}" />{{alertHeader}}
 {% endcapture -%}
- 
+
 <a id="alert-message-button" href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
 <div class="usa-modal" id="header-alert-modal" aria-labelledby="alert-modal-heading" aria-describedby="alert-modal-description">
     <div class="usa-modal__content">
